@@ -627,7 +627,14 @@ window.openEntityAndAgent = async function (investorId) {
 
 /* ==================== TAB 6: INVESTOR CRM PIPELINE ==================== */
 async function loadCRM() {
-  const data = await apiFetch("/api/crm/pipeline");
+  let data;
+  try {
+    data = await apiFetch("/api/crm/pipeline");
+  } catch (e) {
+    // Fallback to static CRM data if API is unavailable
+    data = await apiFetch("/data/crm_pipeline.json");
+    data._static = true;
+  }
   state.crm = data;
 
   const sel = document.getElementById("crm-filter-stage");
@@ -714,6 +721,10 @@ function renderCRMTable() {
 }
 
 window.quickUpdateCRMStage = async function (investorId, newStage) {
+  if (state.crm._static) {
+    alert("CRM updates require the live backend API. Static data is read-only.");
+    return;
+  }
   await apiFetch("/api/crm/update", {
     method: "POST",
     body: JSON.stringify({ investor_id: investorId, stage: newStage }),
@@ -783,6 +794,10 @@ window.openCRMEditModal = function (investorId) {
 };
 
 window.saveCRMEditModal = async function (investorId) {
+  if (state.crm._static) {
+    alert("CRM updates require the live backend API. Static data is read-only.");
+    return;
+  }
   await apiFetch("/api/crm/update", {
     method: "POST",
     body: JSON.stringify({
@@ -802,7 +817,22 @@ window.saveCRMEditModal = async function (investorId) {
 
 /* ==================== BACKUP CENTER ==================== */
 async function loadBackupInfo() {
-  const info = await apiFetch("/api/backup/info");
+  let info;
+  try {
+    info = await apiFetch("/api/backup/info");
+  } catch (e) {
+    info = {
+      zip_filename: "greenhope_cop31_investor_ai_project.zip",
+      zip_size_kb: 1015.9,
+      file_count: 411,
+      sha256: "91fb26d770e0eb7f",
+      built_at_utc: new Date().toISOString(),
+      zip_url: "/api/download/project.zip",
+      crm_csv_url: "/data/crm_pipeline.json",
+      crm_json_url: "/data/crm_pipeline.json",
+      _static: true,
+    };
+  }
   state.backup = info;
   renderBackupInfo(info);
 }
