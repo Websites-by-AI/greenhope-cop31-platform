@@ -1,0 +1,7 @@
+name = "greenhope-cop31-crm"
+main = "worker/crm_api_worker.js"
+compatibility_date = "2026-11-16"
+
+[[kv_namespaces]]
+binding = "GREENHOPE_COP31_KV"
+id = "c8191627f4074cde8e04c1b1a6fe66f6"
