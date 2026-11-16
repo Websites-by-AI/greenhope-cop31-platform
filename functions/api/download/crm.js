@@ -103,8 +103,7 @@ function ensureInit() {
 
 function csvEsc(v) {
   var s = String(v ?? "");
-  if (s.includes(",") || s.includes('"') || s.includes("
-")) {
+  if (s.includes(",") || s.includes('"') || s.includes("\\n")) {
     return '"' + s.replace(/"/g, '""') + '"';
   }
   return s;
