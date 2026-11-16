@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_iigcc_bloomberg",
+  "investor_name": "IIGCC & Bloomberg Philanthropies Climate Finance Network",
+  "short_name": "IIGCC / Bloomberg",
+  "category": "Institutional / Catalytic / Climate PE",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "RAG synthesizes investor pitches aligned to IIGCC NZIF standards and Bloomberg Philanthropies' COP31 Action Agenda priorities.",
+  "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+  "tenant_namespace": "tenant::inv_iigcc_bloomberg",
+  "tenant_key_fingerprint": "b70d7c8675d6f0e5",
+  "created_at_utc": "2026-11-15T15:45:23.142814+00:00",
+  "source_record_sha256": "412bbc8c61f090c4a85145544c433439ac57832cb9e0f147317cca0c5f5ae9d3",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 14,
+  "artifact_hashes": {
+    "form_schema.json": "f89f24dea537d3080c8553d14910c466efb6485db6639a5469748fe6eb05f8d5",
+    "rag_corpus.json": "7fa1e3740de32a7e3bbb80718f6a1f39905059cb5527a56644b1f129c933c468"
+  }
+}

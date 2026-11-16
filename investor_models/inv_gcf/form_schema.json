@@ -1,0 +1,182 @@
+{
+  "investor_id": "inv_gcf",
+  "investor_name": "Green Climate Fund (GCF)",
+  "portal_url": "https://www.greenclimate.fund/projects/process",
+  "template": {
+    "template_id": "CLIMATE_FUND_PROPOSAL",
+    "title": "UNFCCC / Multilateral Climate Fund Concept Note & Funding Proposal",
+    "governing_standard": "GCF Investment Framework / GEF-9 / CIF AMPLIFi / Adaptation Fund Direct Access Standards",
+    "typical_review_timeline": "3–9 months (Concept Note -> Accredited Entity Review -> Board Decision)",
+    "fields": [
+      {
+        "field_id": "project_title",
+        "label": "Proposal Title & Implementing Organization",
+        "section": "1. Proposal Overview",
+        "field_type": "text",
+        "required": true,
+        "description": "Full proposal title, executing entity, and host country.",
+        "generation_strategy": "APPLICANT_DIRECT",
+        "expected_keywords": [],
+        "applicant_source_keys": [
+          "project_title",
+          "organization_name",
+          "country"
+        ]
+      },
+      {
+        "field_id": "accredited_entity_pathway",
+        "label": "Accredited Entity (AE) / Direct Access Entity (DAE) Channel",
+        "section": "1. Proposal Overview",
+        "field_type": "compliance_check",
+        "required": true,
+        "description": "Identifies whether applicant can submit directly or must channel through an Accredited Entity (e.g., EBRD, World Bank, TSKB, BNDES).",
+        "generation_strategy": "KAG_RULE",
+        "expected_keywords": [
+          "Accredited Entity",
+          "Direct Access",
+          "Intermediary"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "nda_no_objection_status",
+        "label": "National Designated Authority (NDA) / Operational Focal Point No-Objection",
+        "section": "2. Country Ownership",
+        "field_type": "compliance_check",
+        "required": true,
+        "description": "Mandatory host-country NDA or Focal Point endorsement verification.",
+        "generation_strategy": "KAG_RULE",
+        "expected_keywords": [
+          "NDA",
+          "No-Objection",
+          "Focal Point",
+          "NDC"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "funding_window_and_instrument",
+        "label": "Target Climate Fund Window & Concessional Instrument",
+        "section": "3. Financial Structuring",
+        "field_type": "currency_usd",
+        "required": true,
+        "description": "Selects grant, concessional loan, catalytic first-loss, or guarantee window aligned with fund mandate.",
+        "generation_strategy": "KAG_RULE",
+        "expected_keywords": [
+          "Grant",
+          "Concessional",
+          "Catalytic",
+          "USD"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "cofinancing_leverage",
+        "label": "Co-Financing Ratio & Catalytic Mobilization Plan",
+        "section": "3. Financial Structuring",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Shows how concessional climate fund capital crowds in public/private co-financing.",
+        "generation_strategy": "HYBRID",
+        "expected_keywords": [
+          "co-financing",
+          "leverage",
+          "private"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "paradigm_shift_potential",
+        "label": "Paradigm Shift & Systemic Scalability Potential",
+        "section": "4. Investment Criteria",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Explains replicability, market transformation, and COP31 scaling-up pathway.",
+        "generation_strategy": "RAG_NARRATIVE",
+        "expected_keywords": [
+          "paradigm shift",
+          "scale",
+          "replication"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "climate_rationale_additionality",
+        "label": "Climate Rationale & Financial Additionality",
+        "section": "4. Investment Criteria",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Demonstrates why concessional climate finance is strictly necessary and cannot be fully met by commercial markets.",
+        "generation_strategy": "HYBRID",
+        "expected_keywords": [
+          "additionality",
+          "climate rationale",
+          "barrier"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "mitigation_adaptation_metrics",
+        "label": "Expected Mitigation (tCO2e) &/or Adaptation Beneficiaries",
+        "section": "4. Investment Criteria",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Quantified lifetime GHG savings and direct/indirect resilience beneficiaries.",
+        "generation_strategy": "HYBRID",
+        "expected_keywords": [
+          "tCO2e",
+          "beneficiaries",
+          "lifetime"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "gender_and_social_inclusion",
+        "label": "Gender Action Plan & Environmental/Social Safeguards",
+        "section": "5. Safeguards & Inclusion",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Documents gender responsiveness, inclusive benefits, and E&S compliance.",
+        "generation_strategy": "RAG_NARRATIVE",
+        "expected_keywords": [
+          "gender",
+          "social",
+          "inclusive",
+          "safeguards"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "monitoring_and_exit_strategy",
+        "label": "MRV Monitoring Framework & Post-Funding Sustainability",
+        "section": "6. Governance & Sustainability",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Measurement, Reporting & Verification (MRV) plan and long-term commercial/institutional exit strategy.",
+        "generation_strategy": "RAG_NARRATIVE",
+        "expected_keywords": [
+          "MRV",
+          "monitoring",
+          "sustainability",
+          "exit"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "executive_proposal_abstract",
+        "label": "Funding Proposal Executive Summary",
+        "section": "7. Executive Summary",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Decision-ready summary mapped to the climate fund's COP31 priorities.",
+        "generation_strategy": "HYBRID",
+        "expected_keywords": [
+          "COP31",
+          "climate",
+          "impact"
+        ],
+        "applicant_source_keys": []
+      }
+    ]
+  }
+}

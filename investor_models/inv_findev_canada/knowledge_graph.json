@@ -1,0 +1,477 @@
+{
+  "investor_id": "inv_findev_canada",
+  "graph_format": "networkx-node-link-v1",
+  "node_count": 37,
+  "edge_count": 38,
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "node_type": "Investor",
+        "investor_id": "inv_findev_canada",
+        "name": "FinDev Canada",
+        "short_name": "FinDev Canada",
+        "category": "Bilateral DFI",
+        "hq_country": "Canada",
+        "ticket_min_usd": 5000000,
+        "ticket_max_usd": 100000000,
+        "portal_url": "https://www.findevcanada.ca/en/what-we-do/how-we-invest",
+        "id": "inv_findev_canada"
+      },
+      {
+        "node_type": "COP31_Commitment",
+        "investor_id": "inv_findev_canada",
+        "role": "Co-launched '10by30' ($10B emerging market climate finance collaboration) at COP31 on Nov 13",
+        "commitment": "Co-delivering $10B '10by30' via Climate Mobilization Strategy ($2.72B committed portfolio as of June 2026; 47% climate finance)",
+        "verification_source": "https://africa.businessinsider.com/local/markets/britain-canada-and-norway-combine-forces-for-dollar10-billion-climate-push-as-their/98mpx59",
+        "verification_date": "2026-11-15",
+        "id": "cop31::inv_findev_canada"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_findev_canada",
+        "label": "Senior/Subordinated Debt",
+        "id": "instrument::senior_subordinated_debt"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_findev_canada",
+        "label": "Equity",
+        "id": "instrument::equity"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_findev_canada",
+        "label": "Blended Finance",
+        "id": "instrument::blended_finance"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_findev_canada",
+        "label": "Guarantee",
+        "id": "instrument::guarantee"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_findev_canada",
+        "label": "Technical Assistance",
+        "id": "instrument::technical_assistance"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_findev_canada",
+        "label": "Renewable Energy",
+        "id": "sector::renewable_energy"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_findev_canada",
+        "label": "Energy Storage",
+        "id": "sector::energy_storage"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_findev_canada",
+        "label": "Electrification & Grid",
+        "id": "sector::electrification___grid"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_findev_canada",
+        "label": "Clean Transport",
+        "id": "sector::clean_transport"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_findev_canada",
+        "label": "Sustainable Agriculture & Water",
+        "id": "sector::sustainable_agriculture___water"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_findev_canada",
+        "label": "Industrial Decarbonization",
+        "id": "sector::industrial_decarbonization"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_findev_canada",
+        "label": "Africa",
+        "id": "region::africa"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_findev_canada",
+        "label": "Asia-Pacific",
+        "id": "region::asia_pacific"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_findev_canada",
+        "label": "Latin America",
+        "id": "region::latin_america"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_findev_canada",
+        "label": "Caribbean",
+        "id": "region::caribbean"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_findev_canada",
+        "label": "Project SPV",
+        "id": "applicant::project_spv"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_findev_canada",
+        "label": "Large Corporate",
+        "id": "applicant::large_corporate"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_findev_canada",
+        "label": "Financial Intermediary",
+        "id": "applicant::financial_intermediary"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_findev_canada",
+        "label": "Growth-Stage Private Enterprise",
+        "id": "applicant::growth_stage_private_enterprise"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_findev_canada",
+        "label": "2X Challenge gender-lens & market development impact",
+        "id": "rule::2x_challenge_gender_lens___market_development_im"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_findev_canada",
+        "label": "10by30 harmonized GHG & climate impact reporting",
+        "id": "rule::10by30_harmonized_ghg___climate_impact_reporting"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_findev_canada",
+        "label": "IFC Performance Standards & E&S management system",
+        "id": "rule::ifc_performance_standards___e_s_management_syste"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_findev_canada",
+        "label": "Geographic mandate (Africa, Asia-Pacific, LAC)",
+        "id": "rule::geographic_mandate__africa__asia_pacific__lac"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_findev_canada",
+        "label": "Coal, upstream oil & gas, non-mandate high-income countries",
+        "id": "exclusion::coal__upstream_oil___gas__non_mandate_high_incom"
+      },
+      {
+        "node_type": "FormTemplate",
+        "investor_id": "inv_findev_canada",
+        "title": "Development Finance Institution (DFI) / National Dev Bank Project Intake Form",
+        "governing_standard": "IFC Performance Standards / Harmonized DFI Climate Reporting (10by30 / IDFC)",
+        "id": "form::DFI_PROJECT_INTAKE"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_findev_canada",
+        "field_id": "sponsor_and_project",
+        "label": "Project Sponsor, Jurisdiction & Project Name",
+        "section": "1. Sponsor Profile",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::sponsor_and_project"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_findev_canada",
+        "field_id": "dfi_facility_alignment",
+        "label": "Target DFI Climate Facility / COP31 Program Alignment",
+        "section": "1. Sponsor Profile",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::dfi_facility_alignment"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_findev_canada",
+        "field_id": "financing_request",
+        "label": "Requested Instrument, Ticket Size (USD) & Tenor",
+        "section": "2. Transaction Structure",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::financing_request"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_findev_canada",
+        "field_id": "geography_and_sector_fit",
+        "label": "Mandate Fit: Target Geography & Priority Climate Sector",
+        "section": "2. Transaction Structure",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::geography_and_sector_fit"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_findev_canada",
+        "field_id": "avoided_emissions_and_dev_impact",
+        "label": "Avoided Emissions (tCO2e/yr) & Development Impact",
+        "section": "3. Climate & Impact",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::avoided_emissions_and_dev_impact"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_findev_canada",
+        "field_id": "ifc_ps_esg_compliance",
+        "label": "IFC Performance Standards / E&S Screening & Exclusion List Check",
+        "section": "3. Climate & Impact",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_findev_canada",
+        "field_id": "financial_profile",
+        "label": "Sponsor Financials & Project Economics (Revenue, EBITDA, Capex, IRR)",
+        "section": "4. Financial Due Diligence",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::financial_profile"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_findev_canada",
+        "field_id": "blended_finance_and_ta",
+        "label": "Blended Finance, De-Risking Guarantees & Technical Assistance Needs",
+        "section": "4. Financial Due Diligence",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::blended_finance_and_ta"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_findev_canada",
+        "field_id": "risks_and_mitigants",
+        "label": "Principal Transaction Risks & Mitigants",
+        "section": "5. Risk Assessment",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::risks_and_mitigants"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_findev_canada",
+        "field_id": "executive_intake_pitch",
+        "label": "DFI Investment Committee Intake Summary",
+        "section": "6. Executive Summary",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::executive_intake_pitch"
+      }
+    ],
+    "links": [
+      {
+        "relation": "ANNOUNCES_AT_COP31",
+        "source": "inv_findev_canada",
+        "target": "cop31::inv_findev_canada"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_findev_canada",
+        "target": "instrument::senior_subordinated_debt"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_findev_canada",
+        "target": "instrument::equity"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_findev_canada",
+        "target": "instrument::blended_finance"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_findev_canada",
+        "target": "instrument::guarantee"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_findev_canada",
+        "target": "instrument::technical_assistance"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_findev_canada",
+        "target": "sector::renewable_energy"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_findev_canada",
+        "target": "sector::energy_storage"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_findev_canada",
+        "target": "sector::electrification___grid"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_findev_canada",
+        "target": "sector::clean_transport"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_findev_canada",
+        "target": "sector::sustainable_agriculture___water"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_findev_canada",
+        "target": "sector::industrial_decarbonization"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_findev_canada",
+        "target": "region::africa"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_findev_canada",
+        "target": "region::asia_pacific"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_findev_canada",
+        "target": "region::latin_america"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_findev_canada",
+        "target": "region::caribbean"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_findev_canada",
+        "target": "applicant::project_spv"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_findev_canada",
+        "target": "applicant::large_corporate"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_findev_canada",
+        "target": "applicant::financial_intermediary"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_findev_canada",
+        "target": "applicant::growth_stage_private_enterprise"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_findev_canada",
+        "target": "rule::2x_challenge_gender_lens___market_development_im"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_findev_canada",
+        "target": "rule::10by30_harmonized_ghg___climate_impact_reporting"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_findev_canada",
+        "target": "rule::ifc_performance_standards___e_s_management_syste"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_findev_canada",
+        "target": "rule::geographic_mandate__africa__asia_pacific__lac"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_findev_canada",
+        "target": "exclusion::coal__upstream_oil___gas__non_mandate_high_incom"
+      },
+      {
+        "relation": "USES_FORM_TEMPLATE",
+        "source": "inv_findev_canada",
+        "target": "form::DFI_PROJECT_INTAKE"
+      },
+      {
+        "relation": "VALIDATES_FIELD",
+        "source": "rule::10by30_harmonized_ghg___climate_impact_reporting",
+        "target": "field::avoided_emissions_and_dev_impact"
+      },
+      {
+        "relation": "VALIDATES_FIELD",
+        "source": "rule::ifc_performance_standards___e_s_management_syste",
+        "target": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::sponsor_and_project"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::dfi_facility_alignment"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::financing_request"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::geography_and_sector_fit"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::avoided_emissions_and_dev_impact"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::financial_profile"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::blended_finance_and_ta"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::risks_and_mitigants"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::executive_intake_pitch"
+      }
+    ]
+  }
+}

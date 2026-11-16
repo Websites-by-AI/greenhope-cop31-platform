@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_ikea",
+  "investor_name": "IKEA (Ingka Group / Ingka Investments)",
+  "short_name": "IKEA",
+  "category": "Strategic Corporate / COP31 Supporter",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "RAG frames circular-economy pilot proposals cleanly while preserving Supporter vs. Investor boundaries.",
+  "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+  "tenant_namespace": "tenant::inv_ikea",
+  "tenant_key_fingerprint": "8652547cf4b03f29",
+  "created_at_utc": "2026-11-15T15:45:23.247878+00:00",
+  "source_record_sha256": "09fca65bcd26139f2b683cb2de173d68334388f9630a279c85f88f3bc3b2b0de",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 14,
+  "artifact_hashes": {
+    "form_schema.json": "bfec72590b3ef1f58270668db612a5412d96eda1279049e164e5071aa87073aa",
+    "rag_corpus.json": "3543a8fedaeb4cfb219e917a802618bb10d0c383f2e7bbfe12ee32bc215b4717"
+  }
+}

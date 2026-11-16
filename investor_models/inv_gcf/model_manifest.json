@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_gcf",
+  "investor_name": "Green Climate Fund (GCF)",
+  "short_name": "GCF",
+  "category": "Multilateral Climate Fund",
+  "model_architecture": "KAG",
+  "ai_model_rationale": "Mandatory multi-hop GCF rules (Applicant -> Accredited Entity -> NDA No-Objection -> 6 Investment Criteria -> Concessionality) demand strict KAG reasoning.",
+  "form_template_type": "CLIMATE_FUND_PROPOSAL",
+  "tenant_namespace": "tenant::inv_gcf",
+  "tenant_key_fingerprint": "733dbd6a80f1feab",
+  "created_at_utc": "2026-11-15T15:45:23.137614+00:00",
+  "source_record_sha256": "678d36a2ffabe492bc08993cf340f0bd132a051c3698de44c90e19c494d92562",
+  "has_kag_graph": true,
+  "has_rag_corpus": false,
+  "kag_nodes_count": 44,
+  "kag_edges_count": 45,
+  "rag_chunks_count": 0,
+  "artifact_hashes": {
+    "form_schema.json": "16127eb2fe6a2725392ccfb4446237e972fd71381af0cdcf4265750b84d2ee3e",
+    "knowledge_graph.json": "b7b4913e2f212b96829f287237bbdb2f5985cffac03a06899e2389646b828220"
+  }
+}

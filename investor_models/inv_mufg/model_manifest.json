@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_mufg",
+  "investor_name": "Mitsubishi UFJ Financial Group (MUFG)",
+  "short_name": "MUFG",
+  "category": "Global Commercial Bank",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "RAG aligns renewable and hydrogen/transition project-finance filings with MUFG's Climate Transition Finance Handbook criteria.",
+  "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+  "tenant_namespace": "tenant::inv_mufg",
+  "tenant_key_fingerprint": "e7dc45077323d817",
+  "created_at_utc": "2026-11-15T15:45:23.190806+00:00",
+  "source_record_sha256": "4b94f5ce16586fce14cb531e3c7d371440e29e45f504f58b35e44d167ea80c5a",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 13,
+  "artifact_hashes": {
+    "form_schema.json": "66c9b48cbac59b4f02c95c7f5fe57bc6620562a84b091e935e9fb154028da9e5",
+    "rag_corpus.json": "32ab0d2ba989fb6118499aa738d8db888f826b21168a3f7ce34680f4b4b1e8e6"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "investor_id": "inv_blackrock_climate_infra",
+  "corpus_format": "cop31-rag-chunks-v1",
+  "chunk_count": 14,
+  "chunks": [
+    {
+      "chunk_id": "inv_blackrock_climate_infra::mandate_cop31",
+      "investor_id": "inv_blackrock_climate_infra",
+      "section": "COP31 Antalya 2026 Mandate",
+      "title": "BlackRock (Climate Infrastructure & Transition Investing) (BlackRock Climate Infra) COP31 Role & Commitments",
+      "text": "BlackRock (Climate Infrastructure & Transition Investing) is a Institutional / Catalytic / Climate PE headquartered in United States. At UNFCCC COP31 in Antalya (November 9-20, 2026), its verified role is: Active delegation at COP31 Antalya participating in energy transition infrastructure & private capital dialogues. Verified COP31 2026 climate finance commitment: Global Climate Infrastructure & Energy Transition institutional funds (including emerging markets blended Climate Finance Partnership). Source verification: https://www.theguardian.com/environment/2026/nov/13/cop31-companies-and-groups-linked-to-fossil-fuels-delegations."
+    },
+    {
+      "chunk_id": "inv_blackrock_climate_infra::instruments_tickets",
+      "investor_id": "inv_blackrock_climate_infra",
+      "section": "Financial Products & Ticket Sizing",
+      "title": "BlackRock Climate Infra Financing Instruments & Ticket Bounds",
+      "text": "BlackRock (Climate Infrastructure & Transition Investing) provides the following climate financing instruments: Infrastructure Equity, Blended Transition Equity (CFP), Project Equity, Long-Term Infrastructure Debt. Typical transaction ticket range is USD 25,000,000 to USD 500,000,000. Eligible applicant profiles include: Project SPV, Large Corporate, Growth-Stage Private Enterprise, Infrastructure Developer."
+    },
+    {
+      "chunk_id": "inv_blackrock_climate_infra::sectors_geography",
+      "investor_id": "inv_blackrock_climate_infra",
+      "section": "Eligible Sectors & Geographies",
+      "title": "BlackRock Climate Infra Priority Climate Sectors & Regional Mandate",
+      "text": "Priority climate sectors funded by BlackRock (Climate Infrastructure & Transition Investing): Renewable Energy, Energy Storage, Electrification & Grid, Industrial Decarbonization, Clean Transport, Carbon Capture & Storage. Target geographic focus includes: Global, Europe, North America, Asia-Pacific, Emerging Markets, Türkiye. Projects outside primary regions or ticket bounds may require syndicated or on-lending structures."
+    },
+    {
+      "chunk_id": "inv_blackrock_climate_infra::compliance_esg",
+      "investor_id": "inv_blackrock_climate_infra",
+      "section": "Compliance, ESG & Exclusion Criteria",
+      "title": "BlackRock Climate Infra Mandatory Form & Underwriting Requirements",
+      "text": "Mandatory requirements to complete BlackRock Climate Infra's application form: Contracted long-term cash flows (PPAs / offtake agreements); Institutional-scale capex & commercial IRR benchmarks; Comprehensive technical, legal & ESG due diligence; Proven management / EPC track record. Explicit exclusion rules: Unbankable early-R&D ventures without commercial path; Thermal coal. Official application portal: https://www.blackrock.com/institutions/en-us/capabilities/alternatives/infrastructure."
+    },
+    {
+      "chunk_id": "inv_blackrock_climate_infra::form_standard",
+      "investor_id": "inv_blackrock_climate_infra",
+      "section": "Application Form Governance",
+      "title": "BlackRock Climate Infra Form Template: Climate Private Equity / Catalytic Capital / Venture Investment Intake Form",
+      "text": "BlackRock (Climate Infrastructure & Transition Investing) uses the 'Climate Private Equity / Catalytic Capital / Venture Investment Intake Form' workflow governed by GFANZ Catalytic Capital Repository / Impact Management Project (IMP) / IRIS+ Climate Metrics. Typical review timeline is 4–10 weeks (Pitch Screening -> Commercial & Climate DD -> IC Approval). Form sections required: 1. Venture / Asset Overview, 2. Investment Thesis, 3. Product & Execution, 4. Impact & Risk, 5. Executive Pitch."
+    },
+    {
+      "chunk_id": "inv_blackrock_climate_infra::field_guide_01_company_and_project",
+      "investor_id": "inv_blackrock_climate_infra",
+      "section": "Form Field Guide: 1. Venture / Asset Overview",
+      "title": "BlackRock Climate Infra Guidance for 'Company / SPV Name, Sector & Geography'",
+      "text": "Field 'Company / SPV Name, Sector & Geography' (company_and_project) under section '1. Venture / Asset Overview' on BlackRock Climate Infra's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Applicant entity name, climate vertical, and operating market. Required=True. Expected evidence keywords: Verified applicant facts. Align response with BlackRock Climate Infra's COP31 priorities (Active delegation at COP31 Antalya participating in energy transition infrastructure & private capital dialogues) and instruments (Infrastructure Equity, Blended Transition Equity (CFP), Project Equity)."
+    },
+    {
+      "chunk_id": "inv_blackrock_climate_infra::field_guide_02_round_and_instrument",
+      "investor_id": "inv_blackrock_climate_infra",
+      "section": "Form Field Guide: 1. Venture / Asset Overview",
+      "title": "BlackRock Climate Infra Guidance for 'Target Capital Raise, Ticket Size & Preferred Capital Layer'",
+      "text": "Field 'Target Capital Raise, Ticket Size & Preferred Capital Layer' (round_and_instrument) under section '1. Venture / Asset Overview' on BlackRock Climate Infra's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Maps stage and requested amount to equity, catalytic first-loss, project-prep, or infrastructure equity. Required=True. Expected evidence keywords: Equity, Catalytic, USD, Stage. Align response with BlackRock Climate Infra's COP31 priorities (Active delegation at COP31 Antalya participating in energy transition infrastructure & private capital dialogues) and instruments (Infrastructure Equity, Blended Transition Equity (CFP), Project Equity)."
+    },
+    {
+      "chunk_id": "inv_blackrock_climate_infra::field_guide_03_climate_thesis_fit",
+      "investor_id": "inv_blackrock_climate_infra",
+      "section": "Form Field Guide: 2. Investment Thesis",
+      "title": "BlackRock Climate Infra Guidance for 'Alignment with Investor Climate Thesis & COP31 Platform'",
+      "text": "Field 'Alignment with Investor Climate Thesis & COP31 Platform' (climate_thesis_fit) under section '2. Investment Thesis' on BlackRock Climate Infra's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Aligns venture/project with investor's COP31 mandate (e.g., GFANZ Catalytic Capital, Allied Climate Partners early dev, Just Climate industrial/nature, BlackRock Transition Infra). Required=True. Expected evidence keywords: COP31, catalytic, transition, thesis. Align response with BlackRock Climate Infra's COP31 priorities (Active delegation at COP31 Antalya participating in energy transition infrastructure & private capital dialogues) and instruments (Infrastructure Equity, Blended Transition Equity (CFP), Project Equity)."
+    },
+    {
+      "chunk_id": "inv_blackrock_climate_infra::field_guide_04_decarbonization_unit_economics",
+      "investor_id": "inv_blackrock_climate_infra",
+      "section": "Form Field Guide: 2. Investment Thesis",
+      "title": "BlackRock Climate Infra Guidance for 'Avoided Emissions Potential (tCO2e/yr) & Commercial Unit Economics'",
+      "text": "Field 'Avoided Emissions Potential (tCO2e/yr) & Commercial Unit Economics' (decarbonization_unit_economics) under section '2. Investment Thesis' on BlackRock Climate Infra's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Links climate impact (tCO2e per dollar deployed) with expected IRR and revenue scalability. Required=True. Expected evidence keywords: tCO2e, IRR, scalability. Align response with BlackRock Climate Infra's COP31 priorities (Active delegation at COP31 Antalya participating in energy transition infrastructure & private capital dialogues) and instruments (Infrastructure Equity, Blended Transition Equity (CFP), Project Equity)."
+    },
+    {
+      "chunk_id": "inv_blackrock_climate_infra::field_guide_05_technology_and_moat",
+      "investor_id": "inv_blackrock_climate_infra",
+      "section": "Form Field Guide: 3. Product & Execution",
+      "title": "BlackRock Climate Infra Guidance for 'Technology Differentiation, Innovation & Market Readiness'",
+      "text": "Field 'Technology Differentiation, Innovation & Market Readiness' (technology_and_moat) under section '3. Product & Execution' on BlackRock Climate Infra's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Highlights proprietary technology, TRL maturity, and competitive advantage. Required=True. Expected evidence keywords: technology, innovation, deployment. Align response with BlackRock Climate Infra's COP31 priorities (Active delegation at COP31 Antalya participating in energy transition infrastructure & private capital dialogues) and instruments (Infrastructure Equity, Blended Transition Equity (CFP), Project Equity)."
+    },
+    {
+      "chunk_id": "inv_blackrock_climate_infra::field_guide_06_capital_stack_and_cofinanciers",
+      "investor_id": "inv_blackrock_climate_infra",
+      "section": "Form Field Guide: 3. Product & Execution",
+      "title": "BlackRock Climate Infra Guidance for 'Blended Capital Stack & Co-Investor Mobilization'",
+      "text": "Field 'Blended Capital Stack & Co-Investor Mobilization' (capital_stack_and_cofinanciers) under section '3. Product & Execution' on BlackRock Climate Infra's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Shows existing equity/co-financing commitments and how catalytic capital unlocks scale. Required=True. Expected evidence keywords: co-financing, capital stack, mobilize. Align response with BlackRock Climate Infra's COP31 priorities (Active delegation at COP31 Antalya participating in energy transition infrastructure & private capital dialogues) and instruments (Infrastructure Equity, Blended Transition Equity (CFP), Project Equity)."
+    },
+    {
+      "chunk_id": "inv_blackrock_climate_infra::field_guide_07_esg_impact_governance",
+      "investor_id": "inv_blackrock_climate_infra",
+      "section": "Form Field Guide: 4. Impact & Risk",
+      "title": "BlackRock Climate Infra Guidance for 'ESG Governance, Social Co-Benefits & Exclusion Compliance'",
+      "text": "Field 'ESG Governance, Social Co-Benefits & Exclusion Compliance' (esg_impact_governance) under section '4. Impact & Risk' on BlackRock Climate Infra's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Screens fossil-fuel exclusions, permitting status, and social/gender co-benefits. Required=True. Expected evidence keywords: ESG, Exclusion, Impact. Align response with BlackRock Climate Infra's COP31 priorities (Active delegation at COP31 Antalya participating in energy transition infrastructure & private capital dialogues) and instruments (Infrastructure Equity, Blended Transition Equity (CFP), Project Equity)."
+    },
+    {
+      "chunk_id": "inv_blackrock_climate_infra::field_guide_08_risks_and_mitigants",
+      "investor_id": "inv_blackrock_climate_infra",
+      "section": "Form Field Guide: 4. Impact & Risk",
+      "title": "BlackRock Climate Infra Guidance for 'Key Scale-Up Risks & Mitigation Strategy'",
+      "text": "Field 'Key Scale-Up Risks & Mitigation Strategy' (risks_and_mitigants) under section '4. Impact & Risk' on BlackRock Climate Infra's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Commercial, technology, and emerging-market execution risks with mitigants. Required=True. Expected evidence keywords: risk, mitigant, execution. Align response with BlackRock Climate Infra's COP31 priorities (Active delegation at COP31 Antalya participating in energy transition infrastructure & private capital dialogues) and instruments (Infrastructure Equity, Blended Transition Equity (CFP), Project Equity)."
+    },
+    {
+      "chunk_id": "inv_blackrock_climate_infra::field_guide_09_ic_teaser_summary",
+      "investor_id": "inv_blackrock_climate_infra",
+      "section": "Form Field Guide: 5. Executive Pitch",
+      "title": "BlackRock Climate Infra Guidance for 'Investment Committee 1-Paragraph Executive Pitch'",
+      "text": "Field 'Investment Committee 1-Paragraph Executive Pitch' (ic_teaser_summary) under section '5. Executive Pitch' on BlackRock Climate Infra's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Investor-ready pitch paragraph synthesizing commercial upside and climate impact. Required=True. Expected evidence keywords: investment, climate, impact. Align response with BlackRock Climate Infra's COP31 priorities (Active delegation at COP31 Antalya participating in energy transition infrastructure & private capital dialogues) and instruments (Infrastructure Equity, Blended Transition Equity (CFP), Project Equity)."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_jpmorgan_chase",
+  "investor_name": "JPMorgan Chase (Green Economy & Sustainable Finance)",
+  "short_name": "JPMorgan Chase",
+  "category": "Global Commercial Bank",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "RAG matches corporate/clean-tech borrowers to JPMorgan's Green Economy Banking and sustainable capital-markets guidelines.",
+  "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+  "tenant_namespace": "tenant::inv_jpmorgan_chase",
+  "tenant_key_fingerprint": "73431abde227d60e",
+  "created_at_utc": "2026-11-15T15:45:23.175130+00:00",
+  "source_record_sha256": "52ef6fda574c58c5fab4e4699a7789938cc6b84d5053fff3a2d9b77e5acc02f9",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 13,
+  "artifact_hashes": {
+    "form_schema.json": "2b1aa900f2736817213fd8c3089c751f4e44675db50315ca806a36dc6a037b04",
+    "rag_corpus.json": "b7a7e735c3c699b68e5f03bcc3c81ba4b9352a7bec85b0039d5534460e36d398"
+  }
+}

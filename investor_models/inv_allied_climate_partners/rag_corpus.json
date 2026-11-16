@@ -1,0 +1,105 @@
+{
+  "investor_id": "inv_allied_climate_partners",
+  "corpus_format": "cop31-rag-chunks-v1",
+  "chunk_count": 14,
+  "chunks": [
+    {
+      "chunk_id": "inv_allied_climate_partners::mandate_cop31",
+      "investor_id": "inv_allied_climate_partners",
+      "section": "COP31 Antalya 2026 Mandate",
+      "title": "Allied Climate Partners (ACP) (Allied Climate Partners) COP31 Role & Commitments",
+      "text": "Allied Climate Partners (ACP) is a Institutional / Catalytic / Climate PE headquartered in United States (Philanthropic Catalytic Investor). At UNFCCC COP31 in Antalya (November 9-20, 2026), its verified role is: Founding cohort member of the GFANZ Catalytic Capital Repository launched at COP31 Antalya. Verified COP31 2026 climate finance commitment: Early-stage philanthropic catalytic equity & development capital unlocking bankable climate infrastructure pipelines in emerging markets. Source verification: https://www.esgdive.com/news/platform-launched-at-cop31-aims-to-scale-transition-capital-in-emerging-mar/874527/."
+    },
+    {
+      "chunk_id": "inv_allied_climate_partners::instruments_tickets",
+      "investor_id": "inv_allied_climate_partners",
+      "section": "Financial Products & Ticket Sizing",
+      "title": "Allied Climate Partners Financing Instruments & Ticket Bounds",
+      "text": "Allied Climate Partners (ACP) provides the following climate financing instruments: Early-Stage Development Equity, Catalytic First-Loss Capital, Project Preparation Funding, Co-Development Platform. Typical transaction ticket range is USD 1,000,000 to USD 25,000,000. Eligible applicant profiles include: Climate-Tech Startup, Project SPV, Fund Manager, Project Developer."
+    },
+    {
+      "chunk_id": "inv_allied_climate_partners::sectors_geography",
+      "investor_id": "inv_allied_climate_partners",
+      "section": "Eligible Sectors & Geographies",
+      "title": "Allied Climate Partners Priority Climate Sectors & Regional Mandate",
+      "text": "Priority climate sectors funded by Allied Climate Partners (ACP): Renewable Energy, Energy Storage, Electrification & Grid, Clean Transport, Climate Adaptation & Resilience, Climate-Tech Innovation. Target geographic focus includes: Emerging Markets, Developing Countries, Africa, Asia, Latin America, Caribbean. Projects outside primary regions or ticket bounds may require syndicated or on-lending structures."
+    },
+    {
+      "chunk_id": "inv_allied_climate_partners::compliance_esg",
+      "investor_id": "inv_allied_climate_partners",
+      "section": "Compliance, ESG & Exclusion Criteria",
+      "title": "Allied Climate Partners Mandatory Form & Underwriting Requirements",
+      "text": "Mandatory requirements to complete Allied Climate Partners's application form: Early-stage / pre-FID bankability gap in emerging markets; High downstream commercial capital mobilization potential; Experienced local/regional project development team; Clear measurable tCO2e abatement or resilience impact. Explicit exclusion rules: Fossil-fuel generation; Developed-market-only deployments. Official application portal: https://www.alliedclimatepartners.org/."
+    },
+    {
+      "chunk_id": "inv_allied_climate_partners::form_standard",
+      "investor_id": "inv_allied_climate_partners",
+      "section": "Application Form Governance",
+      "title": "Allied Climate Partners Form Template: Climate Private Equity / Catalytic Capital / Venture Investment Intake Form",
+      "text": "Allied Climate Partners (ACP) uses the 'Climate Private Equity / Catalytic Capital / Venture Investment Intake Form' workflow governed by GFANZ Catalytic Capital Repository / Impact Management Project (IMP) / IRIS+ Climate Metrics. Typical review timeline is 4–10 weeks (Pitch Screening -> Commercial & Climate DD -> IC Approval). Form sections required: 1. Venture / Asset Overview, 2. Investment Thesis, 3. Product & Execution, 4. Impact & Risk, 5. Executive Pitch."
+    },
+    {
+      "chunk_id": "inv_allied_climate_partners::field_guide_01_company_and_project",
+      "investor_id": "inv_allied_climate_partners",
+      "section": "Form Field Guide: 1. Venture / Asset Overview",
+      "title": "Allied Climate Partners Guidance for 'Company / SPV Name, Sector & Geography'",
+      "text": "Field 'Company / SPV Name, Sector & Geography' (company_and_project) under section '1. Venture / Asset Overview' on Allied Climate Partners's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Applicant entity name, climate vertical, and operating market. Required=True. Expected evidence keywords: Verified applicant facts. Align response with Allied Climate Partners's COP31 priorities (Founding cohort member of the GFANZ Catalytic Capital Repository launched at COP31 Antalya) and instruments (Early-Stage Development Equity, Catalytic First-Loss Capital, Project Preparation Funding)."
+    },
+    {
+      "chunk_id": "inv_allied_climate_partners::field_guide_02_round_and_instrument",
+      "investor_id": "inv_allied_climate_partners",
+      "section": "Form Field Guide: 1. Venture / Asset Overview",
+      "title": "Allied Climate Partners Guidance for 'Target Capital Raise, Ticket Size & Preferred Capital Layer'",
+      "text": "Field 'Target Capital Raise, Ticket Size & Preferred Capital Layer' (round_and_instrument) under section '1. Venture / Asset Overview' on Allied Climate Partners's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Maps stage and requested amount to equity, catalytic first-loss, project-prep, or infrastructure equity. Required=True. Expected evidence keywords: Equity, Catalytic, USD, Stage. Align response with Allied Climate Partners's COP31 priorities (Founding cohort member of the GFANZ Catalytic Capital Repository launched at COP31 Antalya) and instruments (Early-Stage Development Equity, Catalytic First-Loss Capital, Project Preparation Funding)."
+    },
+    {
+      "chunk_id": "inv_allied_climate_partners::field_guide_03_climate_thesis_fit",
+      "investor_id": "inv_allied_climate_partners",
+      "section": "Form Field Guide: 2. Investment Thesis",
+      "title": "Allied Climate Partners Guidance for 'Alignment with Investor Climate Thesis & COP31 Platform'",
+      "text": "Field 'Alignment with Investor Climate Thesis & COP31 Platform' (climate_thesis_fit) under section '2. Investment Thesis' on Allied Climate Partners's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Aligns venture/project with investor's COP31 mandate (e.g., GFANZ Catalytic Capital, Allied Climate Partners early dev, Just Climate industrial/nature, BlackRock Transition Infra). Required=True. Expected evidence keywords: COP31, catalytic, transition, thesis. Align response with Allied Climate Partners's COP31 priorities (Founding cohort member of the GFANZ Catalytic Capital Repository launched at COP31 Antalya) and instruments (Early-Stage Development Equity, Catalytic First-Loss Capital, Project Preparation Funding)."
+    },
+    {
+      "chunk_id": "inv_allied_climate_partners::field_guide_04_decarbonization_unit_economics",
+      "investor_id": "inv_allied_climate_partners",
+      "section": "Form Field Guide: 2. Investment Thesis",
+      "title": "Allied Climate Partners Guidance for 'Avoided Emissions Potential (tCO2e/yr) & Commercial Unit Economics'",
+      "text": "Field 'Avoided Emissions Potential (tCO2e/yr) & Commercial Unit Economics' (decarbonization_unit_economics) under section '2. Investment Thesis' on Allied Climate Partners's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Links climate impact (tCO2e per dollar deployed) with expected IRR and revenue scalability. Required=True. Expected evidence keywords: tCO2e, IRR, scalability. Align response with Allied Climate Partners's COP31 priorities (Founding cohort member of the GFANZ Catalytic Capital Repository launched at COP31 Antalya) and instruments (Early-Stage Development Equity, Catalytic First-Loss Capital, Project Preparation Funding)."
+    },
+    {
+      "chunk_id": "inv_allied_climate_partners::field_guide_05_technology_and_moat",
+      "investor_id": "inv_allied_climate_partners",
+      "section": "Form Field Guide: 3. Product & Execution",
+      "title": "Allied Climate Partners Guidance for 'Technology Differentiation, Innovation & Market Readiness'",
+      "text": "Field 'Technology Differentiation, Innovation & Market Readiness' (technology_and_moat) under section '3. Product & Execution' on Allied Climate Partners's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Highlights proprietary technology, TRL maturity, and competitive advantage. Required=True. Expected evidence keywords: technology, innovation, deployment. Align response with Allied Climate Partners's COP31 priorities (Founding cohort member of the GFANZ Catalytic Capital Repository launched at COP31 Antalya) and instruments (Early-Stage Development Equity, Catalytic First-Loss Capital, Project Preparation Funding)."
+    },
+    {
+      "chunk_id": "inv_allied_climate_partners::field_guide_06_capital_stack_and_cofinanciers",
+      "investor_id": "inv_allied_climate_partners",
+      "section": "Form Field Guide: 3. Product & Execution",
+      "title": "Allied Climate Partners Guidance for 'Blended Capital Stack & Co-Investor Mobilization'",
+      "text": "Field 'Blended Capital Stack & Co-Investor Mobilization' (capital_stack_and_cofinanciers) under section '3. Product & Execution' on Allied Climate Partners's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Shows existing equity/co-financing commitments and how catalytic capital unlocks scale. Required=True. Expected evidence keywords: co-financing, capital stack, mobilize. Align response with Allied Climate Partners's COP31 priorities (Founding cohort member of the GFANZ Catalytic Capital Repository launched at COP31 Antalya) and instruments (Early-Stage Development Equity, Catalytic First-Loss Capital, Project Preparation Funding)."
+    },
+    {
+      "chunk_id": "inv_allied_climate_partners::field_guide_07_esg_impact_governance",
+      "investor_id": "inv_allied_climate_partners",
+      "section": "Form Field Guide: 4. Impact & Risk",
+      "title": "Allied Climate Partners Guidance for 'ESG Governance, Social Co-Benefits & Exclusion Compliance'",
+      "text": "Field 'ESG Governance, Social Co-Benefits & Exclusion Compliance' (esg_impact_governance) under section '4. Impact & Risk' on Allied Climate Partners's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Screens fossil-fuel exclusions, permitting status, and social/gender co-benefits. Required=True. Expected evidence keywords: ESG, Exclusion, Impact. Align response with Allied Climate Partners's COP31 priorities (Founding cohort member of the GFANZ Catalytic Capital Repository launched at COP31 Antalya) and instruments (Early-Stage Development Equity, Catalytic First-Loss Capital, Project Preparation Funding)."
+    },
+    {
+      "chunk_id": "inv_allied_climate_partners::field_guide_08_risks_and_mitigants",
+      "investor_id": "inv_allied_climate_partners",
+      "section": "Form Field Guide: 4. Impact & Risk",
+      "title": "Allied Climate Partners Guidance for 'Key Scale-Up Risks & Mitigation Strategy'",
+      "text": "Field 'Key Scale-Up Risks & Mitigation Strategy' (risks_and_mitigants) under section '4. Impact & Risk' on Allied Climate Partners's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Commercial, technology, and emerging-market execution risks with mitigants. Required=True. Expected evidence keywords: risk, mitigant, execution. Align response with Allied Climate Partners's COP31 priorities (Founding cohort member of the GFANZ Catalytic Capital Repository launched at COP31 Antalya) and instruments (Early-Stage Development Equity, Catalytic First-Loss Capital, Project Preparation Funding)."
+    },
+    {
+      "chunk_id": "inv_allied_climate_partners::field_guide_09_ic_teaser_summary",
+      "investor_id": "inv_allied_climate_partners",
+      "section": "Form Field Guide: 5. Executive Pitch",
+      "title": "Allied Climate Partners Guidance for 'Investment Committee 1-Paragraph Executive Pitch'",
+      "text": "Field 'Investment Committee 1-Paragraph Executive Pitch' (ic_teaser_summary) under section '5. Executive Pitch' on Allied Climate Partners's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Investor-ready pitch paragraph synthesizing commercial upside and climate impact. Required=True. Expected evidence keywords: investment, climate, impact. Align response with Allied Climate Partners's COP31 priorities (Founding cohort member of the GFANZ Catalytic Capital Repository launched at COP31 Antalya) and instruments (Early-Stage Development Equity, Catalytic First-Loss Capital, Project Preparation Funding)."
+    }
+  ]
+}

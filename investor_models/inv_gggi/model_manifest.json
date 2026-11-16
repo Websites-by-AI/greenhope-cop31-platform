@@ -1,0 +1,23 @@
+{
+  "investor_id": "inv_gggi",
+  "investor_name": "Global Green Growth Institute (GGGI)",
+  "short_name": "GGGI",
+  "category": "Climate Finance Network / Public Facilitator",
+  "model_architecture": "HYBRID_KAG_RAG",
+  "ai_model_rationale": "KAG maps the AIIB–GGGI joint project-preparation pathway while RAG aligns GreenHope city pilots with GGGI technical assistance criteria.",
+  "form_template_type": "DFI_PROJECT_INTAKE",
+  "tenant_namespace": "tenant::inv_gggi",
+  "tenant_key_fingerprint": "cc237ac84c39ab43",
+  "created_at_utc": "2026-11-15T15:45:23.010831+00:00",
+  "source_record_sha256": "4465fa0cdcbd4dbe759f9df714d8f07519dbd651b9b66f3398c36f1a4f835e23",
+  "has_kag_graph": true,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 36,
+  "kag_edges_count": 36,
+  "rag_chunks_count": 15,
+  "artifact_hashes": {
+    "form_schema.json": "411c746810b0a8c244de6f7e54a85789effdb25b17e4365dfe318787f1b81862",
+    "knowledge_graph.json": "a4f1461082b4e991ee48a2c7cf5dcc98a39a6ffb1cd68e6c8929e06fa854bdd4",
+    "rag_corpus.json": "02dae51816c06da86211e1b576052cd9f7e467e2c297132dea63401bd1d0e6ab"
+  }
+}

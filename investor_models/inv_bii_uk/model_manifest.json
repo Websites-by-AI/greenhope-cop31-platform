@@ -1,0 +1,23 @@
+{
+  "investor_id": "inv_bii_uk",
+  "investor_name": "British International Investment (BII — UK)",
+  "short_name": "BII",
+  "category": "Bilateral DFI",
+  "model_architecture": "HYBRID_KAG_RAG",
+  "ai_model_rationale": "KAG verifies 10by30 co-investment eligibility and BII geographic/exclusion rules while RAG synthesizes British Climate Partners mobilization narratives.",
+  "form_template_type": "DFI_PROJECT_INTAKE",
+  "tenant_namespace": "tenant::inv_bii_uk",
+  "tenant_key_fingerprint": "6b78dc0d96b61706",
+  "created_at_utc": "2026-11-15T15:45:23.075305+00:00",
+  "source_record_sha256": "8b87910c4c801c6c0b2bc7c4f7ee6ba7f7ab00654fd62daf015acb577e19e253",
+  "has_kag_graph": true,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 38,
+  "kag_edges_count": 38,
+  "rag_chunks_count": 15,
+  "artifact_hashes": {
+    "form_schema.json": "beaad90c6b19a707dfd78ea84662bec13173321d89f386e9d0bd5d91c8250312",
+    "knowledge_graph.json": "2330380a01605b62dc3aa293719740392e1803657ee5ea9fc91fadc453493d0d",
+    "rag_corpus.json": "2c1370d0176fec6514c01ed1247d683f56fc488328070ef1bcb7d9ed65994e1c"
+  }
+}

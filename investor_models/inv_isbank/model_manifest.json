@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_isbank",
+  "investor_name": "Türkiye İş Bankası (İşbank)",
+  "short_name": "İşbank",
+  "category": "Turkish Commercial Bank",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "Diverse sector packages (energy, green industry, tourism, marine conservation) are best retrieved and tailored via RAG over İşbank's product corpus.",
+  "form_template_type": "TURKISH_BANK_GREEN_LOAN",
+  "tenant_namespace": "tenant::inv_isbank",
+  "tenant_key_fingerprint": "dde4c5b55cbcd68b",
+  "created_at_utc": "2026-11-15T15:45:23.221558+00:00",
+  "source_record_sha256": "e6a671a9199c4afbd4e962b4f130800fbdfd5575a33e22e397cd3ecdede786f9",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 16,
+  "artifact_hashes": {
+    "form_schema.json": "e5b8cca9aa10e23c146dfbae86548a0f9c17b0d4211187b46a48b95e892a0135",
+    "rag_corpus.json": "8b1eda80f09e2f5ab2209e8966234cb246934aeec204eb6633d1a67905dca7f9"
+  }
+}

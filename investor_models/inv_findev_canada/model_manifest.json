@@ -1,0 +1,23 @@
+{
+  "investor_id": "inv_findev_canada",
+  "investor_name": "FinDev Canada",
+  "short_name": "FinDev Canada",
+  "category": "Bilateral DFI",
+  "model_architecture": "HYBRID_KAG_RAG",
+  "ai_model_rationale": "KAG enforces mandate geography, ticket sizing & 2X/ESG rules while RAG generates blended-finance & technical-assistance narratives.",
+  "form_template_type": "DFI_PROJECT_INTAKE",
+  "tenant_namespace": "tenant::inv_findev_canada",
+  "tenant_key_fingerprint": "166da6d95b671142",
+  "created_at_utc": "2026-11-15T15:45:23.106427+00:00",
+  "source_record_sha256": "8776dc195e5d73ff92ff171728a0f92bfffe4a61b4555b16f209cf3e80f1cc17",
+  "has_kag_graph": true,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 37,
+  "kag_edges_count": 38,
+  "rag_chunks_count": 15,
+  "artifact_hashes": {
+    "form_schema.json": "72dae932c7d46190432e6cf765798f26cf954ab47b2835264349d3e626a6d17d",
+    "knowledge_graph.json": "296edd67ca1914a873e3d381d0c1906b5209fef4339583c35eb54b2e05667638",
+    "rag_corpus.json": "fb4b9fccb3df469daa004818e5a8d20f482c1c518b884d83b6907f6c5bc82964"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "investor_id": "inv_afdb",
+  "investor_name": "African Development Bank Group (AfDB)",
+  "short_name": "AfDB",
+  "category": "Multilateral Development Bank (MDB)",
+  "model_architecture": "HYBRID_KAG_RAG",
+  "ai_model_rationale": "KAG enforces strict African Regional Member Country & safeguard rules while RAG drafts compelling RESILAFRICA and 35-by-35 electrification narratives.",
+  "form_template_type": "MDB_CONCEPT_NOTE",
+  "tenant_namespace": "tenant::inv_afdb",
+  "tenant_key_fingerprint": "51266fe36681f88c",
+  "created_at_utc": "2026-11-15T15:45:23.030652+00:00",
+  "source_record_sha256": "f5b51eeb8b6005f7a81416631a03602277f89090892aa9fe4641b5d38fa8d2a3",
+  "has_kag_graph": true,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 40,
+  "kag_edges_count": 42,
+  "rag_chunks_count": 17,
+  "artifact_hashes": {
+    "form_schema.json": "7be4ae372e37f2ae17a78594367ac69a11851be090c29aa876e29f89b8f43188",
+    "knowledge_graph.json": "1d2b5c3144081468fbab8a1f7f77b8c8aff23883723573ee08518f36e71d8702",
+    "rag_corpus.json": "cc963c821cb3635d32f0921bff9c78336434848f81c24fe16dd87caf9a9c766e"
+  }
+}

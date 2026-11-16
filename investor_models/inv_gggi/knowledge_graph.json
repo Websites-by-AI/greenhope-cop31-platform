@@ -1,0 +1,461 @@
+{
+  "investor_id": "inv_gggi",
+  "graph_format": "networkx-node-link-v1",
+  "node_count": 36,
+  "edge_count": 36,
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "node_type": "Investor",
+        "investor_id": "inv_gggi",
+        "name": "Global Green Growth Institute (GGGI)",
+        "short_name": "GGGI",
+        "category": "Climate Finance Network / Public Facilitator",
+        "hq_country": "South Korea (Intergovernmental)",
+        "ticket_min_usd": 250000,
+        "ticket_max_usd": 50000000,
+        "portal_url": "https://gggi.org/",
+        "id": "inv_gggi"
+      },
+      {
+        "node_type": "COP31_Commitment",
+        "investor_id": "inv_gggi",
+        "role": "Signed Nov 14, 2026 COP31 Antalya cooperation agreement with AIIB on climate-resilient infrastructure project preparation & green pipelines",
+        "commitment": "Joint AIIB–GGGI project preparation, technical assistance & investment-ready climate-resilient infrastructure pipeline mobilization",
+        "verification_source": "https://www.aiib.org/en/news-events/news/2026/aiib-and-gggi-deepen-cooperation-climate-resilient-infrastructure-green-development.html",
+        "verification_date": "2026-11-15",
+        "id": "cop31::inv_gggi"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_gggi",
+        "label": "Project Preparation Technical Assistance",
+        "id": "instrument::project_preparation_technical_assistance"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_gggi",
+        "label": "Green City Advisory",
+        "id": "instrument::green_city_advisory"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_gggi",
+        "label": "MDB Pipeline Origination (AIIB/GCF)",
+        "id": "instrument::mdb_pipeline_origination__aiib_gcf"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_gggi",
+        "label": "Resilient Cities & Infrastructure",
+        "id": "sector::resilient_cities___infrastructure"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_gggi",
+        "label": "Climate Adaptation & Resilience",
+        "id": "sector::climate_adaptation___resilience"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_gggi",
+        "label": "Zero Waste & Circular Economy",
+        "id": "sector::zero_waste___circular_economy"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_gggi",
+        "label": "Air Quality & Green Growth",
+        "id": "sector::air_quality___green_growth"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_gggi",
+        "label": "Renewable Energy",
+        "id": "sector::renewable_energy"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_gggi",
+        "label": "Global",
+        "id": "region::global"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_gggi",
+        "label": "Emerging Markets",
+        "id": "region::emerging_markets"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_gggi",
+        "label": "Developing Countries",
+        "id": "region::developing_countries"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_gggi",
+        "label": "Türkiye",
+        "id": "region::türkiye"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_gggi",
+        "label": "Asia",
+        "id": "region::asia"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_gggi",
+        "label": "Africa",
+        "id": "region::africa"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_gggi",
+        "label": "Latin America",
+        "id": "region::latin_america"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_gggi",
+        "label": "Sovereign/Government",
+        "id": "applicant::sovereign_government"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_gggi",
+        "label": "Municipality",
+        "id": "applicant::municipality"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_gggi",
+        "label": "Climate-Tech Startup",
+        "id": "applicant::climate_tech_startup"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_gggi",
+        "label": "Project SPV",
+        "id": "applicant::project_spv"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_gggi",
+        "label": "Host-country / municipal green-growth policy alignment",
+        "id": "rule::host_country___municipal_green_growth_policy_ali"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_gggi",
+        "label": "Clear path from technical assistance/pilot to AIIB or GCF bankable scale",
+        "id": "rule::clear_path_from_technical_assistance_pilot_to_ai"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_gggi",
+        "label": "Measurable GHG, air quality, waste, or resilience KPIs",
+        "id": "rule::measurable_ghg__air_quality__waste__or_resilienc"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_gggi",
+        "label": "Fossil-fuel expansion",
+        "id": "exclusion::fossil_fuel_expansion"
+      },
+      {
+        "node_type": "FormTemplate",
+        "investor_id": "inv_gggi",
+        "title": "Development Finance Institution (DFI) / National Dev Bank Project Intake Form",
+        "governing_standard": "IFC Performance Standards / Harmonized DFI Climate Reporting (10by30 / IDFC)",
+        "id": "form::DFI_PROJECT_INTAKE"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_gggi",
+        "field_id": "sponsor_and_project",
+        "label": "Project Sponsor, Jurisdiction & Project Name",
+        "section": "1. Sponsor Profile",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::sponsor_and_project"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_gggi",
+        "field_id": "dfi_facility_alignment",
+        "label": "Target DFI Climate Facility / COP31 Program Alignment",
+        "section": "1. Sponsor Profile",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::dfi_facility_alignment"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_gggi",
+        "field_id": "financing_request",
+        "label": "Requested Instrument, Ticket Size (USD) & Tenor",
+        "section": "2. Transaction Structure",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::financing_request"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_gggi",
+        "field_id": "geography_and_sector_fit",
+        "label": "Mandate Fit: Target Geography & Priority Climate Sector",
+        "section": "2. Transaction Structure",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::geography_and_sector_fit"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_gggi",
+        "field_id": "avoided_emissions_and_dev_impact",
+        "label": "Avoided Emissions (tCO2e/yr) & Development Impact",
+        "section": "3. Climate & Impact",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::avoided_emissions_and_dev_impact"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_gggi",
+        "field_id": "ifc_ps_esg_compliance",
+        "label": "IFC Performance Standards / E&S Screening & Exclusion List Check",
+        "section": "3. Climate & Impact",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_gggi",
+        "field_id": "financial_profile",
+        "label": "Sponsor Financials & Project Economics (Revenue, EBITDA, Capex, IRR)",
+        "section": "4. Financial Due Diligence",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::financial_profile"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_gggi",
+        "field_id": "blended_finance_and_ta",
+        "label": "Blended Finance, De-Risking Guarantees & Technical Assistance Needs",
+        "section": "4. Financial Due Diligence",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::blended_finance_and_ta"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_gggi",
+        "field_id": "risks_and_mitigants",
+        "label": "Principal Transaction Risks & Mitigants",
+        "section": "5. Risk Assessment",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::risks_and_mitigants"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_gggi",
+        "field_id": "executive_intake_pitch",
+        "label": "DFI Investment Committee Intake Summary",
+        "section": "6. Executive Summary",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::executive_intake_pitch"
+      }
+    ],
+    "links": [
+      {
+        "relation": "ANNOUNCES_AT_COP31",
+        "source": "inv_gggi",
+        "target": "cop31::inv_gggi"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_gggi",
+        "target": "instrument::project_preparation_technical_assistance"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_gggi",
+        "target": "instrument::green_city_advisory"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_gggi",
+        "target": "instrument::mdb_pipeline_origination__aiib_gcf"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_gggi",
+        "target": "sector::resilient_cities___infrastructure"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_gggi",
+        "target": "sector::climate_adaptation___resilience"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_gggi",
+        "target": "sector::zero_waste___circular_economy"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_gggi",
+        "target": "sector::air_quality___green_growth"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_gggi",
+        "target": "sector::renewable_energy"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_gggi",
+        "target": "region::global"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_gggi",
+        "target": "region::emerging_markets"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_gggi",
+        "target": "region::developing_countries"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_gggi",
+        "target": "region::türkiye"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_gggi",
+        "target": "region::asia"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_gggi",
+        "target": "region::africa"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_gggi",
+        "target": "region::latin_america"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_gggi",
+        "target": "applicant::sovereign_government"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_gggi",
+        "target": "applicant::municipality"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_gggi",
+        "target": "applicant::climate_tech_startup"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_gggi",
+        "target": "applicant::project_spv"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_gggi",
+        "target": "rule::host_country___municipal_green_growth_policy_ali"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_gggi",
+        "target": "rule::clear_path_from_technical_assistance_pilot_to_ai"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_gggi",
+        "target": "rule::measurable_ghg__air_quality__waste__or_resilienc"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_gggi",
+        "target": "exclusion::fossil_fuel_expansion"
+      },
+      {
+        "relation": "USES_FORM_TEMPLATE",
+        "source": "inv_gggi",
+        "target": "form::DFI_PROJECT_INTAKE"
+      },
+      {
+        "relation": "VALIDATES_FIELD",
+        "source": "rule::measurable_ghg__air_quality__waste__or_resilienc",
+        "target": "field::avoided_emissions_and_dev_impact"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::sponsor_and_project"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::dfi_facility_alignment"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::financing_request"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::geography_and_sector_fit"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::avoided_emissions_and_dev_impact"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::financial_profile"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::blended_finance_and_ta"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::risks_and_mitigants"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::executive_intake_pitch"
+      }
+    ]
+  }
+}

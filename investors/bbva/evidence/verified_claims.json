@@ -1,0 +1,38 @@
+{
+  "investor_id": "inv_bbva_group",
+  "knowledge_pack_slug": "bbva",
+  "claims": [
+    {
+      "claim": "BBVA Group is an Official Global Banking Partner of UNFCCC COP31 in Antalya with a 400m² Green Zone pavilion hosting 60+ climate finance sessions.",
+      "source": "BBVA Official Press Release",
+      "url": "https://www.bbva.com/en/sustainability/bbva-to-be-the-global-banking-partner-of-the-united-nations-climate-summit-cop31-in-turkiye/",
+      "date_verified": "2026-11-15",
+      "confidence": 0.99,
+      "status": "verified"
+    },
+    {
+      "claim": "BBVA targets €700 billion in sustainable business (2025–2029), having mobilized €170 billion by Q1 2026 (€36B in Q1 2026 alone).",
+      "source": "BBVA Sustainability & Garanti BBVA COP31 Release",
+      "url": "https://www.garantibbva.com.tr/en/corporate-communications/cop31-climate-change-summit",
+      "date_verified": "2026-11-15",
+      "confidence": 0.98,
+      "status": "verified"
+    },
+    {
+      "claim": "BBVA explicitly emphasizes bridging the gap between innovation and investment to deploy clean technologies in real-world conditions.",
+      "source": "BBVA COP31 Sustainability Statement (Javier Rodríguez Soler)",
+      "url": "https://www.bbva.com/en/sustainability/javier-rodriguez-soler-climate-finance-will-be-at-the-heart-of-discussions-at-cop31/",
+      "date_verified": "2026-11-15",
+      "confidence": 0.97,
+      "status": "verified"
+    },
+    {
+      "claim": "BBVA is listed in the COP31 Business Forum Climate Finance & Investments Working Group.",
+      "source": "COP31 Business Forum Working Group Paper",
+      "url": "https://www.copbusiness.org/papers/COP31_WG_climate-finance-investments.pdf",
+      "date_verified": "2026-11-15",
+      "confidence": 0.98,
+      "status": "verified"
+    }
+  ]
+}

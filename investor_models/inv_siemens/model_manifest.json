@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_siemens",
+  "investor_name": "Siemens (Siemens Energy / Smart Infrastructure)",
+  "short_name": "Siemens",
+  "category": "Strategic Corporate / COP31 Supporter",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "RAG generates IP-safe corporate pilot partnership teasers while explicitly flagging COP31 Supporter (non-confirmed investor) status.",
+  "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+  "tenant_namespace": "tenant::inv_siemens",
+  "tenant_key_fingerprint": "aab93a01bf60a724",
+  "created_at_utc": "2026-11-15T15:45:23.256180+00:00",
+  "source_record_sha256": "d28e7f799dc93ed22c66cc4f661210ce297cbc838a7cbf61d9f35eb32641367e",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 14,
+  "artifact_hashes": {
+    "form_schema.json": "2e53220c113bc0e32482654ec4fb67d68e63045505b3760c37dcb284a4f12726",
+    "rag_corpus.json": "18a6b8d5d3e1c33ffd549f4fd1b9c7353536298f4e4bfebe54d72e49b72757d4"
+  }
+}

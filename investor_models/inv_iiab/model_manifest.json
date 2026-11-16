@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_iiab",
+  "investor_name": "Impact Investing Advisory Board (EYDK / Türkiye Impact Network)",
+  "short_name": "Impact Investing Board",
+  "category": "Climate Finance Network / Public Facilitator",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "RAG crafts concise IMP/IRIS+ impact briefs tailored to Türkiye's impact investor syndicate.",
+  "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+  "tenant_namespace": "tenant::inv_iiab",
+  "tenant_key_fingerprint": "9bb0a0271464676e",
+  "created_at_utc": "2026-11-15T15:45:23.147275+00:00",
+  "source_record_sha256": "e196317d3d85876e75f013bd4bf8b20a0c7be47829c3786e431059ca6c613047",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 14,
+  "artifact_hashes": {
+    "form_schema.json": "0bdfa09f588cf75b4ec355b67ce3fe5b908c0de13a1023fc74eb2b0775e18341",
+    "rag_corpus.json": "bf1118cb7cd13e69e853128d2aec4c7553f5100ffcb9672a3ff4322f5966607a"
+  }
+}

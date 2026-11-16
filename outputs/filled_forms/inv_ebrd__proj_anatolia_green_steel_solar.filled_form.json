@@ -1,0 +1,238 @@
+{
+  "submission_id": "sub_inv_ebrd_proj_anatolia_green_steel_solar_1a98913a",
+  "generated_at_utc": "2026-11-15T15:45:23.573331+00:00",
+  "investor_id": "inv_ebrd",
+  "investor_name": "European Bank for Reconstruction and Development (EBRD)",
+  "model_architecture": "KAG",
+  "form_template_id": "MDB_CONCEPT_NOTE",
+  "form_title": "Multilateral Development Bank (MDB) Climate Project Concept Note",
+  "project_id": "proj_anatolia_green_steel_solar",
+  "project_title": "Anatolia Green Electric-Arc Steel & 120 MW Solar + BESS Decarbonization Project",
+  "pii_redacted_for_ai_context": true,
+  "tenant_isolation_verified": true,
+  "eligibility": {
+    "eligible": true,
+    "fit_score": 100.0,
+    "passed_checks": [
+      "Applicant type 'Large Corporate' matched via ACCEPTS_APPLICANT (Large Corporate, Project SPV, Municipality, Financial Intermediary, SME).",
+      "Geography 'Türkiye (EMEA)' covered via COVERS_REGION (Türkiye, Europe, Central Asia, MENA, Sub-Saharan Africa, Emerging Markets).",
+      "Sector alignment verified via FUNDS_SECTOR: Industrial Decarbonization, Renewable Energy.",
+      "Requested ticket $45,000,000 fits within bounds ($5,000,000–$300,000,000).",
+      "Instrument match via OFFERS_INSTRUMENT: 'Senior Debt'.",
+      "Exclusion list screening passed (no prohibited coal/unabated fossil-fuel activities).",
+      "No hard pre-submission compliance blockers detected in REQUIRES_COMPLIANCE graph."
+    ],
+    "failed_checks": [],
+    "warnings": [],
+    "recommended_instrument": "Senior Debt",
+    "kag_hops_executed": 6
+  },
+  "completion_rate_percent": 100.0,
+  "average_confidence": 0.928,
+  "fields": [
+    {
+      "field_id": "project_title",
+      "label": "Project Title & Legal Sponsor",
+      "section": "1. Identification",
+      "value": "Anatolia Green Electric-Arc Steel & 120 MW Solar + BESS Decarbonization Project | Sponsor: Anatolia Clean Metallurgy A.Ş. (Large Corporate) | Jurisdiction: Türkiye (EMEA) | Primary Sector: Industrial Decarbonization",
+      "status": "FILLED",
+      "confidence": 0.98,
+      "reasoning_mode": "KAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_ebrd --[USES_FORM_TEMPLATE]--> form::MDB_CONCEPT_NOTE --[HAS_FORM_FIELD]--> field::project_title",
+      "rag_citations": [],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "sovereign_window",
+      "label": "Financing Window (Sovereign vs. Non-Sovereign / Private Sector)",
+      "section": "1. Identification",
+      "value": "Non-Sovereign Operations (NSO) / Private Sector Window (Derived from applicant_type='Large Corporate' against EBRD mandate)",
+      "status": "FILLED",
+      "confidence": 0.95,
+      "reasoning_mode": "KAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_ebrd --[ACCEPTS_APPLICANT]--> applicant::large_corporate => Non-Sovereign Operations (NSO) / Private Sector Window",
+      "rag_citations": [],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "cop31_platform_alignment",
+      "label": "COP31 Country Platform & Flagship Initiative Alignment",
+      "section": "2. Strategic Alignment",
+      "value": "Aligns directly with European Bank for Reconstruction and Development (EBRD)'s COP31 Antalya role (Co-host of COP31 Global Finance Summit; Joint MDB Pavilion; TIDIP partner; Electrify Now Finance Coalition; GEFF Türkiye) and 2026 commitment (Green Economy Transition (GET) Strategy 2026–2030; €26B+ cumulative commitments in Türkiye; TIDIP & Kazakhstan JETP partner). Anatolia Green Electric-Arc Steel & 120 MW Solar + BESS Decarbonization Project deploys Industrial Decarbonization in Türkiye, fitting priority sectors (Renewable Energy, Electrification & Grid, Industrial Decarbonization) via Senior Debt.",
+      "status": "FILLED",
+      "confidence": 0.9,
+      "reasoning_mode": "KAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_ebrd --[ANNOUNCES_AT_COP31]--> cop31::inv_ebrd + --[FUNDS_SECTOR]--> Industrial Decarbonization",
+      "rag_citations": [],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "requested_instrument_and_amount",
+      "label": "Requested Financing Instrument & Amount (USD)",
+      "section": "3. Financial Structuring",
+      "value": "Instrument: Senior Debt | Requested Amount: $45,000,000 USD | Tenor/Horizon: 4 years | Investor Band: $5,000,000–$300,000,000 (WITHIN BOUNDS)",
+      "status": "FILLED",
+      "confidence": 0.94,
+      "reasoning_mode": "KAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_ebrd --[OFFERS_INSTRUMENT]--> Senior Debt [bounds: $5,000,000-$300,000,000]",
+      "rag_citations": [],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "cofinancing_structure",
+      "label": "Total Project Cost & Co-Financing Mobilization Plan",
+      "section": "3. Financial Structuring",
+      "value": "Total Cost: $95,000,000 | Requested from EBRD: $45,000,000 (Senior Debt) | Committed Co-Financing: $30,000,000 (Leverage Ratio: 0.67x) | Remaining Sponsor Equity / Co-Investor Mobilization: $20,000,000.",
+      "status": "FILLED",
+      "confidence": 0.9,
+      "reasoning_mode": "KAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_ebrd --[USES_FORM_TEMPLATE]--> form::MDB_CONCEPT_NOTE --[HAS_FORM_FIELD]--> field::cofinancing_structure",
+      "rag_citations": [],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "paris_alignment_bb1_bb2",
+      "label": "Paris Agreement Alignment Assessment (BB1 Mitigation & BB2 Physical Risk)",
+      "section": "4. Climate & Technical Rationale",
+      "value": "ALIGNED (BB1 Mitigation & BB2 Adaptation Verified): Formal Paris Alignment screening completed for Industrial Decarbonization; zero unabated fossil-fuel lock-in; aligned with Türkiye NDC targets.",
+      "status": "FILLED",
+      "confidence": 0.94,
+      "reasoning_mode": "KAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_ebrd --[REQUIRES_COMPLIANCE]--> Paris_Alignment_BB1_BB2 --[VALIDATES_FIELD]--> field::paris_alignment_bb1_bb2",
+      "rag_citations": [],
+      "compliance_notes": [
+        "KG Validated Rules: EBRD Green Economy Transition (GET) & Paris Alignment assessment"
+      ]
+    },
+    {
+      "field_id": "ghg_and_adaptation_impact",
+      "label": "Quantified Climate Impact (tCO2e/year Avoided &/or Adaptation Beneficiaries)",
+      "section": "4. Climate & Technical Rationale",
+      "value": "Quantified Climate Impact: 185,000 tCO2e/year avoided; 1,200 direct adaptation beneficiaries. Cuts steelmaking Scope 1 and Scope 2 carbon intensity by 62% (185,000 tCO2e/year avoided), directly supporting Türkiye's 2035 NDC and TIDIP industrial decarbonization targets. Directly mitigates EU CBAM carbon border liability for Turkish/regional exports. Projected commercial IRR: 15.8%.",
+      "status": "FILLED",
+      "confidence": 0.9,
+      "reasoning_mode": "KAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_ebrd --[USES_FORM_TEMPLATE]--> form::MDB_CONCEPT_NOTE --[HAS_FORM_FIELD]--> field::ghg_and_adaptation_impact",
+      "rag_citations": [],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "es_safeguards_category",
+      "label": "Environmental & Social (E&S) Safeguards & EIA Status",
+      "section": "5. Safeguards & Governance",
+      "value": "Exclusion Screening: PASS (Zero prohibited fossil-fuel exposure) | E&S / Permits: EIA / ÇED permits obtained | Social/ESG Impact: Creates 320 green engineering jobs, zero coal usage, closed-loop 85% process water recycling, and formal workforce reskilling aligned with Just Transition principles.",
+      "status": "FILLED",
+      "confidence": 0.93,
+      "reasoning_mode": "KAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_ebrd --[EXCLUDES + REQUIRES_COMPLIANCE]--> field::es_safeguards_category",
+      "rag_citations": [],
+      "compliance_notes": [
+        "KG Validated Rules: EBRD Environmental and Social Policy (PR 1-10) & EIA permits"
+      ]
+    },
+    {
+      "field_id": "financial_viability_metrics",
+      "label": "Financial Viability & Bankability Indicators (Revenue, EBITDA, IRR)",
+      "section": "5. Safeguards & Governance",
+      "value": "Total Project Capex: $95,000,000 | Annual Revenue: $240,000,000 | EBITDA: $42,000,000 | Projected IRR: 15.8%",
+      "status": "FILLED",
+      "confidence": 0.94,
+      "reasoning_mode": "KAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_ebrd --[USES_FORM_TEMPLATE]--> form::MDB_CONCEPT_NOTE --[HAS_FORM_FIELD]--> field::financial_viability_metrics",
+      "rag_citations": [],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "implementation_timeline",
+      "label": "Project Readiness Stage & Implementation Schedule",
+      "section": "6. Execution & Risks",
+      "value": "Current Maturity: Ready-to-Build | Expected Implementation Horizon: 4 years",
+      "status": "FILLED",
+      "confidence": 0.96,
+      "reasoning_mode": "KAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_ebrd --[USES_FORM_TEMPLATE]--> form::MDB_CONCEPT_NOTE --[HAS_FORM_FIELD]--> field::implementation_timeline",
+      "rag_citations": [],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "key_risks_and_mitigants",
+      "label": "Key Technical, Market & Climate Risks with Mitigants",
+      "section": "6. Execution & Risks",
+      "value": "Grid curtailment risk mitigated via 60 MWh BESS; FX mismatch mitigated by EUR-denominated EU green-steel export offtake contracts covering 75% of output; EPC turnkey fixed-price contract. Supported by EBRD risk-sharing instruments (Senior Debt, Equity, Subordinated Debt).",
+      "status": "FILLED",
+      "confidence": 0.9,
+      "reasoning_mode": "KAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_ebrd --[USES_FORM_TEMPLATE]--> form::MDB_CONCEPT_NOTE --[HAS_FORM_FIELD]--> field::key_risks_and_mitigants",
+      "rag_citations": [],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "executive_concept_summary",
+      "label": "Executive Concept Note Abstract",
+      "section": "7. Executive Summary",
+      "value": "Anatolia Green Electric-Arc Steel & 120 MW Solar + BESS Decarbonization Project (Anatolia Clean Metallurgy A.Ş., Türkiye) requests $45,000,000 via EBRD's Senior Debt. Retrofitting a major Turkish steel rolling facility to 100% renewable-powered electric-arc furnace operation paired with 120 MW captive solar PV and 60 MWh lithium-iron-phosphate battery storage to achieve EU CBAM compliance. Contact [REDACTED_EMAIL_1] for technical annex. Climate Impact: 185,000 tCO2e/year avoided; 1,200 direct adaptation beneficiaries. Aligned with COP31 Antalya commitment (Green Economy Transition (GET) Strategy 2026–2030; €26B+ cumulative commitments in Türkiye; TIDIP & Kazakhstan JETP partner).",
+      "status": "FILLED",
+      "confidence": 0.9,
+      "reasoning_mode": "KAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_ebrd --[USES_FORM_TEMPLATE]--> form::MDB_CONCEPT_NOTE --[HAS_FORM_FIELD]--> field::executive_concept_summary",
+      "rag_citations": [],
+      "compliance_notes": []
+    }
+  ],
+  "pre_submission_checklist": [
+    "[Mandatory Requirement] EBRD Green Economy Transition (GET) & Paris Alignment assessment",
+    "[Mandatory Requirement] EBRD Environmental and Social Policy (PR 1-10) & EIA permits",
+    "[Mandatory Requirement] Sound banking principles & transition impact demonstration",
+    "[Mandatory Requirement] Integrity & KYC beneficial ownership disclosure",
+    "[Portal Submission] Upload finalized packet via official portal: https://www.ebrd.com/work-with-us/project-finance.html"
+  ],
+  "llm_backend_used": "deterministic-grounded-synthesizer-v1"
+}

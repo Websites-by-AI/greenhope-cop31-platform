@@ -1,0 +1,138 @@
+{
+  "investor_id": "inv_bnp_paribas",
+  "investor_name": "BNP Paribas",
+  "portal_url": "https://cib.bnpparibas/sustainable-finance/",
+  "template": {
+    "template_id": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+    "title": "Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake",
+    "governing_standard": "LMA/APLMA Green Loan Principles (GLP), Sustainability-Linked Loan Principles (SLLP) & ICMA GBP",
+    "typical_review_timeline": "3–8 weeks (Sustainable Finance Structuring -> Credit Committee -> Syndication/Close)",
+    "fields": [
+      {
+        "field_id": "borrower_profile",
+        "label": "Corporate Borrower & Operating Jurisdiction",
+        "section": "1. Borrower Overview",
+        "field_type": "text",
+        "required": true,
+        "description": "Borrower entity, sector, and primary market.",
+        "generation_strategy": "APPLICANT_DIRECT",
+        "expected_keywords": [],
+        "applicant_source_keys": [
+          "organization_name",
+          "country",
+          "primary_sector"
+        ]
+      },
+      {
+        "field_id": "facility_structure",
+        "label": "Recommended Sustainable Finance Structure (Green Loan / SLL / Green Bond / Trade Finance)",
+        "section": "2. Structuring",
+        "field_type": "currency_usd",
+        "required": true,
+        "description": "Matches requested financing size and type to the bank's sustainable finance product suite.",
+        "generation_strategy": "HYBRID",
+        "expected_keywords": [
+          "Green Loan",
+          "Sustainability-Linked",
+          "Green Bond",
+          "Trade Finance"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "taxonomy_alignment",
+        "label": "Taxonomy & Market Standards Alignment (EU Taxonomy / ICMA GBP / LMA GLP)",
+        "section": "2. Structuring",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Maps project use-of-proceeds to eligible green taxonomy categories.",
+        "generation_strategy": "RAG_NARRATIVE",
+        "expected_keywords": [
+          "Taxonomy",
+          "ICMA",
+          "LMA",
+          "Use of Proceeds"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "spts_and_kpis",
+        "label": "Proposed Sustainability Performance Targets (SPTs) & Decarbonization KPIs",
+        "section": "3. Transition Credibility",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Measurable GHG intensity or absolute tCO2e reduction KPIs tied to margin ratchet or green reporting.",
+        "generation_strategy": "RAG_NARRATIVE",
+        "expected_keywords": [
+          "KPI",
+          "tCO2e",
+          "SPT",
+          "decarbonization"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "spo_and_verification",
+        "label": "Second-Party Opinion (SPO) & Independent Assurance Readiness",
+        "section": "3. Transition Credibility",
+        "field_type": "compliance_check",
+        "required": true,
+        "description": "Verifies whether an external SPO (e.g., Sustainalytics, ISS, S&P Shades of Green) is already obtained or required.",
+        "generation_strategy": "KAG_RULE",
+        "expected_keywords": [
+          "SPO",
+          "Verification",
+          "Assurance"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "esg_controversy_screen",
+        "label": "Sector Exclusion & ESG Risk Screening",
+        "section": "4. Risk & Underwriting",
+        "field_type": "compliance_check",
+        "required": true,
+        "description": "Checks fossil fuel expansion exclusions and environmental permitting.",
+        "generation_strategy": "KAG_RULE",
+        "expected_keywords": [
+          "Exclusion",
+          "ESG",
+          "EIA"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "credit_financials",
+        "label": "Credit Profile (Revenue, EBITDA, Capex, Expected IRR)",
+        "section": "4. Risk & Underwriting",
+        "field_type": "text",
+        "required": true,
+        "description": "Borrower financial capacity for corporate or project finance underwriting.",
+        "generation_strategy": "APPLICANT_DIRECT",
+        "expected_keywords": [],
+        "applicant_source_keys": [
+          "annual_revenue_usd",
+          "ebitda_usd",
+          "total_project_cost_usd",
+          "expected_irr_percent"
+        ]
+      },
+      {
+        "field_id": "use_of_proceeds_narrative",
+        "label": "Detailed Use of Proceeds & Transition Plan Summary",
+        "section": "5. Mandate Pitch",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Comprehensive transition finance rationale grounded in the bank's COP31 sustainable finance strategy.",
+        "generation_strategy": "RAG_NARRATIVE",
+        "expected_keywords": [
+          "transition",
+          "proceeds",
+          "COP31",
+          "net zero"
+        ],
+        "applicant_source_keys": []
+      }
+    ]
+  }
+}

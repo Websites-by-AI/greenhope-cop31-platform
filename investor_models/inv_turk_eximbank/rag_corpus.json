@@ -1,0 +1,112 @@
+{
+  "investor_id": "inv_turk_eximbank",
+  "corpus_format": "cop31-rag-chunks-v1",
+  "chunk_count": 15,
+  "chunks": [
+    {
+      "chunk_id": "inv_turk_eximbank::mandate_cop31",
+      "investor_id": "inv_turk_eximbank",
+      "section": "COP31 Antalya 2026 Mandate",
+      "title": "Turk Eximbank (Turk Eximbank) COP31 Role & Commitments",
+      "text": "Turk Eximbank is a National Development Bank headquartered in Türkiye. At UNFCCC COP31 in Antalya (November 9-20, 2026), its verified role is: Signed 4 international green financing agreements >$800M at COP31 Antalya (IBRD, KfW, AIIB). Verified COP31 2026 climate finance commitment: >$800M secured at COP31 (€209.2M IBRD, €250M KfW, $200M + $100M AIIB) dedicated to Turkish exporters' green transition & shock resilience. Source verification: https://ua.news/en/dovkolo-svitu/turk-eximbank-zaluchiv-ponad-800-mln-na-cop31-u-turechchini-anadolu-agency."
+    },
+    {
+      "chunk_id": "inv_turk_eximbank::instruments_tickets",
+      "investor_id": "inv_turk_eximbank",
+      "section": "Financial Products & Ticket Sizing",
+      "title": "Turk Eximbank Financing Instruments & Ticket Bounds",
+      "text": "Turk Eximbank provides the following climate financing instruments: Green Export Investment Loan, Export Working Capital Credit, Export Credit Insurance, MDB/DFI On-Lending Line. Typical transaction ticket range is USD 500,000 to USD 75,000,000. Eligible applicant profiles include: Large Corporate, SME, Mid-Cap Enterprise."
+    },
+    {
+      "chunk_id": "inv_turk_eximbank::sectors_geography",
+      "investor_id": "inv_turk_eximbank",
+      "section": "Eligible Sectors & Geographies",
+      "title": "Turk Eximbank Priority Climate Sectors & Regional Mandate",
+      "text": "Priority climate sectors funded by Turk Eximbank: Industrial Decarbonization, Renewable Energy, Energy Efficiency, SME Green Transition, EU CBAM Export Compliance. Target geographic focus includes: Türkiye, Global Exports. Projects outside primary regions or ticket bounds may require syndicated or on-lending structures."
+    },
+    {
+      "chunk_id": "inv_turk_eximbank::compliance_esg",
+      "investor_id": "inv_turk_eximbank",
+      "section": "Compliance, ESG & Exclusion Criteria",
+      "title": "Turk Eximbank Mandatory Form & Underwriting Requirements",
+      "text": "Mandatory requirements to complete Turk Eximbank's application form: Verified Turkish exporter status & export commitment; Eligible green transition / CBAM decarbonization investment scope; IBRD / KfW / AIIB on-lending Environmental & Social screening; Bank letter of guarantee or eligible collateral. Explicit exclusion rules: Non-exporting domestic entities; Coal/fossil-fuel expansion. Official application portal: https://www.eximbank.gov.tr/en."
+    },
+    {
+      "chunk_id": "inv_turk_eximbank::form_standard",
+      "investor_id": "inv_turk_eximbank",
+      "section": "Application Form Governance",
+      "title": "Turk Eximbank Form Template: Development Finance Institution (DFI) / National Dev Bank Project Intake Form",
+      "text": "Turk Eximbank uses the 'Development Finance Institution (DFI) / National Dev Bank Project Intake Form' workflow governed by IFC Performance Standards / Harmonized DFI Climate Reporting (10by30 / IDFC). Typical review timeline is 4–12 weeks (Screening -> Due Diligence -> Credit Committee). Form sections required: 1. Sponsor Profile, 2. Transaction Structure, 3. Climate & Impact, 4. Financial Due Diligence, 5. Risk Assessment, 6. Executive Summary."
+    },
+    {
+      "chunk_id": "inv_turk_eximbank::field_guide_01_sponsor_and_project",
+      "investor_id": "inv_turk_eximbank",
+      "section": "Form Field Guide: 1. Sponsor Profile",
+      "title": "Turk Eximbank Guidance for 'Project Sponsor, Jurisdiction & Project Name'",
+      "text": "Field 'Project Sponsor, Jurisdiction & Project Name' (sponsor_and_project) under section '1. Sponsor Profile' on Turk Eximbank's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Sponsor organization, country of operation, and project title. Required=True. Expected evidence keywords: Verified applicant facts. Align response with Turk Eximbank's COP31 priorities (Signed 4 international green financing agreements >$800M at COP31 Antalya (IBRD, KfW, AIIB)) and instruments (Green Export Investment Loan, Export Working Capital Credit, Export Credit Insurance)."
+    },
+    {
+      "chunk_id": "inv_turk_eximbank::field_guide_02_dfi_facility_alignment",
+      "investor_id": "inv_turk_eximbank",
+      "section": "Form Field Guide: 1. Sponsor Profile",
+      "title": "Turk Eximbank Guidance for 'Target DFI Climate Facility / COP31 Program Alignment'",
+      "text": "Field 'Target DFI Climate Facility / COP31 Program Alignment' (dfi_facility_alignment) under section '1. Sponsor Profile' on Turk Eximbank's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Links project to DFI's active COP31 facility (e.g., 10by30, Proparco Sustainable Energy, KfW Climate, TSKB Green Loan, Eximbank Green Line). Required=True. Expected evidence keywords: COP31, facility, energy, transition. Align response with Turk Eximbank's COP31 priorities (Signed 4 international green financing agreements >$800M at COP31 Antalya (IBRD, KfW, AIIB)) and instruments (Green Export Investment Loan, Export Working Capital Credit, Export Credit Insurance)."
+    },
+    {
+      "chunk_id": "inv_turk_eximbank::field_guide_03_financing_request",
+      "investor_id": "inv_turk_eximbank",
+      "section": "Form Field Guide: 2. Transaction Structure",
+      "title": "Turk Eximbank Guidance for 'Requested Instrument, Ticket Size (USD) & Tenor'",
+      "text": "Field 'Requested Instrument, Ticket Size (USD) & Tenor' (financing_request) under section '2. Transaction Structure' on Turk Eximbank's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Validated against DFI ticket bounds, financing instruments, and project duration. Required=True. Expected evidence keywords: USD, tenor, Debt, Equity, Blended. Align response with Turk Eximbank's COP31 priorities (Signed 4 international green financing agreements >$800M at COP31 Antalya (IBRD, KfW, AIIB)) and instruments (Green Export Investment Loan, Export Working Capital Credit, Export Credit Insurance)."
+    },
+    {
+      "chunk_id": "inv_turk_eximbank::field_guide_04_geography_and_sector_fit",
+      "investor_id": "inv_turk_eximbank",
+      "section": "Form Field Guide: 2. Transaction Structure",
+      "title": "Turk Eximbank Guidance for 'Mandate Fit: Target Geography & Priority Climate Sector'",
+      "text": "Field 'Mandate Fit: Target Geography & Priority Climate Sector' (geography_and_sector_fit) under section '2. Transaction Structure' on Turk Eximbank's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Graph-verified check that project country and sector sit inside the DFI's official investment mandate. Required=True. Expected evidence keywords: Eligible, Mandate, Sector. Align response with Turk Eximbank's COP31 priorities (Signed 4 international green financing agreements >$800M at COP31 Antalya (IBRD, KfW, AIIB)) and instruments (Green Export Investment Loan, Export Working Capital Credit, Export Credit Insurance)."
+    },
+    {
+      "chunk_id": "inv_turk_eximbank::field_guide_05_avoided_emissions_and_dev_impact",
+      "investor_id": "inv_turk_eximbank",
+      "section": "Form Field Guide: 3. Climate & Impact",
+      "title": "Turk Eximbank Guidance for 'Avoided Emissions (tCO2e/yr) & Development Impact'",
+      "text": "Field 'Avoided Emissions (tCO2e/yr) & Development Impact' (avoided_emissions_and_dev_impact) under section '3. Climate & Impact' on Turk Eximbank's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Quantified avoided GHG emissions, energy access/jobs, and local economic co-benefits. Required=True. Expected evidence keywords: tCO2e, development, jobs, impact. Align response with Turk Eximbank's COP31 priorities (Signed 4 international green financing agreements >$800M at COP31 Antalya (IBRD, KfW, AIIB)) and instruments (Green Export Investment Loan, Export Working Capital Credit, Export Credit Insurance)."
+    },
+    {
+      "chunk_id": "inv_turk_eximbank::field_guide_06_ifc_ps_esg_compliance",
+      "investor_id": "inv_turk_eximbank",
+      "section": "Form Field Guide: 3. Climate & Impact",
+      "title": "Turk Eximbank Guidance for 'IFC Performance Standards / E&S Screening & Exclusion List Check'",
+      "text": "Field 'IFC Performance Standards / E&S Screening & Exclusion List Check' (ifc_ps_esg_compliance) under section '3. Climate & Impact' on Turk Eximbank's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Confirms zero fossil-fuel exclusion breaches and checks EIA / permitting readiness. Required=True. Expected evidence keywords: IFC, Exclusion, EIA, ESG. Align response with Turk Eximbank's COP31 priorities (Signed 4 international green financing agreements >$800M at COP31 Antalya (IBRD, KfW, AIIB)) and instruments (Green Export Investment Loan, Export Working Capital Credit, Export Credit Insurance)."
+    },
+    {
+      "chunk_id": "inv_turk_eximbank::field_guide_07_financial_profile",
+      "investor_id": "inv_turk_eximbank",
+      "section": "Form Field Guide: 4. Financial Due Diligence",
+      "title": "Turk Eximbank Guidance for 'Sponsor Financials & Project Economics (Revenue, EBITDA, Capex, IRR)'",
+      "text": "Field 'Sponsor Financials & Project Economics (Revenue, EBITDA, Capex, IRR)' (financial_profile) under section '4. Financial Due Diligence' on Turk Eximbank's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Key financial metrics required by DFI credit underwriters. Required=True. Expected evidence keywords: Verified applicant facts. Align response with Turk Eximbank's COP31 priorities (Signed 4 international green financing agreements >$800M at COP31 Antalya (IBRD, KfW, AIIB)) and instruments (Green Export Investment Loan, Export Working Capital Credit, Export Credit Insurance)."
+    },
+    {
+      "chunk_id": "inv_turk_eximbank::field_guide_08_blended_finance_and_ta",
+      "investor_id": "inv_turk_eximbank",
+      "section": "Form Field Guide: 4. Financial Due Diligence",
+      "title": "Turk Eximbank Guidance for 'Blended Finance, De-Risking Guarantees & Technical Assistance Needs'",
+      "text": "Field 'Blended Finance, De-Risking Guarantees & Technical Assistance Needs' (blended_finance_and_ta) under section '4. Financial Due Diligence' on Turk Eximbank's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Specifies co-investors, first-loss/guarantees, and advisory/TA requests. Required=True. Expected evidence keywords: blended, technical assistance, co-finance. Align response with Turk Eximbank's COP31 priorities (Signed 4 international green financing agreements >$800M at COP31 Antalya (IBRD, KfW, AIIB)) and instruments (Green Export Investment Loan, Export Working Capital Credit, Export Credit Insurance)."
+    },
+    {
+      "chunk_id": "inv_turk_eximbank::field_guide_09_risks_and_mitigants",
+      "investor_id": "inv_turk_eximbank",
+      "section": "Form Field Guide: 5. Risk Assessment",
+      "title": "Turk Eximbank Guidance for 'Principal Transaction Risks & Mitigants'",
+      "text": "Field 'Principal Transaction Risks & Mitigants' (risks_and_mitigants) under section '5. Risk Assessment' on Turk Eximbank's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Key construction, currency, regulatory, and offtake risks plus mitigation plan. Required=True. Expected evidence keywords: risk, mitigation, currency, offtake. Align response with Turk Eximbank's COP31 priorities (Signed 4 international green financing agreements >$800M at COP31 Antalya (IBRD, KfW, AIIB)) and instruments (Green Export Investment Loan, Export Working Capital Credit, Export Credit Insurance)."
+    },
+    {
+      "chunk_id": "inv_turk_eximbank::field_guide_10_executive_intake_pitch",
+      "investor_id": "inv_turk_eximbank",
+      "section": "Form Field Guide: 6. Executive Summary",
+      "title": "Turk Eximbank Guidance for 'DFI Investment Committee Intake Summary'",
+      "text": "Field 'DFI Investment Committee Intake Summary' (executive_intake_pitch) under section '6. Executive Summary' on Turk Eximbank's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Concise structured investment teaser tailored to this DFI's COP31 mandate. Required=True. Expected evidence keywords: mandate, impact, financing. Align response with Turk Eximbank's COP31 priorities (Signed 4 international green financing agreements >$800M at COP31 Antalya (IBRD, KfW, AIIB)) and instruments (Green Export Investment Loan, Export Working Capital Credit, Export Credit Insurance)."
+    }
+  ]
+}

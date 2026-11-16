@@ -1,0 +1,441 @@
+{
+  "investor_id": "inv_fast_infra",
+  "graph_format": "networkx-node-link-v1",
+  "node_count": 35,
+  "edge_count": 34,
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "node_type": "Investor",
+        "investor_id": "inv_fast_infra",
+        "name": "FAST-Infra Group",
+        "short_name": "FAST-Infra",
+        "category": "Climate Finance Network / Public Facilitator",
+        "hq_country": "France / Switzerland (Global Coalition)",
+        "ticket_min_usd": 5000000,
+        "ticket_max_usd": 300000000,
+        "portal_url": "https://www.fastinfragroup.org/",
+        "id": "inv_fast_infra"
+      },
+      {
+        "node_type": "COP31_Commitment",
+        "investor_id": "inv_fast_infra",
+        "role": "COP31 Business Forum Climate Finance & Investments Working Group member scaling labeled sustainable infrastructure",
+        "commitment": "Deploying the FAST-Infra Sustainable Infrastructure Label & Technology-Enabled Data Platform to turn resilient urban/green infrastructure into a liquid asset class",
+        "verification_source": "https://www.copbusiness.org/papers/COP31_WG_climate-finance-investments.pdf",
+        "verification_date": "2026-11-15",
+        "id": "cop31::inv_fast_infra"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_fast_infra",
+        "label": "Sustainable Infrastructure Labeling",
+        "id": "instrument::sustainable_infrastructure_labeling"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_fast_infra",
+        "label": "Institutional Deal Flow Acceleration",
+        "id": "instrument::institutional_deal_flow_acceleration"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_fast_infra",
+        "label": "Blended Infrastructure Facility Intro",
+        "id": "instrument::blended_infrastructure_facility_intro"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_fast_infra",
+        "label": "Resilient Cities & Infrastructure",
+        "id": "sector::resilient_cities___infrastructure"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_fast_infra",
+        "label": "Climate Adaptation & Resilience",
+        "id": "sector::climate_adaptation___resilience"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_fast_infra",
+        "label": "Renewable Energy",
+        "id": "sector::renewable_energy"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_fast_infra",
+        "label": "Water & Wastewater Management",
+        "id": "sector::water___wastewater_management"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_fast_infra",
+        "label": "Zero Waste & Circular Economy",
+        "id": "sector::zero_waste___circular_economy"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_fast_infra",
+        "label": "Global",
+        "id": "region::global"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_fast_infra",
+        "label": "Emerging Markets",
+        "id": "region::emerging_markets"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_fast_infra",
+        "label": "Türkiye",
+        "id": "region::türkiye"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_fast_infra",
+        "label": "Africa",
+        "id": "region::africa"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_fast_infra",
+        "label": "Asia",
+        "id": "region::asia"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_fast_infra",
+        "label": "Latin America",
+        "id": "region::latin_america"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_fast_infra",
+        "label": "Municipality",
+        "id": "applicant::municipality"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_fast_infra",
+        "label": "Project SPV",
+        "id": "applicant::project_spv"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_fast_infra",
+        "label": "Climate-Tech Startup",
+        "id": "applicant::climate_tech_startup"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_fast_infra",
+        "label": "Large Corporate",
+        "id": "applicant::large_corporate"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_fast_infra",
+        "label": "Financial Intermediary",
+        "id": "applicant::financial_intermediary"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_fast_infra",
+        "label": "Alignment with FAST-Infra 14 sustainability criteria (Environmental, Social, Governance, Resilience)",
+        "id": "rule::alignment_with_fast_infra_14_sustainability_crit"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_fast_infra",
+        "label": "Verifiable digital MRV performance data",
+        "id": "rule::verifiable_digital_mrv_performance_data"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_fast_infra",
+        "label": "Scalable emerging-market infrastructure pipeline",
+        "id": "rule::scalable_emerging_market_infrastructure_pipeline"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_fast_infra",
+        "label": "Unlabeled fossil-fuel infrastructure",
+        "id": "exclusion::unlabeled_fossil_fuel_infrastructure"
+      },
+      {
+        "node_type": "FormTemplate",
+        "investor_id": "inv_fast_infra",
+        "title": "Climate Private Equity / Catalytic Capital / Venture Investment Intake Form",
+        "governing_standard": "GFANZ Catalytic Capital Repository / Impact Management Project (IMP) / IRIS+ Climate Metrics",
+        "id": "form::CATALYTIC_PE_VC_INTAKE"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_fast_infra",
+        "field_id": "company_and_project",
+        "label": "Company / SPV Name, Sector & Geography",
+        "section": "1. Venture / Asset Overview",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::company_and_project"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_fast_infra",
+        "field_id": "round_and_instrument",
+        "label": "Target Capital Raise, Ticket Size & Preferred Capital Layer",
+        "section": "1. Venture / Asset Overview",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::round_and_instrument"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_fast_infra",
+        "field_id": "climate_thesis_fit",
+        "label": "Alignment with Investor Climate Thesis & COP31 Platform",
+        "section": "2. Investment Thesis",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::climate_thesis_fit"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_fast_infra",
+        "field_id": "decarbonization_unit_economics",
+        "label": "Avoided Emissions Potential (tCO2e/yr) & Commercial Unit Economics",
+        "section": "2. Investment Thesis",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::decarbonization_unit_economics"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_fast_infra",
+        "field_id": "technology_and_moat",
+        "label": "Technology Differentiation, Innovation & Market Readiness",
+        "section": "3. Product & Execution",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::technology_and_moat"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_fast_infra",
+        "field_id": "capital_stack_and_cofinanciers",
+        "label": "Blended Capital Stack & Co-Investor Mobilization",
+        "section": "3. Product & Execution",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::capital_stack_and_cofinanciers"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_fast_infra",
+        "field_id": "esg_impact_governance",
+        "label": "ESG Governance, Social Co-Benefits & Exclusion Compliance",
+        "section": "4. Impact & Risk",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::esg_impact_governance"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_fast_infra",
+        "field_id": "risks_and_mitigants",
+        "label": "Key Scale-Up Risks & Mitigation Strategy",
+        "section": "4. Impact & Risk",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::risks_and_mitigants"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_fast_infra",
+        "field_id": "ic_teaser_summary",
+        "label": "Investment Committee 1-Paragraph Executive Pitch",
+        "section": "5. Executive Pitch",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::ic_teaser_summary"
+      }
+    ],
+    "links": [
+      {
+        "relation": "ANNOUNCES_AT_COP31",
+        "source": "inv_fast_infra",
+        "target": "cop31::inv_fast_infra"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_fast_infra",
+        "target": "instrument::sustainable_infrastructure_labeling"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_fast_infra",
+        "target": "instrument::institutional_deal_flow_acceleration"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_fast_infra",
+        "target": "instrument::blended_infrastructure_facility_intro"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_fast_infra",
+        "target": "sector::resilient_cities___infrastructure"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_fast_infra",
+        "target": "sector::climate_adaptation___resilience"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_fast_infra",
+        "target": "sector::renewable_energy"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_fast_infra",
+        "target": "sector::water___wastewater_management"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_fast_infra",
+        "target": "sector::zero_waste___circular_economy"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_fast_infra",
+        "target": "region::global"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_fast_infra",
+        "target": "region::emerging_markets"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_fast_infra",
+        "target": "region::türkiye"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_fast_infra",
+        "target": "region::africa"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_fast_infra",
+        "target": "region::asia"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_fast_infra",
+        "target": "region::latin_america"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_fast_infra",
+        "target": "applicant::municipality"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_fast_infra",
+        "target": "applicant::project_spv"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_fast_infra",
+        "target": "applicant::climate_tech_startup"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_fast_infra",
+        "target": "applicant::large_corporate"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_fast_infra",
+        "target": "applicant::financial_intermediary"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_fast_infra",
+        "target": "rule::alignment_with_fast_infra_14_sustainability_crit"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_fast_infra",
+        "target": "rule::verifiable_digital_mrv_performance_data"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_fast_infra",
+        "target": "rule::scalable_emerging_market_infrastructure_pipeline"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_fast_infra",
+        "target": "exclusion::unlabeled_fossil_fuel_infrastructure"
+      },
+      {
+        "relation": "USES_FORM_TEMPLATE",
+        "source": "inv_fast_infra",
+        "target": "form::CATALYTIC_PE_VC_INTAKE"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::company_and_project"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::round_and_instrument"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::climate_thesis_fit"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::decarbonization_unit_economics"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::technology_and_moat"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::capital_stack_and_cofinanciers"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::esg_impact_governance"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::risks_and_mitigants"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::ic_teaser_summary"
+      }
+    ]
+  }
+}

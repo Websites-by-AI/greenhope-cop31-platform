@@ -1,0 +1,221 @@
+{
+  "investor_id": "inv_aiib",
+  "investor_name": "Asian Infrastructure Investment Bank (AIIB)",
+  "short_name": "AIIB",
+  "relationship_status": "Investor Confirmed",
+  "priority_tier": "Tier A — Approach Immediately",
+  "portal_url": "https://www.aiib.org/en/projects/propose/index.html",
+  "workflow_rule": "AUTO-FILL -> REVIEW -> APPROVE -> SUBMIT (Never Auto-Submit)",
+  "supporter_warning": null,
+  "greenhope_fit_score": 92.5,
+  "aligned_domains": [
+    "climate finance",
+    "climate resilience",
+    "AI",
+    "cities",
+    "MRV"
+  ],
+  "missing_count": 1,
+  "blocked_ip_count": 1,
+  "ready_count": 10,
+  "fields": [
+    {
+      "field_id": "organization_name",
+      "field": "Organization name",
+      "master_key": "organization",
+      "security_level": "LEVEL_1_PUBLIC",
+      "answer": "GreenHope Climate Intelligence Initiative",
+      "source": "GreenHope Canonical Profile v1",
+      "confidence": 0.99,
+      "status": "ready_for_approval",
+      "action": "HUMAN_APPROVE_BEFORE_SUBMIT",
+      "pipeline_trace": "Organization name -> LEVEL_1_PUBLIC -> Matched GREENHOPE_MASTER.organization -> Verified (0.99) -> Draft -> Awaiting Human Approval",
+      "rag_citations": [
+        "aiib::contacts",
+        "aiib::verified_claim_03"
+      ],
+      "approved": false
+    },
+    {
+      "field_id": "project_description",
+      "field": "Project description",
+      "master_key": "solution",
+      "security_level": "LEVEL_1_PUBLIC",
+      "answer": "GreenHope is an AI-enabled urban climate resilience and environmental intelligence platform linking city pilots (air quality, waste optimization, urban resilience) directly to verified MRV metrics and climate finance mobilization (GreenHope -> city pilot -> measurable climate impact -> financing -> scale). Tailored for AIIB (Investor Confirmed): aligns with climate finance, climate resilience, AI, cities via Sovereign Loan.",
+      "source": "GreenHope Public Architecture Summary",
+      "confidence": 0.98,
+      "status": "ready_for_approval",
+      "action": "HUMAN_APPROVE_BEFORE_SUBMIT",
+      "pipeline_trace": "Project description -> LEVEL_1_PUBLIC -> Matched GREENHOPE_MASTER.solution -> Verified (0.98) -> Draft -> Awaiting Human Approval",
+      "rag_citations": [
+        "aiib::contacts",
+        "aiib::verified_claim_03"
+      ],
+      "approved": false
+    },
+    {
+      "field_id": "technology",
+      "field": "Technology",
+      "master_key": "technology",
+      "security_level": "LEVEL_1_PUBLIC",
+      "answer": "Modular cloud + IoT environmental telemetry integration, geospatial urban analytics, automated MRV reporting dashboards, and KAG+RAG climate finance matching.",
+      "source": "GreenHope Public Technical Overview",
+      "confidence": 0.95,
+      "status": "ready_for_approval",
+      "action": "HUMAN_APPROVE_BEFORE_SUBMIT",
+      "pipeline_trace": "Technology -> LEVEL_1_PUBLIC -> Matched GREENHOPE_MASTER.technology -> Verified (0.95) -> Draft -> Awaiting Human Approval",
+      "rag_citations": [
+        "aiib::contacts",
+        "aiib::verified_claim_03"
+      ],
+      "approved": false
+    },
+    {
+      "field_id": "climate_impact",
+      "field": "Climate impact",
+      "master_key": "climate_impact",
+      "security_level": "LEVEL_1_PUBLIC",
+      "answer": "Dual mitigation & adaptation impact: quantified tCO2e reductions (waste circularity & urban efficiency) alongside real-time urban heat/air-quality resilience for municipal populations.",
+      "source": "GreenHope Climate Rationale",
+      "confidence": 0.95,
+      "status": "ready_for_approval",
+      "action": "HUMAN_APPROVE_BEFORE_SUBMIT",
+      "pipeline_trace": "Climate impact -> LEVEL_1_PUBLIC -> Matched GREENHOPE_MASTER.climate_impact -> Verified (0.95) -> Draft -> Awaiting Human Approval",
+      "rag_citations": [
+        "aiib::contacts",
+        "aiib::verified_claim_03"
+      ],
+      "approved": false
+    },
+    {
+      "field_id": "target_market",
+      "field": "Target market",
+      "master_key": "target_users",
+      "security_level": "LEVEL_1_PUBLIC",
+      "answer": "Municipalities, metropolitan climate departments, organized industrial zones (OIZs), development banks/commercial lenders requiring verified MRV, and urban sustainability operators.",
+      "source": "GreenHope Market Profile",
+      "confidence": 0.95,
+      "status": "ready_for_approval",
+      "action": "HUMAN_APPROVE_BEFORE_SUBMIT",
+      "pipeline_trace": "Target market -> LEVEL_1_PUBLIC -> Matched GREENHOPE_MASTER.target_users -> Verified (0.95) -> Draft -> Awaiting Human Approval",
+      "rag_citations": [
+        "aiib::contacts",
+        "aiib::verified_claim_03"
+      ],
+      "approved": false
+    },
+    {
+      "field_id": "funding_required",
+      "field": "Funding required",
+      "master_key": "funding_requirement",
+      "security_level": "LEVEL_2_INTERNAL",
+      "answer": "USD 50,000 – USD 250,000 initial city pilot & technical preparation funding (scaling to USD 1M–5M blended/project finance alongside MDB/bank municipal partners) (Target pathway with AIIB: Sovereign Loan; bank ticket band USD 20,000,000–600,000,000).",
+      "source": "GreenHope Financial Model (Pilot Tranche)",
+      "confidence": 0.94,
+      "status": "requires_user_confirmation",
+      "action": "HUMAN_APPROVE_BEFORE_SUBMIT",
+      "pipeline_trace": "Funding required -> LEVEL_2_INTERNAL -> Matched GREENHOPE_MASTER.funding_requirement -> Verified (0.94) -> Draft -> Awaiting Human Approval",
+      "rag_citations": [
+        "aiib::contacts",
+        "aiib::verified_claim_03"
+      ],
+      "approved": false
+    },
+    {
+      "field_id": "current_stage",
+      "field": "Current stage",
+      "master_key": "current_stage",
+      "security_level": "LEVEL_1_PUBLIC",
+      "answer": "Pilot-Ready Prototype & COP31 Antalya Active Engagement (Startup Zone / Climate Finance Hub)",
+      "source": "GreenHope Status Log",
+      "confidence": 0.96,
+      "status": "ready_for_approval",
+      "action": "HUMAN_APPROVE_BEFORE_SUBMIT",
+      "pipeline_trace": "Current stage -> LEVEL_1_PUBLIC -> Matched GREENHOPE_MASTER.current_stage -> Verified (0.96) -> Draft -> Awaiting Human Approval",
+      "rag_citations": [
+        "aiib::contacts",
+        "aiib::verified_claim_03"
+      ],
+      "approved": false
+    },
+    {
+      "field_id": "annual_revenue",
+      "field": "Annual revenue",
+      "master_key": "annual_revenue",
+      "security_level": "LEVEL_2_INTERNAL",
+      "answer": null,
+      "source": "GREENHOPE_MASTER (missing value)",
+      "confidence": 0.0,
+      "status": "MISSING_INFORMATION",
+      "action": "ASK_USER",
+      "pipeline_trace": "Annual revenue -> LEVEL_2_INTERNAL -> No verified value in GREENHOPE_MASTER -> NEVER HALLUCINATE -> ASK_USER",
+      "rag_citations": [],
+      "approved": false
+    },
+    {
+      "field_id": "team",
+      "field": "Team",
+      "master_key": "founder_team",
+      "security_level": "LEVEL_1_PUBLIC",
+      "answer": "GreenHope Founding Team — Climate AI, Urban Environmental Analytics & Climate Finance Architecture (Antalya / Türkiye)",
+      "source": "GreenHope Public Team Bio",
+      "confidence": 0.96,
+      "status": "ready_for_approval",
+      "action": "HUMAN_APPROVE_BEFORE_SUBMIT",
+      "pipeline_trace": "Team -> LEVEL_1_PUBLIC -> Matched GREENHOPE_MASTER.founder_team -> Verified (0.96) -> Draft -> Awaiting Human Approval",
+      "rag_citations": [
+        "aiib::contacts",
+        "aiib::verified_claim_03"
+      ],
+      "approved": false
+    },
+    {
+      "field_id": "implementation_location",
+      "field": "Implementation location",
+      "master_key": "geography",
+      "security_level": "LEVEL_1_PUBLIC",
+      "answer": "Initial pilot: Antalya, Türkiye (COP31 host city); regional expansion across Türkiye, Europe/EMEA, and emerging markets.",
+      "source": "GreenHope Geographic Scope",
+      "confidence": 0.99,
+      "status": "ready_for_approval",
+      "action": "HUMAN_APPROVE_BEFORE_SUBMIT",
+      "pipeline_trace": "Implementation location -> LEVEL_1_PUBLIC -> Matched GREENHOPE_MASTER.geography -> Verified (0.99) -> Draft -> Awaiting Human Approval",
+      "rag_citations": [
+        "aiib::contacts",
+        "aiib::verified_claim_03"
+      ],
+      "approved": false
+    },
+    {
+      "field_id": "expected_impact",
+      "field": "Expected impact",
+      "master_key": "metrics",
+      "security_level": "LEVEL_2_INTERNAL",
+      "answer": "Target pilot KPIs: 15–25% urban waste sorting/diversion uplift, real-time air-quality coverage across pilot districts, ISO/MRV-ready quarterly tCO2e & resilience reporting.",
+      "source": "GreenHope Pilot KPI Targets",
+      "confidence": 0.89,
+      "status": "requires_user_confirmation",
+      "action": "HUMAN_APPROVE_BEFORE_SUBMIT",
+      "pipeline_trace": "Expected impact -> LEVEL_2_INTERNAL -> Matched GREENHOPE_MASTER.metrics -> Verified (0.89) -> Draft -> Awaiting Human Approval",
+      "rag_citations": [
+        "aiib::contacts",
+        "aiib::verified_claim_03"
+      ],
+      "approved": false
+    },
+    {
+      "field_id": "ip_and_proprietary_algorithms",
+      "field": "Proprietary algorithms / unpublished IP details",
+      "master_key": "ip_status",
+      "security_level": "LEVEL_3_CONFIDENTIAL",
+      "answer": null,
+      "source": "GreenHope IP Register (Level 3)",
+      "confidence": 1.0,
+      "status": "BLOCKED_BY_IP_SECURITY",
+      "action": "DO_NOT_AUTO_SUBMIT_PROTECT_IP",
+      "pipeline_trace": "Proprietary algorithms / unpublished IP details -> LEVEL_3_CONFIDENTIAL -> BLOCKED by Anti-Copying IP Guard (manual NDA required)",
+      "rag_citations": [],
+      "approved": false
+    }
+  ]
+}

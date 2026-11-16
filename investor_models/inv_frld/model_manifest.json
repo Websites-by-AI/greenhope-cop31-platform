@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_frld",
+  "investor_name": "Fund for Responding to Loss and Damage (FRLD)",
+  "short_name": "Loss & Damage Fund",
+  "category": "Multilateral Climate Fund",
+  "model_architecture": "KAG",
+  "ai_model_rationale": "Strict vulnerability eligibility, sovereign-request validation, and disaster-attribution compliance rules require deterministic KAG gating.",
+  "form_template_type": "CLIMATE_FUND_PROPOSAL",
+  "tenant_namespace": "tenant::inv_frld",
+  "tenant_key_fingerprint": "0cbdfeada853b464",
+  "created_at_utc": "2026-11-15T15:45:23.110359+00:00",
+  "source_record_sha256": "1c7a420c1824e370f4b40aaf7ce40b719a3b88c6d7566b44602a9bffe6558f21",
+  "has_kag_graph": true,
+  "has_rag_corpus": false,
+  "kag_nodes_count": 36,
+  "kag_edges_count": 36,
+  "rag_chunks_count": 0,
+  "artifact_hashes": {
+    "form_schema.json": "13a6ad6c91d208ca6c9aeec212e68b16d1de976bbcbc40ddc8ed37226e0c7856",
+    "knowledge_graph.json": "d261526ba129894afd09e776466c08bb64978a6ab984014b6e921b5c586120a8"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_aib",
+  "investor_name": "AIB (Allied Irish Banks)",
+  "short_name": "AIB",
+  "category": "Global Commercial Bank",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "RAG aligns European renewable/green-building requests with AIB's €30B Climate Action Fund criteria.",
+  "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+  "tenant_namespace": "tenant::inv_aib",
+  "tenant_key_fingerprint": "d25a85c7783d5aeb",
+  "created_at_utc": "2026-11-15T15:45:22.962349+00:00",
+  "source_record_sha256": "5d9f575e93e2e2d5f12d0a8fc104b48e3abecd99a134420477e1e02668af3089",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 13,
+  "artifact_hashes": {
+    "form_schema.json": "97ffe42cf275c0d57604955b3befc8cdc75200f11b8caa723563b11d49e99924",
+    "rag_corpus.json": "98a693b63fa4b3c72c69e591dc34caa5013782b03c58ebbeaa7fe0c426311e94"
+  }
+}

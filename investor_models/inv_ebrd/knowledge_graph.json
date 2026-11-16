@@ -1,0 +1,562 @@
+{
+  "investor_id": "inv_ebrd",
+  "graph_format": "networkx-node-link-v1",
+  "node_count": 44,
+  "edge_count": 45,
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "node_type": "Investor",
+        "investor_id": "inv_ebrd",
+        "name": "European Bank for Reconstruction and Development (EBRD)",
+        "short_name": "EBRD",
+        "category": "Multilateral Development Bank (MDB)",
+        "hq_country": "United Kingdom (Multilateral)",
+        "ticket_min_usd": 5000000,
+        "ticket_max_usd": 300000000,
+        "portal_url": "https://www.ebrd.com/work-with-us/project-finance.html",
+        "id": "inv_ebrd"
+      },
+      {
+        "node_type": "COP31_Commitment",
+        "investor_id": "inv_ebrd",
+        "role": "Co-host of COP31 Global Finance Summit; Joint MDB Pavilion; TIDIP partner; Electrify Now Finance Coalition; GEFF Türkiye",
+        "commitment": "Green Economy Transition (GET) Strategy 2026–2030; €26B+ cumulative commitments in Türkiye; TIDIP & Kazakhstan JETP partner",
+        "verification_source": "https://www.ebrd.com/home/news-and-events/news/events/ebrd-at-cop-31.html",
+        "verification_date": "2026-11-15",
+        "id": "cop31::inv_ebrd"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_ebrd",
+        "label": "Senior Debt",
+        "id": "instrument::senior_debt"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_ebrd",
+        "label": "Equity",
+        "id": "instrument::equity"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_ebrd",
+        "label": "Subordinated Debt",
+        "id": "instrument::subordinated_debt"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_ebrd",
+        "label": "Green Credit Lines (GEFF)",
+        "id": "instrument::green_credit_lines__geff"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_ebrd",
+        "label": "Blended Concessional Finance",
+        "id": "instrument::blended_concessional_finance"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_ebrd",
+        "label": "Technical Assistance",
+        "id": "instrument::technical_assistance"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_ebrd",
+        "label": "Renewable Energy",
+        "id": "sector::renewable_energy"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_ebrd",
+        "label": "Electrification & Grid",
+        "id": "sector::electrification___grid"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_ebrd",
+        "label": "Industrial Decarbonization",
+        "id": "sector::industrial_decarbonization"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_ebrd",
+        "label": "Climate Adaptation & Resilience",
+        "id": "sector::climate_adaptation___resilience"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_ebrd",
+        "label": "Green Cities & Mobility",
+        "id": "sector::green_cities___mobility"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_ebrd",
+        "label": "SME Green Transition",
+        "id": "sector::sme_green_transition"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_ebrd",
+        "label": "Türkiye",
+        "id": "region::türkiye"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_ebrd",
+        "label": "Europe",
+        "id": "region::europe"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_ebrd",
+        "label": "Central Asia",
+        "id": "region::central_asia"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_ebrd",
+        "label": "MENA",
+        "id": "region::mena"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_ebrd",
+        "label": "Sub-Saharan Africa",
+        "id": "region::sub_saharan_africa"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_ebrd",
+        "label": "Emerging Markets",
+        "id": "region::emerging_markets"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_ebrd",
+        "label": "Large Corporate",
+        "id": "applicant::large_corporate"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_ebrd",
+        "label": "Project SPV",
+        "id": "applicant::project_spv"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_ebrd",
+        "label": "Municipality",
+        "id": "applicant::municipality"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_ebrd",
+        "label": "Financial Intermediary",
+        "id": "applicant::financial_intermediary"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_ebrd",
+        "label": "SME",
+        "id": "applicant::sme"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_ebrd",
+        "label": "EBRD Green Economy Transition (GET) & Paris Alignment assessment",
+        "id": "rule::ebrd_green_economy_transition__get____paris_alig"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_ebrd",
+        "label": "EBRD Environmental and Social Policy (PR 1-10) & EIA permits",
+        "id": "rule::ebrd_environmental_and_social_policy__pr_1_10___"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_ebrd",
+        "label": "Sound banking principles & transition impact demonstration",
+        "id": "rule::sound_banking_principles___transition_impact_dem"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_ebrd",
+        "label": "Integrity & KYC beneficial ownership disclosure",
+        "id": "rule::integrity___kyc_beneficial_ownership_disclosure"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_ebrd",
+        "label": "Thermal coal mining or coal-fired power",
+        "id": "exclusion::thermal_coal_mining_or_coal_fired_power"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_ebrd",
+        "label": "Upstream oil exploration",
+        "id": "exclusion::upstream_oil_exploration"
+      },
+      {
+        "node_type": "FormTemplate",
+        "investor_id": "inv_ebrd",
+        "title": "Multilateral Development Bank (MDB) Climate Project Concept Note",
+        "governing_standard": "Joint MDB Paris Alignment Methodology (BB1 Mitigation / BB2 Adaptation) & Environmental/Social Framework",
+        "id": "form::MDB_CONCEPT_NOTE"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_ebrd",
+        "field_id": "project_title",
+        "label": "Project Title & Legal Sponsor",
+        "section": "1. Identification",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::project_title"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_ebrd",
+        "field_id": "sovereign_window",
+        "label": "Financing Window (Sovereign vs. Non-Sovereign / Private Sector)",
+        "section": "1. Identification",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::sovereign_window"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_ebrd",
+        "field_id": "cop31_platform_alignment",
+        "label": "COP31 Country Platform & Flagship Initiative Alignment",
+        "section": "2. Strategic Alignment",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::cop31_platform_alignment"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_ebrd",
+        "field_id": "requested_instrument_and_amount",
+        "label": "Requested Financing Instrument & Amount (USD)",
+        "section": "3. Financial Structuring",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::requested_instrument_and_amount"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_ebrd",
+        "field_id": "cofinancing_structure",
+        "label": "Total Project Cost & Co-Financing Mobilization Plan",
+        "section": "3. Financial Structuring",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::cofinancing_structure"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_ebrd",
+        "field_id": "paris_alignment_bb1_bb2",
+        "label": "Paris Agreement Alignment Assessment (BB1 Mitigation & BB2 Physical Risk)",
+        "section": "4. Climate & Technical Rationale",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::paris_alignment_bb1_bb2"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_ebrd",
+        "field_id": "ghg_and_adaptation_impact",
+        "label": "Quantified Climate Impact (tCO2e/year Avoided &/or Adaptation Beneficiaries)",
+        "section": "4. Climate & Technical Rationale",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::ghg_and_adaptation_impact"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_ebrd",
+        "field_id": "es_safeguards_category",
+        "label": "Environmental & Social (E&S) Safeguards & EIA Status",
+        "section": "5. Safeguards & Governance",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::es_safeguards_category"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_ebrd",
+        "field_id": "financial_viability_metrics",
+        "label": "Financial Viability & Bankability Indicators (Revenue, EBITDA, IRR)",
+        "section": "5. Safeguards & Governance",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::financial_viability_metrics"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_ebrd",
+        "field_id": "implementation_timeline",
+        "label": "Project Readiness Stage & Implementation Schedule",
+        "section": "6. Execution & Risks",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::implementation_timeline"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_ebrd",
+        "field_id": "key_risks_and_mitigants",
+        "label": "Key Technical, Market & Climate Risks with Mitigants",
+        "section": "6. Execution & Risks",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::key_risks_and_mitigants"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_ebrd",
+        "field_id": "executive_concept_summary",
+        "label": "Executive Concept Note Abstract",
+        "section": "7. Executive Summary",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::executive_concept_summary"
+      }
+    ],
+    "links": [
+      {
+        "relation": "ANNOUNCES_AT_COP31",
+        "source": "inv_ebrd",
+        "target": "cop31::inv_ebrd"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_ebrd",
+        "target": "instrument::senior_debt"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_ebrd",
+        "target": "instrument::equity"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_ebrd",
+        "target": "instrument::subordinated_debt"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_ebrd",
+        "target": "instrument::green_credit_lines__geff"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_ebrd",
+        "target": "instrument::blended_concessional_finance"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_ebrd",
+        "target": "instrument::technical_assistance"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_ebrd",
+        "target": "sector::renewable_energy"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_ebrd",
+        "target": "sector::electrification___grid"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_ebrd",
+        "target": "sector::industrial_decarbonization"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_ebrd",
+        "target": "sector::climate_adaptation___resilience"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_ebrd",
+        "target": "sector::green_cities___mobility"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_ebrd",
+        "target": "sector::sme_green_transition"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_ebrd",
+        "target": "region::türkiye"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_ebrd",
+        "target": "region::europe"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_ebrd",
+        "target": "region::central_asia"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_ebrd",
+        "target": "region::mena"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_ebrd",
+        "target": "region::sub_saharan_africa"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_ebrd",
+        "target": "region::emerging_markets"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_ebrd",
+        "target": "applicant::large_corporate"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_ebrd",
+        "target": "applicant::project_spv"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_ebrd",
+        "target": "applicant::municipality"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_ebrd",
+        "target": "applicant::financial_intermediary"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_ebrd",
+        "target": "applicant::sme"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_ebrd",
+        "target": "rule::ebrd_green_economy_transition__get____paris_alig"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_ebrd",
+        "target": "rule::ebrd_environmental_and_social_policy__pr_1_10___"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_ebrd",
+        "target": "rule::sound_banking_principles___transition_impact_dem"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_ebrd",
+        "target": "rule::integrity___kyc_beneficial_ownership_disclosure"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_ebrd",
+        "target": "exclusion::thermal_coal_mining_or_coal_fired_power"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_ebrd",
+        "target": "exclusion::upstream_oil_exploration"
+      },
+      {
+        "relation": "USES_FORM_TEMPLATE",
+        "source": "inv_ebrd",
+        "target": "form::MDB_CONCEPT_NOTE"
+      },
+      {
+        "relation": "VALIDATES_FIELD",
+        "source": "rule::ebrd_green_economy_transition__get____paris_alig",
+        "target": "field::paris_alignment_bb1_bb2"
+      },
+      {
+        "relation": "VALIDATES_FIELD",
+        "source": "rule::ebrd_environmental_and_social_policy__pr_1_10___",
+        "target": "field::es_safeguards_category"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::project_title"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::sovereign_window"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::cop31_platform_alignment"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::requested_instrument_and_amount"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::cofinancing_structure"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::paris_alignment_bb1_bb2"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::ghg_and_adaptation_impact"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::es_safeguards_category"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::financial_viability_metrics"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::implementation_timeline"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::key_risks_and_mitigants"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::executive_concept_summary"
+      }
+    ]
+  }
+}

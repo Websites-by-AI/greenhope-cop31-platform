@@ -1,0 +1,445 @@
+{
+  "investor_id": "inv_bndes",
+  "graph_format": "networkx-node-link-v1",
+  "node_count": 35,
+  "edge_count": 34,
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "node_type": "Investor",
+        "investor_id": "inv_bndes",
+        "name": "BNDES (Brazilian Development Bank)",
+        "short_name": "BNDES",
+        "category": "National Development Bank",
+        "hq_country": "Brazil",
+        "ticket_min_usd": 5000000,
+        "ticket_max_usd": 300000000,
+        "portal_url": "https://www.bndes.gov.br/",
+        "id": "inv_bndes"
+      },
+      {
+        "node_type": "COP31_Commitment",
+        "investor_id": "inv_bndes",
+        "role": "Announced $300M GCF mobilization + $147M IBRD/CIF forest restoration + $1B IDB/IBRD industrial decarbonization LOI at COP31",
+        "commitment": "R$39B ($6.9B) climate investment push anchored by $300M GCF (Flying Rivers Capital, Just Climate Brasil) + $147M IBRD/CIF forest restoration",
+        "verification_source": "https://carbon-pulse.com/571307/",
+        "verification_date": "2026-11-15",
+        "id": "cop31::inv_bndes"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_bndes",
+        "label": "Development Loan",
+        "id": "instrument::development_loan"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_bndes",
+        "label": "Climate Fund Equity Anchor",
+        "id": "instrument::climate_fund_equity_anchor"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_bndes",
+        "label": "Blended Concessional Finance",
+        "id": "instrument::blended_concessional_finance"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_bndes",
+        "label": "Green Credit Line",
+        "id": "instrument::green_credit_line"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_bndes",
+        "label": "Nature-Based Solutions & Forestry",
+        "id": "sector::nature_based_solutions___forestry"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_bndes",
+        "label": "Industrial Decarbonization",
+        "id": "sector::industrial_decarbonization"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_bndes",
+        "label": "Renewable Energy",
+        "id": "sector::renewable_energy"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_bndes",
+        "label": "Sustainable Fuels",
+        "id": "sector::sustainable_fuels"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_bndes",
+        "label": "Bioeconomy",
+        "id": "sector::bioeconomy"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_bndes",
+        "label": "Brazil",
+        "id": "region::brazil"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_bndes",
+        "label": "Latin America",
+        "id": "region::latin_america"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_bndes",
+        "label": "Large Corporate",
+        "id": "applicant::large_corporate"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_bndes",
+        "label": "Project SPV",
+        "id": "applicant::project_spv"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_bndes",
+        "label": "Financial Intermediary",
+        "id": "applicant::financial_intermediary"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_bndes",
+        "label": "Fund Manager",
+        "id": "applicant::fund_manager"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_bndes",
+        "label": "Municipality",
+        "id": "applicant::municipality"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_bndes",
+        "label": "Brazilian operating entity / Climate Call alignment",
+        "id": "rule::brazilian_operating_entity___climate_call_alignm"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_bndes",
+        "label": "GCF / IBRD / CIF environmental & forest-protection safeguards",
+        "id": "rule::gcf___ibrd___cif_environmental___forest_protecti"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_bndes",
+        "label": "Verified carbon abatement or reforestation hectares",
+        "id": "rule::verified_carbon_abatement_or_reforestation_hecta"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_bndes",
+        "label": "Brazilian regulatory & environmental licensing",
+        "id": "rule::brazilian_regulatory___environmental_licensing"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_bndes",
+        "label": "Illegal deforestation",
+        "id": "exclusion::illegal_deforestation"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_bndes",
+        "label": "Coal power",
+        "id": "exclusion::coal_power"
+      },
+      {
+        "node_type": "FormTemplate",
+        "investor_id": "inv_bndes",
+        "title": "Development Finance Institution (DFI) / National Dev Bank Project Intake Form",
+        "governing_standard": "IFC Performance Standards / Harmonized DFI Climate Reporting (10by30 / IDFC)",
+        "id": "form::DFI_PROJECT_INTAKE"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_bndes",
+        "field_id": "sponsor_and_project",
+        "label": "Project Sponsor, Jurisdiction & Project Name",
+        "section": "1. Sponsor Profile",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::sponsor_and_project"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_bndes",
+        "field_id": "dfi_facility_alignment",
+        "label": "Target DFI Climate Facility / COP31 Program Alignment",
+        "section": "1. Sponsor Profile",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::dfi_facility_alignment"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_bndes",
+        "field_id": "financing_request",
+        "label": "Requested Instrument, Ticket Size (USD) & Tenor",
+        "section": "2. Transaction Structure",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::financing_request"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_bndes",
+        "field_id": "geography_and_sector_fit",
+        "label": "Mandate Fit: Target Geography & Priority Climate Sector",
+        "section": "2. Transaction Structure",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::geography_and_sector_fit"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_bndes",
+        "field_id": "avoided_emissions_and_dev_impact",
+        "label": "Avoided Emissions (tCO2e/yr) & Development Impact",
+        "section": "3. Climate & Impact",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::avoided_emissions_and_dev_impact"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_bndes",
+        "field_id": "ifc_ps_esg_compliance",
+        "label": "IFC Performance Standards / E&S Screening & Exclusion List Check",
+        "section": "3. Climate & Impact",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_bndes",
+        "field_id": "financial_profile",
+        "label": "Sponsor Financials & Project Economics (Revenue, EBITDA, Capex, IRR)",
+        "section": "4. Financial Due Diligence",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::financial_profile"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_bndes",
+        "field_id": "blended_finance_and_ta",
+        "label": "Blended Finance, De-Risking Guarantees & Technical Assistance Needs",
+        "section": "4. Financial Due Diligence",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::blended_finance_and_ta"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_bndes",
+        "field_id": "risks_and_mitigants",
+        "label": "Principal Transaction Risks & Mitigants",
+        "section": "5. Risk Assessment",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::risks_and_mitigants"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_bndes",
+        "field_id": "executive_intake_pitch",
+        "label": "DFI Investment Committee Intake Summary",
+        "section": "6. Executive Summary",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::executive_intake_pitch"
+      }
+    ],
+    "links": [
+      {
+        "relation": "ANNOUNCES_AT_COP31",
+        "source": "inv_bndes",
+        "target": "cop31::inv_bndes"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_bndes",
+        "target": "instrument::development_loan"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_bndes",
+        "target": "instrument::climate_fund_equity_anchor"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_bndes",
+        "target": "instrument::blended_concessional_finance"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_bndes",
+        "target": "instrument::green_credit_line"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_bndes",
+        "target": "sector::nature_based_solutions___forestry"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_bndes",
+        "target": "sector::industrial_decarbonization"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_bndes",
+        "target": "sector::renewable_energy"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_bndes",
+        "target": "sector::sustainable_fuels"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_bndes",
+        "target": "sector::bioeconomy"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_bndes",
+        "target": "region::brazil"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_bndes",
+        "target": "region::latin_america"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_bndes",
+        "target": "applicant::large_corporate"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_bndes",
+        "target": "applicant::project_spv"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_bndes",
+        "target": "applicant::financial_intermediary"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_bndes",
+        "target": "applicant::fund_manager"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_bndes",
+        "target": "applicant::municipality"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_bndes",
+        "target": "rule::brazilian_operating_entity___climate_call_alignm"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_bndes",
+        "target": "rule::gcf___ibrd___cif_environmental___forest_protecti"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_bndes",
+        "target": "rule::verified_carbon_abatement_or_reforestation_hecta"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_bndes",
+        "target": "rule::brazilian_regulatory___environmental_licensing"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_bndes",
+        "target": "exclusion::illegal_deforestation"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_bndes",
+        "target": "exclusion::coal_power"
+      },
+      {
+        "relation": "USES_FORM_TEMPLATE",
+        "source": "inv_bndes",
+        "target": "form::DFI_PROJECT_INTAKE"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::sponsor_and_project"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::dfi_facility_alignment"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::financing_request"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::geography_and_sector_fit"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::avoided_emissions_and_dev_impact"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::financial_profile"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::blended_finance_and_ta"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::risks_and_mitigants"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::executive_intake_pitch"
+      }
+    ]
+  }
+}

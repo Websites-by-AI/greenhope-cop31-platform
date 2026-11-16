@@ -1,0 +1,23 @@
+{
+  "investor_id": "inv_norfund",
+  "investor_name": "Norfund (Norwegian Investment Fund / Climate Investment Fund)",
+  "short_name": "Norfund",
+  "category": "Bilateral DFI",
+  "model_architecture": "HYBRID_KAG_RAG",
+  "ai_model_rationale": "KAG enforces Norfund's strict priority-country and avoided-fossil-power criteria while RAG crafts 10by30 shared-pipeline teasers.",
+  "form_template_type": "DFI_PROJECT_INTAKE",
+  "tenant_namespace": "tenant::inv_norfund",
+  "tenant_key_fingerprint": "97b111a7a4ee4628",
+  "created_at_utc": "2026-11-15T15:45:23.198092+00:00",
+  "source_record_sha256": "1ee645590866e10bb9fc5dcb8265a16166b767bbf7e6d519b8dcc1e8b77a0fea",
+  "has_kag_graph": true,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 40,
+  "kag_edges_count": 40,
+  "rag_chunks_count": 15,
+  "artifact_hashes": {
+    "form_schema.json": "dd7e12abcfa2295b4255e0ea3fc6160cd60ed973174334073abb44bcf32e1c35",
+    "knowledge_graph.json": "2ae452039403f3923440f9e90cfb0007b855ecf20d278624f72d19c037743258",
+    "rag_corpus.json": "cbcaed739bc1acd9dbe38803a30d11c0c99bf1595a6242137f7295da214f5ed7"
+  }
+}

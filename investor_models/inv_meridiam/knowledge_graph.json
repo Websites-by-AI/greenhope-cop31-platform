@@ -1,0 +1,463 @@
+{
+  "investor_id": "inv_meridiam",
+  "graph_format": "networkx-node-link-v1",
+  "node_count": 37,
+  "edge_count": 36,
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "node_type": "Investor",
+        "investor_id": "inv_meridiam",
+        "name": "Meridiam",
+        "short_name": "Meridiam",
+        "category": "Institutional / Catalytic / Climate PE",
+        "hq_country": "France",
+        "ticket_min_usd": 5000000,
+        "ticket_max_usd": 250000000,
+        "portal_url": "https://www.meridiam.com/",
+        "id": "inv_meridiam"
+      },
+      {
+        "node_type": "COP31_Commitment",
+        "investor_id": "inv_meridiam",
+        "role": "COP31 Business Forum Climate Finance & Investments Working Group member focusing on bankable resilient urban infrastructure",
+        "commitment": "Long-term sustainable infrastructure & urban climate resilience investment mandate (25-year impact fund model, active in Türkiye & global municipal PPPs)",
+        "verification_source": "https://www.copbusiness.org/papers/COP31_WG_climate-finance-investments.pdf",
+        "verification_date": "2026-11-15",
+        "id": "cop31::inv_meridiam"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_meridiam",
+        "label": "Infrastructure Equity",
+        "id": "instrument::infrastructure_equity"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_meridiam",
+        "label": "Municipal PPP Capital",
+        "id": "instrument::municipal_ppp_capital"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_meridiam",
+        "label": "Urban Resilience Fund",
+        "id": "instrument::urban_resilience_fund"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_meridiam",
+        "label": "Blended Project Preparation",
+        "id": "instrument::blended_project_preparation"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_meridiam",
+        "label": "Resilient Cities & Infrastructure",
+        "id": "sector::resilient_cities___infrastructure"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_meridiam",
+        "label": "Urban Mobility & Transport",
+        "id": "sector::urban_mobility___transport"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_meridiam",
+        "label": "Zero Waste & Circular Economy",
+        "id": "sector::zero_waste___circular_economy"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_meridiam",
+        "label": "Climate Adaptation & Resilience",
+        "id": "sector::climate_adaptation___resilience"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_meridiam",
+        "label": "Renewable Energy",
+        "id": "sector::renewable_energy"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_meridiam",
+        "label": "Global",
+        "id": "region::global"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_meridiam",
+        "label": "Europe",
+        "id": "region::europe"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_meridiam",
+        "label": "Türkiye",
+        "id": "region::türkiye"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_meridiam",
+        "label": "Africa",
+        "id": "region::africa"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_meridiam",
+        "label": "North America",
+        "id": "region::north_america"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_meridiam",
+        "label": "Emerging Markets",
+        "id": "region::emerging_markets"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_meridiam",
+        "label": "Municipality",
+        "id": "applicant::municipality"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_meridiam",
+        "label": "Project SPV",
+        "id": "applicant::project_spv"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_meridiam",
+        "label": "Climate-Tech Startup",
+        "id": "applicant::climate_tech_startup"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_meridiam",
+        "label": "Large Corporate",
+        "id": "applicant::large_corporate"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_meridiam",
+        "label": "Measurable UN SDG & urban climate resilience impact metrics (MRV verified)",
+        "id": "rule::measurable_un_sdg___urban_climate_resilience_imp"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_meridiam",
+        "label": "Public-private partnership (PPP) or municipal concession scalability",
+        "id": "rule::public_private_partnership__ppp__or_municipal_co"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_meridiam",
+        "label": "Long-term asset durability & Paris Alignment",
+        "id": "rule::long_term_asset_durability___paris_alignment"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_meridiam",
+        "label": "Strong environmental, social & community governance",
+        "id": "rule::strong_environmental__social___community_governa"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_meridiam",
+        "label": "Coal or fossil-fuel infrastructure",
+        "id": "exclusion::coal_or_fossil_fuel_infrastructure"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_meridiam",
+        "label": "Short-term speculative non-impact ventures",
+        "id": "exclusion::short_term_speculative_non_impact_ventures"
+      },
+      {
+        "node_type": "FormTemplate",
+        "investor_id": "inv_meridiam",
+        "title": "Climate Private Equity / Catalytic Capital / Venture Investment Intake Form",
+        "governing_standard": "GFANZ Catalytic Capital Repository / Impact Management Project (IMP) / IRIS+ Climate Metrics",
+        "id": "form::CATALYTIC_PE_VC_INTAKE"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_meridiam",
+        "field_id": "company_and_project",
+        "label": "Company / SPV Name, Sector & Geography",
+        "section": "1. Venture / Asset Overview",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::company_and_project"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_meridiam",
+        "field_id": "round_and_instrument",
+        "label": "Target Capital Raise, Ticket Size & Preferred Capital Layer",
+        "section": "1. Venture / Asset Overview",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::round_and_instrument"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_meridiam",
+        "field_id": "climate_thesis_fit",
+        "label": "Alignment with Investor Climate Thesis & COP31 Platform",
+        "section": "2. Investment Thesis",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::climate_thesis_fit"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_meridiam",
+        "field_id": "decarbonization_unit_economics",
+        "label": "Avoided Emissions Potential (tCO2e/yr) & Commercial Unit Economics",
+        "section": "2. Investment Thesis",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::decarbonization_unit_economics"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_meridiam",
+        "field_id": "technology_and_moat",
+        "label": "Technology Differentiation, Innovation & Market Readiness",
+        "section": "3. Product & Execution",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::technology_and_moat"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_meridiam",
+        "field_id": "capital_stack_and_cofinanciers",
+        "label": "Blended Capital Stack & Co-Investor Mobilization",
+        "section": "3. Product & Execution",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::capital_stack_and_cofinanciers"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_meridiam",
+        "field_id": "esg_impact_governance",
+        "label": "ESG Governance, Social Co-Benefits & Exclusion Compliance",
+        "section": "4. Impact & Risk",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::esg_impact_governance"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_meridiam",
+        "field_id": "risks_and_mitigants",
+        "label": "Key Scale-Up Risks & Mitigation Strategy",
+        "section": "4. Impact & Risk",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::risks_and_mitigants"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_meridiam",
+        "field_id": "ic_teaser_summary",
+        "label": "Investment Committee 1-Paragraph Executive Pitch",
+        "section": "5. Executive Pitch",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::ic_teaser_summary"
+      }
+    ],
+    "links": [
+      {
+        "relation": "ANNOUNCES_AT_COP31",
+        "source": "inv_meridiam",
+        "target": "cop31::inv_meridiam"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_meridiam",
+        "target": "instrument::infrastructure_equity"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_meridiam",
+        "target": "instrument::municipal_ppp_capital"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_meridiam",
+        "target": "instrument::urban_resilience_fund"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_meridiam",
+        "target": "instrument::blended_project_preparation"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_meridiam",
+        "target": "sector::resilient_cities___infrastructure"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_meridiam",
+        "target": "sector::urban_mobility___transport"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_meridiam",
+        "target": "sector::zero_waste___circular_economy"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_meridiam",
+        "target": "sector::climate_adaptation___resilience"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_meridiam",
+        "target": "sector::renewable_energy"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_meridiam",
+        "target": "region::global"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_meridiam",
+        "target": "region::europe"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_meridiam",
+        "target": "region::türkiye"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_meridiam",
+        "target": "region::africa"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_meridiam",
+        "target": "region::north_america"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_meridiam",
+        "target": "region::emerging_markets"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_meridiam",
+        "target": "applicant::municipality"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_meridiam",
+        "target": "applicant::project_spv"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_meridiam",
+        "target": "applicant::climate_tech_startup"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_meridiam",
+        "target": "applicant::large_corporate"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_meridiam",
+        "target": "rule::measurable_un_sdg___urban_climate_resilience_imp"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_meridiam",
+        "target": "rule::public_private_partnership__ppp__or_municipal_co"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_meridiam",
+        "target": "rule::long_term_asset_durability___paris_alignment"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_meridiam",
+        "target": "rule::strong_environmental__social___community_governa"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_meridiam",
+        "target": "exclusion::coal_or_fossil_fuel_infrastructure"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_meridiam",
+        "target": "exclusion::short_term_speculative_non_impact_ventures"
+      },
+      {
+        "relation": "USES_FORM_TEMPLATE",
+        "source": "inv_meridiam",
+        "target": "form::CATALYTIC_PE_VC_INTAKE"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::company_and_project"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::round_and_instrument"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::climate_thesis_fit"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::decarbonization_unit_economics"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::technology_and_moat"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::capital_stack_and_cofinanciers"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::esg_impact_governance"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::risks_and_mitigants"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::ic_teaser_summary"
+      }
+    ]
+  }
+}

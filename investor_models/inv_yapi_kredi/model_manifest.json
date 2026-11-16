@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_yapi_kredi",
+  "investor_name": "Yapı Kredi",
+  "short_name": "Yapı Kredi",
+  "category": "Turkish Commercial Bank",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "RAG retrieves exact eligibility and benefit bundles across Yapı Kredi's 6 COP31 transformation categories and eco foreign-trade tools.",
+  "form_template_type": "TURKISH_BANK_GREEN_LOAN",
+  "tenant_namespace": "tenant::inv_yapi_kredi",
+  "tenant_key_fingerprint": "74760c02504c2a19",
+  "created_at_utc": "2026-11-15T15:45:22.994902+00:00",
+  "source_record_sha256": "960fd5c69f5bb19716cc45f0d3851aae60dad45e4f93ad4c653c3c3af2e4929f",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 16,
+  "artifact_hashes": {
+    "form_schema.json": "8ebff74d5f8ba96b046eec6c92b8bc96efb6b310f9260bef1e447dcf327ee6b5",
+    "rag_corpus.json": "a0a8f1fb10754b16d394cab2456cb798061fe7a783c863d221ab72fc3006751d"
+  }
+}

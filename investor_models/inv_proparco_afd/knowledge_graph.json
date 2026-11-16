@@ -1,0 +1,527 @@
+{
+  "investor_id": "inv_proparco_afd",
+  "graph_format": "networkx-node-link-v1",
+  "node_count": 42,
+  "edge_count": 42,
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "node_type": "Investor",
+        "investor_id": "inv_proparco_afd",
+        "name": "AFD Group / Proparco (France)",
+        "short_name": "Proparco / AFD",
+        "category": "Bilateral DFI",
+        "hq_country": "France",
+        "ticket_min_usd": 3000000,
+        "ticket_max_usd": 120000000,
+        "portal_url": "https://www.proparco.fr/en/how-submit-project",
+        "id": "inv_proparco_afd"
+      },
+      {
+        "node_type": "COP31_Commitment",
+        "investor_id": "inv_proparco_afd",
+        "role": "Signed €75M sustainable energy financing deal with QNB Leasing at COP31 Antalya (solar & wind power)",
+        "commitment": "€75M COP31 QNB Leasing renewable energy deal (>€250M total 2026 renewable leasing mobilization with QNB Leasing)",
+        "verification_source": "https://www.asigazetesi.com/iklim-zirvesi-cop31-antalya-qnb-leasing-ile-proparcodan-75-milyon-avroluk-surdurulebilir-enerji-anlasmasi",
+        "verification_date": "2026-11-15",
+        "id": "cop31::inv_proparco_afd"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_proparco_afd",
+        "label": "Senior Debt",
+        "id": "instrument::senior_debt"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_proparco_afd",
+        "label": "Subordinated Debt",
+        "id": "instrument::subordinated_debt"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_proparco_afd",
+        "label": "Equity",
+        "id": "instrument::equity"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_proparco_afd",
+        "label": "Green Credit/Leasing Line",
+        "id": "instrument::green_credit_leasing_line"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_proparco_afd",
+        "label": "Guarantee (Choose Africa / EFSD+)",
+        "id": "instrument::guarantee__choose_africa___efsd"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_proparco_afd",
+        "label": "Technical Assistance",
+        "id": "instrument::technical_assistance"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_proparco_afd",
+        "label": "Renewable Energy",
+        "id": "sector::renewable_energy"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_proparco_afd",
+        "label": "Energy Efficiency",
+        "id": "sector::energy_efficiency"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_proparco_afd",
+        "label": "Climate-Smart Agriculture",
+        "id": "sector::climate_smart_agriculture"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_proparco_afd",
+        "label": "Sustainable Cities",
+        "id": "sector::sustainable_cities"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_proparco_afd",
+        "label": "SME Green Transition",
+        "id": "sector::sme_green_transition"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_proparco_afd",
+        "label": "Energy Storage",
+        "id": "sector::energy_storage"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_proparco_afd",
+        "label": "Emerging Markets",
+        "id": "region::emerging_markets"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_proparco_afd",
+        "label": "Developing Countries",
+        "id": "region::developing_countries"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_proparco_afd",
+        "label": "Türkiye",
+        "id": "region::türkiye"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_proparco_afd",
+        "label": "Africa",
+        "id": "region::africa"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_proparco_afd",
+        "label": "MENA",
+        "id": "region::mena"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_proparco_afd",
+        "label": "Asia",
+        "id": "region::asia"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_proparco_afd",
+        "label": "Latin America",
+        "id": "region::latin_america"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_proparco_afd",
+        "label": "Large Corporate",
+        "id": "applicant::large_corporate"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_proparco_afd",
+        "label": "Project SPV",
+        "id": "applicant::project_spv"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_proparco_afd",
+        "label": "Financial Intermediary",
+        "id": "applicant::financial_intermediary"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_proparco_afd",
+        "label": "Growth-Stage Private Enterprise",
+        "id": "applicant::growth_stage_private_enterprise"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_proparco_afd",
+        "label": "SME",
+        "id": "applicant::sme"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_proparco_afd",
+        "label": "IFC Performance Standards & Proparco E&S Action Plan",
+        "id": "rule::ifc_performance_standards___proparco_e_s_action_"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_proparco_afd",
+        "label": "100% Paris-Aligned AFD Group screening",
+        "id": "rule::100__paris_aligned_afd_group_screening"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_proparco_afd",
+        "label": "Demonstrated development impact & additionality",
+        "id": "rule::demonstrated_development_impact___additionality"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_proparco_afd",
+        "label": "Audited financial statements (3 years) or bankable SPV model",
+        "id": "rule::audited_financial_statements__3_years__or_bankab"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_proparco_afd",
+        "label": "Coal, upstream oil & gas, heavy fuel oil power",
+        "id": "exclusion::coal__upstream_oil___gas__heavy_fuel_oil_power"
+      },
+      {
+        "node_type": "FormTemplate",
+        "investor_id": "inv_proparco_afd",
+        "title": "Development Finance Institution (DFI) / National Dev Bank Project Intake Form",
+        "governing_standard": "IFC Performance Standards / Harmonized DFI Climate Reporting (10by30 / IDFC)",
+        "id": "form::DFI_PROJECT_INTAKE"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_proparco_afd",
+        "field_id": "sponsor_and_project",
+        "label": "Project Sponsor, Jurisdiction & Project Name",
+        "section": "1. Sponsor Profile",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::sponsor_and_project"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_proparco_afd",
+        "field_id": "dfi_facility_alignment",
+        "label": "Target DFI Climate Facility / COP31 Program Alignment",
+        "section": "1. Sponsor Profile",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::dfi_facility_alignment"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_proparco_afd",
+        "field_id": "financing_request",
+        "label": "Requested Instrument, Ticket Size (USD) & Tenor",
+        "section": "2. Transaction Structure",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::financing_request"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_proparco_afd",
+        "field_id": "geography_and_sector_fit",
+        "label": "Mandate Fit: Target Geography & Priority Climate Sector",
+        "section": "2. Transaction Structure",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::geography_and_sector_fit"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_proparco_afd",
+        "field_id": "avoided_emissions_and_dev_impact",
+        "label": "Avoided Emissions (tCO2e/yr) & Development Impact",
+        "section": "3. Climate & Impact",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::avoided_emissions_and_dev_impact"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_proparco_afd",
+        "field_id": "ifc_ps_esg_compliance",
+        "label": "IFC Performance Standards / E&S Screening & Exclusion List Check",
+        "section": "3. Climate & Impact",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_proparco_afd",
+        "field_id": "financial_profile",
+        "label": "Sponsor Financials & Project Economics (Revenue, EBITDA, Capex, IRR)",
+        "section": "4. Financial Due Diligence",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::financial_profile"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_proparco_afd",
+        "field_id": "blended_finance_and_ta",
+        "label": "Blended Finance, De-Risking Guarantees & Technical Assistance Needs",
+        "section": "4. Financial Due Diligence",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::blended_finance_and_ta"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_proparco_afd",
+        "field_id": "risks_and_mitigants",
+        "label": "Principal Transaction Risks & Mitigants",
+        "section": "5. Risk Assessment",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::risks_and_mitigants"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_proparco_afd",
+        "field_id": "executive_intake_pitch",
+        "label": "DFI Investment Committee Intake Summary",
+        "section": "6. Executive Summary",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::executive_intake_pitch"
+      }
+    ],
+    "links": [
+      {
+        "relation": "ANNOUNCES_AT_COP31",
+        "source": "inv_proparco_afd",
+        "target": "cop31::inv_proparco_afd"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_proparco_afd",
+        "target": "instrument::senior_debt"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_proparco_afd",
+        "target": "instrument::subordinated_debt"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_proparco_afd",
+        "target": "instrument::equity"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_proparco_afd",
+        "target": "instrument::green_credit_leasing_line"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_proparco_afd",
+        "target": "instrument::guarantee__choose_africa___efsd"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_proparco_afd",
+        "target": "instrument::technical_assistance"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_proparco_afd",
+        "target": "sector::renewable_energy"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_proparco_afd",
+        "target": "sector::energy_efficiency"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_proparco_afd",
+        "target": "sector::climate_smart_agriculture"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_proparco_afd",
+        "target": "sector::sustainable_cities"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_proparco_afd",
+        "target": "sector::sme_green_transition"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_proparco_afd",
+        "target": "sector::energy_storage"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_proparco_afd",
+        "target": "region::emerging_markets"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_proparco_afd",
+        "target": "region::developing_countries"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_proparco_afd",
+        "target": "region::türkiye"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_proparco_afd",
+        "target": "region::africa"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_proparco_afd",
+        "target": "region::mena"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_proparco_afd",
+        "target": "region::asia"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_proparco_afd",
+        "target": "region::latin_america"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_proparco_afd",
+        "target": "applicant::large_corporate"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_proparco_afd",
+        "target": "applicant::project_spv"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_proparco_afd",
+        "target": "applicant::financial_intermediary"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_proparco_afd",
+        "target": "applicant::growth_stage_private_enterprise"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_proparco_afd",
+        "target": "applicant::sme"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_proparco_afd",
+        "target": "rule::ifc_performance_standards___proparco_e_s_action_"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_proparco_afd",
+        "target": "rule::100__paris_aligned_afd_group_screening"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_proparco_afd",
+        "target": "rule::demonstrated_development_impact___additionality"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_proparco_afd",
+        "target": "rule::audited_financial_statements__3_years__or_bankab"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_proparco_afd",
+        "target": "exclusion::coal__upstream_oil___gas__heavy_fuel_oil_power"
+      },
+      {
+        "relation": "USES_FORM_TEMPLATE",
+        "source": "inv_proparco_afd",
+        "target": "form::DFI_PROJECT_INTAKE"
+      },
+      {
+        "relation": "VALIDATES_FIELD",
+        "source": "rule::ifc_performance_standards___proparco_e_s_action_",
+        "target": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::sponsor_and_project"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::dfi_facility_alignment"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::financing_request"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::geography_and_sector_fit"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::avoided_emissions_and_dev_impact"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::financial_profile"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::blended_finance_and_ta"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::risks_and_mitigants"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::executive_intake_pitch"
+      }
+    ]
+  }
+}

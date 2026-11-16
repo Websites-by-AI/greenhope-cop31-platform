@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_sap",
+  "investor_name": "SAP",
+  "short_name": "SAP",
+  "category": "Strategic Corporate / COP31 Supporter",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "RAG frames GreenHope MRV integration opportunities for SAP sustainability ecosystems.",
+  "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+  "tenant_namespace": "tenant::inv_sap",
+  "tenant_key_fingerprint": "8df168e424ab74af",
+  "created_at_utc": "2026-11-15T15:45:23.251956+00:00",
+  "source_record_sha256": "80131cd9b35d0ffb12d469ee2f160992c15bc7f457b0f67568e5d3f6c518b879",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 14,
+  "artifact_hashes": {
+    "form_schema.json": "613e8f22c987b67f8c378c89a52c23b11c667f214c03a7c1984bcc91574a8ece",
+    "rag_corpus.json": "b00dc2a39684d776d57e1eda5fc5d0d8281c8857bd632d43b53aeb52c29cb55c"
+  }
+}

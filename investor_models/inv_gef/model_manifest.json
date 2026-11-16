@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_gef",
+  "investor_name": "Global Environment Facility (GEF — incl. LDCF & SCCF)",
+  "short_name": "GEF",
+  "category": "Multilateral Climate Fund",
+  "model_architecture": "KAG",
+  "ai_model_rationale": "Complex GEF Agency routing, OFP endorsement rules, and LDCF vs. SCCF vs. NGI window logic require deterministic KAG graph checks.",
+  "form_template_type": "CLIMATE_FUND_PROPOSAL",
+  "tenant_namespace": "tenant::inv_gef",
+  "tenant_key_fingerprint": "7ae9b18f27bdabc5",
+  "created_at_utc": "2026-11-15T15:45:23.129270+00:00",
+  "source_record_sha256": "7bfbcb59be699efcaa1e7446975261d9a046ba31c91404cb6e046df37261802c",
+  "has_kag_graph": true,
+  "has_rag_corpus": false,
+  "kag_nodes_count": 43,
+  "kag_edges_count": 44,
+  "rag_chunks_count": 0,
+  "artifact_hashes": {
+    "form_schema.json": "8fcf46d9e41e647a592743375dfb970bde442f5d4f35a9b0d6dd957842d23801",
+    "knowledge_graph.json": "d808aae6042beacb78b9afabcccd69af2b982e1c621cadb82d823a8c140f7807"
+  }
+}

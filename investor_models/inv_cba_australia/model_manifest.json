@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_cba_australia",
+  "investor_name": "Commonwealth Bank of Australia (CommBank)",
+  "short_name": "CommBank (CBA)",
+  "category": "Global Commercial Bank",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "RAG aligns clean-tech and transition proposals with CommBank's Sustainability Funding Target criteria.",
+  "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+  "tenant_namespace": "tenant::inv_cba_australia",
+  "tenant_key_fingerprint": "e7be6af4b3674334",
+  "created_at_utc": "2026-11-15T15:45:22.972971+00:00",
+  "source_record_sha256": "59346f1a5285cc4e540df4dc743f6dd8b1ff383033a0fdbee36c67fe1ab8d800",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 13,
+  "artifact_hashes": {
+    "form_schema.json": "0c3fa432e49ab855da7b64111dba6c21992030ffdc740acfcf9b32543493c6c8",
+    "rag_corpus.json": "e41507a3c05588cbf780693432718ca8d259e835769d0900dea5ca3abbda4736"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_emirates_nbd",
+  "investor_name": "Emirates NBD",
+  "short_name": "Emirates NBD",
+  "category": "Global Commercial Bank",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "RAG grounds MENA/Türkiye green loan and green sukuk structures in Emirates NBD's Sustainable Finance Framework.",
+  "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+  "tenant_namespace": "tenant::inv_emirates_nbd",
+  "tenant_key_fingerprint": "d3b7bc9a68e63399",
+  "created_at_utc": "2026-11-15T15:45:22.977070+00:00",
+  "source_record_sha256": "6bb2dddbb894c08190a17b4ef2d4c0e09bb9cc3d4c8b7f31dcacb6684e15fc9a",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 13,
+  "artifact_hashes": {
+    "form_schema.json": "d811136a7de94adc5b82f16f87f468a9c1777fe5ad3b44fcf0071fa197df6052",
+    "rag_corpus.json": "5ffb42c2d6af1ed2dbc7b955e567fe10919eb6961b625e4a594f1a3c4dc1de13"
+  }
+}

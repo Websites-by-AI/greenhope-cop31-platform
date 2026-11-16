@@ -1,0 +1,465 @@
+{
+  "investor_id": "inv_frld",
+  "graph_format": "networkx-node-link-v1",
+  "node_count": 36,
+  "edge_count": 36,
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "node_type": "Investor",
+        "investor_id": "inv_frld",
+        "name": "Fund for Responding to Loss and Damage (FRLD)",
+        "short_name": "Loss & Damage Fund",
+        "category": "Multilateral Climate Fund",
+        "hq_country": "Philippines (Host) / UNFCCC",
+        "ticket_min_usd": 1000000,
+        "ticket_max_usd": 50000000,
+        "portal_url": "https://www.frld.org/",
+        "id": "inv_frld"
+      },
+      {
+        "node_type": "COP31_Commitment",
+        "investor_id": "inv_frld",
+        "role": "Co-host of Climate Funds Pavilion; marked first operational delivery allocation ($21.6M for Nepal) highlighted at COP31",
+        "commitment": "First provisional recovery allocation ($21.6M for Nepal post-flood recovery) signaling operational rollout of Loss & Damage grants at COP31",
+        "verification_source": "https://indiasworld.in/cop31-in-antalya-key-issues-and-challenges/",
+        "verification_date": "2026-11-15",
+        "id": "cop31::inv_frld"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_frld",
+        "label": "Rapid-Response Recovery Grant",
+        "id": "instrument::rapid_response_recovery_grant"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_frld",
+        "label": "Non-Debt Concessional Recovery Support",
+        "id": "instrument::non_debt_concessional_recovery_support"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_frld",
+        "label": "Budget Support",
+        "id": "instrument::budget_support"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_frld",
+        "label": "Climate Disaster Recovery",
+        "id": "sector::climate_disaster_recovery"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_frld",
+        "label": "Climate Adaptation & Resilience",
+        "id": "sector::climate_adaptation___resilience"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_frld",
+        "label": "Resilient Reconstruction",
+        "id": "sector::resilient_reconstruction"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_frld",
+        "label": "Early Recovery Infrastructure",
+        "id": "sector::early_recovery_infrastructure"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_frld",
+        "label": "Developing Countries",
+        "id": "region::developing_countries"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_frld",
+        "label": "Vulnerable Countries",
+        "id": "region::vulnerable_countries"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_frld",
+        "label": "LDCs",
+        "id": "region::ldcs"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_frld",
+        "label": "SIDS",
+        "id": "region::sids"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_frld",
+        "label": "Asia",
+        "id": "region::asia"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_frld",
+        "label": "Africa",
+        "id": "region::africa"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_frld",
+        "label": "Latin America",
+        "id": "region::latin_america"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_frld",
+        "label": "Sovereign/Government",
+        "id": "applicant::sovereign_government"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_frld",
+        "label": "Accredited Entity/NGO",
+        "id": "applicant::accredited_entity_ngo"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_frld",
+        "label": "Particularly vulnerable developing country sovereign request",
+        "id": "rule::particularly_vulnerable_developing_country_sover"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_frld",
+        "label": "Verified climate-induced extreme weather or slow-onset loss & damage assessment",
+        "id": "rule::verified_climate_induced_extreme_weather_or_slow"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_frld",
+        "label": "National Focal Point / Ministry of Finance endorsement",
+        "id": "rule::national_focal_point___ministry_of_finance_endor"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_frld",
+        "label": "Fiduciary transparency & rapid disbursement safeguards",
+        "id": "rule::fiduciary_transparency___rapid_disbursement_safe"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_frld",
+        "label": "Commercial private-sector profit ventures",
+        "id": "exclusion::commercial_private_sector_profit_ventures"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_frld",
+        "label": "Non-climate-disaster projects",
+        "id": "exclusion::non_climate_disaster_projects"
+      },
+      {
+        "node_type": "FormTemplate",
+        "investor_id": "inv_frld",
+        "title": "UNFCCC / Multilateral Climate Fund Concept Note & Funding Proposal",
+        "governing_standard": "GCF Investment Framework / GEF-9 / CIF AMPLIFi / Adaptation Fund Direct Access Standards",
+        "id": "form::CLIMATE_FUND_PROPOSAL"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_frld",
+        "field_id": "project_title",
+        "label": "Proposal Title & Implementing Organization",
+        "section": "1. Proposal Overview",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::project_title"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_frld",
+        "field_id": "accredited_entity_pathway",
+        "label": "Accredited Entity (AE) / Direct Access Entity (DAE) Channel",
+        "section": "1. Proposal Overview",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::accredited_entity_pathway"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_frld",
+        "field_id": "nda_no_objection_status",
+        "label": "National Designated Authority (NDA) / Operational Focal Point No-Objection",
+        "section": "2. Country Ownership",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::nda_no_objection_status"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_frld",
+        "field_id": "funding_window_and_instrument",
+        "label": "Target Climate Fund Window & Concessional Instrument",
+        "section": "3. Financial Structuring",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::funding_window_and_instrument"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_frld",
+        "field_id": "cofinancing_leverage",
+        "label": "Co-Financing Ratio & Catalytic Mobilization Plan",
+        "section": "3. Financial Structuring",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::cofinancing_leverage"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_frld",
+        "field_id": "paradigm_shift_potential",
+        "label": "Paradigm Shift & Systemic Scalability Potential",
+        "section": "4. Investment Criteria",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::paradigm_shift_potential"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_frld",
+        "field_id": "climate_rationale_additionality",
+        "label": "Climate Rationale & Financial Additionality",
+        "section": "4. Investment Criteria",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::climate_rationale_additionality"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_frld",
+        "field_id": "mitigation_adaptation_metrics",
+        "label": "Expected Mitigation (tCO2e) &/or Adaptation Beneficiaries",
+        "section": "4. Investment Criteria",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::mitigation_adaptation_metrics"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_frld",
+        "field_id": "gender_and_social_inclusion",
+        "label": "Gender Action Plan & Environmental/Social Safeguards",
+        "section": "5. Safeguards & Inclusion",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::gender_and_social_inclusion"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_frld",
+        "field_id": "monitoring_and_exit_strategy",
+        "label": "MRV Monitoring Framework & Post-Funding Sustainability",
+        "section": "6. Governance & Sustainability",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::monitoring_and_exit_strategy"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_frld",
+        "field_id": "executive_proposal_abstract",
+        "label": "Funding Proposal Executive Summary",
+        "section": "7. Executive Summary",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::executive_proposal_abstract"
+      }
+    ],
+    "links": [
+      {
+        "relation": "ANNOUNCES_AT_COP31",
+        "source": "inv_frld",
+        "target": "cop31::inv_frld"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_frld",
+        "target": "instrument::rapid_response_recovery_grant"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_frld",
+        "target": "instrument::non_debt_concessional_recovery_support"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_frld",
+        "target": "instrument::budget_support"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_frld",
+        "target": "sector::climate_disaster_recovery"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_frld",
+        "target": "sector::climate_adaptation___resilience"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_frld",
+        "target": "sector::resilient_reconstruction"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_frld",
+        "target": "sector::early_recovery_infrastructure"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_frld",
+        "target": "region::developing_countries"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_frld",
+        "target": "region::vulnerable_countries"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_frld",
+        "target": "region::ldcs"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_frld",
+        "target": "region::sids"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_frld",
+        "target": "region::asia"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_frld",
+        "target": "region::africa"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_frld",
+        "target": "region::latin_america"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_frld",
+        "target": "applicant::sovereign_government"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_frld",
+        "target": "applicant::accredited_entity_ngo"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_frld",
+        "target": "rule::particularly_vulnerable_developing_country_sover"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_frld",
+        "target": "rule::verified_climate_induced_extreme_weather_or_slow"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_frld",
+        "target": "rule::national_focal_point___ministry_of_finance_endor"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_frld",
+        "target": "rule::fiduciary_transparency___rapid_disbursement_safe"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_frld",
+        "target": "exclusion::commercial_private_sector_profit_ventures"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_frld",
+        "target": "exclusion::non_climate_disaster_projects"
+      },
+      {
+        "relation": "USES_FORM_TEMPLATE",
+        "source": "inv_frld",
+        "target": "form::CLIMATE_FUND_PROPOSAL"
+      },
+      {
+        "relation": "VALIDATES_FIELD",
+        "source": "rule::fiduciary_transparency___rapid_disbursement_safe",
+        "target": "field::gender_and_social_inclusion"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CLIMATE_FUND_PROPOSAL",
+        "target": "field::project_title"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CLIMATE_FUND_PROPOSAL",
+        "target": "field::accredited_entity_pathway"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CLIMATE_FUND_PROPOSAL",
+        "target": "field::nda_no_objection_status"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CLIMATE_FUND_PROPOSAL",
+        "target": "field::funding_window_and_instrument"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CLIMATE_FUND_PROPOSAL",
+        "target": "field::cofinancing_leverage"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CLIMATE_FUND_PROPOSAL",
+        "target": "field::paradigm_shift_potential"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CLIMATE_FUND_PROPOSAL",
+        "target": "field::climate_rationale_additionality"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CLIMATE_FUND_PROPOSAL",
+        "target": "field::mitigation_adaptation_metrics"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CLIMATE_FUND_PROPOSAL",
+        "target": "field::gender_and_social_inclusion"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CLIMATE_FUND_PROPOSAL",
+        "target": "field::monitoring_and_exit_strategy"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CLIMATE_FUND_PROPOSAL",
+        "target": "field::executive_proposal_abstract"
+      }
+    ]
+  }
+}

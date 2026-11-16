@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GreenHope × COP31 Antalya — Investor Intelligence & KAG/RAG Platform</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <!-- ================= LOGIN OVERLAY ================= -->
+  <section id="login-view" class="login-shell">
+    <div class="login-bg-glow"></div>
+    <div class="login-card">
+      <div class="login-brand">
+        <div class="brand-badge">GH</div>
+        <div>
+          <span class="pill pill-emerald">UNFCCC COP31 ANTALYA · NOV 9–20, 2026</span>
+          <h1>GreenHope Investor Intelligence</h1>
+          <p class="muted">Verified 66-Entity COP31 Database · Central KAG + Scoped RAG · 4-Tier IP Vault</p>
+        </div>
+      </div>
+
+      <div class="demo-hero-box">
+        <div class="demo-hero-copy">
+          <strong>Instant Demo Access</strong>
+          <span>Enter immediately with pre-verified AES-256-GCM vault, 10 P1 Knowledge Packs &amp; GreenHope Application Agent.</span>
+        </div>
+        <button id="btn-demo-login" class="btn btn-primary btn-lg" type="button">
+          ⚡ One-Click Demo Login
+        </button>
+        <div class="role-quick-row">
+          <span class="role-label">Or enter as RBAC role:</span>
+          <button class="chip-btn" data-demo-role="ADMIN" type="button">Founder / Admin</button>
+          <button class="chip-btn" data-demo-role="SECURITY_OFFICER" type="button">Security Officer</button>
+          <button class="chip-btn" data-demo-role="MODEL_ENGINEER" type="button">KAG/RAG Engineer</button>
+          <button class="chip-btn" data-demo-role="FORM_OPERATOR" type="button">Form Operator</button>
+        </div>
+      </div>
+
+      <div class="divider"><span>OR SIGN IN WITH CREDENTIALS</span></div>
+
+      <form id="login-form" class="login-form">
+        <div class="field-row">
+          <label for="login-username">Username</label>
+          <input id="login-username" type="text" value="demo" placeholder="demo or founder" autocomplete="username" />
+        </div>
+        <div class="field-row">
+          <label for="login-password">Password</label>
+          <input id="login-password" type="password" value="cop31demo" placeholder="cop31demo" autocomplete="current-password" />
+        </div>
+        <div id="login-error" class="alert alert-danger hidden"></div>
+        <button class="btn btn-secondary btn-full" type="submit">Sign In with Password</button>
+      </form>
+
+      <div class="login-downloads">
+        <span>Need the full offline codebase, Excel workbook, Knowledge Packs &amp; Vault?</span>
+        <div class="download-row">
+          <a id="login-zip-link" class="btn btn-zip" href="/api/download/project.zip" download>
+            📦 Download Full Project (.zip)
+          </a>
+          <a class="btn btn-outline" href="/api/download/excel" download>
+            📊 Excel Registry (.xlsx)
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MAIN PLATFORM ================= -->
+  <div id="app-view" class="app-shell hidden">
+    <header class="topbar">
+      <div class="topbar-left">
+        <div class="brand-badge sm">GH</div>
+        <div>
+          <div class="topbar-title">GreenHope × COP31 Antalya Intelligence</div>
+          <div class="topbar-sub">Central KAG + Scoped RAG · AES-256-GCM Vault · 4-Tier IP Protection</div>
+        </div>
+      </div>
+
+      <div class="topbar-actions">
+        <a id="header-zip-link" class="btn btn-zip btn-sm" href="/api/download/project.zip" download>
+          📦 Download Project ZIP <span id="zip-size-badge" class="size-pill"></span>
+        </a>
+        <a class="btn btn-outline btn-sm" href="/api/download/excel" download>
+          📊 Excel (.xlsx)
+        </a>
+        <div class="user-pill">
+          <span id="user-name-label">Demo User</span>
+          <span id="user-role-badge" class="pill pill-blue">ADMIN</span>
+        </div>
+        <button id="btn-logout" class="btn btn-ghost btn-sm" type="button">Log Out</button>
+      </div>
+    </header>
+
+    <nav class="tabbar" role="tablist">
+      <button class="tab-btn active" data-tab="overview" type="button">1. COP31 Command Center</button>
+      <button class="tab-btn" data-tab="investors" type="button">2. 66-Entity Database</button>
+      <button class="tab-btn" data-tab="packs" type="button">3. 10 P1 Knowledge Packs</button>
+      <button class="tab-btn" data-tab="kagrag" type="button">4. Central KAG + Scoped RAG</button>
+      <button class="tab-btn" data-tab="agent" type="button">5. Application Agent</button>
+      <button class="tab-btn" data-tab="crm" type="button">6. Investor CRM Pipeline</button>
+      <button class="tab-btn" data-tab="master" type="button">7. GREENHOPE_MASTER</button>
+      <button class="tab-btn" data-tab="security" type="button">8. Security Vault &amp; Backup</button>
+    </nav>
+
+    <main class="main-content">
+      <!-- TAB 1: OVERVIEW -->
+      <section id="tab-overview" class="tab-panel active">
+        <div id="alerts-grid" class="alerts-grid"></div>
+        <div id="kpi-grid" class="kpi-grid"></div>
+
+        <div class="section-header">
+          <div>
+            <h2>Top 3 Immediate COP31 Antalya Attack Targets</h2>
+            <p class="muted">Prioritized on verified Nov 2026 Antalya commitments, innovation-to-investment fit, and city-pilot financing pathways.</p>
+          </div>
+          <a class="btn btn-zip btn-sm" href="/api/download/project.zip" download>📦 Download Complete Project Archive (.zip)</a>
+        </div>
+        <div id="top3-grid" class="cards-3"></div>
+
+        <div class="split-2">
+          <div class="panel">
+            <div class="panel-head">
+              <h3>Tier A / B / C Attack Sequence</h3>
+              <span class="pill pill-amber">Strategic Prioritization</span>
+            </div>
+            <div id="tiers-container"></div>
+          </div>
+          <div class="panel">
+            <div class="panel-head">
+              <h3>COP31 Investor &amp; Ecosystem Tree</h3>
+              <span class="pill pill-emerald">Supporters Separated from Investors</span>
+            </div>
+            <div id="ecosystem-tree-container"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 2: 66-ENTITY DATABASE -->
+      <section id="tab-investors" class="tab-panel">
+        <div class="panel">
+          <div class="filter-bar">
+            <input id="inv-search" type="search" placeholder="Search 66 entities (BBVA, AIIB, Meridiam, Siemens, GGGI, solar, adaptation...)" />
+            <select id="filter-status">
+              <option value="">All Relationship Statuses</option>
+              <option value="Investor Confirmed">Investor Confirmed</option>
+              <option value="Finance Participant">Finance Participant</option>
+              <option value="Potential Strategic Partner">Potential Strategic Partner</option>
+              <option value="COP31 Supporter">COP31 Supporter (Non-Investor)</option>
+            </select>
+            <select id="filter-tier">
+              <option value="">All Tiers</option>
+              <option value="Tier A — Approach Immediately">Tier A — Approach Immediately</option>
+              <option value="Tier B — Core Follow-Up">Tier B — Core Follow-Up</option>
+              <option value="Tier C — Ecosystem / Strategic">Tier C — Ecosystem / Strategic</option>
+            </select>
+            <select id="filter-priority">
+              <option value="">All AI Priorities</option>
+              <option value="P1">P1 (Immediate Packs)</option>
+              <option value="P2">P2 (Core Follow-Up)</option>
+              <option value="P3">P3 (Ecosystem)</option>
+            </select>
+            <label class="checkbox-inline">
+              <input id="filter-pack-only" type="checkbox" /> 10 P1 Packs Only
+            </label>
+          </div>
+          <div class="table-meta">
+            <span id="inv-count-label" class="muted">Showing 66 entities</span>
+            <div class="inline-actions">
+              <a class="btn btn-outline btn-xs" href="/api/download/excel" download>Download Excel</a>
+              <a class="btn btn-outline btn-xs" href="/api/download/csv" download>Download CSV</a>
+              <a class="btn btn-outline btn-xs" href="/api/download/json" download>Download JSON</a>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Institution</th>
+                  <th>Relationship Status</th>
+                  <th>Tier / Priority</th>
+                  <th>Fit Score</th>
+                  <th>Branch &amp; Instruments</th>
+                  <th>COP31 Antalya Evidence &amp; GreenHope Fit</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody id="investors-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 3: 10 P1 KNOWLEDGE PACKS -->
+      <section id="tab-packs" class="tab-panel">
+        <div class="packs-layout">
+          <aside class="panel packs-sidebar">
+            <div class="panel-head">
+              <h3>10 P1 Knowledge Packs</h3>
+              <span class="pill pill-emerald">13 Files Each</span>
+            </div>
+            <p class="muted small">Standard folder structure: <code>investors/&lt;slug&gt;/identity.md, climate_strategy.md, ..., application_questions.json &amp; evidence/verified_claims.json</code></p>
+            <div id="packs-list" class="packs-list"></div>
+          </aside>
+          <div class="panel packs-viewer">
+            <div id="pack-header" class="pack-viewer-head"></div>
+            <div id="pack-file-tabs" class="file-tabs"></div>
+            <div id="pack-file-content" class="pack-content"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 4: CENTRAL KAG + SCOPED RAG + COMPARATOR -->
+      <section id="tab-kagrag" class="tab-panel">
+        <div class="panel">
+          <div class="panel-head">
+            <div>
+              <h3>Central Knowledge Graph (GreenHope 7 Domains ↔ Top 10 COP31 Investors)</h3>
+              <p class="muted small">One canonical Knowledge Graph — NOT 25 fragmented models. Click any investor node to highlight its verified GreenHope domain paths.</p>
+            </div>
+            <span class="pill pill-blue">Central KAG Layer</span>
+          </div>
+          <div id="kg-svg-wrap" class="kg-wrap"></div>
+          <div id="kg-selected-info" class="kg-info-bar">Click any investor node above to inspect its exact Knowledge Graph paths.</div>
+        </div>
+
+        <div class="split-2">
+          <div class="panel">
+            <div class="panel-head">
+              <h3>Central Scoped RAG Retrieval Console</h3>
+              <span class="pill pill-emerald">Per-Investor Scope Filter</span>
+            </div>
+            <div class="stack-form">
+              <div class="field-row">
+                <label for="rag-scope">Retrieval Scope (Canonical Engine + Per-Investor Isolation)</label>
+                <select id="rag-scope"></select>
+              </div>
+              <div class="field-row">
+                <label for="rag-query">Ask Evidence-Grounded Question</label>
+                <input id="rag-query" type="text" value="How can GreenHope pitch a city climate resilience pilot and MRV pipeline at COP31?" />
+              </div>
+              <div class="preset-row">
+                <button class="chip-btn rag-preset" data-scope="inv_bbva_group" data-q="BBVA Climate Finance Hub innovation to investment cleantech deployment GreenHope" type="button">BBVA Innovation Hub</button>
+                <button class="chip-btn rag-preset" data-scope="inv_aiib" data-q="AIIB GGGI November 16 project preparation investment ready Turkiye climate" type="button">AIIB Nov 16 + GGGI</button>
+                <button class="chip-btn rag-preset" data-scope="inv_world_bank_ibrd" data-q="World Bank IFC guarantees private capital mobilization urban resilience" type="button">World Bank / IFC</button>
+                <button class="chip-btn rag-preset" data-scope="" data-q="COP31 Startup Zone Investor Lounge 3600 m2 green zone" type="button">Global Scope: Startup Zone</button>
+              </div>
+              <button id="btn-run-rag" class="btn btn-primary" type="button">Run Central Scoped RAG Query</button>
+            </div>
+            <div id="rag-results" class="results-list"></div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-head">
+              <h3>KAG + RAG Investor Comparator</h3>
+              <span class="pill pill-amber">Evidence-Based Ranking</span>
+            </div>
+            <p class="muted small">Example: <em>"Why is BBVA a better target for GreenHope than Ziraat Bankası?"</em></p>
+            <div class="compare-controls">
+              <select id="cmp-a"></select>
+              <span class="vs-badge">VS</span>
+              <select id="cmp-b"></select>
+              <button id="btn-run-compare" class="btn btn-primary" type="button">Compare</button>
+            </div>
+            <div id="compare-results" class="compare-box"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 5: APPLICATION-FILLING AGENT -->
+      <section id="tab-agent" class="tab-panel">
+        <div class="panel">
+          <div class="workflow-banner">
+            <div class="workflow-steps">
+              <span class="step-pill active">1. AUTO-FILL</span>
+              <span class="arrow">→</span>
+              <span class="step-pill active">2. REVIEW</span>
+              <span class="arrow">→</span>
+              <span class="step-pill active">3. HUMAN APPROVE</span>
+              <span class="arrow">→</span>
+              <span class="step-pill">4. SUBMIT</span>
+            </div>
+            <span class="pill pill-rose">NEVER AI → SUBMIT · ZERO HALLUCINATION · 4-TIER IP SHIELD</span>
+          </div>
+
+          <div class="agent-controls">
+            <div class="field-row grow">
+              <label for="agent-investor">Target COP31 Institution</label>
+              <select id="agent-investor"></select>
+            </div>
+            <button id="btn-agent-draft" class="btn btn-primary" type="button">Generate Grounded Draft</button>
+            <button id="btn-agent-approve-all" class="btn btn-secondary" type="button">Approve All Verified Fields</button>
+            <button id="btn-agent-export" class="btn btn-zip" type="button">Export Approved Packet (.json)</button>
+          </div>
+
+          <div class="preset-row">
+            <span class="role-label">Quick test targets:</span>
+            <button class="chip-btn agent-preset" data-inv="inv_bbva_group" type="button">BBVA (P1 Tier A)</button>
+            <button class="chip-btn agent-preset" data-inv="inv_aiib" type="button">AIIB (Nov 16 Target)</button>
+            <button class="chip-btn agent-preset" data-inv="inv_world_bank_ibrd" type="button">World Bank Group</button>
+            <button class="chip-btn agent-preset" data-inv="inv_meridiam" type="button">Meridiam (Infra)</button>
+            <button class="chip-btn agent-preset" data-inv="inv_siemens" type="button">Siemens (Test Supporter Guard)</button>
+          </div>
+
+          <div id="agent-warning" class="alert alert-danger hidden"></div>
+          <div id="agent-summary" class="agent-summary"></div>
+          <div id="agent-fields" class="agent-fields-list"></div>
+          <div id="agent-export-status" class="alert alert-success hidden"></div>
+        </div>
+      </section>
+
+      <!-- TAB 6: INVESTOR CRM PIPELINE -->
+      <section id="tab-crm" class="tab-panel">
+        <div class="panel">
+          <div class="panel-head">
+            <div>
+              <h3>COP31 Investor Outreach &amp; Application Tracking (CRM Pipeline)</h3>
+              <p class="muted small">Track every COP31 investor from Pack Ready → Draft Auto-Filled → Human Approved → Submitted → Meeting Booked → Partnered. Automatically syncs with the Application Agent and logs every update to the SHA-256 audit chain.</p>
+            </div>
+            <div class="inline-actions">
+              <a class="btn btn-outline btn-sm" href="/api/download/crm.csv" download>📥 Export CRM (.csv)</a>
+              <a class="btn btn-outline btn-sm" href="/api/download/crm.json" download>📥 Export CRM (.json)</a>
+            </div>
+          </div>
+
+          <div id="crm-stage-cards" class="crm-stage-grid"></div>
+
+          <div class="filter-bar" style="margin-top:14px;">
+            <input id="crm-search" type="search" placeholder="Search CRM by institution, owner, COP31 venue (BBVA Hub, AIIB, Startup Zone), or next action..." />
+            <select id="crm-filter-stage">
+              <option value="">All Pipeline Stages</option>
+            </select>
+            <select id="crm-filter-priority">
+              <option value="">All Priorities</option>
+              <option value="P1">P1 Targets Only</option>
+              <option value="P2">P2 Core Follow-Up</option>
+              <option value="P3">P3 Ecosystem</option>
+            </select>
+            <button id="crm-clear-filters" class="btn btn-secondary btn-sm" type="button">Reset Filters</button>
+          </div>
+
+          <div class="table-meta">
+            <span id="crm-count-label" class="muted">Showing 66 tracked COP31 entities</span>
+            <span id="crm-save-toast" class="pill pill-emerald hidden">✓ Saved &amp; Audited</span>
+          </div>
+
+          <div class="table-wrap">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Institution</th>
+                  <th>Pipeline Stage (Quick Update)</th>
+                  <th>Target Date &amp; Owner</th>
+                  <th>COP31 Venue / Channel</th>
+                  <th>Next Action &amp; Notes</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody id="crm-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 7: GREENHOPE_MASTER SINGLE SOURCE OF TRUTH -->
+      <section id="tab-master" class="tab-panel">
+        <div class="panel">
+          <div class="panel-head">
+            <div>
+              <h3>GREENHOPE_MASTER — Canonical Single Source of Truth</h3>
+              <p class="muted small">Every automated application reads strictly from this verified registry. Missing values trigger <code>MISSING_INFORMATION / ASK_USER</code> instead of hallucination. Level 4 RESTRICTED secrets are permanently locked.</p>
+            </div>
+            <span class="pill pill-emerald">Live Sync with Application Agent</span>
+          </div>
+          <div id="master-fields-grid" class="master-grid"></div>
+        </div>
+      </section>
+
+      <!-- TAB 8: SECURITY VAULT, 4-TIER IP PROTECTION & BACKUP CENTER -->
+      <section id="tab-security" class="tab-panel">
+        <div class="panel backup-panel">
+          <div class="panel-head">
+            <div>
+              <h3>📦 Complete Project Backup &amp; Export Center</h3>
+              <p class="muted small">Includes full Python backend, Web App, 66-entity Excel/CSV/JSON registry, 10 P1 Knowledge Packs, AES-256-GCM Security Vault, CRM Pipeline data &amp; pytest suite.</p>
+            </div>
+            <div class="inline-actions">
+              <button id="btn-rebuild-zip" class="btn btn-secondary btn-sm" type="button">🔄 Rebuild Fresh Backup ZIP</button>
+              <a class="btn btn-zip btn-sm" href="/api/download/project.zip" download>📦 Download Full Project ZIP</a>
+            </div>
+          </div>
+          <div id="backup-info-view" class="backup-meta-grid"></div>
+          <div class="inline-actions" style="margin-top:12px;">
+            <a class="btn btn-outline btn-xs" href="/api/download/excel" download>📊 66-Entity Excel (.xlsx)</a>
+            <a class="btn btn-outline btn-xs" href="/api/download/crm.csv" download>📋 Investor CRM Pipeline (.csv)</a>
+            <a class="btn btn-outline btn-xs" href="/api/download/csv" download>📄 Registry (.csv)</a>
+            <a class="btn btn-outline btn-xs" href="/api/download/json" download>🧩 Registry (.json)</a>
+          </div>
+        </div>
+
+        <div class="split-2">
+          <div class="panel">
+            <div class="panel-head">
+              <h3>Step 1 Cryptographic Vault Status</h3>
+              <button id="btn-verify-vault" class="btn btn-primary btn-sm" type="button">Run Live Cryptographic Verification</button>
+            </div>
+            <div id="vault-verify-banner" class="alert alert-success hidden"></div>
+            <div id="vault-manifest-view"></div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-head">
+              <h3>4-Tier Anti-Copying IP Protection Matrix</h3>
+              <span class="pill pill-rose">Strict Leak Prevention</span>
+            </div>
+            <div id="ip-tiers-view"></div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head">
+            <h3>Tamper-Evident SHA-256 Hash-Chained Audit Log</h3>
+            <span id="audit-chain-badge" class="pill pill-emerald">Chain Valid</span>
+          </div>
+          <div class="table-wrap">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Seq</th>
+                  <th>Timestamp (UTC)</th>
+                  <th>Actor &amp; Role</th>
+                  <th>Action</th>
+                  <th>Outcome</th>
+                  <th>Details</th>
+                  <th>Entry SHA-256</th>
+                </tr>
+              </thead>
+              <tbody id="audit-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- MODAL FOR QUICK ENTITY INSPECTION -->
+  <div id="entity-modal" class="modal-backdrop hidden">
+    <div class="modal-card">
+      <div class="modal-head">
+        <h3 id="modal-title">Institution Details</h3>
+        <button id="modal-close" class="btn btn-ghost btn-sm" type="button">✕ Close</button>
+      </div>
+      <div id="modal-body" class="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

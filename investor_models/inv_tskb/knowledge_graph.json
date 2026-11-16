@@ -1,0 +1,472 @@
+{
+  "investor_id": "inv_tskb",
+  "graph_format": "networkx-node-link-v1",
+  "node_count": 37,
+  "edge_count": 37,
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "node_type": "Investor",
+        "investor_id": "inv_tskb",
+        "name": "TSKB (Industrial Development Bank of Türkiye)",
+        "short_name": "TSKB",
+        "category": "National Development Bank",
+        "hq_country": "Türkiye",
+        "ticket_min_usd": 2000000,
+        "ticket_max_usd": 100000000,
+        "portal_url": "https://www.tskb.com.tr/en/corporate-banking/corporate-loans",
+        "id": "inv_tskb"
+      },
+      {
+        "node_type": "COP31_Commitment",
+        "investor_id": "inv_tskb",
+        "role": "Official COP31 Climate Supporter (Green Zone Block C Climate Finance Hub); Türkiye's sole IDFC member",
+        "commitment": "€200M Treasury-guaranteed wind, solar & battery storage (BESS) facility + IDFC Climate Implementation Bridge & green corporate investment loans",
+        "verification_source": "https://www.linkedin.com/in/meralmurathan/",
+        "verification_date": "2026-11-15",
+        "id": "cop31::inv_tskb"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_tskb",
+        "label": "Long-Term Investment Loan",
+        "id": "instrument::long_term_investment_loan"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_tskb",
+        "label": "MDB On-Lending Credit Line",
+        "id": "instrument::mdb_on_lending_credit_line"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_tskb",
+        "label": "Green/Sustainability Bond",
+        "id": "instrument::green_sustainability_bond"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_tskb",
+        "label": "Apex SME Facility",
+        "id": "instrument::apex_sme_facility"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_tskb",
+        "label": "Advisory",
+        "id": "instrument::advisory"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_tskb",
+        "label": "Renewable Energy",
+        "id": "sector::renewable_energy"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_tskb",
+        "label": "Energy Storage",
+        "id": "sector::energy_storage"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_tskb",
+        "label": "Industrial Decarbonization",
+        "id": "sector::industrial_decarbonization"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_tskb",
+        "label": "Energy Efficiency",
+        "id": "sector::energy_efficiency"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_tskb",
+        "label": "Circular Economy",
+        "id": "sector::circular_economy"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_tskb",
+        "label": "Women Empowerment & Inclusive Green",
+        "id": "sector::women_empowerment___inclusive_green"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_tskb",
+        "label": "Türkiye",
+        "id": "region::türkiye"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_tskb",
+        "label": "EMEA",
+        "id": "region::emea"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_tskb",
+        "label": "Large Corporate",
+        "id": "applicant::large_corporate"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_tskb",
+        "label": "Project SPV",
+        "id": "applicant::project_spv"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_tskb",
+        "label": "SME",
+        "id": "applicant::sme"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_tskb",
+        "label": "Mid-Cap Enterprise",
+        "id": "applicant::mid_cap_enterprise"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_tskb",
+        "label": "Financial Intermediary",
+        "id": "applicant::financial_intermediary"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_tskb",
+        "label": "TSKB ERET Environmental & Social Risk Evaluation rating",
+        "id": "rule::tskb_eret_environmental___social_risk_evaluation"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_tskb",
+        "label": "Turkish EIA (ÇED) permit & renewable license (EPDK) where applicable",
+        "id": "rule::turkish_eia__çed__permit___renewable_license__ep"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_tskb",
+        "label": "Measurable energy efficiency / tCO2e abatement baseline",
+        "id": "rule::measurable_energy_efficiency___tco2e_abatement_b"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_tskb",
+        "label": "Audited corporate financials & debt service coverage (DSCR)",
+        "id": "rule::audited_corporate_financials___debt_service_cove"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_tskb",
+        "label": "New coal-fired power plants",
+        "id": "exclusion::new_coal_fired_power_plants"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_tskb",
+        "label": "Environmental non-compliance",
+        "id": "exclusion::environmental_non_compliance"
+      },
+      {
+        "node_type": "FormTemplate",
+        "investor_id": "inv_tskb",
+        "title": "Development Finance Institution (DFI) / National Dev Bank Project Intake Form",
+        "governing_standard": "IFC Performance Standards / Harmonized DFI Climate Reporting (10by30 / IDFC)",
+        "id": "form::DFI_PROJECT_INTAKE"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_tskb",
+        "field_id": "sponsor_and_project",
+        "label": "Project Sponsor, Jurisdiction & Project Name",
+        "section": "1. Sponsor Profile",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::sponsor_and_project"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_tskb",
+        "field_id": "dfi_facility_alignment",
+        "label": "Target DFI Climate Facility / COP31 Program Alignment",
+        "section": "1. Sponsor Profile",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::dfi_facility_alignment"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_tskb",
+        "field_id": "financing_request",
+        "label": "Requested Instrument, Ticket Size (USD) & Tenor",
+        "section": "2. Transaction Structure",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::financing_request"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_tskb",
+        "field_id": "geography_and_sector_fit",
+        "label": "Mandate Fit: Target Geography & Priority Climate Sector",
+        "section": "2. Transaction Structure",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::geography_and_sector_fit"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_tskb",
+        "field_id": "avoided_emissions_and_dev_impact",
+        "label": "Avoided Emissions (tCO2e/yr) & Development Impact",
+        "section": "3. Climate & Impact",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::avoided_emissions_and_dev_impact"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_tskb",
+        "field_id": "ifc_ps_esg_compliance",
+        "label": "IFC Performance Standards / E&S Screening & Exclusion List Check",
+        "section": "3. Climate & Impact",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_tskb",
+        "field_id": "financial_profile",
+        "label": "Sponsor Financials & Project Economics (Revenue, EBITDA, Capex, IRR)",
+        "section": "4. Financial Due Diligence",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::financial_profile"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_tskb",
+        "field_id": "blended_finance_and_ta",
+        "label": "Blended Finance, De-Risking Guarantees & Technical Assistance Needs",
+        "section": "4. Financial Due Diligence",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::blended_finance_and_ta"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_tskb",
+        "field_id": "risks_and_mitigants",
+        "label": "Principal Transaction Risks & Mitigants",
+        "section": "5. Risk Assessment",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::risks_and_mitigants"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_tskb",
+        "field_id": "executive_intake_pitch",
+        "label": "DFI Investment Committee Intake Summary",
+        "section": "6. Executive Summary",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::executive_intake_pitch"
+      }
+    ],
+    "links": [
+      {
+        "relation": "ANNOUNCES_AT_COP31",
+        "source": "inv_tskb",
+        "target": "cop31::inv_tskb"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_tskb",
+        "target": "instrument::long_term_investment_loan"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_tskb",
+        "target": "instrument::mdb_on_lending_credit_line"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_tskb",
+        "target": "instrument::green_sustainability_bond"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_tskb",
+        "target": "instrument::apex_sme_facility"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_tskb",
+        "target": "instrument::advisory"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_tskb",
+        "target": "sector::renewable_energy"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_tskb",
+        "target": "sector::energy_storage"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_tskb",
+        "target": "sector::industrial_decarbonization"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_tskb",
+        "target": "sector::energy_efficiency"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_tskb",
+        "target": "sector::circular_economy"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_tskb",
+        "target": "sector::women_empowerment___inclusive_green"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_tskb",
+        "target": "region::türkiye"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_tskb",
+        "target": "region::emea"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_tskb",
+        "target": "applicant::large_corporate"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_tskb",
+        "target": "applicant::project_spv"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_tskb",
+        "target": "applicant::sme"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_tskb",
+        "target": "applicant::mid_cap_enterprise"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_tskb",
+        "target": "applicant::financial_intermediary"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_tskb",
+        "target": "rule::tskb_eret_environmental___social_risk_evaluation"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_tskb",
+        "target": "rule::turkish_eia__çed__permit___renewable_license__ep"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_tskb",
+        "target": "rule::measurable_energy_efficiency___tco2e_abatement_b"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_tskb",
+        "target": "rule::audited_corporate_financials___debt_service_cove"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_tskb",
+        "target": "exclusion::new_coal_fired_power_plants"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_tskb",
+        "target": "exclusion::environmental_non_compliance"
+      },
+      {
+        "relation": "USES_FORM_TEMPLATE",
+        "source": "inv_tskb",
+        "target": "form::DFI_PROJECT_INTAKE"
+      },
+      {
+        "relation": "VALIDATES_FIELD",
+        "source": "rule::turkish_eia__çed__permit___renewable_license__ep",
+        "target": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::sponsor_and_project"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::dfi_facility_alignment"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::financing_request"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::geography_and_sector_fit"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::avoided_emissions_and_dev_impact"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::financial_profile"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::blended_finance_and_ta"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::risks_and_mitigants"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::executive_intake_pitch"
+      }
+    ]
+  }
+}

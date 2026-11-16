@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_akbank",
+  "knowledge_pack_slug": "akbank",
+  "claims": [
+    {
+      "claim": "Akbank announced its COP31 Antalya program implementing a TRY 2.5 trillion sustainable finance target through 2030 with GEFF Türkiye, KGF, sustainable agriculture, and circular economy panels.",
+      "source": "Akbank COP31 Press Coverage (Başak Gazetesi / Ekonomi Politikası)",
+      "url": "https://basakgazetesi.com/haber/akbank-cop31-icin-kapsamli-iklim-finansmani-ve-donusum-programini-acikladi-897587",
+      "date_verified": "2026-11-15",
+      "confidence": 0.98,
+      "status": "verified"
+    },
+    {
+      "claim": "Akbank is listed in the COP31 Business Forum Climate Finance & Investments Working Group.",
+      "source": "COP31 Business Forum Working Group Paper",
+      "url": "https://www.copbusiness.org/papers/COP31_WG_climate-finance-investments.pdf",
+      "date_verified": "2026-11-15",
+      "confidence": 0.98,
+      "status": "verified"
+    }
+  ]
+}

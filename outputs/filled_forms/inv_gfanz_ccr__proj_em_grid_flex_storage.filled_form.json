@@ -1,0 +1,228 @@
+{
+  "submission_id": "sub_inv_gfanz_ccr_proj_em_grid_flex_storage_c3cd12c4",
+  "generated_at_utc": "2026-11-15T15:45:26.443067+00:00",
+  "investor_id": "inv_gfanz_ccr",
+  "investor_name": "GFANZ / Catalytic Capital Repository (GCBC)",
+  "model_architecture": "HYBRID_KAG_RAG",
+  "form_template_id": "CATALYTIC_PE_VC_INTAKE",
+  "form_title": "Climate Private Equity / Catalytic Capital / Venture Investment Intake Form",
+  "project_id": "proj_em_grid_flex_storage",
+  "project_title": "Afro-Med Distributed Grid Storage & Clean Electrification Virtual Power Plant",
+  "pii_redacted_for_ai_context": true,
+  "tenant_isolation_verified": true,
+  "eligibility": {
+    "eligible": true,
+    "fit_score": 100.0,
+    "passed_checks": [
+      "Applicant type 'Project SPV' matched via ACCEPTS_APPLICANT (Project SPV, Large Corporate, Financial Intermediary, Fund Manager, Climate-Tech Startup).",
+      "Geography 'Egypt (Africa)' covered via COVERS_REGION (Emerging Markets, Developing Countries, Türkiye, Africa, Asia, Latin America, Global).",
+      "Sector alignment verified via FUNDS_SECTOR: Climate Adaptation & Resilience, Electrification & Grid, Energy Storage, Renewable Energy.",
+      "Requested ticket $18,000,000 fits within bounds ($5,000,000–$200,000,000).",
+      "Instrument match via OFFERS_INSTRUMENT: 'Catalytic First-Loss Capital'.",
+      "Exclusion list screening passed (no prohibited coal/unabated fossil-fuel activities).",
+      "No hard pre-submission compliance blockers detected in REQUIRES_COMPLIANCE graph."
+    ],
+    "failed_checks": [],
+    "warnings": [],
+    "recommended_instrument": "Catalytic First-Loss Capital",
+    "kag_hops_executed": 6
+  },
+  "completion_rate_percent": 94.4,
+  "average_confidence": 0.93,
+  "fields": [
+    {
+      "field_id": "company_and_project",
+      "label": "Company / SPV Name, Sector & Geography",
+      "section": "1. Venture / Asset Overview",
+      "value": "Afro-Med Distributed Grid Storage & Clean Electrification Virtual Power Plant | Sponsor: HeliosGrid Flexibility SPV (Project SPV) | Jurisdiction: Egypt (Africa) | Primary Sector: Electrification & Grid",
+      "status": "FILLED",
+      "confidence": 0.98,
+      "reasoning_mode": "HYBRID_KAG_RAG (KAG-primary)",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_gfanz_ccr --[USES_FORM_TEMPLATE]--> form::CATALYTIC_PE_VC_INTAKE --[HAS_FORM_FIELD]--> field::company_and_project",
+      "rag_citations": [
+        "inv_gfanz_ccr::field_guide_01_company_and_project"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "round_and_instrument",
+      "label": "Target Capital Raise, Ticket Size & Preferred Capital Layer",
+      "section": "1. Venture / Asset Overview",
+      "value": "Instrument: Catalytic First-Loss Capital | Requested Amount: $18,000,000 USD | Tenor/Horizon: 5 years | Investor Band: $5,000,000–$200,000,000 (WITHIN BOUNDS)",
+      "status": "FILLED",
+      "confidence": 0.94,
+      "reasoning_mode": "HYBRID_KAG_RAG (KAG-primary)",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_gfanz_ccr --[OFFERS_INSTRUMENT]--> Catalytic First-Loss Capital [bounds: $5,000,000-$200,000,000]",
+      "rag_citations": [
+        "inv_gfanz_ccr::field_guide_02_round_and_instrument"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "climate_thesis_fit",
+      "label": "Alignment with Investor Climate Thesis & COP31 Platform",
+      "section": "2. Investment Thesis",
+      "value": "Target Program: GFANZ / Catalytic Capital Repository (GCBC) — Launched 'Catalytic Capital Repository' (30+ financial institutions) at COP31 Nov 11–12; partnered with Türkiye Ministry of Industry & Technology on industrial decarbonization; co-hosted Global Finance Summit. COP31 2026 Commitment: Public repository of 30+ catalytic capital & risk-mitigation providers for EMDE clean energy/resilience + Türkiye industrial decarbonization private-capital partnership. Recommended Facility: Catalytic First-Loss Capital aligned with Electrification & Grid. [inv_gfanz_ccr::field_guide_03_climate_thesis_fit] [inv_gfanz_ccr::sectors_geography]",
+      "status": "FILLED",
+      "confidence": 0.95,
+      "reasoning_mode": "HYBRID_KAG_RAG (RAG-primary)",
+      "evidence_sources": [
+        "RAG_VECTOR_CORPUS",
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_gfanz_ccr --[USES_FORM_TEMPLATE]--> form::CATALYTIC_PE_VC_INTAKE --[HAS_FORM_FIELD]--> field::climate_thesis_fit",
+      "rag_citations": [
+        "inv_gfanz_ccr::field_guide_03_climate_thesis_fit",
+        "inv_gfanz_ccr::sectors_geography",
+        "inv_gfanz_ccr::instruments_tickets"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "decarbonization_unit_economics",
+      "label": "Avoided Emissions Potential (tCO2e/yr) & Commercial Unit Economics",
+      "section": "2. Investment Thesis",
+      "value": "Quantified Climate Impact: 92,000 tCO2e/year avoided; 85,000 direct adaptation beneficiaries. Enables 140 MW of additional solar absorption without curtailment and displaces 92,000 tCO2e/year of peaking fossil generation, directly advancing the COP31 35-by-35 Global Electrification Pledge. Projected commercial IRR: 16.5%. Grounded in policy references [inv_gfanz_ccr::field_guide_04_decarbonization_unit_economics], [inv_gfanz_ccr::sectors_geography].",
+      "status": "FILLED",
+      "confidence": 0.93,
+      "reasoning_mode": "HYBRID_KAG_RAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_gfanz_ccr --[USES_FORM_TEMPLATE]--> form::CATALYTIC_PE_VC_INTAKE --[HAS_FORM_FIELD]--> field::decarbonization_unit_economics",
+      "rag_citations": [
+        "inv_gfanz_ccr::field_guide_04_decarbonization_unit_economics",
+        "inv_gfanz_ccr::sectors_geography",
+        "inv_gfanz_ccr::compliance_esg"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "technology_and_moat",
+      "label": "Technology Differentiation, Innovation & Market Readiness",
+      "section": "3. Product & Execution",
+      "value": "Green Use of Proceeds (Electrification & Grid): Modular containerized LFP storage orchestrated by machine-learning grid frequency forecasting and automated demand-response telemetry. Maps to GFANZ Catalytic Capital eligible categories (Industrial Decarbonization, Renewable Energy, Electrification & Grid) and governing requirements (Clear private-capital mobilization & de-risking thesis (EMDEs); Alignment with GFANZ Transition Finance guidelines). [inv_gfanz_ccr::field_guide_05_technology_and_moat] [inv_gfanz_ccr::sectors_geography]",
+      "status": "FILLED",
+      "confidence": 0.95,
+      "reasoning_mode": "HYBRID_KAG_RAG (RAG-primary)",
+      "evidence_sources": [
+        "RAG_VECTOR_CORPUS",
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_gfanz_ccr --[USES_FORM_TEMPLATE]--> form::CATALYTIC_PE_VC_INTAKE --[HAS_FORM_FIELD]--> field::technology_and_moat",
+      "rag_citations": [
+        "inv_gfanz_ccr::field_guide_05_technology_and_moat",
+        "inv_gfanz_ccr::sectors_geography",
+        "inv_gfanz_ccr::instruments_tickets"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "capital_stack_and_cofinanciers",
+      "label": "Blended Capital Stack & Co-Investor Mobilization",
+      "section": "3. Product & Execution",
+      "value": "Total Cost: $36,000,000 | Requested from GFANZ Catalytic Capital: $18,000,000 (Catalytic First-Loss Capital) | Committed Co-Financing: $10,000,000 (Leverage Ratio: 0.56x) | Remaining Sponsor Equity / Co-Investor Mobilization: $8,000,000. Grounded in policy references [inv_gfanz_ccr::field_guide_06_capital_stack_and_cofinanciers], [inv_gfanz_ccr::sectors_geography].",
+      "status": "FILLED",
+      "confidence": 0.93,
+      "reasoning_mode": "HYBRID_KAG_RAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_gfanz_ccr --[USES_FORM_TEMPLATE]--> form::CATALYTIC_PE_VC_INTAKE --[HAS_FORM_FIELD]--> field::capital_stack_and_cofinanciers",
+      "rag_citations": [
+        "inv_gfanz_ccr::field_guide_06_capital_stack_and_cofinanciers",
+        "inv_gfanz_ccr::sectors_geography",
+        "inv_gfanz_ccr::compliance_esg"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "esg_impact_governance",
+      "label": "ESG Governance, Social Co-Benefits & Exclusion Compliance",
+      "section": "4. Impact & Risk",
+      "value": "Exclusion Screening: PASS (Zero prohibited fossil-fuel exposure) | E&S / Permits: EIA / environmental permitting in progress (condition precedent) | Social/ESG Impact: Eliminates blackouts for 85,000 industrial/community power users, reduces urban diesel particulate emissions, and trains 150 local grid engineers.",
+      "status": "PARTIAL_NEEDS_REVIEW",
+      "confidence": 0.81,
+      "reasoning_mode": "HYBRID_KAG_RAG (KAG-primary)",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_gfanz_ccr --[EXCLUDES + REQUIRES_COMPLIANCE]--> field::esg_impact_governance",
+      "rag_citations": [
+        "inv_gfanz_ccr::field_guide_07_esg_impact_governance"
+      ],
+      "compliance_notes": [
+        "Attach approved EIA / environmental permits prior to credit/board approval."
+      ]
+    },
+    {
+      "field_id": "risks_and_mitigants",
+      "label": "Key Scale-Up Risks & Mitigation Strategy",
+      "section": "4. Impact & Risk",
+      "value": "Currency convertibility and utility offtake risk mitigated via DFI partial risk guarantee (10by30 / CIF AMPLIFi catalytic tranche) and USD-indexed industrial park power capacity contracts. [inv_gfanz_ccr::field_guide_08_risks_and_mitigants] [inv_gfanz_ccr::sectors_geography]",
+      "status": "FILLED",
+      "confidence": 0.95,
+      "reasoning_mode": "HYBRID_KAG_RAG (RAG-primary)",
+      "evidence_sources": [
+        "RAG_VECTOR_CORPUS",
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_gfanz_ccr --[USES_FORM_TEMPLATE]--> form::CATALYTIC_PE_VC_INTAKE --[HAS_FORM_FIELD]--> field::risks_and_mitigants",
+      "rag_citations": [
+        "inv_gfanz_ccr::field_guide_08_risks_and_mitigants",
+        "inv_gfanz_ccr::sectors_geography",
+        "inv_gfanz_ccr::instruments_tickets"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "ic_teaser_summary",
+      "label": "Investment Committee 1-Paragraph Executive Pitch",
+      "section": "5. Executive Pitch",
+      "value": "Afro-Med Distributed Grid Storage & Clean Electrification Virtual Power Plant (HeliosGrid Flexibility SPV, Egypt) requests $18,000,000 via GFANZ Catalytic Capital's Catalytic First-Loss Capital. Deploying 90 MWh of modular utility-connected battery energy storage and AI virtual power plant dispatch across industrial parks in Egypt to displace peaking diesel/gas generation and stabilize solar grid integration. Climate Impact: 92,000 tCO2e/year avoided; 85,000 direct adaptation beneficiaries. Aligned with COP31 Antalya commitment (Public repository of 30+ catalytic capital & risk-mitigation providers for EMDE clean energy/resilience + Türkiye industrial decarbonization private-capital partnership). Grounded in policy references [inv_gfanz_ccr::field_guide_09_ic_teaser_summary], [inv_gfanz_ccr::sectors_geography].",
+      "status": "FILLED",
+      "confidence": 0.93,
+      "reasoning_mode": "HYBRID_KAG_RAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_gfanz_ccr --[USES_FORM_TEMPLATE]--> form::CATALYTIC_PE_VC_INTAKE --[HAS_FORM_FIELD]--> field::ic_teaser_summary",
+      "rag_citations": [
+        "inv_gfanz_ccr::field_guide_09_ic_teaser_summary",
+        "inv_gfanz_ccr::sectors_geography",
+        "inv_gfanz_ccr::form_standard"
+      ],
+      "compliance_notes": []
+    }
+  ],
+  "pre_submission_checklist": [
+    "[Mandatory Requirement] Clear private-capital mobilization & de-risking thesis (EMDEs)",
+    "[Mandatory Requirement] Alignment with GFANZ Transition Finance guidelines",
+    "[Mandatory Requirement] Defined blended capital stack showing catalytic layer role",
+    "[Mandatory Requirement] Quantified GHG avoidance or climate resilience impact",
+    "[Field Review: ESG Governance, Social Co-Benefits & Exclusion Compliance] Status=PARTIAL_NEEDS_REVIEW — Attach approved EIA / environmental permits prior to credit/board approval.",
+    "[Portal Submission] Upload finalized packet via official portal: https://www.gfanzero.com/"
+  ],
+  "llm_backend_used": "deterministic-grounded-synthesizer-v1"
+}

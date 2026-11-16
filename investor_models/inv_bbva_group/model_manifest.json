@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_bbva_group",
+  "investor_name": "BBVA Group",
+  "short_name": "BBVA",
+  "category": "Global Commercial Bank",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "BBVA's 6 COP31 focus areas, extensive sustainable finance catalog, and narrative taxonomy/SPT alignment are ideally served by high-precision RAG retrieval.",
+  "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+  "tenant_namespace": "tenant::inv_bbva_group",
+  "tenant_key_fingerprint": "b0b5ba845e7202db",
+  "created_at_utc": "2026-11-15T15:45:22.897670+00:00",
+  "source_record_sha256": "4cb82627fe54f2f75ebaa4caf6a5d9f99530d38d91cb4d3002c4e3199d030401",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 13,
+  "artifact_hashes": {
+    "form_schema.json": "cd0b6cd3ff4865aa03a96f534ebc1646dd8b49860d9fe99977a31e70a3f8cd49",
+    "rag_corpus.json": "23504d4cada548338d789153cfd7e104fac7430c72ebc867813260144c24bd0f"
+  }
+}

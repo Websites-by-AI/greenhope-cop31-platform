@@ -1,0 +1,23 @@
+{
+  "investor_id": "inv_ilbank",
+  "investor_name": "İLBANK (İller Bankası — Türkiye Municipal Development Bank)",
+  "short_name": "İLBANK",
+  "category": "National Development Bank",
+  "model_architecture": "HYBRID_KAG_RAG",
+  "ai_model_rationale": "KAG strictly validates municipal legal eligibility & Treasury borrowing rules while RAG drafts EIB Gap Fund climate-resilience narratives.",
+  "form_template_type": "DFI_PROJECT_INTAKE",
+  "tenant_namespace": "tenant::inv_ilbank",
+  "tenant_key_fingerprint": "088130d29e8bedf7",
+  "created_at_utc": "2026-11-15T15:45:23.170891+00:00",
+  "source_record_sha256": "d422ec26bae878580333b8afa91ed4fabe9a1db993a5c6a7ee02aa7e1bb3fd8b",
+  "has_kag_graph": true,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 32,
+  "kag_edges_count": 31,
+  "rag_chunks_count": 15,
+  "artifact_hashes": {
+    "form_schema.json": "b62224fd9fcbe89ac967d66abd7377b86283ae7786aa1104bcdf5d3dd38bf9fc",
+    "knowledge_graph.json": "9071b8bed3a45bc6166db293a9e77f84b79ec3bceac1d1f3744144970fbc2fbe",
+    "rag_corpus.json": "6705c643f0ea6eb4c2b24b3612b40db8d14eaa025bf661f9072d431e5f1ad54a"
+  }
+}

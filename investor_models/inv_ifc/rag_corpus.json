@@ -1,0 +1,126 @@
+{
+  "investor_id": "inv_ifc",
+  "corpus_format": "cop31-rag-chunks-v1",
+  "chunk_count": 17,
+  "chunks": [
+    {
+      "chunk_id": "inv_ifc::mandate_cop31",
+      "investor_id": "inv_ifc",
+      "section": "COP31 Antalya 2026 Mandate",
+      "title": "International Finance Corporation (IFC) (IFC) COP31 Role & Commitments",
+      "text": "International Finance Corporation (IFC) is a Multilateral Development Bank (MDB) headquartered in United States (Multilateral). At UNFCCC COP31 in Antalya (November 9-20, 2026), its verified role is: Founding private-sector partner of Türkiye Industrial Decarbonization Investment Platform (TIDIP) targeting $6B by 2030. Verified COP31 2026 climate finance commitment: Co-anchoring $6B TIDIP mobilization for steel, aluminum, cement & fertilizer decarbonization plus private-sector climate debt/equity. Source verification: https://www.riotimesonline.com/turkey-eyes-6-billion-green-industry-cop31-antalya/."
+    },
+    {
+      "chunk_id": "inv_ifc::instruments_tickets",
+      "investor_id": "inv_ifc",
+      "section": "Financial Products & Ticket Sizing",
+      "title": "IFC Financing Instruments & Ticket Bounds",
+      "text": "International Finance Corporation (IFC) provides the following climate financing instruments: Senior Debt, Equity, Mezzanine, Blended Finance, Green Bond Anchor, Risk-Sharing Guarantee. Typical transaction ticket range is USD 10,000,000 to USD 250,000,000. Eligible applicant profiles include: Large Corporate, Project SPV, Financial Intermediary, Growth-Stage Private Enterprise."
+    },
+    {
+      "chunk_id": "inv_ifc::sectors_geography",
+      "investor_id": "inv_ifc",
+      "section": "Eligible Sectors & Geographies",
+      "title": "IFC Priority Climate Sectors & Regional Mandate",
+      "text": "Priority climate sectors funded by International Finance Corporation (IFC): Industrial Decarbonization, Renewable Energy, Energy Storage, Green Buildings, Climate-Smart Agriculture, Circular Economy. Target geographic focus includes: Global, Emerging Markets, Developing Countries, Türkiye, Africa, Asia, Latin America. Projects outside primary regions or ticket bounds may require syndicated or on-lending structures."
+    },
+    {
+      "chunk_id": "inv_ifc::compliance_esg",
+      "investor_id": "inv_ifc",
+      "section": "Compliance, ESG & Exclusion Criteria",
+      "title": "IFC Mandatory Form & Underwriting Requirements",
+      "text": "Mandatory requirements to complete IFC's application form: IFC Performance Standards (PS 1-8) compliance; Paris Alignment & GHG emissions accounting; Commercial bankability & audited financials; Private-sector ownership (>50% private or commercially managed). Explicit exclusion rules: New coal-fired power; Unabated fossil fuel projects; IFC Exclusion List activities. Official application portal: https://www.ifc.org/en/what-we-do/sector-expertise/climate-business."
+    },
+    {
+      "chunk_id": "inv_ifc::form_standard",
+      "investor_id": "inv_ifc",
+      "section": "Application Form Governance",
+      "title": "IFC Form Template: Multilateral Development Bank (MDB) Climate Project Concept Note",
+      "text": "International Finance Corporation (IFC) uses the 'Multilateral Development Bank (MDB) Climate Project Concept Note' workflow governed by Joint MDB Paris Alignment Methodology (BB1 Mitigation / BB2 Adaptation) & Environmental/Social Framework. Typical review timeline is 6–16 weeks (Concept Clearance -> Appraisal -> Board Approval). Form sections required: 1. Identification, 2. Strategic Alignment, 3. Financial Structuring, 4. Climate & Technical Rationale, 5. Safeguards & Governance, 6. Execution & Risks, 7. Executive Summary."
+    },
+    {
+      "chunk_id": "inv_ifc::field_guide_01_project_title",
+      "investor_id": "inv_ifc",
+      "section": "Form Field Guide: 1. Identification",
+      "title": "IFC Guidance for 'Project Title & Legal Sponsor'",
+      "text": "Field 'Project Title & Legal Sponsor' (project_title) under section '1. Identification' on IFC's Multilateral Development Bank (MDB) Climate Project Concept Note: Official project name, sponsor legal entity, and host jurisdiction. Required=True. Expected evidence keywords: Verified applicant facts. Align response with IFC's COP31 priorities (Founding private-sector partner of Türkiye Industrial Decarbonization Investment Platform (TIDIP) targeting $6B by 2030) and instruments (Senior Debt, Equity, Mezzanine)."
+    },
+    {
+      "chunk_id": "inv_ifc::field_guide_02_sovereign_window",
+      "investor_id": "inv_ifc",
+      "section": "Form Field Guide: 1. Identification",
+      "title": "IFC Guidance for 'Financing Window (Sovereign vs. Non-Sovereign / Private Sector)'",
+      "text": "Field 'Financing Window (Sovereign vs. Non-Sovereign / Private Sector)' (sovereign_window) under section '1. Identification' on IFC's Multilateral Development Bank (MDB) Climate Project Concept Note: Maps applicant legal type to the MDB's Sovereign, Sub-Sovereign, or Non-Sovereign Operations (NSO) window. Required=True. Expected evidence keywords: Sovereign, Non-Sovereign, Private Sector, Public. Align response with IFC's COP31 priorities (Founding private-sector partner of Türkiye Industrial Decarbonization Investment Platform (TIDIP) targeting $6B by 2030) and instruments (Senior Debt, Equity, Mezzanine)."
+    },
+    {
+      "chunk_id": "inv_ifc::field_guide_03_cop31_platform_alignment",
+      "investor_id": "inv_ifc",
+      "section": "Form Field Guide: 2. Strategic Alignment",
+      "title": "IFC Guidance for 'COP31 Country Platform & Flagship Initiative Alignment'",
+      "text": "Field 'COP31 Country Platform & Flagship Initiative Alignment' (cop31_platform_alignment) under section '2. Strategic Alignment' on IFC's Multilateral Development Bank (MDB) Climate Project Concept Note: Alignment with the MDB's COP31 Antalya 2026 initiatives (e.g., TIDIP, Electrify Now, Climate Adaptation Plan Phase 2, GET 2026-30). Required=True. Expected evidence keywords: COP31, Antalya, TIDIP, Electrify Now, Adaptation. Align response with IFC's COP31 priorities (Founding private-sector partner of Türkiye Industrial Decarbonization Investment Platform (TIDIP) targeting $6B by 2030) and instruments (Senior Debt, Equity, Mezzanine)."
+    },
+    {
+      "chunk_id": "inv_ifc::field_guide_04_requested_instrument_and_amount",
+      "investor_id": "inv_ifc",
+      "section": "Form Field Guide: 3. Financial Structuring",
+      "title": "IFC Guidance for 'Requested Financing Instrument & Amount (USD)'",
+      "text": "Field 'Requested Financing Instrument & Amount (USD)' (requested_instrument_and_amount) under section '3. Financial Structuring' on IFC's Multilateral Development Bank (MDB) Climate Project Concept Note: Recommended MDB financial instrument matched against ticket size limits and applicant preferences. Required=True. Expected evidence keywords: USD, Loan, Guarantee, Blended, Equity. Align response with IFC's COP31 priorities (Founding private-sector partner of Türkiye Industrial Decarbonization Investment Platform (TIDIP) targeting $6B by 2030) and instruments (Senior Debt, Equity, Mezzanine)."
+    },
+    {
+      "chunk_id": "inv_ifc::field_guide_05_cofinancing_structure",
+      "investor_id": "inv_ifc",
+      "section": "Form Field Guide: 3. Financial Structuring",
+      "title": "IFC Guidance for 'Total Project Cost & Co-Financing Mobilization Plan'",
+      "text": "Field 'Total Project Cost & Co-Financing Mobilization Plan' (cofinancing_structure) under section '3. Financial Structuring' on IFC's Multilateral Development Bank (MDB) Climate Project Concept Note: Breakdown of total project capex, sponsor equity, committed co-financing, and private capital mobilization ratio. Required=True. Expected evidence keywords: Total Cost, Co-financing, Mobilization. Align response with IFC's COP31 priorities (Founding private-sector partner of Türkiye Industrial Decarbonization Investment Platform (TIDIP) targeting $6B by 2030) and instruments (Senior Debt, Equity, Mezzanine)."
+    },
+    {
+      "chunk_id": "inv_ifc::field_guide_06_paris_alignment_bb1_bb2",
+      "investor_id": "inv_ifc",
+      "section": "Form Field Guide: 4. Climate & Technical Rationale",
+      "title": "IFC Guidance for 'Paris Agreement Alignment Assessment (BB1 Mitigation & BB2 Physical Risk)'",
+      "text": "Field 'Paris Agreement Alignment Assessment (BB1 Mitigation & BB2 Physical Risk)' (paris_alignment_bb1_bb2) under section '4. Climate & Technical Rationale' on IFC's Multilateral Development Bank (MDB) Climate Project Concept Note: Verifies alignment with host-country NDC, low-carbon transition pathways (BB1), and climate resilience (BB2). Required=True. Expected evidence keywords: Paris Alignment, NDC, BB1, BB2. Align response with IFC's COP31 priorities (Founding private-sector partner of Türkiye Industrial Decarbonization Investment Platform (TIDIP) targeting $6B by 2030) and instruments (Senior Debt, Equity, Mezzanine)."
+    },
+    {
+      "chunk_id": "inv_ifc::field_guide_07_ghg_and_adaptation_impact",
+      "investor_id": "inv_ifc",
+      "section": "Form Field Guide: 4. Climate & Technical Rationale",
+      "title": "IFC Guidance for 'Quantified Climate Impact (tCO2e/year Avoided &/or Adaptation Beneficiaries)'",
+      "text": "Field 'Quantified Climate Impact (tCO2e/year Avoided &/or Adaptation Beneficiaries)' (ghg_and_adaptation_impact) under section '4. Climate & Technical Rationale' on IFC's Multilateral Development Bank (MDB) Climate Project Concept Note: Expected annual GHG reductions and/or direct climate adaptation beneficiaries. Required=True. Expected evidence keywords: tCO2e, emissions, beneficiaries, resilience. Align response with IFC's COP31 priorities (Founding private-sector partner of Türkiye Industrial Decarbonization Investment Platform (TIDIP) targeting $6B by 2030) and instruments (Senior Debt, Equity, Mezzanine)."
+    },
+    {
+      "chunk_id": "inv_ifc::field_guide_08_es_safeguards_category",
+      "investor_id": "inv_ifc",
+      "section": "Form Field Guide: 5. Safeguards & Governance",
+      "title": "IFC Guidance for 'Environmental & Social (E&S) Safeguards & EIA Status'",
+      "text": "Field 'Environmental & Social (E&S) Safeguards & EIA Status' (es_safeguards_category) under section '5. Safeguards & Governance' on IFC's Multilateral Development Bank (MDB) Climate Project Concept Note: E&S risk screening, EIA permit status, and compliance with MDB Environmental & Social Standards. Required=True. Expected evidence keywords: EIA, Environmental, Social, Safeguards. Align response with IFC's COP31 priorities (Founding private-sector partner of Türkiye Industrial Decarbonization Investment Platform (TIDIP) targeting $6B by 2030) and instruments (Senior Debt, Equity, Mezzanine)."
+    },
+    {
+      "chunk_id": "inv_ifc::field_guide_09_financial_viability_metrics",
+      "investor_id": "inv_ifc",
+      "section": "Form Field Guide: 5. Safeguards & Governance",
+      "title": "IFC Guidance for 'Financial Viability & Bankability Indicators (Revenue, EBITDA, IRR)'",
+      "text": "Field 'Financial Viability & Bankability Indicators (Revenue, EBITDA, IRR)' (financial_viability_metrics) under section '5. Safeguards & Governance' on IFC's Multilateral Development Bank (MDB) Climate Project Concept Note: Key financial metrics demonstrating project creditworthiness and debt-service capacity. Required=True. Expected evidence keywords: Verified applicant facts. Align response with IFC's COP31 priorities (Founding private-sector partner of Türkiye Industrial Decarbonization Investment Platform (TIDIP) targeting $6B by 2030) and instruments (Senior Debt, Equity, Mezzanine)."
+    },
+    {
+      "chunk_id": "inv_ifc::field_guide_10_implementation_timeline",
+      "investor_id": "inv_ifc",
+      "section": "Form Field Guide: 6. Execution & Risks",
+      "title": "IFC Guidance for 'Project Readiness Stage & Implementation Schedule'",
+      "text": "Field 'Project Readiness Stage & Implementation Schedule' (implementation_timeline) under section '6. Execution & Risks' on IFC's Multilateral Development Bank (MDB) Climate Project Concept Note: Current project development maturity and expected construction/deployment duration. Required=True. Expected evidence keywords: Verified applicant facts. Align response with IFC's COP31 priorities (Founding private-sector partner of Türkiye Industrial Decarbonization Investment Platform (TIDIP) targeting $6B by 2030) and instruments (Senior Debt, Equity, Mezzanine)."
+    },
+    {
+      "chunk_id": "inv_ifc::field_guide_11_key_risks_and_mitigants",
+      "investor_id": "inv_ifc",
+      "section": "Form Field Guide: 6. Execution & Risks",
+      "title": "IFC Guidance for 'Key Technical, Market & Climate Risks with Mitigants'",
+      "text": "Field 'Key Technical, Market & Climate Risks with Mitigants' (key_risks_and_mitigants) under section '6. Execution & Risks' on IFC's Multilateral Development Bank (MDB) Climate Project Concept Note: Primary execution risks and risk-sharing / credit enhancement mitigants. Required=True. Expected evidence keywords: risk, mitigant, guarantee, offtake. Align response with IFC's COP31 priorities (Founding private-sector partner of Türkiye Industrial Decarbonization Investment Platform (TIDIP) targeting $6B by 2030) and instruments (Senior Debt, Equity, Mezzanine)."
+    },
+    {
+      "chunk_id": "inv_ifc::field_guide_12_executive_concept_summary",
+      "investor_id": "inv_ifc",
+      "section": "Form Field Guide: 7. Executive Summary",
+      "title": "IFC Guidance for 'Executive Concept Note Abstract'",
+      "text": "Field 'Executive Concept Note Abstract' (executive_concept_summary) under section '7. Executive Summary' on IFC's Multilateral Development Bank (MDB) Climate Project Concept Note: Concise decision-ready summary tailored to the MDB investment committee. Required=True. Expected evidence keywords: impact, alignment, financing. Align response with IFC's COP31 priorities (Founding private-sector partner of Türkiye Industrial Decarbonization Investment Platform (TIDIP) targeting $6B by 2030) and instruments (Senior Debt, Equity, Mezzanine)."
+    }
+  ]
+}

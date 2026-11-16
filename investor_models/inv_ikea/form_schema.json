@@ -1,0 +1,150 @@
+{
+  "investor_id": "inv_ikea",
+  "investor_name": "IKEA (Ingka Group / Ingka Investments)",
+  "portal_url": "https://cop31.tr/partners/climate-supporters",
+  "template": {
+    "template_id": "CATALYTIC_PE_VC_INTAKE",
+    "title": "Climate Private Equity / Catalytic Capital / Venture Investment Intake Form",
+    "governing_standard": "GFANZ Catalytic Capital Repository / Impact Management Project (IMP) / IRIS+ Climate Metrics",
+    "typical_review_timeline": "4–10 weeks (Pitch Screening -> Commercial & Climate DD -> IC Approval)",
+    "fields": [
+      {
+        "field_id": "company_and_project",
+        "label": "Company / SPV Name, Sector & Geography",
+        "section": "1. Venture / Asset Overview",
+        "field_type": "text",
+        "required": true,
+        "description": "Applicant entity name, climate vertical, and operating market.",
+        "generation_strategy": "APPLICANT_DIRECT",
+        "expected_keywords": [],
+        "applicant_source_keys": [
+          "organization_name",
+          "primary_sector",
+          "country"
+        ]
+      },
+      {
+        "field_id": "round_and_instrument",
+        "label": "Target Capital Raise, Ticket Size & Preferred Capital Layer",
+        "section": "1. Venture / Asset Overview",
+        "field_type": "currency_usd",
+        "required": true,
+        "description": "Maps stage and requested amount to equity, catalytic first-loss, project-prep, or infrastructure equity.",
+        "generation_strategy": "KAG_RULE",
+        "expected_keywords": [
+          "Equity",
+          "Catalytic",
+          "USD",
+          "Stage"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "climate_thesis_fit",
+        "label": "Alignment with Investor Climate Thesis & COP31 Platform",
+        "section": "2. Investment Thesis",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Aligns venture/project with investor's COP31 mandate (e.g., GFANZ Catalytic Capital, Allied Climate Partners early dev, Just Climate industrial/nature, BlackRock Transition Infra).",
+        "generation_strategy": "RAG_NARRATIVE",
+        "expected_keywords": [
+          "COP31",
+          "catalytic",
+          "transition",
+          "thesis"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "decarbonization_unit_economics",
+        "label": "Avoided Emissions Potential (tCO2e/yr) & Commercial Unit Economics",
+        "section": "2. Investment Thesis",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Links climate impact (tCO2e per dollar deployed) with expected IRR and revenue scalability.",
+        "generation_strategy": "HYBRID",
+        "expected_keywords": [
+          "tCO2e",
+          "IRR",
+          "scalability"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "technology_and_moat",
+        "label": "Technology Differentiation, Innovation & Market Readiness",
+        "section": "3. Product & Execution",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Highlights proprietary technology, TRL maturity, and competitive advantage.",
+        "generation_strategy": "RAG_NARRATIVE",
+        "expected_keywords": [
+          "technology",
+          "innovation",
+          "deployment"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "capital_stack_and_cofinanciers",
+        "label": "Blended Capital Stack & Co-Investor Mobilization",
+        "section": "3. Product & Execution",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Shows existing equity/co-financing commitments and how catalytic capital unlocks scale.",
+        "generation_strategy": "HYBRID",
+        "expected_keywords": [
+          "co-financing",
+          "capital stack",
+          "mobilize"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "esg_impact_governance",
+        "label": "ESG Governance, Social Co-Benefits & Exclusion Compliance",
+        "section": "4. Impact & Risk",
+        "field_type": "compliance_check",
+        "required": true,
+        "description": "Screens fossil-fuel exclusions, permitting status, and social/gender co-benefits.",
+        "generation_strategy": "KAG_RULE",
+        "expected_keywords": [
+          "ESG",
+          "Exclusion",
+          "Impact"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "risks_and_mitigants",
+        "label": "Key Scale-Up Risks & Mitigation Strategy",
+        "section": "4. Impact & Risk",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Commercial, technology, and emerging-market execution risks with mitigants.",
+        "generation_strategy": "RAG_NARRATIVE",
+        "expected_keywords": [
+          "risk",
+          "mitigant",
+          "execution"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "ic_teaser_summary",
+        "label": "Investment Committee 1-Paragraph Executive Pitch",
+        "section": "5. Executive Pitch",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Investor-ready pitch paragraph synthesizing commercial upside and climate impact.",
+        "generation_strategy": "HYBRID",
+        "expected_keywords": [
+          "investment",
+          "climate",
+          "impact"
+        ],
+        "applicant_source_keys": []
+      }
+    ]
+  }
+}

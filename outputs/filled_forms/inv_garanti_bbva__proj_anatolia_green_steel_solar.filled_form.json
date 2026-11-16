@@ -1,0 +1,262 @@
+{
+  "submission_id": "sub_inv_garanti_bbva_proj_anatolia_green_steel_solar_8d64785a",
+  "generated_at_utc": "2026-11-15T15:45:24.400878+00:00",
+  "investor_id": "inv_garanti_bbva",
+  "investor_name": "Garanti BBVA",
+  "model_architecture": "RAG",
+  "form_template_id": "TURKISH_BANK_GREEN_LOAN",
+  "form_title": "Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application",
+  "project_id": "proj_anatolia_green_steel_solar",
+  "project_title": "Anatolia Green Electric-Arc Steel & 120 MW Solar + BESS Decarbonization Project",
+  "pii_redacted_for_ai_context": true,
+  "tenant_isolation_verified": true,
+  "eligibility": {
+    "eligible": true,
+    "fit_score": 97.6,
+    "passed_checks": [
+      "Retrieved mandate confirms coverage for Türkiye (Türkiye, EMEA).",
+      "Applicant profile 'Large Corporate' aligns with Garanti BBVA banking segment.",
+      "Ticket $45,000,000 fits Garanti BBVA band ($100,000–$150,000,000).",
+      "No fossil-fuel exclusion conflicts found.",
+      "Matched financing product 'Green Investment Loan'."
+    ],
+    "failed_checks": [],
+    "warnings": [],
+    "recommended_instrument": "Green Investment Loan",
+    "kag_hops_executed": 0
+  },
+  "completion_rate_percent": 100.0,
+  "average_confidence": 0.949,
+  "fields": [
+    {
+      "field_id": "company_identity_masked",
+      "label": "Company Legal Name & Masked Tax ID (VKN)",
+      "section": "1. Applicant Identification",
+      "value": "Anatolia Clean Metallurgy A.Ş. | Masked VKN/Tax ID: VK********3847 | Jurisdiction: Türkiye",
+      "status": "FILLED",
+      "confidence": 0.95,
+      "reasoning_mode": "RAG",
+      "evidence_sources": [
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": null,
+      "rag_citations": [
+        "inv_garanti_bbva::field_guide_01_company_identity_masked",
+        "inv_garanti_bbva::sectors_geography",
+        "inv_garanti_bbva::compliance_esg"
+      ],
+      "compliance_notes": [
+        "PII masked via PIIRedactor during RAG processing."
+      ]
+    },
+    {
+      "field_id": "enterprise_segment",
+      "label": "Enterprise Segment (SME / Mid-Cap / Corporate / Exporter)",
+      "section": "1. Applicant Identification",
+      "value": "Large Corporate (EU CBAM Exporter)",
+      "status": "FILLED",
+      "confidence": 0.94,
+      "reasoning_mode": "RAG",
+      "evidence_sources": [
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": null,
+      "rag_citations": [
+        "inv_garanti_bbva::field_guide_02_enterprise_segment",
+        "inv_garanti_bbva::instruments_tickets",
+        "inv_garanti_bbva::sectors_geography"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "bank_green_program",
+      "label": "Selected COP31 Green Financing Package / Credit Line",
+      "section": "2. Product Selection",
+      "value": "Target Program: Garanti BBVA — Official Global Banking Partner of COP31 Antalya (with BBVA Group); 60+ Green Zone Climate Finance Hub sessions; EV/TOGG mobility showcase. COP31 2026 Commitment: TRY 3.5 trillion sustainable finance commitment (2018–2029; >TRY 1 trillion surpassed by Jan 2026) for green transition, renewables, e-mobility & SMEs. Recommended Facility: Green Investment Loan aligned with Industrial Decarbonization. [inv_garanti_bbva::field_guide_03_bank_green_program] [inv_garanti_bbva::sectors_geography]",
+      "status": "FILLED",
+      "confidence": 0.95,
+      "reasoning_mode": "RAG",
+      "evidence_sources": [
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": null,
+      "rag_citations": [
+        "inv_garanti_bbva::field_guide_03_bank_green_program",
+        "inv_garanti_bbva::sectors_geography",
+        "inv_garanti_bbva::instruments_tickets"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "loan_amount_and_maturity",
+      "label": "Requested Financing Amount (USD eq.) & Tenor",
+      "section": "2. Product Selection",
+      "value": "Green Investment Loan | Requested: $45,000,000 USD | Maturity: 4 years | Program Range: $100,000–$150,000,000 (In Range). [inv_garanti_bbva::field_guide_04_loan_amount_and_maturity] [inv_garanti_bbva::instruments_tickets]",
+      "status": "FILLED",
+      "confidence": 0.95,
+      "reasoning_mode": "RAG",
+      "evidence_sources": [
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": null,
+      "rag_citations": [
+        "inv_garanti_bbva::field_guide_04_loan_amount_and_maturity",
+        "inv_garanti_bbva::instruments_tickets",
+        "inv_garanti_bbva::sectors_geography"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "eligible_green_use_of_proceeds",
+      "label": "Eligible Green Use of Proceeds & Technology Description",
+      "section": "3. Green Technical Criteria",
+      "value": "Green Use of Proceeds (Industrial Decarbonization): High-efficiency scrap preheating electric-arc furnace integrated with grid-forming 60 MWh BESS, digital twin energy dispatch, and ISO 14064 real-time carbon MRV. Maps to Garanti BBVA eligible categories (Renewable Energy, Clean Transport & EV, Industrial Decarbonization) and governing requirements (Turkish company registration (VKN) & audited financials; Garanti BBVA Sustainable Finance Framework eligibility). [inv_garanti_bbva::field_guide_05_eligible_green_use_of_proceeds] [inv_garanti_bbva::sectors_geography]",
+      "status": "FILLED",
+      "confidence": 0.95,
+      "reasoning_mode": "RAG",
+      "evidence_sources": [
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": null,
+      "rag_citations": [
+        "inv_garanti_bbva::field_guide_05_eligible_green_use_of_proceeds",
+        "inv_garanti_bbva::sectors_geography",
+        "inv_garanti_bbva::instruments_tickets"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "carbon_and_cbam_impact",
+      "label": "Carbon Footprint Reduction (tCO2e/yr) & EU CBAM Export Impact",
+      "section": "3. Green Technical Criteria",
+      "value": "Projected Emissions Reduction: 185,000 tCO2e/year. Cuts steelmaking Scope 1 and Scope 2 carbon intensity by 62% (185,000 tCO2e/year avoided), directly supporting Türkiye's 2035 NDC and TIDIP industrial decarbonization targets. Directly reduces EU CBAM carbon border exposure for export supply chains. Aligned with Garanti BBVA sustainable finance KPI reporting. [inv_garanti_bbva::field_guide_06_carbon_and_cbam_impact] [inv_garanti_bbva::sectors_geography]",
+      "status": "FILLED",
+      "confidence": 0.95,
+      "reasoning_mode": "RAG",
+      "evidence_sources": [
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": null,
+      "rag_citations": [
+        "inv_garanti_bbva::field_guide_06_carbon_and_cbam_impact",
+        "inv_garanti_bbva::sectors_geography",
+        "inv_garanti_bbva::instruments_tickets"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "collateral_and_kgf_status",
+      "label": "Collateral / Kredi Garanti Fonu (KGF) Guarantee Eligibility",
+      "section": "4. Credit & Collateral",
+      "value": "Collateral / KGF Guarantee Available for Garanti BBVA green credit line underwriting. [inv_garanti_bbva::field_guide_07_collateral_and_kgf_status] [inv_garanti_bbva::sectors_geography]",
+      "status": "FILLED",
+      "confidence": 0.95,
+      "reasoning_mode": "RAG",
+      "evidence_sources": [
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": null,
+      "rag_citations": [
+        "inv_garanti_bbva::field_guide_07_collateral_and_kgf_status",
+        "inv_garanti_bbva::sectors_geography",
+        "inv_garanti_bbva::compliance_esg"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "inclusive_priority_flags",
+      "label": "Inclusive Finance Eligibility (Women/Youth Entrepreneur / Regional Priority)",
+      "section": "4. Credit & Collateral",
+      "value": "EU CBAM Green Export Priority. [inv_garanti_bbva::field_guide_08_inclusive_priority_flags] [inv_garanti_bbva::sectors_geography]",
+      "status": "FILLED",
+      "confidence": 0.95,
+      "reasoning_mode": "RAG",
+      "evidence_sources": [
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": null,
+      "rag_citations": [
+        "inv_garanti_bbva::field_guide_08_inclusive_priority_flags",
+        "inv_garanti_bbva::sectors_geography",
+        "inv_garanti_bbva::instruments_tickets"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "financial_snapshot",
+      "label": "Financial Performance Snapshot (Annual Revenue, EBITDA, Project Capex)",
+      "section": "4. Credit & Collateral",
+      "value": "Capex: $95,000,000 | Revenue: $240,000,000 | EBITDA: $42,000,000 | Projected IRR: 15.8%",
+      "status": "FILLED",
+      "confidence": 0.95,
+      "reasoning_mode": "RAG",
+      "evidence_sources": [
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": null,
+      "rag_citations": [
+        "inv_garanti_bbva::field_guide_09_financial_snapshot",
+        "inv_garanti_bbva::sectors_geography",
+        "inv_garanti_bbva::instruments_tickets"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "environmental_permits_status",
+      "label": "Environmental Permits (ÇED / EIA) & Vendor Green Certification",
+      "section": "5. Compliance",
+      "value": "Exclusion Check: PASS (zero fossil-fuel involvement) | Permits: EIA / ÇED permits confirmed | ESG Summary: Creates 320 green engineering jobs, zero coal usage, closed-loop 85% process water recycling, and formal workforce reskilling aligned with Just Transition principles. [inv_garanti_bbva::field_guide_10_environmental_permits_status] [inv_garanti_bbva::compliance_esg]",
+      "status": "FILLED",
+      "confidence": 0.95,
+      "reasoning_mode": "RAG",
+      "evidence_sources": [
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": null,
+      "rag_citations": [
+        "inv_garanti_bbva::field_guide_10_environmental_permits_status",
+        "inv_garanti_bbva::compliance_esg",
+        "inv_garanti_bbva::sectors_geography"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "application_executive_note",
+      "label": "Relationship Manager Executive Credit & Sustainability Note",
+      "section": "6. Summary",
+      "value": "Anatolia Green Electric-Arc Steel & 120 MW Solar + BESS Decarbonization Project (Anatolia Clean Metallurgy A.Ş., Türkiye) seeks $45,000,000 under Garanti BBVA's Green Investment Loan. Retrofitting a major Turkish steel rolling facility to 100% renewable-powered electric-arc furnace operation paired with 120 MW captive solar PV and 60 MWh lithium-iron-phosphate battery storage to achieve EU CBAM compliance. Contact [REDACTED_EMAIL_1] for technical annex. Expected impact: 185,000 tCO2e/year. [inv_garanti_bbva::field_guide_11_application_executive_note] [inv_garanti_bbva::sectors_geography]",
+      "status": "FILLED",
+      "confidence": 0.95,
+      "reasoning_mode": "RAG",
+      "evidence_sources": [
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": null,
+      "rag_citations": [
+        "inv_garanti_bbva::field_guide_11_application_executive_note",
+        "inv_garanti_bbva::sectors_geography",
+        "inv_garanti_bbva::instruments_tickets"
+      ],
+      "compliance_notes": []
+    }
+  ],
+  "pre_submission_checklist": [
+    "[Mandatory Requirement] Turkish company registration (VKN) & audited financials",
+    "[Mandatory Requirement] Garanti BBVA Sustainable Finance Framework eligibility",
+    "[Mandatory Requirement] Environmental permits (ÇED/EIA) & energy/carbon savings verification",
+    "[Mandatory Requirement] Collateral / creditworthiness or KGF guarantee package",
+    "[Portal Submission] Upload finalized packet via official portal: https://www.garantibbva.com.tr/en/sustainability"
+  ],
+  "llm_backend_used": "deterministic-grounded-synthesizer-v1"
+}

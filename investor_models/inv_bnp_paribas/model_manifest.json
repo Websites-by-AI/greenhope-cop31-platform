@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_bnp_paribas",
+  "investor_name": "BNP Paribas",
+  "short_name": "BNP Paribas",
+  "category": "Global Commercial Bank",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "RAG excels at grounding EU Taxonomy, ICMA/LMA SPT targets, and corporate transition narratives in BNP Paribas CIB's policy disclosures.",
+  "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+  "tenant_namespace": "tenant::inv_bnp_paribas",
+  "tenant_key_fingerprint": "d611a49291585327",
+  "created_at_utc": "2026-11-15T15:45:23.067614+00:00",
+  "source_record_sha256": "592f8c9545e6c18ac1dc6a4a1f750f0ca4d74b9fd30aa79f91db64b7296db0d4",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 13,
+  "artifact_hashes": {
+    "form_schema.json": "3bdcc140ac8c3bf4002a9edca85bc653e396ae19cc8f8ecf68e5733f2f1386d8",
+    "rag_corpus.json": "0ed3ae0070b86b7547e2301e740f941db39112bf001aa87577a2c437e06e425b"
+  }
+}

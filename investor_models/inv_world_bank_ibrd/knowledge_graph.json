@@ -1,0 +1,540 @@
+{
+  "investor_id": "inv_world_bank_ibrd",
+  "graph_format": "networkx-node-link-v1",
+  "node_count": 42,
+  "edge_count": 43,
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "node_type": "Investor",
+        "investor_id": "inv_world_bank_ibrd",
+        "name": "World Bank Group (IBRD / IDA)",
+        "short_name": "World Bank",
+        "category": "Multilateral Development Bank (MDB)",
+        "hq_country": "United States (Multilateral)",
+        "ticket_min_usd": 20000000,
+        "ticket_max_usd": 1000000000,
+        "portal_url": "https://www.worldbank.org/en/topic/climatechange",
+        "id": "inv_world_bank_ibrd"
+      },
+      {
+        "node_type": "COP31_Commitment",
+        "investor_id": "inv_world_bank_ibrd",
+        "role": "Signed $1.5B in 3 COP31 agreements in Türkiye; Co-Chair of Electrify Now Finance Coalition; TIDIP founding member; Global Finance Summit co-host",
+        "commitment": "$1.5B in 3 COP31 Türkiye deals (cities, agriculture, industry; €209.2M via Turk Eximbank; $32B Türkiye portfolio) + $100M Brazil forest restoration with BNDES",
+        "verification_source": "https://www.turkiyetoday.com/business/turkiye-clinches-51b-in-climate-financing-deals-at-cop31-3232234",
+        "verification_date": "2026-11-15",
+        "id": "cop31::inv_world_bank_ibrd"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "Sovereign Loan",
+        "id": "instrument::sovereign_loan"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "Policy-Based Financing",
+        "id": "instrument::policy_based_financing"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "Credit Guarantee",
+        "id": "instrument::credit_guarantee"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "Concessional Credit (IDA)",
+        "id": "instrument::concessional_credit__ida"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "Blended Finance",
+        "id": "instrument::blended_finance"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "Electrification & Grid",
+        "id": "sector::electrification___grid"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "Industrial Decarbonization",
+        "id": "sector::industrial_decarbonization"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "Climate Adaptation & Resilience",
+        "id": "sector::climate_adaptation___resilience"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "Sustainable Agriculture & Water",
+        "id": "sector::sustainable_agriculture___water"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "Resilient Cities & Infrastructure",
+        "id": "sector::resilient_cities___infrastructure"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "Global",
+        "id": "region::global"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "Emerging Markets",
+        "id": "region::emerging_markets"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "Developing Countries",
+        "id": "region::developing_countries"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "Türkiye",
+        "id": "region::türkiye"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "Africa",
+        "id": "region::africa"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "Asia",
+        "id": "region::asia"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "Latin America",
+        "id": "region::latin_america"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "Sovereign/Government",
+        "id": "applicant::sovereign_government"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "Municipality",
+        "id": "applicant::municipality"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "Financial Intermediary",
+        "id": "applicant::financial_intermediary"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "State-Owned Enterprise",
+        "id": "applicant::state_owned_enterprise"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "Joint MDB Paris Alignment Assessment (BB1 Mitigation & BB2 Adaptation)",
+        "id": "rule::joint_mdb_paris_alignment_assessment__bb1_mitiga"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "World Bank Environmental and Social Framework (ESF) & EIA clearance",
+        "id": "rule::world_bank_environmental_and_social_framework__e"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "Sovereign/Treasury guarantee or government counterpart endorsement",
+        "id": "rule::sovereign_treasury_guarantee_or_government_count"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "Host-country NDC & Climate Law alignment",
+        "id": "rule::host_country_ndc___climate_law_alignment"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "Unabated coal power generation",
+        "id": "exclusion::unabated_coal_power_generation"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_world_bank_ibrd",
+        "label": "Upstream oil & gas exploration",
+        "id": "exclusion::upstream_oil___gas_exploration"
+      },
+      {
+        "node_type": "FormTemplate",
+        "investor_id": "inv_world_bank_ibrd",
+        "title": "Multilateral Development Bank (MDB) Climate Project Concept Note",
+        "governing_standard": "Joint MDB Paris Alignment Methodology (BB1 Mitigation / BB2 Adaptation) & Environmental/Social Framework",
+        "id": "form::MDB_CONCEPT_NOTE"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_world_bank_ibrd",
+        "field_id": "project_title",
+        "label": "Project Title & Legal Sponsor",
+        "section": "1. Identification",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::project_title"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_world_bank_ibrd",
+        "field_id": "sovereign_window",
+        "label": "Financing Window (Sovereign vs. Non-Sovereign / Private Sector)",
+        "section": "1. Identification",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::sovereign_window"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_world_bank_ibrd",
+        "field_id": "cop31_platform_alignment",
+        "label": "COP31 Country Platform & Flagship Initiative Alignment",
+        "section": "2. Strategic Alignment",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::cop31_platform_alignment"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_world_bank_ibrd",
+        "field_id": "requested_instrument_and_amount",
+        "label": "Requested Financing Instrument & Amount (USD)",
+        "section": "3. Financial Structuring",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::requested_instrument_and_amount"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_world_bank_ibrd",
+        "field_id": "cofinancing_structure",
+        "label": "Total Project Cost & Co-Financing Mobilization Plan",
+        "section": "3. Financial Structuring",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::cofinancing_structure"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_world_bank_ibrd",
+        "field_id": "paris_alignment_bb1_bb2",
+        "label": "Paris Agreement Alignment Assessment (BB1 Mitigation & BB2 Physical Risk)",
+        "section": "4. Climate & Technical Rationale",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::paris_alignment_bb1_bb2"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_world_bank_ibrd",
+        "field_id": "ghg_and_adaptation_impact",
+        "label": "Quantified Climate Impact (tCO2e/year Avoided &/or Adaptation Beneficiaries)",
+        "section": "4. Climate & Technical Rationale",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::ghg_and_adaptation_impact"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_world_bank_ibrd",
+        "field_id": "es_safeguards_category",
+        "label": "Environmental & Social (E&S) Safeguards & EIA Status",
+        "section": "5. Safeguards & Governance",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::es_safeguards_category"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_world_bank_ibrd",
+        "field_id": "financial_viability_metrics",
+        "label": "Financial Viability & Bankability Indicators (Revenue, EBITDA, IRR)",
+        "section": "5. Safeguards & Governance",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::financial_viability_metrics"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_world_bank_ibrd",
+        "field_id": "implementation_timeline",
+        "label": "Project Readiness Stage & Implementation Schedule",
+        "section": "6. Execution & Risks",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::implementation_timeline"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_world_bank_ibrd",
+        "field_id": "key_risks_and_mitigants",
+        "label": "Key Technical, Market & Climate Risks with Mitigants",
+        "section": "6. Execution & Risks",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::key_risks_and_mitigants"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_world_bank_ibrd",
+        "field_id": "executive_concept_summary",
+        "label": "Executive Concept Note Abstract",
+        "section": "7. Executive Summary",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::executive_concept_summary"
+      }
+    ],
+    "links": [
+      {
+        "relation": "ANNOUNCES_AT_COP31",
+        "source": "inv_world_bank_ibrd",
+        "target": "cop31::inv_world_bank_ibrd"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_world_bank_ibrd",
+        "target": "instrument::sovereign_loan"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_world_bank_ibrd",
+        "target": "instrument::policy_based_financing"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_world_bank_ibrd",
+        "target": "instrument::credit_guarantee"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_world_bank_ibrd",
+        "target": "instrument::concessional_credit__ida"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_world_bank_ibrd",
+        "target": "instrument::blended_finance"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_world_bank_ibrd",
+        "target": "sector::electrification___grid"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_world_bank_ibrd",
+        "target": "sector::industrial_decarbonization"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_world_bank_ibrd",
+        "target": "sector::climate_adaptation___resilience"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_world_bank_ibrd",
+        "target": "sector::sustainable_agriculture___water"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_world_bank_ibrd",
+        "target": "sector::resilient_cities___infrastructure"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_world_bank_ibrd",
+        "target": "region::global"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_world_bank_ibrd",
+        "target": "region::emerging_markets"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_world_bank_ibrd",
+        "target": "region::developing_countries"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_world_bank_ibrd",
+        "target": "region::türkiye"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_world_bank_ibrd",
+        "target": "region::africa"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_world_bank_ibrd",
+        "target": "region::asia"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_world_bank_ibrd",
+        "target": "region::latin_america"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_world_bank_ibrd",
+        "target": "applicant::sovereign_government"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_world_bank_ibrd",
+        "target": "applicant::municipality"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_world_bank_ibrd",
+        "target": "applicant::financial_intermediary"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_world_bank_ibrd",
+        "target": "applicant::state_owned_enterprise"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_world_bank_ibrd",
+        "target": "rule::joint_mdb_paris_alignment_assessment__bb1_mitiga"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_world_bank_ibrd",
+        "target": "rule::world_bank_environmental_and_social_framework__e"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_world_bank_ibrd",
+        "target": "rule::sovereign_treasury_guarantee_or_government_count"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_world_bank_ibrd",
+        "target": "rule::host_country_ndc___climate_law_alignment"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_world_bank_ibrd",
+        "target": "exclusion::unabated_coal_power_generation"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_world_bank_ibrd",
+        "target": "exclusion::upstream_oil___gas_exploration"
+      },
+      {
+        "relation": "USES_FORM_TEMPLATE",
+        "source": "inv_world_bank_ibrd",
+        "target": "form::MDB_CONCEPT_NOTE"
+      },
+      {
+        "relation": "VALIDATES_FIELD",
+        "source": "rule::joint_mdb_paris_alignment_assessment__bb1_mitiga",
+        "target": "field::paris_alignment_bb1_bb2"
+      },
+      {
+        "relation": "VALIDATES_FIELD",
+        "source": "rule::world_bank_environmental_and_social_framework__e",
+        "target": "field::es_safeguards_category"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::project_title"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::sovereign_window"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::cop31_platform_alignment"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::requested_instrument_and_amount"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::cofinancing_structure"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::paris_alignment_bb1_bb2"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::ghg_and_adaptation_impact"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::es_safeguards_category"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::financial_viability_metrics"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::implementation_timeline"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::key_risks_and_mitigants"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::executive_concept_summary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_adaptation_fund",
+  "investor_name": "Adaptation Fund (AF)",
+  "short_name": "Adaptation Fund",
+  "category": "Multilateral Climate Fund",
+  "model_architecture": "KAG",
+  "ai_model_rationale": "Strict NIE/RIE/MIE accreditation, Designated Authority endorsement, and country cap constraints require KAG logical verification.",
+  "form_template_type": "CLIMATE_FUND_PROPOSAL",
+  "tenant_namespace": "tenant::inv_adaptation_fund",
+  "tenant_key_fingerprint": "bc4f7960b5cf08c4",
+  "created_at_utc": "2026-11-15T15:45:23.014635+00:00",
+  "source_record_sha256": "8532eccd990c04365dcb2e6fa089fc4263bac6254e167a5e139f58208004f16e",
+  "has_kag_graph": true,
+  "has_rag_corpus": false,
+  "kag_nodes_count": 38,
+  "kag_edges_count": 37,
+  "rag_chunks_count": 0,
+  "artifact_hashes": {
+    "form_schema.json": "b0b56611f427393638b1c044e6df06dd08706d42fd556daa26e96c221edfd395",
+    "knowledge_graph.json": "1b8f855ec0b1b0f2bb45d609b25aa474c51dd0588e610f0d3b7474ee859d474c"
+  }
+}

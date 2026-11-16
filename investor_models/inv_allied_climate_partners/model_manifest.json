@@ -1,0 +1,23 @@
+{
+  "investor_id": "inv_allied_climate_partners",
+  "investor_name": "Allied Climate Partners (ACP)",
+  "short_name": "Allied Climate Partners",
+  "category": "Institutional / Catalytic / Climate PE",
+  "model_architecture": "HYBRID_KAG_RAG",
+  "ai_model_rationale": "KAG verifies early-stage emerging-market & ticket constraints while RAG crafts catalytic project-prep & bankability-unlocking narratives.",
+  "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+  "tenant_namespace": "tenant::inv_allied_climate_partners",
+  "tenant_key_fingerprint": "31a9aad03fe9939b",
+  "created_at_utc": "2026-11-15T15:45:23.038195+00:00",
+  "source_record_sha256": "69939ca3a54d469cba57969e950ebc324a6048cd20d7fd72daf0d3500602ba6a",
+  "has_kag_graph": true,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 38,
+  "kag_edges_count": 37,
+  "rag_chunks_count": 14,
+  "artifact_hashes": {
+    "form_schema.json": "7573f9615bac509fa40c2b6576e407155556bc81ace0deca404316ed99ef0fc2",
+    "knowledge_graph.json": "6e6f83b1655cc3b38be735ef275413ec7456b6aed7ca4620f95fbd5dc5498125",
+    "rag_corpus.json": "f0dfaca4d68fa6ca741a68b3baa774424614ee9deb476a409851eb61396f159b"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "investor_id": "inv_bndes",
+  "corpus_format": "cop31-rag-chunks-v1",
+  "chunk_count": 15,
+  "chunks": [
+    {
+      "chunk_id": "inv_bndes::mandate_cop31",
+      "investor_id": "inv_bndes",
+      "section": "COP31 Antalya 2026 Mandate",
+      "title": "BNDES (Brazilian Development Bank) (BNDES) COP31 Role & Commitments",
+      "text": "BNDES (Brazilian Development Bank) is a National Development Bank headquartered in Brazil. At UNFCCC COP31 in Antalya (November 9-20, 2026), its verified role is: Announced $300M GCF mobilization + $147M IBRD/CIF forest restoration + $1B IDB/IBRD industrial decarbonization LOI at COP31. Verified COP31 2026 climate finance commitment: R$39B ($6.9B) climate investment push anchored by $300M GCF (Flying Rivers Capital, Just Climate Brasil) + $147M IBRD/CIF forest restoration. Source verification: https://carbon-pulse.com/571307/."
+    },
+    {
+      "chunk_id": "inv_bndes::instruments_tickets",
+      "investor_id": "inv_bndes",
+      "section": "Financial Products & Ticket Sizing",
+      "title": "BNDES Financing Instruments & Ticket Bounds",
+      "text": "BNDES (Brazilian Development Bank) provides the following climate financing instruments: Development Loan, Climate Fund Equity Anchor, Blended Concessional Finance, Green Credit Line. Typical transaction ticket range is USD 5,000,000 to USD 300,000,000. Eligible applicant profiles include: Large Corporate, Project SPV, Financial Intermediary, Fund Manager, Municipality."
+    },
+    {
+      "chunk_id": "inv_bndes::sectors_geography",
+      "investor_id": "inv_bndes",
+      "section": "Eligible Sectors & Geographies",
+      "title": "BNDES Priority Climate Sectors & Regional Mandate",
+      "text": "Priority climate sectors funded by BNDES (Brazilian Development Bank): Nature-Based Solutions & Forestry, Industrial Decarbonization, Renewable Energy, Sustainable Fuels, Bioeconomy. Target geographic focus includes: Brazil, Latin America. Projects outside primary regions or ticket bounds may require syndicated or on-lending structures."
+    },
+    {
+      "chunk_id": "inv_bndes::compliance_esg",
+      "investor_id": "inv_bndes",
+      "section": "Compliance, ESG & Exclusion Criteria",
+      "title": "BNDES Mandatory Form & Underwriting Requirements",
+      "text": "Mandatory requirements to complete BNDES's application form: Brazilian operating entity / Climate Call alignment; GCF / IBRD / CIF environmental & forest-protection safeguards; Verified carbon abatement or reforestation hectares; Brazilian regulatory & environmental licensing. Explicit exclusion rules: Illegal deforestation; Coal power. Official application portal: https://www.bndes.gov.br/."
+    },
+    {
+      "chunk_id": "inv_bndes::form_standard",
+      "investor_id": "inv_bndes",
+      "section": "Application Form Governance",
+      "title": "BNDES Form Template: Development Finance Institution (DFI) / National Dev Bank Project Intake Form",
+      "text": "BNDES (Brazilian Development Bank) uses the 'Development Finance Institution (DFI) / National Dev Bank Project Intake Form' workflow governed by IFC Performance Standards / Harmonized DFI Climate Reporting (10by30 / IDFC). Typical review timeline is 4–12 weeks (Screening -> Due Diligence -> Credit Committee). Form sections required: 1. Sponsor Profile, 2. Transaction Structure, 3. Climate & Impact, 4. Financial Due Diligence, 5. Risk Assessment, 6. Executive Summary."
+    },
+    {
+      "chunk_id": "inv_bndes::field_guide_01_sponsor_and_project",
+      "investor_id": "inv_bndes",
+      "section": "Form Field Guide: 1. Sponsor Profile",
+      "title": "BNDES Guidance for 'Project Sponsor, Jurisdiction & Project Name'",
+      "text": "Field 'Project Sponsor, Jurisdiction & Project Name' (sponsor_and_project) under section '1. Sponsor Profile' on BNDES's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Sponsor organization, country of operation, and project title. Required=True. Expected evidence keywords: Verified applicant facts. Align response with BNDES's COP31 priorities (Announced $300M GCF mobilization + $147M IBRD/CIF forest restoration + $1B IDB/IBRD industrial decarbonization LOI at COP31) and instruments (Development Loan, Climate Fund Equity Anchor, Blended Concessional Finance)."
+    },
+    {
+      "chunk_id": "inv_bndes::field_guide_02_dfi_facility_alignment",
+      "investor_id": "inv_bndes",
+      "section": "Form Field Guide: 1. Sponsor Profile",
+      "title": "BNDES Guidance for 'Target DFI Climate Facility / COP31 Program Alignment'",
+      "text": "Field 'Target DFI Climate Facility / COP31 Program Alignment' (dfi_facility_alignment) under section '1. Sponsor Profile' on BNDES's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Links project to DFI's active COP31 facility (e.g., 10by30, Proparco Sustainable Energy, KfW Climate, TSKB Green Loan, Eximbank Green Line). Required=True. Expected evidence keywords: COP31, facility, energy, transition. Align response with BNDES's COP31 priorities (Announced $300M GCF mobilization + $147M IBRD/CIF forest restoration + $1B IDB/IBRD industrial decarbonization LOI at COP31) and instruments (Development Loan, Climate Fund Equity Anchor, Blended Concessional Finance)."
+    },
+    {
+      "chunk_id": "inv_bndes::field_guide_03_financing_request",
+      "investor_id": "inv_bndes",
+      "section": "Form Field Guide: 2. Transaction Structure",
+      "title": "BNDES Guidance for 'Requested Instrument, Ticket Size (USD) & Tenor'",
+      "text": "Field 'Requested Instrument, Ticket Size (USD) & Tenor' (financing_request) under section '2. Transaction Structure' on BNDES's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Validated against DFI ticket bounds, financing instruments, and project duration. Required=True. Expected evidence keywords: USD, tenor, Debt, Equity, Blended. Align response with BNDES's COP31 priorities (Announced $300M GCF mobilization + $147M IBRD/CIF forest restoration + $1B IDB/IBRD industrial decarbonization LOI at COP31) and instruments (Development Loan, Climate Fund Equity Anchor, Blended Concessional Finance)."
+    },
+    {
+      "chunk_id": "inv_bndes::field_guide_04_geography_and_sector_fit",
+      "investor_id": "inv_bndes",
+      "section": "Form Field Guide: 2. Transaction Structure",
+      "title": "BNDES Guidance for 'Mandate Fit: Target Geography & Priority Climate Sector'",
+      "text": "Field 'Mandate Fit: Target Geography & Priority Climate Sector' (geography_and_sector_fit) under section '2. Transaction Structure' on BNDES's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Graph-verified check that project country and sector sit inside the DFI's official investment mandate. Required=True. Expected evidence keywords: Eligible, Mandate, Sector. Align response with BNDES's COP31 priorities (Announced $300M GCF mobilization + $147M IBRD/CIF forest restoration + $1B IDB/IBRD industrial decarbonization LOI at COP31) and instruments (Development Loan, Climate Fund Equity Anchor, Blended Concessional Finance)."
+    },
+    {
+      "chunk_id": "inv_bndes::field_guide_05_avoided_emissions_and_dev_impact",
+      "investor_id": "inv_bndes",
+      "section": "Form Field Guide: 3. Climate & Impact",
+      "title": "BNDES Guidance for 'Avoided Emissions (tCO2e/yr) & Development Impact'",
+      "text": "Field 'Avoided Emissions (tCO2e/yr) & Development Impact' (avoided_emissions_and_dev_impact) under section '3. Climate & Impact' on BNDES's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Quantified avoided GHG emissions, energy access/jobs, and local economic co-benefits. Required=True. Expected evidence keywords: tCO2e, development, jobs, impact. Align response with BNDES's COP31 priorities (Announced $300M GCF mobilization + $147M IBRD/CIF forest restoration + $1B IDB/IBRD industrial decarbonization LOI at COP31) and instruments (Development Loan, Climate Fund Equity Anchor, Blended Concessional Finance)."
+    },
+    {
+      "chunk_id": "inv_bndes::field_guide_06_ifc_ps_esg_compliance",
+      "investor_id": "inv_bndes",
+      "section": "Form Field Guide: 3. Climate & Impact",
+      "title": "BNDES Guidance for 'IFC Performance Standards / E&S Screening & Exclusion List Check'",
+      "text": "Field 'IFC Performance Standards / E&S Screening & Exclusion List Check' (ifc_ps_esg_compliance) under section '3. Climate & Impact' on BNDES's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Confirms zero fossil-fuel exclusion breaches and checks EIA / permitting readiness. Required=True. Expected evidence keywords: IFC, Exclusion, EIA, ESG. Align response with BNDES's COP31 priorities (Announced $300M GCF mobilization + $147M IBRD/CIF forest restoration + $1B IDB/IBRD industrial decarbonization LOI at COP31) and instruments (Development Loan, Climate Fund Equity Anchor, Blended Concessional Finance)."
+    },
+    {
+      "chunk_id": "inv_bndes::field_guide_07_financial_profile",
+      "investor_id": "inv_bndes",
+      "section": "Form Field Guide: 4. Financial Due Diligence",
+      "title": "BNDES Guidance for 'Sponsor Financials & Project Economics (Revenue, EBITDA, Capex, IRR)'",
+      "text": "Field 'Sponsor Financials & Project Economics (Revenue, EBITDA, Capex, IRR)' (financial_profile) under section '4. Financial Due Diligence' on BNDES's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Key financial metrics required by DFI credit underwriters. Required=True. Expected evidence keywords: Verified applicant facts. Align response with BNDES's COP31 priorities (Announced $300M GCF mobilization + $147M IBRD/CIF forest restoration + $1B IDB/IBRD industrial decarbonization LOI at COP31) and instruments (Development Loan, Climate Fund Equity Anchor, Blended Concessional Finance)."
+    },
+    {
+      "chunk_id": "inv_bndes::field_guide_08_blended_finance_and_ta",
+      "investor_id": "inv_bndes",
+      "section": "Form Field Guide: 4. Financial Due Diligence",
+      "title": "BNDES Guidance for 'Blended Finance, De-Risking Guarantees & Technical Assistance Needs'",
+      "text": "Field 'Blended Finance, De-Risking Guarantees & Technical Assistance Needs' (blended_finance_and_ta) under section '4. Financial Due Diligence' on BNDES's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Specifies co-investors, first-loss/guarantees, and advisory/TA requests. Required=True. Expected evidence keywords: blended, technical assistance, co-finance. Align response with BNDES's COP31 priorities (Announced $300M GCF mobilization + $147M IBRD/CIF forest restoration + $1B IDB/IBRD industrial decarbonization LOI at COP31) and instruments (Development Loan, Climate Fund Equity Anchor, Blended Concessional Finance)."
+    },
+    {
+      "chunk_id": "inv_bndes::field_guide_09_risks_and_mitigants",
+      "investor_id": "inv_bndes",
+      "section": "Form Field Guide: 5. Risk Assessment",
+      "title": "BNDES Guidance for 'Principal Transaction Risks & Mitigants'",
+      "text": "Field 'Principal Transaction Risks & Mitigants' (risks_and_mitigants) under section '5. Risk Assessment' on BNDES's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Key construction, currency, regulatory, and offtake risks plus mitigation plan. Required=True. Expected evidence keywords: risk, mitigation, currency, offtake. Align response with BNDES's COP31 priorities (Announced $300M GCF mobilization + $147M IBRD/CIF forest restoration + $1B IDB/IBRD industrial decarbonization LOI at COP31) and instruments (Development Loan, Climate Fund Equity Anchor, Blended Concessional Finance)."
+    },
+    {
+      "chunk_id": "inv_bndes::field_guide_10_executive_intake_pitch",
+      "investor_id": "inv_bndes",
+      "section": "Form Field Guide: 6. Executive Summary",
+      "title": "BNDES Guidance for 'DFI Investment Committee Intake Summary'",
+      "text": "Field 'DFI Investment Committee Intake Summary' (executive_intake_pitch) under section '6. Executive Summary' on BNDES's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Concise structured investment teaser tailored to this DFI's COP31 mandate. Required=True. Expected evidence keywords: mandate, impact, financing. Align response with BNDES's COP31 priorities (Announced $300M GCF mobilization + $147M IBRD/CIF forest restoration + $1B IDB/IBRD industrial decarbonization LOI at COP31) and instruments (Development Loan, Climate Fund Equity Anchor, Blended Concessional Finance)."
+    }
+  ]
+}

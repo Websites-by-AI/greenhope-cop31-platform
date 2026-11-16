@@ -1,0 +1,505 @@
+{
+  "investor_id": "inv_norfund",
+  "graph_format": "networkx-node-link-v1",
+  "node_count": 40,
+  "edge_count": 40,
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "node_type": "Investor",
+        "investor_id": "inv_norfund",
+        "name": "Norfund (Norwegian Investment Fund / Climate Investment Fund)",
+        "short_name": "Norfund",
+        "category": "Bilateral DFI",
+        "hq_country": "Norway",
+        "ticket_min_usd": 10000000,
+        "ticket_max_usd": 100000000,
+        "portal_url": "https://www.norfund.no/apply-for-funding/",
+        "id": "inv_norfund"
+      },
+      {
+        "node_type": "COP31_Commitment",
+        "investor_id": "inv_norfund",
+        "role": "Co-launched '10by30' ($10B emerging market climate finance alliance) at COP31 on Nov 13 via Norwegian Climate Investment Fund",
+        "commitment": "Co-anchoring $10B '10by30' by 2030 (63% Africa portfolio; priority markets South Africa, Egypt, Tunisia, Morocco, India, SE Asia)",
+        "verification_source": "https://www.byteseu.com/2521383/",
+        "verification_date": "2026-11-15",
+        "id": "cop31::inv_norfund"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_norfund",
+        "label": "Equity",
+        "id": "instrument::equity"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_norfund",
+        "label": "Mezzanine",
+        "id": "instrument::mezzanine"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_norfund",
+        "label": "Long-Term Debt",
+        "id": "instrument::long_term_debt"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_norfund",
+        "label": "Co-Investment (10by30)",
+        "id": "instrument::co_investment__10by30"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_norfund",
+        "label": "Blended Finance",
+        "id": "instrument::blended_finance"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_norfund",
+        "label": "Renewable Energy",
+        "id": "sector::renewable_energy"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_norfund",
+        "label": "Energy Storage",
+        "id": "sector::energy_storage"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_norfund",
+        "label": "Electrification & Grid",
+        "id": "sector::electrification___grid"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_norfund",
+        "label": "Industrial Decarbonization",
+        "id": "sector::industrial_decarbonization"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_norfund",
+        "label": "Sustainable Fuels",
+        "id": "sector::sustainable_fuels"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_norfund",
+        "label": "Africa",
+        "id": "region::africa"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_norfund",
+        "label": "South Africa",
+        "id": "region::south_africa"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_norfund",
+        "label": "Egypt",
+        "id": "region::egypt"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_norfund",
+        "label": "Morocco",
+        "id": "region::morocco"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_norfund",
+        "label": "Tunisia",
+        "id": "region::tunisia"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_norfund",
+        "label": "Asia",
+        "id": "region::asia"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_norfund",
+        "label": "Latin America",
+        "id": "region::latin_america"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_norfund",
+        "label": "Project SPV",
+        "id": "applicant::project_spv"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_norfund",
+        "label": "Large Corporate",
+        "id": "applicant::large_corporate"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_norfund",
+        "label": "Financial Intermediary",
+        "id": "applicant::financial_intermediary"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_norfund",
+        "label": "Growth-Stage Private Enterprise",
+        "id": "applicant::growth_stage_private_enterprise"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_norfund",
+        "label": "High avoided-emissions potential replacing fossil-fuel power",
+        "id": "rule::high_avoided_emissions_potential_replacing_fossi"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_norfund",
+        "label": "10by30 coordinated due diligence & IFC Performance Standards",
+        "id": "rule::10by30_coordinated_due_diligence___ifc_performan"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_norfund",
+        "label": "Norfund priority emerging markets (high-emitting developing countries)",
+        "id": "rule::norfund_priority_emerging_markets__high_emitting"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_norfund",
+        "label": "Clear additionality & private capital mobilization",
+        "id": "rule::clear_additionality___private_capital_mobilizati"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_norfund",
+        "label": "Fossil-fuel power plants",
+        "id": "exclusion::fossil_fuel_power_plants"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_norfund",
+        "label": "Coal mining",
+        "id": "exclusion::coal_mining"
+      },
+      {
+        "node_type": "FormTemplate",
+        "investor_id": "inv_norfund",
+        "title": "Development Finance Institution (DFI) / National Dev Bank Project Intake Form",
+        "governing_standard": "IFC Performance Standards / Harmonized DFI Climate Reporting (10by30 / IDFC)",
+        "id": "form::DFI_PROJECT_INTAKE"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_norfund",
+        "field_id": "sponsor_and_project",
+        "label": "Project Sponsor, Jurisdiction & Project Name",
+        "section": "1. Sponsor Profile",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::sponsor_and_project"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_norfund",
+        "field_id": "dfi_facility_alignment",
+        "label": "Target DFI Climate Facility / COP31 Program Alignment",
+        "section": "1. Sponsor Profile",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::dfi_facility_alignment"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_norfund",
+        "field_id": "financing_request",
+        "label": "Requested Instrument, Ticket Size (USD) & Tenor",
+        "section": "2. Transaction Structure",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::financing_request"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_norfund",
+        "field_id": "geography_and_sector_fit",
+        "label": "Mandate Fit: Target Geography & Priority Climate Sector",
+        "section": "2. Transaction Structure",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::geography_and_sector_fit"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_norfund",
+        "field_id": "avoided_emissions_and_dev_impact",
+        "label": "Avoided Emissions (tCO2e/yr) & Development Impact",
+        "section": "3. Climate & Impact",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::avoided_emissions_and_dev_impact"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_norfund",
+        "field_id": "ifc_ps_esg_compliance",
+        "label": "IFC Performance Standards / E&S Screening & Exclusion List Check",
+        "section": "3. Climate & Impact",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_norfund",
+        "field_id": "financial_profile",
+        "label": "Sponsor Financials & Project Economics (Revenue, EBITDA, Capex, IRR)",
+        "section": "4. Financial Due Diligence",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::financial_profile"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_norfund",
+        "field_id": "blended_finance_and_ta",
+        "label": "Blended Finance, De-Risking Guarantees & Technical Assistance Needs",
+        "section": "4. Financial Due Diligence",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::blended_finance_and_ta"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_norfund",
+        "field_id": "risks_and_mitigants",
+        "label": "Principal Transaction Risks & Mitigants",
+        "section": "5. Risk Assessment",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::risks_and_mitigants"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_norfund",
+        "field_id": "executive_intake_pitch",
+        "label": "DFI Investment Committee Intake Summary",
+        "section": "6. Executive Summary",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::executive_intake_pitch"
+      }
+    ],
+    "links": [
+      {
+        "relation": "ANNOUNCES_AT_COP31",
+        "source": "inv_norfund",
+        "target": "cop31::inv_norfund"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_norfund",
+        "target": "instrument::equity"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_norfund",
+        "target": "instrument::mezzanine"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_norfund",
+        "target": "instrument::long_term_debt"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_norfund",
+        "target": "instrument::co_investment__10by30"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_norfund",
+        "target": "instrument::blended_finance"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_norfund",
+        "target": "sector::renewable_energy"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_norfund",
+        "target": "sector::energy_storage"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_norfund",
+        "target": "sector::electrification___grid"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_norfund",
+        "target": "sector::industrial_decarbonization"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_norfund",
+        "target": "sector::sustainable_fuels"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_norfund",
+        "target": "region::africa"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_norfund",
+        "target": "region::south_africa"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_norfund",
+        "target": "region::egypt"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_norfund",
+        "target": "region::morocco"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_norfund",
+        "target": "region::tunisia"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_norfund",
+        "target": "region::asia"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_norfund",
+        "target": "region::latin_america"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_norfund",
+        "target": "applicant::project_spv"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_norfund",
+        "target": "applicant::large_corporate"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_norfund",
+        "target": "applicant::financial_intermediary"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_norfund",
+        "target": "applicant::growth_stage_private_enterprise"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_norfund",
+        "target": "rule::high_avoided_emissions_potential_replacing_fossi"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_norfund",
+        "target": "rule::10by30_coordinated_due_diligence___ifc_performan"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_norfund",
+        "target": "rule::norfund_priority_emerging_markets__high_emitting"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_norfund",
+        "target": "rule::clear_additionality___private_capital_mobilizati"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_norfund",
+        "target": "exclusion::fossil_fuel_power_plants"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_norfund",
+        "target": "exclusion::coal_mining"
+      },
+      {
+        "relation": "USES_FORM_TEMPLATE",
+        "source": "inv_norfund",
+        "target": "form::DFI_PROJECT_INTAKE"
+      },
+      {
+        "relation": "VALIDATES_FIELD",
+        "source": "rule::10by30_coordinated_due_diligence___ifc_performan",
+        "target": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::sponsor_and_project"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::dfi_facility_alignment"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::financing_request"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::geography_and_sector_fit"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::avoided_emissions_and_dev_impact"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::financial_profile"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::blended_finance_and_ta"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::risks_and_mitigants"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::executive_intake_pitch"
+      }
+    ]
+  }
+}

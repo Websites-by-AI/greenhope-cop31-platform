@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_blackrock_climate_infra",
+  "investor_name": "BlackRock (Climate Infrastructure & Transition Investing)",
+  "short_name": "BlackRock Climate Infra",
+  "category": "Institutional / Catalytic / Climate PE",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "RAG matches infrastructure deal teasers against BlackRock's institutional transition-infrastructure underwriting and PPA criteria.",
+  "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+  "tenant_namespace": "tenant::inv_blackrock_climate_infra",
+  "tenant_key_fingerprint": "79debb22db993a9e",
+  "created_at_utc": "2026-11-15T15:45:23.055841+00:00",
+  "source_record_sha256": "dd942049db235bf907cd53e4953bffe3277e04e025d5e107e5c6857ea749fc5c",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 14,
+  "artifact_hashes": {
+    "form_schema.json": "eca958ad615073195595da2bb611c188454d5743ee67ed5c07bbc6922a4e4af6",
+    "rag_corpus.json": "41ab0db95cc88a74c14afa636444b3650ccba94e047eacbd3825b16e25d3fc75"
+  }
+}

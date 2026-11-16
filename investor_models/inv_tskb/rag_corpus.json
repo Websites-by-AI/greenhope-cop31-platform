@@ -1,0 +1,112 @@
+{
+  "investor_id": "inv_tskb",
+  "corpus_format": "cop31-rag-chunks-v1",
+  "chunk_count": 15,
+  "chunks": [
+    {
+      "chunk_id": "inv_tskb::mandate_cop31",
+      "investor_id": "inv_tskb",
+      "section": "COP31 Antalya 2026 Mandate",
+      "title": "TSKB (Industrial Development Bank of Türkiye) (TSKB) COP31 Role & Commitments",
+      "text": "TSKB (Industrial Development Bank of Türkiye) is a National Development Bank headquartered in Türkiye. At UNFCCC COP31 in Antalya (November 9-20, 2026), its verified role is: Official COP31 Climate Supporter (Green Zone Block C Climate Finance Hub); Türkiye's sole IDFC member. Verified COP31 2026 climate finance commitment: €200M Treasury-guaranteed wind, solar & battery storage (BESS) facility + IDFC Climate Implementation Bridge & green corporate investment loans. Source verification: https://www.linkedin.com/in/meralmurathan/."
+    },
+    {
+      "chunk_id": "inv_tskb::instruments_tickets",
+      "investor_id": "inv_tskb",
+      "section": "Financial Products & Ticket Sizing",
+      "title": "TSKB Financing Instruments & Ticket Bounds",
+      "text": "TSKB (Industrial Development Bank of Türkiye) provides the following climate financing instruments: Long-Term Investment Loan, MDB On-Lending Credit Line, Green/Sustainability Bond, Apex SME Facility, Advisory. Typical transaction ticket range is USD 2,000,000 to USD 100,000,000. Eligible applicant profiles include: Large Corporate, Project SPV, SME, Mid-Cap Enterprise, Financial Intermediary."
+    },
+    {
+      "chunk_id": "inv_tskb::sectors_geography",
+      "investor_id": "inv_tskb",
+      "section": "Eligible Sectors & Geographies",
+      "title": "TSKB Priority Climate Sectors & Regional Mandate",
+      "text": "Priority climate sectors funded by TSKB (Industrial Development Bank of Türkiye): Renewable Energy, Energy Storage, Industrial Decarbonization, Energy Efficiency, Circular Economy, Women Empowerment & Inclusive Green. Target geographic focus includes: Türkiye, EMEA. Projects outside primary regions or ticket bounds may require syndicated or on-lending structures."
+    },
+    {
+      "chunk_id": "inv_tskb::compliance_esg",
+      "investor_id": "inv_tskb",
+      "section": "Compliance, ESG & Exclusion Criteria",
+      "title": "TSKB Mandatory Form & Underwriting Requirements",
+      "text": "Mandatory requirements to complete TSKB's application form: TSKB ERET Environmental & Social Risk Evaluation rating; Turkish EIA (ÇED) permit & renewable license (EPDK) where applicable; Measurable energy efficiency / tCO2e abatement baseline; Audited corporate financials & debt service coverage (DSCR). Explicit exclusion rules: New coal-fired power plants; Environmental non-compliance. Official application portal: https://www.tskb.com.tr/en/corporate-banking/corporate-loans."
+    },
+    {
+      "chunk_id": "inv_tskb::form_standard",
+      "investor_id": "inv_tskb",
+      "section": "Application Form Governance",
+      "title": "TSKB Form Template: Development Finance Institution (DFI) / National Dev Bank Project Intake Form",
+      "text": "TSKB (Industrial Development Bank of Türkiye) uses the 'Development Finance Institution (DFI) / National Dev Bank Project Intake Form' workflow governed by IFC Performance Standards / Harmonized DFI Climate Reporting (10by30 / IDFC). Typical review timeline is 4–12 weeks (Screening -> Due Diligence -> Credit Committee). Form sections required: 1. Sponsor Profile, 2. Transaction Structure, 3. Climate & Impact, 4. Financial Due Diligence, 5. Risk Assessment, 6. Executive Summary."
+    },
+    {
+      "chunk_id": "inv_tskb::field_guide_01_sponsor_and_project",
+      "investor_id": "inv_tskb",
+      "section": "Form Field Guide: 1. Sponsor Profile",
+      "title": "TSKB Guidance for 'Project Sponsor, Jurisdiction & Project Name'",
+      "text": "Field 'Project Sponsor, Jurisdiction & Project Name' (sponsor_and_project) under section '1. Sponsor Profile' on TSKB's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Sponsor organization, country of operation, and project title. Required=True. Expected evidence keywords: Verified applicant facts. Align response with TSKB's COP31 priorities (Official COP31 Climate Supporter (Green Zone Block C Climate Finance Hub); Türkiye's sole IDFC member) and instruments (Long-Term Investment Loan, MDB On-Lending Credit Line, Green/Sustainability Bond)."
+    },
+    {
+      "chunk_id": "inv_tskb::field_guide_02_dfi_facility_alignment",
+      "investor_id": "inv_tskb",
+      "section": "Form Field Guide: 1. Sponsor Profile",
+      "title": "TSKB Guidance for 'Target DFI Climate Facility / COP31 Program Alignment'",
+      "text": "Field 'Target DFI Climate Facility / COP31 Program Alignment' (dfi_facility_alignment) under section '1. Sponsor Profile' on TSKB's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Links project to DFI's active COP31 facility (e.g., 10by30, Proparco Sustainable Energy, KfW Climate, TSKB Green Loan, Eximbank Green Line). Required=True. Expected evidence keywords: COP31, facility, energy, transition. Align response with TSKB's COP31 priorities (Official COP31 Climate Supporter (Green Zone Block C Climate Finance Hub); Türkiye's sole IDFC member) and instruments (Long-Term Investment Loan, MDB On-Lending Credit Line, Green/Sustainability Bond)."
+    },
+    {
+      "chunk_id": "inv_tskb::field_guide_03_financing_request",
+      "investor_id": "inv_tskb",
+      "section": "Form Field Guide: 2. Transaction Structure",
+      "title": "TSKB Guidance for 'Requested Instrument, Ticket Size (USD) & Tenor'",
+      "text": "Field 'Requested Instrument, Ticket Size (USD) & Tenor' (financing_request) under section '2. Transaction Structure' on TSKB's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Validated against DFI ticket bounds, financing instruments, and project duration. Required=True. Expected evidence keywords: USD, tenor, Debt, Equity, Blended. Align response with TSKB's COP31 priorities (Official COP31 Climate Supporter (Green Zone Block C Climate Finance Hub); Türkiye's sole IDFC member) and instruments (Long-Term Investment Loan, MDB On-Lending Credit Line, Green/Sustainability Bond)."
+    },
+    {
+      "chunk_id": "inv_tskb::field_guide_04_geography_and_sector_fit",
+      "investor_id": "inv_tskb",
+      "section": "Form Field Guide: 2. Transaction Structure",
+      "title": "TSKB Guidance for 'Mandate Fit: Target Geography & Priority Climate Sector'",
+      "text": "Field 'Mandate Fit: Target Geography & Priority Climate Sector' (geography_and_sector_fit) under section '2. Transaction Structure' on TSKB's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Graph-verified check that project country and sector sit inside the DFI's official investment mandate. Required=True. Expected evidence keywords: Eligible, Mandate, Sector. Align response with TSKB's COP31 priorities (Official COP31 Climate Supporter (Green Zone Block C Climate Finance Hub); Türkiye's sole IDFC member) and instruments (Long-Term Investment Loan, MDB On-Lending Credit Line, Green/Sustainability Bond)."
+    },
+    {
+      "chunk_id": "inv_tskb::field_guide_05_avoided_emissions_and_dev_impact",
+      "investor_id": "inv_tskb",
+      "section": "Form Field Guide: 3. Climate & Impact",
+      "title": "TSKB Guidance for 'Avoided Emissions (tCO2e/yr) & Development Impact'",
+      "text": "Field 'Avoided Emissions (tCO2e/yr) & Development Impact' (avoided_emissions_and_dev_impact) under section '3. Climate & Impact' on TSKB's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Quantified avoided GHG emissions, energy access/jobs, and local economic co-benefits. Required=True. Expected evidence keywords: tCO2e, development, jobs, impact. Align response with TSKB's COP31 priorities (Official COP31 Climate Supporter (Green Zone Block C Climate Finance Hub); Türkiye's sole IDFC member) and instruments (Long-Term Investment Loan, MDB On-Lending Credit Line, Green/Sustainability Bond)."
+    },
+    {
+      "chunk_id": "inv_tskb::field_guide_06_ifc_ps_esg_compliance",
+      "investor_id": "inv_tskb",
+      "section": "Form Field Guide: 3. Climate & Impact",
+      "title": "TSKB Guidance for 'IFC Performance Standards / E&S Screening & Exclusion List Check'",
+      "text": "Field 'IFC Performance Standards / E&S Screening & Exclusion List Check' (ifc_ps_esg_compliance) under section '3. Climate & Impact' on TSKB's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Confirms zero fossil-fuel exclusion breaches and checks EIA / permitting readiness. Required=True. Expected evidence keywords: IFC, Exclusion, EIA, ESG. Align response with TSKB's COP31 priorities (Official COP31 Climate Supporter (Green Zone Block C Climate Finance Hub); Türkiye's sole IDFC member) and instruments (Long-Term Investment Loan, MDB On-Lending Credit Line, Green/Sustainability Bond)."
+    },
+    {
+      "chunk_id": "inv_tskb::field_guide_07_financial_profile",
+      "investor_id": "inv_tskb",
+      "section": "Form Field Guide: 4. Financial Due Diligence",
+      "title": "TSKB Guidance for 'Sponsor Financials & Project Economics (Revenue, EBITDA, Capex, IRR)'",
+      "text": "Field 'Sponsor Financials & Project Economics (Revenue, EBITDA, Capex, IRR)' (financial_profile) under section '4. Financial Due Diligence' on TSKB's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Key financial metrics required by DFI credit underwriters. Required=True. Expected evidence keywords: Verified applicant facts. Align response with TSKB's COP31 priorities (Official COP31 Climate Supporter (Green Zone Block C Climate Finance Hub); Türkiye's sole IDFC member) and instruments (Long-Term Investment Loan, MDB On-Lending Credit Line, Green/Sustainability Bond)."
+    },
+    {
+      "chunk_id": "inv_tskb::field_guide_08_blended_finance_and_ta",
+      "investor_id": "inv_tskb",
+      "section": "Form Field Guide: 4. Financial Due Diligence",
+      "title": "TSKB Guidance for 'Blended Finance, De-Risking Guarantees & Technical Assistance Needs'",
+      "text": "Field 'Blended Finance, De-Risking Guarantees & Technical Assistance Needs' (blended_finance_and_ta) under section '4. Financial Due Diligence' on TSKB's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Specifies co-investors, first-loss/guarantees, and advisory/TA requests. Required=True. Expected evidence keywords: blended, technical assistance, co-finance. Align response with TSKB's COP31 priorities (Official COP31 Climate Supporter (Green Zone Block C Climate Finance Hub); Türkiye's sole IDFC member) and instruments (Long-Term Investment Loan, MDB On-Lending Credit Line, Green/Sustainability Bond)."
+    },
+    {
+      "chunk_id": "inv_tskb::field_guide_09_risks_and_mitigants",
+      "investor_id": "inv_tskb",
+      "section": "Form Field Guide: 5. Risk Assessment",
+      "title": "TSKB Guidance for 'Principal Transaction Risks & Mitigants'",
+      "text": "Field 'Principal Transaction Risks & Mitigants' (risks_and_mitigants) under section '5. Risk Assessment' on TSKB's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Key construction, currency, regulatory, and offtake risks plus mitigation plan. Required=True. Expected evidence keywords: risk, mitigation, currency, offtake. Align response with TSKB's COP31 priorities (Official COP31 Climate Supporter (Green Zone Block C Climate Finance Hub); Türkiye's sole IDFC member) and instruments (Long-Term Investment Loan, MDB On-Lending Credit Line, Green/Sustainability Bond)."
+    },
+    {
+      "chunk_id": "inv_tskb::field_guide_10_executive_intake_pitch",
+      "investor_id": "inv_tskb",
+      "section": "Form Field Guide: 6. Executive Summary",
+      "title": "TSKB Guidance for 'DFI Investment Committee Intake Summary'",
+      "text": "Field 'DFI Investment Committee Intake Summary' (executive_intake_pitch) under section '6. Executive Summary' on TSKB's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Concise structured investment teaser tailored to this DFI's COP31 mandate. Required=True. Expected evidence keywords: mandate, impact, financing. Align response with TSKB's COP31 priorities (Official COP31 Climate Supporter (Green Zone Block C Climate Finance Hub); Türkiye's sole IDFC member) and instruments (Long-Term Investment Loan, MDB On-Lending Credit Line, Green/Sustainability Bond)."
+    }
+  ]
+}

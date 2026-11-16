@@ -1,0 +1,4065 @@
+{
+  "schema_version": "1.0.0",
+  "summit": "UNFCCC COP31 Antalya, Türkiye (9–20 November 2026)",
+  "compiled_date": "2026-11-15",
+  "total_verified_investors": 66,
+  "investors": [
+    {
+      "investor_id": "inv_aiib",
+      "name": "Asian Infrastructure Investment Bank (AIIB)",
+      "short_name": "AIIB",
+      "category": "Multilateral Development Bank (MDB)",
+      "ecosystem_branch": "Development Banks",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier A — Approach Immediately",
+      "ai_rag_priority": "P1",
+      "greenhope_relevance": "Very High",
+      "greenhope_fit_notes": "IMMEDIATE NOV 16 ANTALYA EVENT: $1.6B Türkiye climate package + Nov 14 AIIB-GGGI project-preparation & investment-ready pipeline partnership directly matching GreenHope architecture.",
+      "knowledge_pack_slug": "aiib",
+      "hq_country": "China (Multilateral)",
+      "geographic_focus": [
+        "Asia",
+        "Türkiye",
+        "EMEA",
+        "Global",
+        "Emerging Markets",
+        "Central Asia"
+      ],
+      "cop31_antalya_role": "Signed record $1.9B COP31 Türkiye climate package (its largest climate policy-based financing to date)",
+      "cop31_verified_2026_commitment": "$1.6B Türkiye Climate Action Program (1,800 MW wind/solar, 225,000 farmers, 50,000 ha carbon sinks) + $300M via Turk Eximbank ($7.47B climate finance in 2025)",
+      "financing_instruments": [
+        "Sovereign Loan",
+        "Climate Policy-Based Financing",
+        "Non-Sovereign Infrastructure Debt",
+        "Equity",
+        "Guarantee"
+      ],
+      "typical_ticket_min_usd": 20000000,
+      "typical_ticket_max_usd": 600000000,
+      "target_sectors": [
+        "Renewable Energy",
+        "Electrification & Grid",
+        "Industrial Decarbonization",
+        "Sustainable Agriculture & Water",
+        "Climate Adaptation & Resilience",
+        "Carbon Sinks & Nature"
+      ],
+      "eligible_applicant_types": [
+        "Sovereign/Government",
+        "Large Corporate",
+        "Project SPV",
+        "Financial Intermediary",
+        "Municipality"
+      ],
+      "application_portal_url": "https://www.aiib.org/en/projects/propose/index.html",
+      "form_template_type": "MDB_CONCEPT_NOTE",
+      "mandatory_form_requirements": [
+        "AIIB Paris Alignment & Climate Finance Classification",
+        "Environmental and Social Framework (ESF) & EIA permits",
+        "Infrastructure connectivity & green transition mandate fit",
+        "Procurement & financial sustainability assessment"
+      ],
+      "exclusion_rules": [
+        "Coal-fired power plants and coal mining infrastructure"
+      ],
+      "recommended_ai_model_type": "KAG",
+      "ai_model_rationale": "Policy milestones, sovereign vs. non-sovereign infrastructure rules, and ESF screening rely on structured KAG constraint verification.",
+      "verification_source_url": "https://theopenpress.in/article/aiib-turkiye-record-1-6-billion-climate-deal-cop31-antalya",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_bbva_group",
+      "name": "BBVA Group",
+      "short_name": "BBVA",
+      "category": "Global Commercial Bank",
+      "ecosystem_branch": "Commercial Banks",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier A — Approach Immediately",
+      "ai_rag_priority": "P1",
+      "greenhope_relevance": "Very High",
+      "greenhope_fit_notes": "Highest-priority commercial bank at COP31; explicitly bridges innovation-to-investment for real-world cleantech & city pilots via Climate Finance Hub pavilion.",
+      "knowledge_pack_slug": "bbva",
+      "hq_country": "Spain",
+      "geographic_focus": [
+        "Global",
+        "Europe",
+        "Türkiye",
+        "Latin America",
+        "North America",
+        "Emerging Markets"
+      ],
+      "cop31_antalya_role": "Official Global Banking Partner of COP31 Antalya; 400m² Green Zone Pavilion with 60+ climate finance sessions",
+      "cop31_verified_2026_commitment": "€700B sustainable business goal (2025–2029; €170B mobilized by Q1 2026; €36B in Q1 2026 alone) across electrification, cleantech & transition",
+      "financing_instruments": [
+        "Green Loan",
+        "Sustainability-Linked Loan (SLL)",
+        "Green Bond Underwriting",
+        "Project Finance",
+        "Cleantech Venture Debt"
+      ],
+      "typical_ticket_min_usd": 5000000,
+      "typical_ticket_max_usd": 500000000,
+      "target_sectors": [
+        "Electrification & Grid",
+        "Renewable Energy",
+        "Climate-Tech Innovation",
+        "Industrial Decarbonization",
+        "Climate Adaptation & Resilience",
+        "Nature & Water"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "Project SPV",
+        "Climate-Tech Startup",
+        "Mid-Cap Enterprise",
+        "Financial Intermediary"
+      ],
+      "application_portal_url": "https://www.bbva.com/en/sustainability/",
+      "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+      "mandatory_form_requirements": [
+        "LMA Green Loan Principles / Sustainability-Linked Loan Principles / ICMA GBP alignment",
+        "EU Taxonomy or BBVA Sustainable Finance Framework eligibility",
+        "Scope 1/2/3 decarbonization KPIs & transition plan",
+        "Credit underwriting & Second-Party Opinion (for labeled bonds/SLLs)"
+      ],
+      "exclusion_rules": [
+        "Thermal coal expansion",
+        "Unaligned high-controversy projects"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "BBVA's 6 COP31 focus areas, extensive sustainable finance catalog, and narrative taxonomy/SPT alignment are ideally served by high-precision RAG retrieval.",
+      "verification_source_url": "https://www.bbva.com/en/sustainability/bbva-to-be-the-global-banking-partner-of-the-united-nations-climate-summit-cop31-in-turkiye/",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_garanti_bbva",
+      "name": "Garanti BBVA",
+      "short_name": "Garanti BBVA",
+      "category": "Turkish Commercial Bank",
+      "ecosystem_branch": "Commercial Banks",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier A — Approach Immediately",
+      "ai_rag_priority": "P1",
+      "greenhope_relevance": "Very High",
+      "greenhope_fit_notes": "Local Türkiye Global Banking Partner of COP31; TRY 3.5T sustainable finance target ideal for GreenHope Turkish city pilot -> measurable climate impact -> scale.",
+      "knowledge_pack_slug": "garanti_bbva",
+      "hq_country": "Türkiye",
+      "geographic_focus": [
+        "Türkiye",
+        "EMEA"
+      ],
+      "cop31_antalya_role": "Official Global Banking Partner of COP31 Antalya (with BBVA Group); 60+ Green Zone Climate Finance Hub sessions; EV/TOGG mobility showcase",
+      "cop31_verified_2026_commitment": "TRY 3.5 trillion sustainable finance commitment (2018–2029; >TRY 1 trillion surpassed by Jan 2026) for green transition, renewables, e-mobility & SMEs",
+      "financing_instruments": [
+        "Green Investment Loan",
+        "Sustainability-Linked Loan",
+        "SME Green Transformation Loan",
+        "EV/E-Mobility Finance",
+        "Green Trade Finance"
+      ],
+      "typical_ticket_min_usd": 100000,
+      "typical_ticket_max_usd": 150000000,
+      "target_sectors": [
+        "Renewable Energy",
+        "Clean Transport & EV",
+        "Industrial Decarbonization",
+        "SME Green Transition",
+        "Water Management & Circular Economy",
+        "Green Buildings"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "SME",
+        "Mid-Cap Enterprise",
+        "Project SPV",
+        "Climate-Tech Startup"
+      ],
+      "application_portal_url": "https://www.garantibbva.com.tr/en/sustainability",
+      "form_template_type": "TURKISH_BANK_GREEN_LOAN",
+      "mandatory_form_requirements": [
+        "Turkish company registration (VKN) & audited financials",
+        "Garanti BBVA Sustainable Finance Framework eligibility",
+        "Environmental permits (ÇED/EIA) & energy/carbon savings verification",
+        "Collateral / creditworthiness or KGF guarantee package"
+      ],
+      "exclusion_rules": [
+        "New thermal coal projects",
+        "Environmental regulation breaches"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "Rich catalog of Turkish corporate/SME green products, EV mobility packages, and sustainability framework docs fit RAG retrieval directly.",
+      "verification_source_url": "https://www.garantibbva.com.tr/en/corporate-communications/cop31-climate-change-summit",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_hsbc",
+      "name": "HSBC",
+      "short_name": "HSBC",
+      "category": "Global Commercial Bank",
+      "ecosystem_branch": "Commercial Banks",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier A — Approach Immediately",
+      "ai_rag_priority": "P1",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "HSBC / HSBC Türkiye P1 banking & climate asset management partner in COP31 Business Forum Working Group; transition finance & supply-chain MRV alignment.",
+      "knowledge_pack_slug": "hsbc",
+      "hq_country": "United Kingdom",
+      "geographic_focus": [
+        "Global",
+        "Asia-Pacific",
+        "Europe",
+        "MENA",
+        "Türkiye",
+        "Americas"
+      ],
+      "cop31_antalya_role": "Prominent international banking delegation at COP31 Antalya (19 accredited delegates) focused on transition finance & green supply chains",
+      "cop31_verified_2026_commitment": "Global sustainable finance & investment mobilization ($750B–$1T 2030 target) across green trade, supply chain decarbonization & transition loans",
+      "financing_instruments": [
+        "Green Trade Finance",
+        "Sustainability-Linked Loan (SLL)",
+        "Green Bond Underwriting",
+        "Transition Finance Facility",
+        "Supply Chain Decarbonization Finance"
+      ],
+      "typical_ticket_min_usd": 10000000,
+      "typical_ticket_max_usd": 500000000,
+      "target_sectors": [
+        "Industrial Decarbonization",
+        "Renewable Energy",
+        "Sustainable Supply Chains",
+        "Climate-Tech Innovation",
+        "Green Buildings",
+        "Clean Transport"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "Mid-Cap Enterprise",
+        "Project SPV",
+        "Financial Intermediary"
+      ],
+      "application_portal_url": "https://www.business.hsbc.com/en-gb/solutions/sustainable-finance",
+      "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+      "mandatory_form_requirements": [
+        "HSBC Sustainable Finance & Transition Framework alignment",
+        "Measurable Scope 1/2/3 KPIs & LMA/APLMA GLP/SLLP structuring",
+        "Second-Party Opinion (SPO) or third-party verification",
+        "Corporate creditworthiness & ESG controversy screening"
+      ],
+      "exclusion_rules": [
+        "New thermal coal power/mines",
+        "New oil & gas fields"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG retrieves HSBC's green trade, supply-chain, and transition-loan framework criteria to draft bankable SPT and Use-of-Proceeds entries.",
+      "verification_source_url": "https://thefederal.com/the-federal-special/cop31-in-antalya-big-polluters-and-climate-activists-under-one-roof-262803",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_ifc",
+      "name": "International Finance Corporation (IFC)",
+      "short_name": "IFC",
+      "category": "Multilateral Development Bank (MDB)",
+      "ecosystem_branch": "Development Banks",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier A — Approach Immediately",
+      "ai_rag_priority": "P1",
+      "greenhope_relevance": "Very High",
+      "greenhope_fit_notes": "Private-sector arm of World Bank Group ecosystem; best channel for commercializing GreenHope city/industrial MRV & resilience deployments.",
+      "knowledge_pack_slug": null,
+      "hq_country": "United States (Multilateral)",
+      "geographic_focus": [
+        "Global",
+        "Emerging Markets",
+        "Developing Countries",
+        "Türkiye",
+        "Africa",
+        "Asia",
+        "Latin America"
+      ],
+      "cop31_antalya_role": "Founding private-sector partner of Türkiye Industrial Decarbonization Investment Platform (TIDIP) targeting $6B by 2030",
+      "cop31_verified_2026_commitment": "Co-anchoring $6B TIDIP mobilization for steel, aluminum, cement & fertilizer decarbonization plus private-sector climate debt/equity",
+      "financing_instruments": [
+        "Senior Debt",
+        "Equity",
+        "Mezzanine",
+        "Blended Finance",
+        "Green Bond Anchor",
+        "Risk-Sharing Guarantee"
+      ],
+      "typical_ticket_min_usd": 10000000,
+      "typical_ticket_max_usd": 250000000,
+      "target_sectors": [
+        "Industrial Decarbonization",
+        "Renewable Energy",
+        "Energy Storage",
+        "Green Buildings",
+        "Climate-Smart Agriculture",
+        "Circular Economy"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "Project SPV",
+        "Financial Intermediary",
+        "Growth-Stage Private Enterprise"
+      ],
+      "application_portal_url": "https://www.ifc.org/en/what-we-do/sector-expertise/climate-business",
+      "form_template_type": "MDB_CONCEPT_NOTE",
+      "mandatory_form_requirements": [
+        "IFC Performance Standards (PS 1-8) compliance",
+        "Paris Alignment & GHG emissions accounting",
+        "Commercial bankability & audited financials",
+        "Private-sector ownership (>50% private or commercially managed)"
+      ],
+      "exclusion_rules": [
+        "New coal-fired power",
+        "Unabated fossil fuel projects",
+        "IFC Exclusion List activities"
+      ],
+      "recommended_ai_model_type": "HYBRID_KAG_RAG",
+      "ai_model_rationale": "Combines KAG for strict IFC Performance Standards, ownership & exclusion checks with RAG for commercial additionality and TIDIP sector narratives.",
+      "verification_source_url": "https://www.riotimesonline.com/turkey-eyes-6-billion-green-industry-cop31-antalya/",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_m_and_g",
+      "name": "M&G (M&G Investments / Catalyst)",
+      "short_name": "M&G",
+      "category": "Institutional / Catalytic / Climate PE",
+      "ecosystem_branch": "Infrastructure / Impact Investors",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier A — Approach Immediately",
+      "ai_rag_priority": "P1",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "Global asset manager & Catalyst private-assets climate impact investor (COP31 Business Forum WG); backs innovative climate-tech & measurable MRV impact businesses.",
+      "knowledge_pack_slug": "m_and_g",
+      "hq_country": "United Kingdom",
+      "geographic_focus": [
+        "Global",
+        "Europe",
+        "United Kingdom",
+        "Emerging Markets",
+        "Türkiye"
+      ],
+      "cop31_antalya_role": "COP31 Business Forum Climate Finance & Investments Working Group member mobilizing institutional & private impact capital",
+      "cop31_verified_2026_commitment": "Institutional climate transition & M&G Catalyst (£5B purpose-led private capital mandate) investing in scalable climate innovation & resilience",
+      "financing_instruments": [
+        "Private Growth Equity",
+        "Impact Debt",
+        "Catalyst Climate Innovation Capital",
+        "Institutional Co-Investment"
+      ],
+      "typical_ticket_min_usd": 3000000,
+      "typical_ticket_max_usd": 150000000,
+      "target_sectors": [
+        "Climate-Tech Innovation",
+        "Climate Adaptation & Resilience",
+        "Circular Economy & Zero Waste",
+        "Renewable Energy",
+        "Resilient Cities & Infrastructure"
+      ],
+      "eligible_applicant_types": [
+        "Climate-Tech Startup",
+        "Growth-Stage Private Enterprise",
+        "Project SPV",
+        "Fund Manager"
+      ],
+      "application_portal_url": "https://www.mandg.com/investments/institutional/en-gb/solutions/catalyst",
+      "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+      "mandatory_form_requirements": [
+        "Clear commercial scalability & repeatable revenue model",
+        "Verified measurable environmental/climate impact KPIs (IMP / IRIS+)",
+        "Defensible technology or data moat (e.g., AI + MRV)",
+        "Strong governance & institutional reporting readiness"
+      ],
+      "exclusion_rules": [
+        "Thermal coal",
+        "Unverified greenwashing claims"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG maps GreenHope's AI-driven MRV and scalable pilot economics to M&G Catalyst's purpose-led private assets investment thesis.",
+      "verification_source_url": "https://www.copbusiness.org/papers/COP31_WG_climate-finance-investments.pdf",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_meridiam",
+      "name": "Meridiam",
+      "short_name": "Meridiam",
+      "category": "Institutional / Catalytic / Climate PE",
+      "ecosystem_branch": "Infrastructure / Impact Investors",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier A — Approach Immediately",
+      "ai_rag_priority": "P1",
+      "greenhope_relevance": "Very High",
+      "greenhope_fit_notes": "Global sustainable urban infrastructure impact investor (COP31 Business Forum Finance WG); strong synergy with GreenHope city resilience, smart waste, air quality & municipal PPP pilots.",
+      "knowledge_pack_slug": "meridiam",
+      "hq_country": "France",
+      "geographic_focus": [
+        "Global",
+        "Europe",
+        "Türkiye",
+        "Africa",
+        "North America",
+        "Emerging Markets"
+      ],
+      "cop31_antalya_role": "COP31 Business Forum Climate Finance & Investments Working Group member focusing on bankable resilient urban infrastructure",
+      "cop31_verified_2026_commitment": "Long-term sustainable infrastructure & urban climate resilience investment mandate (25-year impact fund model, active in Türkiye & global municipal PPPs)",
+      "financing_instruments": [
+        "Infrastructure Equity",
+        "Municipal PPP Capital",
+        "Urban Resilience Fund",
+        "Blended Project Preparation"
+      ],
+      "typical_ticket_min_usd": 5000000,
+      "typical_ticket_max_usd": 250000000,
+      "target_sectors": [
+        "Resilient Cities & Infrastructure",
+        "Urban Mobility & Transport",
+        "Zero Waste & Circular Economy",
+        "Climate Adaptation & Resilience",
+        "Renewable Energy"
+      ],
+      "eligible_applicant_types": [
+        "Municipality",
+        "Project SPV",
+        "Climate-Tech Startup",
+        "Large Corporate"
+      ],
+      "application_portal_url": "https://www.meridiam.com/",
+      "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+      "mandatory_form_requirements": [
+        "Measurable UN SDG & urban climate resilience impact metrics (MRV verified)",
+        "Public-private partnership (PPP) or municipal concession scalability",
+        "Long-term asset durability & Paris Alignment",
+        "Strong environmental, social & community governance"
+      ],
+      "exclusion_rules": [
+        "Coal or fossil-fuel infrastructure",
+        "Short-term speculative non-impact ventures"
+      ],
+      "recommended_ai_model_type": "HYBRID_KAG_RAG",
+      "ai_model_rationale": "KAG checks municipal PPP & resilience infrastructure criteria while RAG tailors GreenHope city-pilot impact narratives to Meridiam's SDG impact framework.",
+      "verification_source_url": "https://www.copbusiness.org/papers/COP31_WG_climate-finance-investments.pdf",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_qnb_turkiye",
+      "name": "QNB Türkiye & QNB Leasing",
+      "short_name": "QNB Türkiye",
+      "category": "Turkish Commercial Bank",
+      "ecosystem_branch": "Commercial Banks",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier A — Approach Immediately",
+      "ai_rag_priority": "P1",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "COP31 Business Forum Finance WG member & $500M sustainable financing signer (incl. €75M Proparco); active green equipment leasing & SME climate lines.",
+      "knowledge_pack_slug": "qnb",
+      "hq_country": "Türkiye (Qatar National Bank Group)",
+      "geographic_focus": [
+        "Türkiye",
+        "MENA"
+      ],
+      "cop31_antalya_role": "Secured up to $500M sustainable finance at COP31 including €75M Proparco solar & wind leasing agreement",
+      "cop31_verified_2026_commitment": "Up to $500M sustainable financing arrangements at COP31 + €75M Proparco renewable energy leasing (>€250M 2026 solar/wind leasing with Proparco)",
+      "financing_instruments": [
+        "Renewable Energy Equipment Leasing",
+        "Green Investment Loan",
+        "SME Energy Efficiency Finance",
+        "Sustainable Trade Finance"
+      ],
+      "typical_ticket_min_usd": 100000,
+      "typical_ticket_max_usd": 80000000,
+      "target_sectors": [
+        "Renewable Energy",
+        "Solar & Wind Power Plants",
+        "Energy Efficiency",
+        "SME Green Transition",
+        "Industrial Decarbonization"
+      ],
+      "eligible_applicant_types": [
+        "SME",
+        "Mid-Cap Enterprise",
+        "Large Corporate",
+        "Project SPV"
+      ],
+      "application_portal_url": "https://www.qnb.com.tr/en/sustainability",
+      "form_template_type": "TURKISH_BANK_GREEN_LOAN",
+      "mandatory_form_requirements": [
+        "Turkish company registration (VKN) & leasing/credit underwriting",
+        "Proparco/DFI green equipment eligibility (solar PV, wind turbines, efficiency gear)",
+        "EPDK connection/call letter for rooftop/utility solar or wind",
+        "Equipment vendor quote & E&S compliance"
+      ],
+      "exclusion_rules": [
+        "Fossil-fuel machinery",
+        "Proparco Exclusion List activities"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG grounds green leasing & renewable equipment applications against QNB Türkiye and Proparco COP31 solar/wind eligibility guides.",
+      "verification_source_url": "https://www.asigazetesi.com/iklim-zirvesi-cop31-antalya-qnb-leasing-ile-proparcodan-75-milyon-avroluk-surdurulebilir-enerji-anlasmasi",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_world_bank_ibrd",
+      "name": "World Bank Group (IBRD / IDA)",
+      "short_name": "World Bank",
+      "category": "Multilateral Development Bank (MDB)",
+      "ecosystem_branch": "Development Banks",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier A — Approach Immediately",
+      "ai_rag_priority": "P1",
+      "greenhope_relevance": "Very High",
+      "greenhope_fit_notes": "Target via World Bank Group intermediaries, country climate programs, guarantees, or municipal resilience pilots rather than a raw grant ask.",
+      "knowledge_pack_slug": "world_bank",
+      "hq_country": "United States (Multilateral)",
+      "geographic_focus": [
+        "Global",
+        "Emerging Markets",
+        "Developing Countries",
+        "Türkiye",
+        "Africa",
+        "Asia",
+        "Latin America"
+      ],
+      "cop31_antalya_role": "Signed $1.5B in 3 COP31 agreements in Türkiye; Co-Chair of Electrify Now Finance Coalition; TIDIP founding member; Global Finance Summit co-host",
+      "cop31_verified_2026_commitment": "$1.5B in 3 COP31 Türkiye deals (cities, agriculture, industry; €209.2M via Turk Eximbank; $32B Türkiye portfolio) + $100M Brazil forest restoration with BNDES",
+      "financing_instruments": [
+        "Sovereign Loan",
+        "Policy-Based Financing",
+        "Credit Guarantee",
+        "Concessional Credit (IDA)",
+        "Blended Finance"
+      ],
+      "typical_ticket_min_usd": 20000000,
+      "typical_ticket_max_usd": 1000000000,
+      "target_sectors": [
+        "Electrification & Grid",
+        "Industrial Decarbonization",
+        "Climate Adaptation & Resilience",
+        "Sustainable Agriculture & Water",
+        "Resilient Cities & Infrastructure"
+      ],
+      "eligible_applicant_types": [
+        "Sovereign/Government",
+        "Municipality",
+        "Financial Intermediary",
+        "State-Owned Enterprise"
+      ],
+      "application_portal_url": "https://www.worldbank.org/en/topic/climatechange",
+      "form_template_type": "MDB_CONCEPT_NOTE",
+      "mandatory_form_requirements": [
+        "Joint MDB Paris Alignment Assessment (BB1 Mitigation & BB2 Adaptation)",
+        "World Bank Environmental and Social Framework (ESF) & EIA clearance",
+        "Sovereign/Treasury guarantee or government counterpart endorsement",
+        "Host-country NDC & Climate Law alignment"
+      ],
+      "exclusion_rules": [
+        "Unabated coal power generation",
+        "Upstream oil & gas exploration"
+      ],
+      "recommended_ai_model_type": "KAG",
+      "ai_model_rationale": "Strict multi-hop sovereign eligibility, ESF risk categorization, NDC/Paris BB1-BB2 rules, and Treasury guarantee logic require deterministic Knowledge Graph reasoning.",
+      "verification_source_url": "https://www.turkiyetoday.com/business/turkiye-clinches-51b-in-climate-financing-deals-at-cop31-3232234",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_akbank",
+      "name": "Akbank",
+      "short_name": "Akbank",
+      "category": "Turkish Commercial Bank",
+      "ecosystem_branch": "Commercial Banks",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier B — Core Follow-Up",
+      "ai_rag_priority": "P1",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "TRY 2.5T sustainable finance target + GEFF Türkiye & circular economy/waste programs directly matching GreenHope waste & municipal climate analytics.",
+      "knowledge_pack_slug": "akbank",
+      "hq_country": "Türkiye",
+      "geographic_focus": [
+        "Türkiye"
+      ],
+      "cop31_antalya_role": "Active COP31 Green Zone exhibitor partnering with GEFF Türkiye, KGF, Migros & TARİŞ on sustainable agriculture, circular industry & women's green access",
+      "cop31_verified_2026_commitment": "TRY 2.5 trillion sustainable finance target through 2030; COP31 programs spanning GEFF Türkiye, KGF-backed sustainable agri & circular industrial loans",
+      "financing_instruments": [
+        "GEFF Türkiye Green Loan",
+        "KGF-Backed Sustainability Loan",
+        "Corporate Transition Loan",
+        "Sustainable Agriculture Credit",
+        "Green Leasing"
+      ],
+      "typical_ticket_min_usd": 50000,
+      "typical_ticket_max_usd": 120000000,
+      "target_sectors": [
+        "SME Green Transition",
+        "Sustainable Agriculture & Water",
+        "Circular Economy & Zero Waste",
+        "Renewable Energy",
+        "Industrial Decarbonization",
+        "Women-Led Green Enterprise"
+      ],
+      "eligible_applicant_types": [
+        "SME",
+        "Large Corporate",
+        "Mid-Cap Enterprise",
+        "Project SPV",
+        "Climate-Tech Startup"
+      ],
+      "application_portal_url": "https://www.akbank.com/en-us/sustainability",
+      "form_template_type": "TURKISH_BANK_GREEN_LOAN",
+      "mandatory_form_requirements": [
+        "Turkish VKN registration & credit eligibility",
+        "GEFF Türkiye Technology Selector or Akbank Sustainable Finance Framework match",
+        "KGF eligibility check (for KGF-backed SME green lines)",
+        "Carbon/water savings estimate & environmental compliance"
+      ],
+      "exclusion_rules": [
+        "Thermal coal mining/generation",
+        "Non-compliant industrial waste"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG accurately matches applicants across Akbank's GEFF Türkiye, KGF agri, circular economy, and women-led green transition product guidelines.",
+      "verification_source_url": "https://basakgazetesi.com/haber/akbank-cop31-icin-kapsamli-iklim-finansmani-ve-donusum-programini-acikladi-897587",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_denizbank",
+      "name": "DenizBank",
+      "short_name": "DenizBank",
+      "category": "Turkish Commercial Bank",
+      "ecosystem_branch": "Commercial Banks",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier B — Core Follow-Up",
+      "ai_rag_priority": "P1",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "COP31 Business Forum Climate Finance WG Turkish bank (Emirates NBD group); strong Antalya/Mediterranean municipal, agri, tourism & startup innovation ecosystem footprint.",
+      "knowledge_pack_slug": "denizbank",
+      "hq_country": "Türkiye (Emirates NBD Group)",
+      "geographic_focus": [
+        "Türkiye",
+        "MENA"
+      ],
+      "cop31_antalya_role": "COP31 Business Forum Climate Finance & Investments Working Group member; local Turkish green finance & innovation banking leader",
+      "cop31_verified_2026_commitment": "Sustainable agriculture, renewable energy, green SME & municipal climate-resilience financing across Türkiye (backed by Emirates NBD & DFI green credit lines)",
+      "financing_instruments": [
+        "Green SME Loan",
+        "Sustainable Agriculture & Water Credit",
+        "Renewable Energy Loan",
+        "DFI On-Lending Line",
+        "Startup/Tech Banking (Deniz Ventures)"
+      ],
+      "typical_ticket_min_usd": 50000,
+      "typical_ticket_max_usd": 75000000,
+      "target_sectors": [
+        "Sustainable Agriculture & Water",
+        "Renewable Energy",
+        "SME Green Transition",
+        "Climate-Tech Innovation",
+        "Sustainable Tourism",
+        "Zero Waste & Circular Economy"
+      ],
+      "eligible_applicant_types": [
+        "SME",
+        "Climate-Tech Startup",
+        "Large Corporate",
+        "Municipality",
+        "Project SPV"
+      ],
+      "application_portal_url": "https://www.denizbank.com/en/sustainability",
+      "form_template_type": "TURKISH_BANK_GREEN_LOAN",
+      "mandatory_form_requirements": [
+        "Turkish company registration (VKN) & credit profile",
+        "Eligible green transition, water/agri, or climate-tech use of proceeds",
+        "Environmental compliance (ÇED/EIA) & measurable resource/CO2 savings",
+        "Collateral / KGF guarantee or Deniz Ventures equity review"
+      ],
+      "exclusion_rules": [
+        "Thermal coal expansion",
+        "Non-compliant environmental activities"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG retrieves DenizBank's green SME, agri-tech, municipal, and Deniz Ventures climate-tech pathways for tailored Turkish applications.",
+      "verification_source_url": "https://www.copbusiness.org/papers/COP31_WG_climate-finance-investments.pdf",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_deutsche_bank",
+      "name": "Deutsche Bank",
+      "short_name": "Deutsche Bank",
+      "category": "Global Commercial Bank",
+      "ecosystem_branch": "Commercial Banks",
+      "relationship_status": "Finance Participant",
+      "priority_tier": "Tier B — Core Follow-Up",
+      "ai_rag_priority": "P1",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "COP31 Business Forum Climate Finance WG member; active in sustainable finance structuring, green bonds & European/EM transition capital.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Germany",
+      "geographic_focus": [
+        "Global",
+        "Europe",
+        "Germany",
+        "EMEA",
+        "Türkiye",
+        "Asia-Pacific",
+        "Americas"
+      ],
+      "cop31_antalya_role": "COP31 Business Forum Climate Finance & Investments Working Group member",
+      "cop31_verified_2026_commitment": "Sustainable finance & ESG investment banking mobilization (€500B+ cumulative sustainable finance framework) covering transition & green capital markets",
+      "financing_instruments": [
+        "Green Bond Underwriting",
+        "Sustainability-Linked Loan (SLL)",
+        "Transition Finance",
+        "Blended Climate Fund Structuring"
+      ],
+      "typical_ticket_min_usd": 10000000,
+      "typical_ticket_max_usd": 400000000,
+      "target_sectors": [
+        "Renewable Energy",
+        "Industrial Decarbonization",
+        "Resilient Cities & Infrastructure",
+        "Climate-Tech Innovation",
+        "Clean Transport"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "Project SPV",
+        "Financial Intermediary",
+        "Municipality"
+      ],
+      "application_portal_url": "https://www.db.com/what-we-do/focus-topics/sustainability/",
+      "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+      "mandatory_form_requirements": [
+        "Deutsche Bank Sustainable Finance Framework & EU Taxonomy alignment",
+        "ICMA GBP / LMA GLP or SLLP verification",
+        "Second-Party Opinion (SPO) & audited credit profile",
+        "Scope 1/2/3 GHG reporting"
+      ],
+      "exclusion_rules": [
+        "Thermal coal mining/power expansion"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG aligns EU Taxonomy, green bond, and transition structuring narratives with Deutsche Bank's Sustainable Finance Framework.",
+      "verification_source_url": "https://www.copbusiness.org/papers/COP31_WG_climate-finance-investments.pdf",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_aib",
+      "name": "AIB (Allied Irish Banks)",
+      "short_name": "AIB",
+      "category": "Global Commercial Bank",
+      "ecosystem_branch": "Commercial Banks",
+      "relationship_status": "Finance Participant",
+      "priority_tier": "Tier B — Core Follow-Up",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "Medium",
+      "greenhope_fit_notes": "COP31 Business Forum Finance WG member; €30B Climate Action Fund focused primarily on Ireland/UK/EU renewable energy & green transition.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Ireland",
+      "geographic_focus": [
+        "Europe",
+        "EU",
+        "United Kingdom"
+      ],
+      "cop31_antalya_role": "COP31 Business Forum Climate Finance & Investments Working Group member",
+      "cop31_verified_2026_commitment": "€30B Climate Action Fund supporting European renewables, green buildings & transition finance",
+      "financing_instruments": [
+        "Green Loan",
+        "Renewable Project Finance",
+        "Green Bond"
+      ],
+      "typical_ticket_min_usd": 5000000,
+      "typical_ticket_max_usd": 150000000,
+      "target_sectors": [
+        "Renewable Energy",
+        "Green Buildings",
+        "Energy Efficiency",
+        "Clean Transport"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "Project SPV",
+        "SME"
+      ],
+      "application_portal_url": "https://aib.ie/sustainability",
+      "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+      "mandatory_form_requirements": [
+        "EU / Ireland / UK project nexus",
+        "EU Taxonomy & AIB Green Bond Framework alignment",
+        "Credit underwriting & EIA compliance"
+      ],
+      "exclusion_rules": [
+        "Fossil-fuel generation"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG aligns European renewable/green-building requests with AIB's €30B Climate Action Fund criteria.",
+      "verification_source_url": "https://www.copbusiness.org/papers/COP31_WG_climate-finance-investments.pdf",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_anz",
+      "name": "ANZ (Australia and New Zealand Banking Group)",
+      "short_name": "ANZ",
+      "category": "Global Commercial Bank",
+      "ecosystem_branch": "Commercial Banks",
+      "relationship_status": "Finance Participant",
+      "priority_tier": "Tier B — Core Follow-Up",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "Medium-High",
+      "greenhope_fit_notes": "COP31 Business Forum WG Australian bank; AUD 100B social & environmental sustainability target with focus on APAC energy transition & resilience.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Australia",
+      "geographic_focus": [
+        "Australia",
+        "Asia-Pacific",
+        "Global"
+      ],
+      "cop31_antalya_role": "COP31 Business Forum Climate Finance & Investments Working Group member",
+      "cop31_verified_2026_commitment": "AUD 100B environmental & social sustainability target by 2030 across APAC renewable energy, green buildings & climate adaptation",
+      "financing_instruments": [
+        "Green Loan",
+        "Sustainability-Linked Loan",
+        "Green Bond Structuring",
+        "Transition Finance"
+      ],
+      "typical_ticket_min_usd": 10000000,
+      "typical_ticket_max_usd": 300000000,
+      "target_sectors": [
+        "Renewable Energy",
+        "Climate Adaptation & Resilience",
+        "Green Buildings",
+        "Industrial Decarbonization"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "Project SPV",
+        "Financial Intermediary"
+      ],
+      "application_portal_url": "https://www.anz.com.au/about-us/esg/environmental-sustainability/",
+      "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+      "mandatory_form_requirements": [
+        "ANZ Social & Environmental Sustainability Target eligibility",
+        "APLMA GLP/SLLP alignment & verified GHG KPIs",
+        "Credit underwriting & SPO for labeled facilities"
+      ],
+      "exclusion_rules": [
+        "New thermal coal projects"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG retrieves ANZ's APAC transition & sustainability framework guidance for institutional loan structuring.",
+      "verification_source_url": "https://www.copbusiness.org/papers/COP31_WG_climate-finance-investments.pdf",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_cba_australia",
+      "name": "Commonwealth Bank of Australia (CommBank)",
+      "short_name": "CommBank (CBA)",
+      "category": "Global Commercial Bank",
+      "ecosystem_branch": "Commercial Banks",
+      "relationship_status": "Finance Participant",
+      "priority_tier": "Tier B — Core Follow-Up",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "Medium-High",
+      "greenhope_fit_notes": "Key Australian bank in COP31 Business Forum WG (Australia co-presiding COP31 negotiations); strong sustainability-linked & clean tech financing for Asia-Pacific expansion.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Australia",
+      "geographic_focus": [
+        "Australia",
+        "Asia-Pacific",
+        "Global"
+      ],
+      "cop31_antalya_role": "COP31 Business Forum Climate Finance & Investments Working Group member (Australian COP31 co-presidency financial delegation)",
+      "cop31_verified_2026_commitment": "AUD 70B cumulative sustainability funding target by 2030 across clean energy, low-carbon transport & resilient infrastructure",
+      "financing_instruments": [
+        "Green Loan",
+        "Sustainability-Linked Loan",
+        "Green Bond Underwriting",
+        "Clean Tech Corporate Debt"
+      ],
+      "typical_ticket_min_usd": 10000000,
+      "typical_ticket_max_usd": 300000000,
+      "target_sectors": [
+        "Renewable Energy",
+        "Energy Storage",
+        "Clean Transport",
+        "Green Buildings",
+        "Climate-Tech Innovation"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "Project SPV",
+        "Mid-Cap Enterprise"
+      ],
+      "application_portal_url": "https://www.commbank.com.au/about-us/opportunity-initiatives/sustainability.html",
+      "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+      "mandatory_form_requirements": [
+        "Asia-Pacific / Australian commercial nexus",
+        "APLMA GLP/SLLP compliance & climate KPIs",
+        "Audited corporate credit assessment"
+      ],
+      "exclusion_rules": [
+        "Thermal coal mining/generation"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG aligns clean-tech and transition proposals with CommBank's Sustainability Funding Target criteria.",
+      "verification_source_url": "https://www.copbusiness.org/papers/COP31_WG_climate-finance-investments.pdf",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_emirates_nbd",
+      "name": "Emirates NBD",
+      "short_name": "Emirates NBD",
+      "category": "Global Commercial Bank",
+      "ecosystem_branch": "Commercial Banks",
+      "relationship_status": "Finance Participant",
+      "priority_tier": "Tier B — Core Follow-Up",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "Parent of DenizBank & COP31 Business Forum WG bank; $30B sustainable finance target across MENA & Türkiye with green bonds and climate-tech innovation corridor.",
+      "knowledge_pack_slug": null,
+      "hq_country": "United Arab Emirates",
+      "geographic_focus": [
+        "MENA",
+        "Türkiye",
+        "EMEA",
+        "Asia"
+      ],
+      "cop31_antalya_role": "COP31 Business Forum Climate Finance & Investments Working Group member",
+      "cop31_verified_2026_commitment": "$30B sustainable finance target by 2030 covering green loans, sustainability-linked finance & MENA-Türkiye climate transition corridors",
+      "financing_instruments": [
+        "Green Loan",
+        "Sustainability-Linked Loan (SLL)",
+        "Green Bond / Green Sukuk",
+        "Trade & Transition Finance"
+      ],
+      "typical_ticket_min_usd": 5000000,
+      "typical_ticket_max_usd": 300000000,
+      "target_sectors": [
+        "Renewable Energy",
+        "Resilient Cities & Infrastructure",
+        "Water & Climate Adaptation",
+        "Industrial Decarbonization",
+        "Clean Transport"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "Project SPV",
+        "Financial Intermediary",
+        "Mid-Cap Enterprise"
+      ],
+      "application_portal_url": "https://www.emiratesnbd.com/en/sustainability",
+      "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+      "mandatory_form_requirements": [
+        "Emirates NBD Sustainable Finance Framework alignment",
+        "ICMA GBP / LMA GLP compliance & KPI reporting",
+        "Credit underwriting & Second-Party Opinion for labeled issuances"
+      ],
+      "exclusion_rules": [
+        "Unabated coal projects"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG grounds MENA/Türkiye green loan and green sukuk structures in Emirates NBD's Sustainable Finance Framework.",
+      "verification_source_url": "https://www.copbusiness.org/papers/COP31_WG_climate-finance-investments.pdf",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_halkbank",
+      "name": "Halkbank",
+      "short_name": "Halkbank",
+      "category": "Turkish State Bank",
+      "ecosystem_branch": "Commercial Banks",
+      "relationship_status": "Finance Participant",
+      "priority_tier": "Tier B — Core Follow-Up",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "Medium-High",
+      "greenhope_fit_notes": "TRY 100B COP31 SME Sustainability package (31 credit products, KGF-backed); suitable once GreenHope pilot partners with Turkish SMEs or municipalities.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Türkiye",
+      "geographic_focus": [
+        "Türkiye"
+      ],
+      "cop31_antalya_role": "Official COP31 Main Partner; launched dedicated COP31 TRY 100B SME Sustainability Transformation Package (31 products)",
+      "cop31_verified_2026_commitment": "TRY 100 billion COP31 SME Sustainability Transformation Package (31 green/social credit products, partly KGF-backed; TRY 424B cumulative green/social contribution)",
+      "financing_instruments": [
+        "SME Sustainability Transformation Loan (31 products)",
+        "KGF-Backed Green Loan",
+        "EV Charging & Solar Loan",
+        "Women & Youth Entrepreneur Green Credit"
+      ],
+      "typical_ticket_min_usd": 25000,
+      "typical_ticket_max_usd": 50000000,
+      "target_sectors": [
+        "SME Green Transition",
+        "Renewable Energy",
+        "Energy Efficiency",
+        "Circular Economy & Zero Waste",
+        "Clean Transport & EV",
+        "Water Conservation"
+      ],
+      "eligible_applicant_types": [
+        "SME",
+        "Mid-Cap Enterprise",
+        "Women/Youth Entrepreneur",
+        "Large Corporate"
+      ],
+      "application_portal_url": "https://www.halkbank.com.tr/en/sustainability.html",
+      "form_template_type": "TURKISH_BANK_GREEN_LOAN",
+      "mandatory_form_requirements": [
+        "Turkish SME / tradesperson / corporate registration (VKN & KOSGEB/KOBİ status)",
+        "Selection among 31 eligible green/social transformation credit categories",
+        "KGF guarantee or collateral documentation",
+        "Environmental permit & vendor invoice/proforma for green equipment"
+      ],
+      "exclusion_rules": [
+        "Non-eligible speculative lending",
+        "High-pollution non-compliant operations"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "Choosing the optimal match across Halkbank's 31 COP31 SME green loan sub-products is a textbook semantic RAG retrieval task.",
+      "verification_source_url": "https://www.cnbce.com/haberler/halkbank-cop31-icin-hazirladi-kobilere-100-milyar-tl-finansman-h41356",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_lloyds",
+      "name": "Lloyds Banking Group",
+      "short_name": "Lloyds",
+      "category": "Global Commercial Bank",
+      "ecosystem_branch": "Commercial Banks",
+      "relationship_status": "Finance Participant",
+      "priority_tier": "Tier B — Core Follow-Up",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "COP31 Business Forum Finance WG member; active in UK/European green buildings, municipal net-zero & clean growth financing.",
+      "knowledge_pack_slug": null,
+      "hq_country": "United Kingdom",
+      "geographic_focus": [
+        "United Kingdom",
+        "Europe",
+        "EMEA"
+      ],
+      "cop31_antalya_role": "COP31 Business Forum Climate Finance & Investments Working Group member",
+      "cop31_verified_2026_commitment": "Clean Growth Finance Initiative & £30B+ sustainable financing commitment for corporate/SME transition & green built environment",
+      "financing_instruments": [
+        "Green Loan",
+        "Sustainability-Linked Loan",
+        "Clean Growth Finance Facility",
+        "Green Bond Underwriting"
+      ],
+      "typical_ticket_min_usd": 2000000,
+      "typical_ticket_max_usd": 250000000,
+      "target_sectors": [
+        "Green Buildings",
+        "Renewable Energy",
+        "Clean Transport",
+        "Circular Economy & Zero Waste",
+        "SME Green Transition"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "SME",
+        "Mid-Cap Enterprise",
+        "Project SPV"
+      ],
+      "application_portal_url": "https://www.lloydsbankinggroup.com/who-we-are/responsible-business/environment.html",
+      "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+      "mandatory_form_requirements": [
+        "UK/European operating Nexus & Clean Growth Finance criteria",
+        "LMA GLP / SLLP alignment & verified carbon reduction KPIs",
+        "Commercial creditworthiness & ESG screening"
+      ],
+      "exclusion_rules": [
+        "New thermal coal projects",
+        "New oil & gas fields"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG aligns borrower applications with Lloyds' Clean Growth Finance Initiative eligibility schedules.",
+      "verification_source_url": "https://www.copbusiness.org/papers/COP31_WG_climate-finance-investments.pdf",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_standard_bank",
+      "name": "Standard Bank Group",
+      "short_name": "Standard Bank",
+      "category": "Global Commercial Bank",
+      "ecosystem_branch": "Commercial Banks",
+      "relationship_status": "Finance Participant",
+      "priority_tier": "Tier B — Core Follow-Up",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "Africa's largest bank by assets in COP31 Business Forum WG; ideal channel for scaling GreenHope climate resilience & air/waste pilots across African cities.",
+      "knowledge_pack_slug": null,
+      "hq_country": "South Africa",
+      "geographic_focus": [
+        "Africa",
+        "Sub-Saharan Africa",
+        "South Africa",
+        "Kenya"
+      ],
+      "cop31_antalya_role": "COP31 Business Forum Climate Finance & Investments Working Group member",
+      "cop31_verified_2026_commitment": "ZAR 250–300B+ sustainable finance mobilization across African renewable energy, climate resilience & urban infrastructure",
+      "financing_instruments": [
+        "Green Loan",
+        "Sustainability-Linked Loan",
+        "Renewable Project Finance",
+        "Blended Adaptation Finance"
+      ],
+      "typical_ticket_min_usd": 5000000,
+      "typical_ticket_max_usd": 250000000,
+      "target_sectors": [
+        "Renewable Energy",
+        "Electrification & Grid",
+        "Climate Adaptation & Resilience",
+        "Sustainable Agriculture & Water",
+        "Resilient Cities & Infrastructure"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "Project SPV",
+        "Municipality",
+        "Financial Intermediary"
+      ],
+      "application_portal_url": "https://www.standardbank.com/sbg/standard-bank-group/about-us/sustainability",
+      "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+      "mandatory_form_requirements": [
+        "African operating presence & Equator Principles screening",
+        "Standard Bank Sustainable Finance Framework alignment",
+        "Bankable cash flows or DFI partial risk guarantee"
+      ],
+      "exclusion_rules": [
+        "New coal-fired power plants"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG tailors African urban resilience and renewable transition applications to Standard Bank's Sustainable Finance Framework.",
+      "verification_source_url": "https://www.copbusiness.org/papers/COP31_WG_climate-finance-investments.pdf",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_yapi_kredi",
+      "name": "Yapı Kredi",
+      "short_name": "Yapı Kredi",
+      "category": "Turkish Commercial Bank",
+      "ecosystem_branch": "Commercial Banks",
+      "relationship_status": "Finance Participant",
+      "priority_tier": "Tier B — Core Follow-Up",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "COP31 'Dönüşüme Tam Destek' twin green+digital program aligns well with GreenHope AI-powered environmental MRV & water/waste analytics.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Türkiye",
+      "geographic_focus": [
+        "Türkiye"
+      ],
+      "cop31_antalya_role": "Launched 'Yapı Kredi Dönüşüme Tam Destek Programı' (6-category green & digital SME transformation program) at COP31",
+      "cop31_verified_2026_commitment": "COP31 'Dönüşüme Tam Destek' 6-category green/digital SME loan program + 20% Eco Foreign Trade discount + free carbon footprint & water efficiency platforms",
+      "financing_instruments": [
+        "Dönüşüme Tam Destek Green Loan",
+        "Eco Foreign Trade Finance Package",
+        "Solar/Energy Efficiency Loan",
+        "Green Digital Transformation Credit"
+      ],
+      "typical_ticket_min_usd": 50000,
+      "typical_ticket_max_usd": 100000000,
+      "target_sectors": [
+        "SME Green Transition",
+        "Renewable Energy",
+        "Water Management & Efficiency",
+        "Industrial Decarbonization",
+        "Digital & Green Twin Transition"
+      ],
+      "eligible_applicant_types": [
+        "SME",
+        "Mid-Cap Enterprise",
+        "Large Corporate"
+      ],
+      "application_portal_url": "https://www.yapikredi.com.tr/en/sustainability",
+      "form_template_type": "TURKISH_BANK_GREEN_LOAN",
+      "mandatory_form_requirements": [
+        "Turkish company registration (VKN) & credit history",
+        "Alignment with 1 of 6 Dönüşüme Tam Destek green/digital categories",
+        "Baseline carbon footprint or water-efficiency calculation",
+        "Collateral / credit line limit approval"
+      ],
+      "exclusion_rules": [
+        "Coal expansion",
+        "Unpermitted hazardous waste operations"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG retrieves exact eligibility and benefit bundles across Yapı Kredi's 6 COP31 transformation categories and eco foreign-trade tools.",
+      "verification_source_url": "https://www.fintechdunyasi.com/cop31de-bankalardan-iklim-finansmani-hamlesi-yeni-finansman-anlasmalari-kobi-programlari-ve-surdurulebilirlik-mesajlari/28721/",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_ziraat_bankasi",
+      "name": "Ziraat Bankası",
+      "short_name": "Ziraat Bankası",
+      "category": "Turkish State Bank",
+      "ecosystem_branch": "Commercial Banks",
+      "relationship_status": "Finance Participant",
+      "priority_tier": "Tier B — Core Follow-Up",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "Strong for agricultural/OIZ green SME pilots; less direct fit for early-stage urban climate-AI software than BBVA unless paired with an OIZ or agri municipality.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Türkiye",
+      "geographic_focus": [
+        "Türkiye"
+      ],
+      "cop31_antalya_role": "Official COP31 Main Partner (Culture & Civilization Partner); COP31 panel on green SME, CBAM exporter & climate-smart agricultural financing",
+      "cop31_verified_2026_commitment": "$2.9B sustainability-linked syndicated financing in 2026 + $2B additional planned during COP31; Carbon Border Reduction Package (20% emission cut) & Green Export Loan",
+      "financing_instruments": [
+        "Carbon Border (CBAM) Reduction Loan",
+        "Green Export Loan (SME)",
+        "Organized Industrial Zone (OIZ) Green Package",
+        "Climate-Smart Agricultural Loan"
+      ],
+      "typical_ticket_min_usd": 50000,
+      "typical_ticket_max_usd": 100000000,
+      "target_sectors": [
+        "Sustainable Agriculture & Water",
+        "EU CBAM Export Compliance",
+        "Industrial Decarbonization",
+        "SME Green Transition",
+        "Renewable Energy"
+      ],
+      "eligible_applicant_types": [
+        "SME",
+        "Large Corporate",
+        "Mid-Cap Enterprise",
+        "Agricultural Cooperative"
+      ],
+      "application_portal_url": "https://www.ziraatbank.com.tr/en/our-bank/sustainability",
+      "form_template_type": "TURKISH_BANK_GREEN_LOAN",
+      "mandatory_form_requirements": [
+        "Turkish enterprise / farmer / OIZ registration (VKN/ÇKS)",
+        "Target >=20% carbon footprint reduction (for Carbon Border Reduction Package)",
+        "Export documentation (for Green Export Loan) or agricultural certification",
+        "Collateral or KGF guarantee package"
+      ],
+      "exclusion_rules": [
+        "Environmentally prohibited activities",
+        "Unpermitted water extraction"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG maps diverse Turkish exporter, OIZ, and agricultural SME profiles to Ziraat's specific CBAM, Green Export, and organic farming credit packages.",
+      "verification_source_url": "https://www.dailysabah.com/business/energy/turkish-state-banks-expand-green-financing-for-smes-at-cop31",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_ebrd",
+      "name": "European Bank for Reconstruction and Development (EBRD)",
+      "short_name": "EBRD",
+      "category": "Multilateral Development Bank (MDB)",
+      "ecosystem_branch": "Development Banks",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P1",
+      "greenhope_relevance": "Very High",
+      "greenhope_fit_notes": "EBRD Green Cities & GET 2026-30 Strategy directly finance urban resilience, waste, air quality, and digital MRV across Turkish municipalities.",
+      "knowledge_pack_slug": null,
+      "hq_country": "United Kingdom (Multilateral)",
+      "geographic_focus": [
+        "Türkiye",
+        "Europe",
+        "Central Asia",
+        "MENA",
+        "Sub-Saharan Africa",
+        "Emerging Markets"
+      ],
+      "cop31_antalya_role": "Co-host of COP31 Global Finance Summit; Joint MDB Pavilion; TIDIP partner; Electrify Now Finance Coalition; GEFF Türkiye",
+      "cop31_verified_2026_commitment": "Green Economy Transition (GET) Strategy 2026–2030; €26B+ cumulative commitments in Türkiye; TIDIP & Kazakhstan JETP partner",
+      "financing_instruments": [
+        "Senior Debt",
+        "Equity",
+        "Subordinated Debt",
+        "Green Credit Lines (GEFF)",
+        "Blended Concessional Finance",
+        "Technical Assistance"
+      ],
+      "typical_ticket_min_usd": 5000000,
+      "typical_ticket_max_usd": 300000000,
+      "target_sectors": [
+        "Renewable Energy",
+        "Electrification & Grid",
+        "Industrial Decarbonization",
+        "Climate Adaptation & Resilience",
+        "Green Cities & Mobility",
+        "SME Green Transition"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "Project SPV",
+        "Municipality",
+        "Financial Intermediary",
+        "SME"
+      ],
+      "application_portal_url": "https://www.ebrd.com/work-with-us/project-finance.html",
+      "form_template_type": "MDB_CONCEPT_NOTE",
+      "mandatory_form_requirements": [
+        "EBRD Green Economy Transition (GET) & Paris Alignment assessment",
+        "EBRD Environmental and Social Policy (PR 1-10) & EIA permits",
+        "Sound banking principles & transition impact demonstration",
+        "Integrity & KYC beneficial ownership disclosure"
+      ],
+      "exclusion_rules": [
+        "Thermal coal mining or coal-fired power",
+        "Upstream oil exploration"
+      ],
+      "recommended_ai_model_type": "KAG",
+      "ai_model_rationale": "GET 2026-30 taxonomy rules, country-of-operation constraints, and 10 Performance Requirements map directly to deterministic multi-hop KAG reasoning.",
+      "verification_source_url": "https://www.ebrd.com/home/news-and-events/news/events/ebrd-at-cop-31.html",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_gggi",
+      "name": "Global Green Growth Institute (GGGI)",
+      "short_name": "GGGI",
+      "category": "Climate Finance Network / Public Facilitator",
+      "ecosystem_branch": "Climate Finance Networks",
+      "relationship_status": "Potential Strategic Partner",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P1",
+      "greenhope_relevance": "Very High",
+      "greenhope_fit_notes": "Signed cooperation agreement with AIIB on Nov 14, 2026 at COP31 on project preparation, investment-ready pipelines, co-financing & technical assistance—key bridge for GreenHope into AIIB!",
+      "knowledge_pack_slug": null,
+      "hq_country": "South Korea (Intergovernmental)",
+      "geographic_focus": [
+        "Global",
+        "Emerging Markets",
+        "Developing Countries",
+        "Türkiye",
+        "Asia",
+        "Africa",
+        "Latin America"
+      ],
+      "cop31_antalya_role": "Signed Nov 14, 2026 COP31 Antalya cooperation agreement with AIIB on climate-resilient infrastructure project preparation & green pipelines",
+      "cop31_verified_2026_commitment": "Joint AIIB–GGGI project preparation, technical assistance & investment-ready climate-resilient infrastructure pipeline mobilization",
+      "financing_instruments": [
+        "Project Preparation Technical Assistance",
+        "Green City Advisory",
+        "MDB Pipeline Origination (AIIB/GCF)"
+      ],
+      "typical_ticket_min_usd": 250000,
+      "typical_ticket_max_usd": 50000000,
+      "target_sectors": [
+        "Resilient Cities & Infrastructure",
+        "Climate Adaptation & Resilience",
+        "Zero Waste & Circular Economy",
+        "Air Quality & Green Growth",
+        "Renewable Energy"
+      ],
+      "eligible_applicant_types": [
+        "Sovereign/Government",
+        "Municipality",
+        "Climate-Tech Startup",
+        "Project SPV"
+      ],
+      "application_portal_url": "https://gggi.org/",
+      "form_template_type": "DFI_PROJECT_INTAKE",
+      "mandatory_form_requirements": [
+        "Host-country / municipal green-growth policy alignment",
+        "Clear path from technical assistance/pilot to AIIB or GCF bankable scale",
+        "Measurable GHG, air quality, waste, or resilience KPIs"
+      ],
+      "exclusion_rules": [
+        "Fossil-fuel expansion"
+      ],
+      "recommended_ai_model_type": "HYBRID_KAG_RAG",
+      "ai_model_rationale": "KAG maps the AIIB–GGGI joint project-preparation pathway while RAG aligns GreenHope city pilots with GGGI technical assistance criteria.",
+      "verification_source_url": "https://www.aiib.org/en/news-events/news/2026/aiib-and-gggi-deepen-cooperation-climate-resilient-infrastructure-green-development.html",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_adaptation_fund",
+      "name": "Adaptation Fund (AF)",
+      "short_name": "Adaptation Fund",
+      "category": "Multilateral Climate Fund",
+      "ecosystem_branch": "Multilateral Climate Funds",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "UNFCCC/Multilateral Climate Fund (Adaptation Fund); channel GreenHope city adaptation/mitigation pilot via an Accredited Entity or NDA.",
+      "knowledge_pack_slug": null,
+      "hq_country": "United States (UNFCCC / Paris Agreement Fund)",
+      "geographic_focus": [
+        "Developing Countries",
+        "Vulnerable Countries",
+        "Africa",
+        "Asia",
+        "Latin America",
+        "Small Island Developing States"
+      ],
+      "cop31_antalya_role": "Co-host of Climate Funds Pavilion; launched new Adaptation Scaling-Up Framework with GCF at COP31",
+      "cop31_verified_2026_commitment": "Direct-access concrete adaptation grants + GCF-AF Scaling-Up Framework enabling proven AF projects to scale into larger GCF investments",
+      "financing_instruments": [
+        "Full Grant",
+        "Small Innovation Grant",
+        "Direct Access Grant",
+        "Scaling-Up Pipeline to GCF"
+      ],
+      "typical_ticket_min_usd": 250000,
+      "typical_ticket_max_usd": 20000000,
+      "target_sectors": [
+        "Climate Adaptation & Resilience",
+        "Sustainable Agriculture & Water",
+        "Coastal & Flood Resilience",
+        "Early Warning Systems",
+        "Community Resilience"
+      ],
+      "eligible_applicant_types": [
+        "Accredited Entity/NGO",
+        "Sovereign/Government",
+        "Municipality"
+      ],
+      "application_portal_url": "https://www.adaptation-fund.org/apply-funding/",
+      "form_template_type": "CLIMATE_FUND_PROPOSAL",
+      "mandatory_form_requirements": [
+        "Submission via National Implementing Entity (NIE), Regional (RIE), or Multilateral (MIE)",
+        "Designated Authority (DA) Endorsement Letter",
+        "Concrete, localized climate adaptation outcomes (100% grant eligible)",
+        "Adaptation Fund Environmental, Social & Gender Policies"
+      ],
+      "exclusion_rules": [
+        "Pure mitigation projects without concrete adaptation benefits",
+        "Developed-country applicants"
+      ],
+      "recommended_ai_model_type": "KAG",
+      "ai_model_rationale": "Strict NIE/RIE/MIE accreditation, Designated Authority endorsement, and country cap constraints require KAG logical verification.",
+      "verification_source_url": "https://www.climatechangenews.com/2026/11/10/cop31-bulletin-day-2-energy-day-off-to-slow-start-amid-transport-chaos/",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_proparco_afd",
+      "name": "AFD Group / Proparco (France)",
+      "short_name": "Proparco / AFD",
+      "category": "Bilateral DFI",
+      "ecosystem_branch": "Development Banks",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "Development bank channel (Proparco / AFD); match via project preparation, municipal/sovereign pilots, or DFI blended co-financing.",
+      "knowledge_pack_slug": null,
+      "hq_country": "France",
+      "geographic_focus": [
+        "Emerging Markets",
+        "Developing Countries",
+        "Türkiye",
+        "Africa",
+        "MENA",
+        "Asia",
+        "Latin America"
+      ],
+      "cop31_antalya_role": "Signed €75M sustainable energy financing deal with QNB Leasing at COP31 Antalya (solar & wind power)",
+      "cop31_verified_2026_commitment": "€75M COP31 QNB Leasing renewable energy deal (>€250M total 2026 renewable leasing mobilization with QNB Leasing)",
+      "financing_instruments": [
+        "Senior Debt",
+        "Subordinated Debt",
+        "Equity",
+        "Green Credit/Leasing Line",
+        "Guarantee (Choose Africa / EFSD+)",
+        "Technical Assistance"
+      ],
+      "typical_ticket_min_usd": 3000000,
+      "typical_ticket_max_usd": 120000000,
+      "target_sectors": [
+        "Renewable Energy",
+        "Energy Efficiency",
+        "Climate-Smart Agriculture",
+        "Sustainable Cities",
+        "SME Green Transition",
+        "Energy Storage"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "Project SPV",
+        "Financial Intermediary",
+        "Growth-Stage Private Enterprise",
+        "SME"
+      ],
+      "application_portal_url": "https://www.proparco.fr/en/how-submit-project",
+      "form_template_type": "DFI_PROJECT_INTAKE",
+      "mandatory_form_requirements": [
+        "IFC Performance Standards & Proparco E&S Action Plan",
+        "100% Paris-Aligned AFD Group screening",
+        "Demonstrated development impact & additionality",
+        "Audited financial statements (3 years) or bankable SPV model"
+      ],
+      "exclusion_rules": [
+        "Coal, upstream oil & gas, heavy fuel oil power"
+      ],
+      "recommended_ai_model_type": "HYBRID_KAG_RAG",
+      "ai_model_rationale": "KAG checks Proparco ticket bounds, Paris alignment & IFC PS rules while RAG drafts development-impact and technical assistance sections.",
+      "verification_source_url": "https://www.asigazetesi.com/iklim-zirvesi-cop31-antalya-qnb-leasing-ile-proparcodan-75-milyon-avroluk-surdurulebilir-enerji-anlasmasi",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_afdb",
+      "name": "African Development Bank Group (AfDB)",
+      "short_name": "AfDB",
+      "category": "Multilateral Development Bank (MDB)",
+      "ecosystem_branch": "Development Banks",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "Development bank channel (AfDB); match via project preparation, municipal/sovereign pilots, or DFI blended co-financing.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Côte d'Ivoire (Multilateral)",
+      "geographic_focus": [
+        "Africa",
+        "Sub-Saharan Africa",
+        "North Africa"
+      ],
+      "cop31_antalya_role": "Co-Chair of Electrify Now Finance Coalition (35-by-35 Pledge); Africa Pavilion (A240); launched RESILAFRICA food systems flagship",
+      "cop31_verified_2026_commitment": "Co-leading global Electrify Now Finance Coalition with World Bank + RESILAFRICA food systems resilience & African climate finance mobilization",
+      "financing_instruments": [
+        "Sovereign Loan",
+        "Non-Sovereign Debt",
+        "Equity",
+        "Partial Risk Guarantee",
+        "Concessional Finance (ADF)",
+        "Climate Adaptation Grant"
+      ],
+      "typical_ticket_min_usd": 10000000,
+      "typical_ticket_max_usd": 300000000,
+      "target_sectors": [
+        "Electrification & Grid",
+        "Renewable Energy",
+        "Sustainable Agriculture & Water",
+        "Climate Adaptation & Resilience",
+        "Nature-Based Solutions"
+      ],
+      "eligible_applicant_types": [
+        "Sovereign/Government",
+        "Large Corporate",
+        "Project SPV",
+        "Financial Intermediary",
+        "Municipality"
+      ],
+      "application_portal_url": "https://www.afdb.org/en/topics-and-sectors/initiatives-partnerships/climate-change",
+      "form_template_type": "MDB_CONCEPT_NOTE",
+      "mandatory_form_requirements": [
+        "African Regional Member Country host jurisdiction",
+        "AfDB Integrated Safeguards System (ISS) & EIA",
+        "Climate Safeguards System (CSS) & Paris Alignment",
+        "Alignment with Electrify Now / RESILAFRICA / African NDCs"
+      ],
+      "exclusion_rules": [
+        "Coal-fired power generation",
+        "Non-African host projects"
+      ],
+      "recommended_ai_model_type": "HYBRID_KAG_RAG",
+      "ai_model_rationale": "KAG enforces strict African Regional Member Country & safeguard rules while RAG drafts compelling RESILAFRICA and 35-by-35 electrification narratives.",
+      "verification_source_url": "https://www.ipsnews.net/2026/11/cop31-african-development-bank-to-co-lead-global-electrification-finance-initiative/",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_allied_climate_partners",
+      "name": "Allied Climate Partners (ACP)",
+      "short_name": "Allied Climate Partners",
+      "category": "Institutional / Catalytic / Climate PE",
+      "ecosystem_branch": "Infrastructure / Impact Investors",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "Catalytic/institutional climate investor (Allied Climate Partners); target for GreenHope pilot de-risking or growth equity.",
+      "knowledge_pack_slug": null,
+      "hq_country": "United States (Philanthropic Catalytic Investor)",
+      "geographic_focus": [
+        "Emerging Markets",
+        "Developing Countries",
+        "Africa",
+        "Asia",
+        "Latin America",
+        "Caribbean"
+      ],
+      "cop31_antalya_role": "Founding cohort member of the GFANZ Catalytic Capital Repository launched at COP31 Antalya",
+      "cop31_verified_2026_commitment": "Early-stage philanthropic catalytic equity & development capital unlocking bankable climate infrastructure pipelines in emerging markets",
+      "financing_instruments": [
+        "Early-Stage Development Equity",
+        "Catalytic First-Loss Capital",
+        "Project Preparation Funding",
+        "Co-Development Platform"
+      ],
+      "typical_ticket_min_usd": 1000000,
+      "typical_ticket_max_usd": 25000000,
+      "target_sectors": [
+        "Renewable Energy",
+        "Energy Storage",
+        "Electrification & Grid",
+        "Clean Transport",
+        "Climate Adaptation & Resilience",
+        "Climate-Tech Innovation"
+      ],
+      "eligible_applicant_types": [
+        "Climate-Tech Startup",
+        "Project SPV",
+        "Fund Manager",
+        "Project Developer"
+      ],
+      "application_portal_url": "https://www.alliedclimatepartners.org/",
+      "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+      "mandatory_form_requirements": [
+        "Early-stage / pre-FID bankability gap in emerging markets",
+        "High downstream commercial capital mobilization potential",
+        "Experienced local/regional project development team",
+        "Clear measurable tCO2e abatement or resilience impact"
+      ],
+      "exclusion_rules": [
+        "Fossil-fuel generation",
+        "Developed-market-only deployments"
+      ],
+      "recommended_ai_model_type": "HYBRID_KAG_RAG",
+      "ai_model_rationale": "KAG verifies early-stage emerging-market & ticket constraints while RAG crafts catalytic project-prep & bankability-unlocking narratives.",
+      "verification_source_url": "https://www.esgdive.com/news/platform-launched-at-cop31-aims-to-scale-transition-capital-in-emerging-mar/874527/",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_adb",
+      "name": "Asian Development Bank (ADB)",
+      "short_name": "ADB",
+      "category": "Multilateral Development Bank (MDB)",
+      "ecosystem_branch": "Development Banks",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "$3.1B Türkiye development portfolio + urban/disaster resilience focus; pathway via sovereign/municipal technical assistance or VakıfBank SME channel.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Philippines (Multilateral)",
+      "geographic_focus": [
+        "Asia",
+        "Asia-Pacific",
+        "Central Asia",
+        "Türkiye"
+      ],
+      "cop31_antalya_role": "Signed $1.19B+ COP31 Türkiye deals (resilient hospitals & VakıfBank SME line); joined TIDIP; MDB Adaptation Partnership; coal phase-out",
+      "cop31_verified_2026_commitment": "€620M ($687M) disaster-resilient hospitals + $500M via VakıfBank for SMEs & women entrepreneurs (total $3.1B Türkiye support)",
+      "financing_instruments": [
+        "Sovereign Loan",
+        "Non-Sovereign Debt",
+        "Equity",
+        "Guarantee",
+        "Blended Concessional Finance",
+        "Technical Assistance Grant"
+      ],
+      "typical_ticket_min_usd": 10000000,
+      "typical_ticket_max_usd": 500000000,
+      "target_sectors": [
+        "Climate Adaptation & Resilience",
+        "Renewable Energy",
+        "Industrial Decarbonization",
+        "SME Green Transition",
+        "Resilient Infrastructure & Health",
+        "Energy Transition"
+      ],
+      "eligible_applicant_types": [
+        "Sovereign/Government",
+        "Large Corporate",
+        "Financial Intermediary",
+        "Project SPV",
+        "Municipality"
+      ],
+      "application_portal_url": "https://www.adb.org/work-with-us/private-sector-financing",
+      "form_template_type": "MDB_CONCEPT_NOTE",
+      "mandatory_form_requirements": [
+        "ADB Paris Alignment screening (BB1 & BB2)",
+        "ADB Safeguard Policy Statement (Environment, Involuntary Resettlement, Indigenous Peoples)",
+        "Member country eligibility & development impact indicators",
+        "Financial & Integrity Due Diligence"
+      ],
+      "exclusion_rules": [
+        "Coal mining and coal-fired power generation",
+        "Upstream oil & gas exploration"
+      ],
+      "recommended_ai_model_type": "HYBRID_KAG_RAG",
+      "ai_model_rationale": "Uses KAG for ADB member-country & safeguard rules and RAG for sector-specific resilience, gender inclusion, and coal-transition narratives.",
+      "verification_source_url": "https://www.trtworld.com/article/08c7af154347",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_barclays",
+      "name": "Barclays (Sustainable & Transition Finance)",
+      "short_name": "Barclays",
+      "category": "Global Commercial Bank",
+      "ecosystem_branch": "Commercial Banks",
+      "relationship_status": "Finance Participant",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "Medium-High",
+      "greenhope_fit_notes": "COP31 banking participant (Barclays); verify active green transition or SME credit desk fit for GreenHope pilot scaling.",
+      "knowledge_pack_slug": null,
+      "hq_country": "United Kingdom",
+      "geographic_focus": [
+        "Global",
+        "United Kingdom",
+        "Europe",
+        "North America",
+        "EMEA",
+        "Asia-Pacific"
+      ],
+      "cop31_antalya_role": "Major international bank delegation at COP31 Antalya focused on transition finance & climate-tech venture capital",
+      "cop31_verified_2026_commitment": "$1T Sustainable and Transition Finance target by 2030 + £500M Sustainable Impact Capital mandate for climate-tech startups",
+      "financing_instruments": [
+        "Transition Finance Loan",
+        "Green Bond Underwriting",
+        "Climate-Tech Venture Equity",
+        "Sustainability-Linked Loan"
+      ],
+      "typical_ticket_min_usd": 5000000,
+      "typical_ticket_max_usd": 400000000,
+      "target_sectors": [
+        "Industrial Decarbonization",
+        "Climate-Tech Innovation",
+        "Renewable Energy",
+        "Energy Storage",
+        "Clean Transport"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "Climate-Tech Startup",
+        "Project SPV",
+        "Mid-Cap Enterprise"
+      ],
+      "application_portal_url": "https://www.ib.barclays/our-insights/sustainable-finance.html",
+      "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+      "mandatory_form_requirements": [
+        "Barclays Transition Finance Framework (TFF) eligibility",
+        "Verified corporate decarbonization plan & KPIs",
+        "Commercial creditworthiness or Series A-C venture traction",
+        "External assurance / SPO for labeled facilities"
+      ],
+      "exclusion_rules": [
+        "New upstream oil & gas projects",
+        "Thermal coal expansion"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG draws on Barclays' Transition Finance Framework and Sustainable Impact Capital mandate to tailor corporate and startup applications.",
+      "verification_source_url": "https://www.theguardian.com/environment/2026/nov/13/cop31-companies-and-groups-linked-to-fossil-fuels-delegations",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_blackrock_climate_infra",
+      "name": "BlackRock (Climate Infrastructure & Transition Investing)",
+      "short_name": "BlackRock Climate Infra",
+      "category": "Institutional / Catalytic / Climate PE",
+      "ecosystem_branch": "Infrastructure / Impact Investors",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "Catalytic/institutional climate investor (BlackRock Climate Infra); target for GreenHope pilot de-risking or growth equity.",
+      "knowledge_pack_slug": null,
+      "hq_country": "United States",
+      "geographic_focus": [
+        "Global",
+        "Europe",
+        "North America",
+        "Asia-Pacific",
+        "Emerging Markets",
+        "Türkiye"
+      ],
+      "cop31_antalya_role": "Active delegation at COP31 Antalya participating in energy transition infrastructure & private capital dialogues",
+      "cop31_verified_2026_commitment": "Global Climate Infrastructure & Energy Transition institutional funds (including emerging markets blended Climate Finance Partnership)",
+      "financing_instruments": [
+        "Infrastructure Equity",
+        "Blended Transition Equity (CFP)",
+        "Project Equity",
+        "Long-Term Infrastructure Debt"
+      ],
+      "typical_ticket_min_usd": 25000000,
+      "typical_ticket_max_usd": 500000000,
+      "target_sectors": [
+        "Renewable Energy",
+        "Energy Storage",
+        "Electrification & Grid",
+        "Industrial Decarbonization",
+        "Clean Transport",
+        "Carbon Capture & Storage"
+      ],
+      "eligible_applicant_types": [
+        "Project SPV",
+        "Large Corporate",
+        "Growth-Stage Private Enterprise",
+        "Infrastructure Developer"
+      ],
+      "application_portal_url": "https://www.blackrock.com/institutions/en-us/capabilities/alternatives/infrastructure",
+      "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+      "mandatory_form_requirements": [
+        "Contracted long-term cash flows (PPAs / offtake agreements)",
+        "Institutional-scale capex & commercial IRR benchmarks",
+        "Comprehensive technical, legal & ESG due diligence",
+        "Proven management / EPC track record"
+      ],
+      "exclusion_rules": [
+        "Unbankable early-R&D ventures without commercial path",
+        "Thermal coal"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG matches infrastructure deal teasers against BlackRock's institutional transition-infrastructure underwriting and PPA criteria.",
+      "verification_source_url": "https://www.theguardian.com/environment/2026/nov/13/cop31-companies-and-groups-linked-to-fossil-fuels-delegations",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_bndes",
+      "name": "BNDES (Brazilian Development Bank)",
+      "short_name": "BNDES",
+      "category": "National Development Bank",
+      "ecosystem_branch": "Development Banks",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "Development bank channel (BNDES); match via project preparation, municipal/sovereign pilots, or DFI blended co-financing.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Brazil",
+      "geographic_focus": [
+        "Brazil",
+        "Latin America"
+      ],
+      "cop31_antalya_role": "Announced $300M GCF mobilization + $147M IBRD/CIF forest restoration + $1B IDB/IBRD industrial decarbonization LOI at COP31",
+      "cop31_verified_2026_commitment": "R$39B ($6.9B) climate investment push anchored by $300M GCF (Flying Rivers Capital, Just Climate Brasil) + $147M IBRD/CIF forest restoration",
+      "financing_instruments": [
+        "Development Loan",
+        "Climate Fund Equity Anchor",
+        "Blended Concessional Finance",
+        "Green Credit Line"
+      ],
+      "typical_ticket_min_usd": 5000000,
+      "typical_ticket_max_usd": 300000000,
+      "target_sectors": [
+        "Nature-Based Solutions & Forestry",
+        "Industrial Decarbonization",
+        "Renewable Energy",
+        "Sustainable Fuels",
+        "Bioeconomy"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "Project SPV",
+        "Financial Intermediary",
+        "Fund Manager",
+        "Municipality"
+      ],
+      "application_portal_url": "https://www.bndes.gov.br/",
+      "form_template_type": "DFI_PROJECT_INTAKE",
+      "mandatory_form_requirements": [
+        "Brazilian operating entity / Climate Call alignment",
+        "GCF / IBRD / CIF environmental & forest-protection safeguards",
+        "Verified carbon abatement or reforestation hectares",
+        "Brazilian regulatory & environmental licensing"
+      ],
+      "exclusion_rules": [
+        "Illegal deforestation",
+        "Coal power"
+      ],
+      "recommended_ai_model_type": "HYBRID_KAG_RAG",
+      "ai_model_rationale": "KAG enforces Brazilian jurisdiction & co-financier safeguards while RAG synthesizes Climate Call & nature-based fund theses.",
+      "verification_source_url": "https://carbon-pulse.com/571307/",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_bnp_paribas",
+      "name": "BNP Paribas",
+      "short_name": "BNP Paribas",
+      "category": "Global Commercial Bank",
+      "ecosystem_branch": "Commercial Banks",
+      "relationship_status": "Finance Participant",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "Medium-High",
+      "greenhope_fit_notes": "COP31 banking participant (BNP Paribas); verify active green transition or SME credit desk fit for GreenHope pilot scaling.",
+      "knowledge_pack_slug": null,
+      "hq_country": "France",
+      "geographic_focus": [
+        "Global",
+        "Europe",
+        "EMEA",
+        "Türkiye",
+        "Americas",
+        "Asia-Pacific"
+      ],
+      "cop31_antalya_role": "Major international banking delegation at COP31 Antalya (22 accredited delegates) engaging in corporate transition & green bond dialogues",
+      "cop31_verified_2026_commitment": "Global low-carbon energy transition financing, green bond structuring, and corporate sustainability-linked lending active at COP31",
+      "financing_instruments": [
+        "Green Bond Structuring",
+        "Sustainability-Linked Loan (SLL)",
+        "Renewable Project Finance",
+        "Green Trade Finance",
+        "Transition Advisory"
+      ],
+      "typical_ticket_min_usd": 20000000,
+      "typical_ticket_max_usd": 500000000,
+      "target_sectors": [
+        "Renewable Energy",
+        "Electrification & Grid",
+        "Industrial Decarbonization",
+        "Clean Transport",
+        "Green Buildings",
+        "Energy Storage"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "Project SPV",
+        "Financial Intermediary",
+        "Sovereign/Government"
+      ],
+      "application_portal_url": "https://cib.bnpparibas/sustainable-finance/",
+      "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+      "mandatory_form_requirements": [
+        "ICMA Green Bond Principles / LMA GLP or SLLP compliance",
+        "Credible corporate net-zero transition plan & Scope 1/2/3 baselines",
+        "Second-Party Opinion (SPO) & external KPI assurance",
+        "Investment-grade or bankable project finance cash flows"
+      ],
+      "exclusion_rules": [
+        "New oil & gas field financing",
+        "Thermal coal mining/power"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG excels at grounding EU Taxonomy, ICMA/LMA SPT targets, and corporate transition narratives in BNP Paribas CIB's policy disclosures.",
+      "verification_source_url": "https://thefederal.com/the-federal-special/cop31-in-antalya-big-polluters-and-climate-activists-under-one-roof-262803",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_bii_uk",
+      "name": "British International Investment (BII — UK)",
+      "short_name": "BII",
+      "category": "Bilateral DFI",
+      "ecosystem_branch": "Development Banks",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "Development bank channel (BII); match via project preparation, municipal/sovereign pilots, or DFI blended co-financing.",
+      "knowledge_pack_slug": null,
+      "hq_country": "United Kingdom",
+      "geographic_focus": [
+        "Africa",
+        "South Asia",
+        "Asia-Pacific",
+        "Caribbean"
+      ],
+      "cop31_antalya_role": "Co-launched '10by30' ($10B emerging markets climate finance coalition) at COP31 on Nov 13 with Norfund & FinDev Canada",
+      "cop31_verified_2026_commitment": "Co-delivering $10B (€10B) '10by30' emerging markets climate finance by 2030 via British Climate Partners (shared pipeline & DD)",
+      "financing_instruments": [
+        "Direct Equity",
+        "Senior/Mezzanine Debt",
+        "Intermediated Fund Investment",
+        "Blended Concessional Finance",
+        "Technical Assistance"
+      ],
+      "typical_ticket_min_usd": 10000000,
+      "typical_ticket_max_usd": 250000000,
+      "target_sectors": [
+        "Renewable Energy",
+        "Electrification & Grid",
+        "Energy Storage",
+        "Sustainable Fuels",
+        "Industrial Decarbonization",
+        "Climate Adaptation & Resilience"
+      ],
+      "eligible_applicant_types": [
+        "Project SPV",
+        "Large Corporate",
+        "Financial Intermediary",
+        "Growth-Stage Private Enterprise",
+        "Climate-Tech Startup"
+      ],
+      "application_portal_url": "https://www.bii.co.uk/en/work-with-us/",
+      "form_template_type": "DFI_PROJECT_INTAKE",
+      "mandatory_form_requirements": [
+        "10by30 harmonized DFI climate reporting & avoided emissions methodology",
+        "BII Policy on Responsible Investing (IFC Performance Standards)",
+        "UK FCDO priority emerging market eligibility (Africa, Asia, Caribbean)",
+        "Private capital mobilization & commercial viability"
+      ],
+      "exclusion_rules": [
+        "Coal, oil, unabated fossil-fuel generation"
+      ],
+      "recommended_ai_model_type": "HYBRID_KAG_RAG",
+      "ai_model_rationale": "KAG verifies 10by30 co-investment eligibility and BII geographic/exclusion rules while RAG synthesizes British Climate Partners mobilization narratives.",
+      "verification_source_url": "https://hapakenya.com/2026/11/13/uk-norway-canada-launch-10b-climate-finance-partnership-at-cop31/",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_citigroup",
+      "name": "Citigroup (Citi Sustainable Finance & Transition)",
+      "short_name": "Citigroup",
+      "category": "Global Commercial Bank",
+      "ecosystem_branch": "Commercial Banks",
+      "relationship_status": "Finance Participant",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "Medium-High",
+      "greenhope_fit_notes": "COP31 banking participant (Citigroup); verify active green transition or SME credit desk fit for GreenHope pilot scaling.",
+      "knowledge_pack_slug": null,
+      "hq_country": "United States",
+      "geographic_focus": [
+        "Global",
+        "Emerging Markets",
+        "EMEA",
+        "Türkiye",
+        "Asia-Pacific",
+        "Latin America",
+        "North America"
+      ],
+      "cop31_antalya_role": "Major global bank with accredited delegation at COP31 Antalya active in emerging-market transition & blended finance",
+      "cop31_verified_2026_commitment": "$1T sustainable finance goal (2021–2030) spanning renewable project finance, green bonds, water/adaptation & emerging-market blended debt",
+      "financing_instruments": [
+        "Green Bond Underwriting",
+        "Sustainability-Linked Loan (SLL)",
+        "Emerging-Market Blended Debt",
+        "Green Trade Finance",
+        "Project Finance"
+      ],
+      "typical_ticket_min_usd": 15000000,
+      "typical_ticket_max_usd": 500000000,
+      "target_sectors": [
+        "Renewable Energy",
+        "Industrial Decarbonization",
+        "Water & Climate Adaptation",
+        "Clean Transport",
+        "Electrification & Grid"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "Project SPV",
+        "Financial Intermediary",
+        "Sovereign/Government"
+      ],
+      "application_portal_url": "https://www.citigroup.com/global/about-us/esg",
+      "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+      "mandatory_form_requirements": [
+        "Citi Environmental and Social Risk Management (ESRM) & Equator Principles",
+        "ICMA / LMA sustainable finance alignment & SPT definitions",
+        "Second-Party Opinion (for labeled debt issuances)",
+        "Credit & FX risk mitigation structure"
+      ],
+      "exclusion_rules": [
+        "New thermal coal power plants",
+        "Equator Principles non-compliance"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG retrieves Citi's ESRM, blended debt, and green-bond criteria to populate transition and use-of-proceeds sections.",
+      "verification_source_url": "https://countercurrents.org/2026/11/climate-summit-to-save-the-planet-yet-polluters-crowd-the-halls-103-polluting-entities-at-cop31-2-2-trillion-in-fossil-fuel-financing/",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_cif",
+      "name": "Climate Investment Funds (CIF / Clean Technology Fund)",
+      "short_name": "CIF / CTF",
+      "category": "Multilateral Climate Fund",
+      "ecosystem_branch": "Multilateral Climate Funds",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "UNFCCC/Multilateral Climate Fund (CIF / CTF); channel GreenHope city adaptation/mitigation pilot via an Accredited Entity or NDA.",
+      "knowledge_pack_slug": null,
+      "hq_country": "United States (Multilateral)",
+      "geographic_focus": [
+        "Developing Countries",
+        "Emerging Markets",
+        "Türkiye",
+        "Africa",
+        "Asia",
+        "Latin America"
+      ],
+      "cop31_antalya_role": "Co-host of Climate Funds Pavilion; launched $94M AMPLIFi clean electrification finance; seeded $250M CTF into Türkiye TIDIP",
+      "cop31_verified_2026_commitment": "$94M AMPLIFi catalytic finance (mobilizing $1.2B+) + $250M CTF seed for Türkiye $6B TIDIP + $47M Brazil forest restoration",
+      "financing_instruments": [
+        "Catalytic Concessional Loan",
+        "First-Loss Guarantee",
+        "Grant",
+        "Blended Finance (via MDBs)"
+      ],
+      "typical_ticket_min_usd": 10000000,
+      "typical_ticket_max_usd": 250000000,
+      "target_sectors": [
+        "Electrification & Grid",
+        "Industrial Decarbonization",
+        "Renewable Energy",
+        "Energy Storage",
+        "Nature-Based Solutions & Forestry",
+        "Coal Transition"
+      ],
+      "eligible_applicant_types": [
+        "Sovereign/Government",
+        "Large Corporate",
+        "Project SPV",
+        "Financial Intermediary"
+      ],
+      "application_portal_url": "https://www.cif.org/",
+      "form_template_type": "CLIMATE_FUND_PROPOSAL",
+      "mandatory_form_requirements": [
+        "Channeling through an implementing MDB (World Bank, IFC, EBRD, ADB, AfDB, IDB)",
+        "Country Investment Plan endorsement (e.g., TIDIP / AMPLIFi / ACT)",
+        "High private-sector capital mobilization ratio (typically >5x)",
+        "Verified GHG abatement & transformational impact metrics"
+      ],
+      "exclusion_rules": [
+        "Direct non-MDB applications",
+        "Coal expansion"
+      ],
+      "recommended_ai_model_type": "HYBRID_KAG_RAG",
+      "ai_model_rationale": "KAG validates implementing-MDB & Country Investment Plan pathways while RAG crafts catalytic leverage and AMPLIFi/TIDIP transformation narratives.",
+      "verification_source_url": "https://www.downtoearth.org.in/climate-change/cop31-starts-a-new-era-of-electrification",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_eib_eif",
+      "name": "European Investment Bank (EIB) & European Investment Fund (EIF)",
+      "short_name": "EIB Group",
+      "category": "Multilateral Development Bank (MDB)",
+      "ecosystem_branch": "Development Banks",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "Development bank channel (EIB Group); match via project preparation, municipal/sovereign pilots, or DFI blended co-financing.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Luxembourg (EU Multilateral)",
+      "geographic_focus": [
+        "Europe",
+        "EU",
+        "Türkiye",
+        "Global",
+        "Emerging Markets",
+        "Africa",
+        "Mediterranean"
+      ],
+      "cop31_antalya_role": "Launched Climate Adaptation Plan Phase 2 at COP31; signed EIB-İLBANK advisory deal Nov 13; TIDIP signatory; Electrify Now Coalition",
+      "cop31_verified_2026_commitment": "≥€30B Climate Adaptation Plan Phase 2 (2026–2030); €20B Global Green Bond Initiative; EIF €80B European Tech Champions scale-up alliance; €31B cumulative in Türkiye",
+      "financing_instruments": [
+        "Long-Term Investment Loan",
+        "Framework Loan",
+        "Green Bond Anchor",
+        "Venture Debt / EIF Equity Guarantee",
+        "Technical Assistance (Gap Fund)"
+      ],
+      "typical_ticket_min_usd": 15000000,
+      "typical_ticket_max_usd": 500000000,
+      "target_sectors": [
+        "Climate Adaptation & Resilience",
+        "Renewable Energy",
+        "Electrification & Grid",
+        "Resilient Cities & Infrastructure",
+        "Industrial Decarbonization",
+        "Climate-Tech Innovation"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "Municipality",
+        "Sovereign/Government",
+        "Financial Intermediary",
+        "Project SPV",
+        "Climate-Tech Startup"
+      ],
+      "application_portal_url": "https://www.eib.org/en/products/index.htm",
+      "form_template_type": "MDB_CONCEPT_NOTE",
+      "mandatory_form_requirements": [
+        "EIB Climate Bank Roadmap & Paris Alignment compliance",
+        "EU Taxonomy alignment or Climate Adaptation Plan Phase 2 criteria",
+        "Environmental Impact Assessment (EU EIA Directive equivalent)",
+        "Economic & financial viability appraisal (typically financing up to 50% of project cost)"
+      ],
+      "exclusion_rules": [
+        "Unabated fossil fuel energy projects (oil, gas, coal)"
+      ],
+      "recommended_ai_model_type": "KAG",
+      "ai_model_rationale": "Strict 50% co-financing cap, EU Taxonomy alignment rules, and EIB vs. EIF subsidiary routing are best enforced via structured KAG logic.",
+      "verification_source_url": "https://www.eib.org/en/press/all/2026-416-eib-group-to-showcase-new-climate-finance-actions-at-cop31",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_fast_infra",
+      "name": "FAST-Infra Group",
+      "short_name": "FAST-Infra",
+      "category": "Climate Finance Network / Public Facilitator",
+      "ecosystem_branch": "Climate Finance Networks",
+      "relationship_status": "Finance Participant",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "COP31 Business Forum WG sustainable infrastructure label & platform; GreenHope's MRV/AI verification layer maps directly to FAST-Infra Sustainable Infrastructure Label (SI Label) data needs!",
+      "knowledge_pack_slug": null,
+      "hq_country": "France / Switzerland (Global Coalition)",
+      "geographic_focus": [
+        "Global",
+        "Emerging Markets",
+        "Türkiye",
+        "Africa",
+        "Asia",
+        "Latin America"
+      ],
+      "cop31_antalya_role": "COP31 Business Forum Climate Finance & Investments Working Group member scaling labeled sustainable infrastructure",
+      "cop31_verified_2026_commitment": "Deploying the FAST-Infra Sustainable Infrastructure Label & Technology-Enabled Data Platform to turn resilient urban/green infrastructure into a liquid asset class",
+      "financing_instruments": [
+        "Sustainable Infrastructure Labeling",
+        "Institutional Deal Flow Acceleration",
+        "Blended Infrastructure Facility Intro"
+      ],
+      "typical_ticket_min_usd": 5000000,
+      "typical_ticket_max_usd": 300000000,
+      "target_sectors": [
+        "Resilient Cities & Infrastructure",
+        "Climate Adaptation & Resilience",
+        "Renewable Energy",
+        "Water & Wastewater Management",
+        "Zero Waste & Circular Economy"
+      ],
+      "eligible_applicant_types": [
+        "Municipality",
+        "Project SPV",
+        "Climate-Tech Startup",
+        "Large Corporate",
+        "Financial Intermediary"
+      ],
+      "application_portal_url": "https://www.fastinfragroup.org/",
+      "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+      "mandatory_form_requirements": [
+        "Alignment with FAST-Infra 14 sustainability criteria (Environmental, Social, Governance, Resilience)",
+        "Verifiable digital MRV performance data",
+        "Scalable emerging-market infrastructure pipeline"
+      ],
+      "exclusion_rules": [
+        "Unlabeled fossil-fuel infrastructure"
+      ],
+      "recommended_ai_model_type": "HYBRID_KAG_RAG",
+      "ai_model_rationale": "KAG maps FAST-Infra's 14 label criteria while RAG shows how GreenHope's MRV engine enables infrastructure bankability.",
+      "verification_source_url": "https://www.copbusiness.org/papers/COP31_WG_climate-finance-investments.pdf",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_findev_canada",
+      "name": "FinDev Canada",
+      "short_name": "FinDev Canada",
+      "category": "Bilateral DFI",
+      "ecosystem_branch": "Development Banks",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "Development bank channel (FinDev Canada); match via project preparation, municipal/sovereign pilots, or DFI blended co-financing.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Canada",
+      "geographic_focus": [
+        "Africa",
+        "Asia-Pacific",
+        "Latin America",
+        "Caribbean"
+      ],
+      "cop31_antalya_role": "Co-launched '10by30' ($10B emerging market climate finance collaboration) at COP31 on Nov 13",
+      "cop31_verified_2026_commitment": "Co-delivering $10B '10by30' via Climate Mobilization Strategy ($2.72B committed portfolio as of June 2026; 47% climate finance)",
+      "financing_instruments": [
+        "Senior/Subordinated Debt",
+        "Equity",
+        "Blended Finance",
+        "Guarantee",
+        "Technical Assistance"
+      ],
+      "typical_ticket_min_usd": 5000000,
+      "typical_ticket_max_usd": 100000000,
+      "target_sectors": [
+        "Renewable Energy",
+        "Energy Storage",
+        "Electrification & Grid",
+        "Clean Transport",
+        "Sustainable Agriculture & Water",
+        "Industrial Decarbonization"
+      ],
+      "eligible_applicant_types": [
+        "Project SPV",
+        "Large Corporate",
+        "Financial Intermediary",
+        "Growth-Stage Private Enterprise"
+      ],
+      "application_portal_url": "https://www.findevcanada.ca/en/what-we-do/how-we-invest",
+      "form_template_type": "DFI_PROJECT_INTAKE",
+      "mandatory_form_requirements": [
+        "2X Challenge gender-lens & market development impact",
+        "10by30 harmonized GHG & climate impact reporting",
+        "IFC Performance Standards & E&S management system",
+        "Geographic mandate (Africa, Asia-Pacific, LAC)"
+      ],
+      "exclusion_rules": [
+        "Coal, upstream oil & gas, non-mandate high-income countries"
+      ],
+      "recommended_ai_model_type": "HYBRID_KAG_RAG",
+      "ai_model_rationale": "KAG enforces mandate geography, ticket sizing & 2X/ESG rules while RAG generates blended-finance & technical-assistance narratives.",
+      "verification_source_url": "https://africa.businessinsider.com/local/markets/britain-canada-and-norway-combine-forces-for-dollar10-billion-climate-push-as-their/98mpx59",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_frld",
+      "name": "Fund for Responding to Loss and Damage (FRLD)",
+      "short_name": "Loss & Damage Fund",
+      "category": "Multilateral Climate Fund",
+      "ecosystem_branch": "Multilateral Climate Funds",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "UNFCCC/Multilateral Climate Fund (Loss & Damage Fund); channel GreenHope city adaptation/mitigation pilot via an Accredited Entity or NDA.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Philippines (Host) / UNFCCC",
+      "geographic_focus": [
+        "Developing Countries",
+        "Vulnerable Countries",
+        "LDCs",
+        "SIDS",
+        "Asia",
+        "Africa",
+        "Latin America"
+      ],
+      "cop31_antalya_role": "Co-host of Climate Funds Pavilion; marked first operational delivery allocation ($21.6M for Nepal) highlighted at COP31",
+      "cop31_verified_2026_commitment": "First provisional recovery allocation ($21.6M for Nepal post-flood recovery) signaling operational rollout of Loss & Damage grants at COP31",
+      "financing_instruments": [
+        "Rapid-Response Recovery Grant",
+        "Non-Debt Concessional Recovery Support",
+        "Budget Support"
+      ],
+      "typical_ticket_min_usd": 1000000,
+      "typical_ticket_max_usd": 50000000,
+      "target_sectors": [
+        "Climate Disaster Recovery",
+        "Climate Adaptation & Resilience",
+        "Resilient Reconstruction",
+        "Early Recovery Infrastructure"
+      ],
+      "eligible_applicant_types": [
+        "Sovereign/Government",
+        "Accredited Entity/NGO"
+      ],
+      "application_portal_url": "https://www.frld.org/",
+      "form_template_type": "CLIMATE_FUND_PROPOSAL",
+      "mandatory_form_requirements": [
+        "Particularly vulnerable developing country sovereign request",
+        "Verified climate-induced extreme weather or slow-onset loss & damage assessment",
+        "National Focal Point / Ministry of Finance endorsement",
+        "Fiduciary transparency & rapid disbursement safeguards"
+      ],
+      "exclusion_rules": [
+        "Commercial private-sector profit ventures",
+        "Non-climate-disaster projects"
+      ],
+      "recommended_ai_model_type": "KAG",
+      "ai_model_rationale": "Strict vulnerability eligibility, sovereign-request validation, and disaster-attribution compliance rules require deterministic KAG gating.",
+      "verification_source_url": "https://indiasworld.in/cop31-in-antalya-key-issues-and-challenges/",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_gfanz_ccr",
+      "name": "GFANZ / Catalytic Capital Repository (GCBC)",
+      "short_name": "GFANZ Catalytic Capital",
+      "category": "Institutional / Catalytic / Climate PE",
+      "ecosystem_branch": "Climate Finance Networks",
+      "relationship_status": "Finance Participant",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "COP31 Catalytic Capital Repository maps 30+ catalytic funders & risk-mitigation vehicles for scaling GreenHope pilots in emerging markets.",
+      "knowledge_pack_slug": null,
+      "hq_country": "United Kingdom / Global Coalition",
+      "geographic_focus": [
+        "Emerging Markets",
+        "Developing Countries",
+        "Türkiye",
+        "Africa",
+        "Asia",
+        "Latin America",
+        "Global"
+      ],
+      "cop31_antalya_role": "Launched 'Catalytic Capital Repository' (30+ financial institutions) at COP31 Nov 11–12; partnered with Türkiye Ministry of Industry & Technology on industrial decarbonization; co-hosted Global Finance Summit",
+      "cop31_verified_2026_commitment": "Public repository of 30+ catalytic capital & risk-mitigation providers for EMDE clean energy/resilience + Türkiye industrial decarbonization private-capital partnership",
+      "financing_instruments": [
+        "Catalytic First-Loss Capital",
+        "Risk-Mitigation Guarantee",
+        "Blended Transition Facility",
+        "Co-Investment Syndication"
+      ],
+      "typical_ticket_min_usd": 5000000,
+      "typical_ticket_max_usd": 200000000,
+      "target_sectors": [
+        "Industrial Decarbonization",
+        "Renewable Energy",
+        "Electrification & Grid",
+        "Climate Adaptation & Resilience",
+        "Energy Storage"
+      ],
+      "eligible_applicant_types": [
+        "Project SPV",
+        "Large Corporate",
+        "Financial Intermediary",
+        "Fund Manager",
+        "Climate-Tech Startup"
+      ],
+      "application_portal_url": "https://www.gfanzero.com/",
+      "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+      "mandatory_form_requirements": [
+        "Clear private-capital mobilization & de-risking thesis (EMDEs)",
+        "Alignment with GFANZ Transition Finance guidelines",
+        "Defined blended capital stack showing catalytic layer role",
+        "Quantified GHG avoidance or climate resilience impact"
+      ],
+      "exclusion_rules": [
+        "Unabated coal expansion",
+        "Non-catalytic purely commercial subsidies without additionality"
+      ],
+      "recommended_ai_model_type": "HYBRID_KAG_RAG",
+      "ai_model_rationale": "KAG maps multi-institution repository eligibility & blended capital stack rules while RAG drafts catalytic additionality and mobilization theses.",
+      "verification_source_url": "https://www.esgdive.com/news/platform-launched-at-cop31-aims-to-scale-transition-capital-in-emerging-mar/874527/",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_gfif",
+      "name": "GFIF (Global Finance & Investment Forum at COP31)",
+      "short_name": "GFIF Dealroom",
+      "category": "Climate Finance Network / Public Facilitator",
+      "ecosystem_branch": "Climate Finance Networks",
+      "relationship_status": "Finance Participant",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "COP31 capital-provider dealroom uniting lenders, guarantors, DFIs & institutional investors around structured climate finance deals.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Global (COP31 Antalya Dealroom)",
+      "geographic_focus": [
+        "Global",
+        "Emerging Markets",
+        "Türkiye",
+        "Africa",
+        "Asia"
+      ],
+      "cop31_antalya_role": "Convening lenders, guarantors, DFIs & capital providers in a dedicated COP31 Capital-Provider Dealroom",
+      "cop31_verified_2026_commitment": "Structured climate dealroom connecting project developers, guarantors & DFIs to close bankability gaps at COP31 Antalya",
+      "financing_instruments": [
+        "Capital-Provider Dealroom",
+        "Guarantee & Blended Structuring",
+        "Co-Investment Syndication"
+      ],
+      "typical_ticket_min_usd": 1000000,
+      "typical_ticket_max_usd": 200000000,
+      "target_sectors": [
+        "Climate Adaptation & Resilience",
+        "Renewable Energy",
+        "Resilient Cities & Infrastructure",
+        "Industrial Decarbonization",
+        "Climate-Tech Innovation"
+      ],
+      "eligible_applicant_types": [
+        "Project SPV",
+        "Climate-Tech Startup",
+        "Large Corporate",
+        "Municipality",
+        "Fund Manager"
+      ],
+      "application_portal_url": "https://www.gfif.fund/cop31",
+      "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+      "mandatory_form_requirements": [
+        "Bankable dealroom teaser with clear capital stack & guarantee needs",
+        "Verified climate impact & MRV methodology",
+        "Defined pilot or commercial deployment site"
+      ],
+      "exclusion_rules": [
+        "Unstructured concept ideas lacking financial model"
+      ],
+      "recommended_ai_model_type": "HYBRID_KAG_RAG",
+      "ai_model_rationale": "KAG validates blended-finance capital stack & guarantor fit while RAG prepares crisp dealroom pitch sheets.",
+      "verification_source_url": "https://www.gfif.fund/cop31",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_gef",
+      "name": "Global Environment Facility (GEF — incl. LDCF & SCCF)",
+      "short_name": "GEF",
+      "category": "Multilateral Climate Fund",
+      "ecosystem_branch": "Multilateral Climate Funds",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "UNFCCC/Multilateral Climate Fund (GEF); channel GreenHope city adaptation/mitigation pilot via an Accredited Entity or NDA.",
+      "knowledge_pack_slug": null,
+      "hq_country": "United States (UNFCCC Operating Entity)",
+      "geographic_focus": [
+        "Developing Countries",
+        "LDCs",
+        "Emerging Markets",
+        "Global",
+        "Türkiye",
+        "Africa",
+        "Asia",
+        "Latin America"
+      ],
+      "cop31_antalya_role": "Co-host of 2026 Climate Funds Pavilion (Blue Zone B2, D230); hosting COP31 special events on LDCF, SCCF & GEF-9 priorities",
+      "cop31_verified_2026_commitment": "Mobilizing LDCF, SCCF & GEF-9 adaptation, biodiversity, and climate innovation grants at COP31 Antalya",
+      "financing_instruments": [
+        "Grant",
+        "Non-Grant Blended Instrument (NGI)",
+        "Concessional Co-Financing",
+        "Technical Assistance Grant"
+      ],
+      "typical_ticket_min_usd": 500000,
+      "typical_ticket_max_usd": 30000000,
+      "target_sectors": [
+        "Climate Adaptation & Resilience",
+        "Biodiversity & Nature",
+        "Circular Economy & Zero Waste",
+        "Renewable Energy",
+        "Sustainable Agriculture & Water",
+        "Climate-Tech Innovation"
+      ],
+      "eligible_applicant_types": [
+        "Accredited Entity/NGO",
+        "Sovereign/Government",
+        "Municipality",
+        "Climate-Tech Startup",
+        "Financial Intermediary"
+      ],
+      "application_portal_url": "https://www.thegef.org/projects-operations/how-apply",
+      "form_template_type": "CLIMATE_FUND_PROPOSAL",
+      "mandatory_form_requirements": [
+        "Endorsement Letter from host country's GEF Operational Focal Point (OFP)",
+        "Implementation via one of 18 accredited GEF Agencies (UNDP, UNEP, World Bank, EBRD, ADB, AfDB, etc.)",
+        "Global Environmental Benefits (GEB) & co-financing ratio verification",
+        "GEF-9 / LDCF / SCCF alignment & Gender/Safeguards policy"
+      ],
+      "exclusion_rules": [
+        "Unendorsed proposals lacking OFP letter",
+        "Fossil-fuel subsidies"
+      ],
+      "recommended_ai_model_type": "KAG",
+      "ai_model_rationale": "Complex GEF Agency routing, OFP endorsement rules, and LDCF vs. SCCF vs. NGI window logic require deterministic KAG graph checks.",
+      "verification_source_url": "https://www.thegef.org/events/gef-unfccc-cop31",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_gefi",
+      "name": "Global Ethical Finance Initiative (GEFI)",
+      "short_name": "GEFI",
+      "category": "Climate Finance Network / Public Facilitator",
+      "ecosystem_branch": "Climate Finance Networks",
+      "relationship_status": "Finance Participant",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "COP31 Business Forum Finance WG network bridging Islamic/ethical finance, green sukuk & SDG impact investors with climate innovation pipelines.",
+      "knowledge_pack_slug": null,
+      "hq_country": "United Kingdom",
+      "geographic_focus": [
+        "Global",
+        "Türkiye",
+        "MENA",
+        "Europe",
+        "Asia",
+        "Africa"
+      ],
+      "cop31_antalya_role": "COP31 Business Forum Climate Finance & Investments Working Group member (Path to COP31 Ethical & Islamic Climate Finance)",
+      "cop31_verified_2026_commitment": "Mobilizing ethical & Shariah-aligned institutional investors toward SDG & Paris-aligned climate projects via Path to COP31 platform",
+      "financing_instruments": [
+        "Ethical Investor Syndicate Intro",
+        "Green Sukuk Structuring Network",
+        "Impact Dealroom Access"
+      ],
+      "typical_ticket_min_usd": 500000,
+      "typical_ticket_max_usd": 100000000,
+      "target_sectors": [
+        "Climate Adaptation & Resilience",
+        "Renewable Energy",
+        "Zero Waste & Circular Economy",
+        "Sustainable Agriculture & Water",
+        "Climate-Tech Innovation"
+      ],
+      "eligible_applicant_types": [
+        "Climate-Tech Startup",
+        "Project SPV",
+        "SME",
+        "Fund Manager",
+        "Large Corporate"
+      ],
+      "application_portal_url": "https://www.globalethicalfinance.org/",
+      "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+      "mandatory_form_requirements": [
+        "Strong UN SDG alignment & ethical/transparent governance",
+        "Verified measurable environmental & social impact",
+        "Clear investable pilot or blended-finance structure"
+      ],
+      "exclusion_rules": [
+        "Non-ethical or fossil-fuel-intensive activities"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG tailors ethical & SDG-aligned dealroom pitches for GEFI's COP31 investor coalition.",
+      "verification_source_url": "https://www.copbusiness.org/papers/COP31_WG_climate-finance-investments.pdf",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_gcf",
+      "name": "Green Climate Fund (GCF)",
+      "short_name": "GCF",
+      "category": "Multilateral Climate Fund",
+      "ecosystem_branch": "Multilateral Climate Funds",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "UNFCCC/Multilateral Climate Fund (GCF); channel GreenHope city adaptation/mitigation pilot via an Accredited Entity or NDA.",
+      "knowledge_pack_slug": null,
+      "hq_country": "South Korea (UNFCCC Operating Entity)",
+      "geographic_focus": [
+        "Developing Countries",
+        "Emerging Markets",
+        "Global",
+        "Africa",
+        "Asia",
+        "Latin America",
+        "Türkiye"
+      ],
+      "cop31_antalya_role": "Co-host of 2026 Climate Funds Pavilion (Blue Zone B2, D230); launched Adaptation Scaling-Up Framework with AF; $300M BNDES approval",
+      "cop31_verified_2026_commitment": "$300M approved for Brazil climate funds at COP31 + new GCF-AF Adaptation Scaling-Up Framework + GFANZ Catalytic Capital Repository member",
+      "financing_instruments": [
+        "Grant",
+        "Concessional Loan",
+        "Equity",
+        "Guarantee",
+        "Results-Based Payment",
+        "Blended Finance"
+      ],
+      "typical_ticket_min_usd": 5000000,
+      "typical_ticket_max_usd": 250000000,
+      "target_sectors": [
+        "Climate Adaptation & Resilience",
+        "Renewable Energy",
+        "Industrial Decarbonization",
+        "Nature-Based Solutions & Forestry",
+        "Sustainable Agriculture & Water",
+        "Resilient Cities & Infrastructure"
+      ],
+      "eligible_applicant_types": [
+        "Accredited Entity/NGO",
+        "Sovereign/Government",
+        "Financial Intermediary",
+        "Large Corporate",
+        "Project SPV"
+      ],
+      "application_portal_url": "https://www.greenclimate.fund/projects/process",
+      "form_template_type": "CLIMATE_FUND_PROPOSAL",
+      "mandatory_form_requirements": [
+        "Submission through a GCF Accredited Entity (AE) or Direct Access Entity (DAE)",
+        "National Designated Authority (NDA) No-Objection Letter",
+        "GCF 6 Investment Criteria (Impact, Paradigm Shift, Sustainable Development, Needs, Country Ownership, Efficiency)",
+        "Gender Action Plan & Environmental/Social Management Plan (ESMP)"
+      ],
+      "exclusion_rules": [
+        "Non-UNFCCC developing-country projects without NDA",
+        "Coal or unabated fossil-fuel investments"
+      ],
+      "recommended_ai_model_type": "KAG",
+      "ai_model_rationale": "Mandatory multi-hop GCF rules (Applicant -> Accredited Entity -> NDA No-Objection -> 6 Investment Criteria -> Concessionality) demand strict KAG reasoning.",
+      "verification_source_url": "https://www.climatechangenews.com/2026/11/10/cop31-bulletin-day-2-energy-day-off-to-slow-start-amid-transport-chaos/",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_iigcc_bloomberg",
+      "name": "IIGCC & Bloomberg Philanthropies Climate Finance Network",
+      "short_name": "IIGCC / Bloomberg",
+      "category": "Institutional / Catalytic / Climate PE",
+      "ecosystem_branch": "Infrastructure / Impact Investors",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "Catalytic/institutional climate investor (IIGCC / Bloomberg); target for GreenHope pilot de-risking or growth equity.",
+      "knowledge_pack_slug": null,
+      "hq_country": "United Kingdom / United States",
+      "geographic_focus": [
+        "Global",
+        "Europe",
+        "Türkiye",
+        "Emerging Markets",
+        "Developing Countries"
+      ],
+      "cop31_antalya_role": "IIGCC is founding member of COP31 Electrify Now Finance Coalition; Bloomberg Philanthropies is official COP31 Action Agenda partner co-hosting Global Finance Summit",
+      "cop31_verified_2026_commitment": "Mobilizing institutional asset owners & philanthropic catalytic grants across clean electrification, zero waste, methane abatement & industrial transition at COP31",
+      "financing_instruments": [
+        "Institutional Co-Investment Syndication",
+        "Philanthropic Catalytic Grant",
+        "Net-Zero Asset Owner Mandates",
+        "Project Preparation Support"
+      ],
+      "typical_ticket_min_usd": 1000000,
+      "typical_ticket_max_usd": 200000000,
+      "target_sectors": [
+        "Electrification & Grid",
+        "Renewable Energy",
+        "Methane Abatement",
+        "Zero Waste & Circular Economy",
+        "Ocean-Climate Action",
+        "Industrial Decarbonization"
+      ],
+      "eligible_applicant_types": [
+        "Project SPV",
+        "Large Corporate",
+        "Municipality",
+        "Climate-Tech Startup",
+        "Accredited Entity/NGO",
+        "Fund Manager"
+      ],
+      "application_portal_url": "https://www.iigcc.org/",
+      "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+      "mandatory_form_requirements": [
+        "Alignment with Net Zero Investment Framework (NZIF) or COP31 Action Agenda pillars",
+        "High scalability and institutional investor investability",
+        "Transparent emissions accounting & transition credibility",
+        "Public-private partnership or multi-level implementation impact"
+      ],
+      "exclusion_rules": [
+        "Fossil-fuel expansion incompatible with 1.5C pathways"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG synthesizes investor pitches aligned to IIGCC NZIF standards and Bloomberg Philanthropies' COP31 Action Agenda priorities.",
+      "verification_source_url": "https://www.bloomberg.org/press/cop31-presidency-and-bloomberg-philanthropies-announce-partnership-to-advance-climate-action-ahead-of-cop31-in-antalya/",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_iiab",
+      "name": "Impact Investing Advisory Board (EYDK / Türkiye Impact Network)",
+      "short_name": "Impact Investing Board",
+      "category": "Climate Finance Network / Public Facilitator",
+      "ecosystem_branch": "Climate Finance Networks",
+      "relationship_status": "Finance Participant",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "COP31 Business Forum WG impact-investing hub connecting Turkish/global impact VCs, family offices & foundations with verified impact startups like GreenHope.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Türkiye",
+      "geographic_focus": [
+        "Türkiye",
+        "EMEA",
+        "Global"
+      ],
+      "cop31_antalya_role": "COP31 Business Forum Climate Finance & Investments Working Group member mobilizing domestic & global impact capital",
+      "cop31_verified_2026_commitment": "Growing Türkiye's impact investing ecosystem across climate resilience, circular cities, social inclusion & verified impact measurement",
+      "financing_instruments": [
+        "Impact Investor Matchmaking",
+        "Catalytic Impact Fund Access",
+        "Venture Philanthropy Intros"
+      ],
+      "typical_ticket_min_usd": 100000,
+      "typical_ticket_max_usd": 25000000,
+      "target_sectors": [
+        "Climate-Tech Innovation",
+        "Climate Adaptation & Resilience",
+        "Zero Waste & Circular Economy",
+        "Resilient Cities & Infrastructure",
+        "Sustainable Agriculture & Water"
+      ],
+      "eligible_applicant_types": [
+        "Climate-Tech Startup",
+        "SME",
+        "Accredited Entity/NGO",
+        "Fund Manager"
+      ],
+      "application_portal_url": "https://eydk.org/en/",
+      "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+      "mandatory_form_requirements": [
+        "Intentional, measurable social & environmental impact (IMP / IRIS+)",
+        "Clear theory of change & verified pilot metrics",
+        "Scalable business model in Türkiye/EMEA"
+      ],
+      "exclusion_rules": [
+        "Purely philanthropic non-scalable projects without impact measurement"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG crafts concise IMP/IRIS+ impact briefs tailored to Türkiye's impact investor syndicate.",
+      "verification_source_url": "https://www.copbusiness.org/papers/COP31_WG_climate-finance-investments.pdf",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_idb",
+      "name": "Inter-American Development Bank (IDB / IDB Invest)",
+      "short_name": "IDB Group",
+      "category": "Multilateral Development Bank (MDB)",
+      "ecosystem_branch": "Development Banks",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "Development bank channel (IDB Group); match via project preparation, municipal/sovereign pilots, or DFI blended co-financing.",
+      "knowledge_pack_slug": null,
+      "hq_country": "United States (Multilateral)",
+      "geographic_focus": [
+        "Latin America",
+        "Caribbean",
+        "LAC",
+        "Americas"
+      ],
+      "cop31_antalya_role": "Founding member of Electrify Now Finance Coalition at COP31; signed LOI with BNDES & IBRD for Brazil industrial decarbonization",
+      "cop31_verified_2026_commitment": "LOI toward $1B industrial decarbonization package in Brazil (with IBRD/CIF/BNDES) + Electrify Now Finance Coalition",
+      "financing_instruments": [
+        "Sovereign Loan",
+        "Private-Sector Debt (IDB Invest)",
+        "Equity",
+        "Blended Finance",
+        "Guarantee",
+        "Green/Blue Bonds"
+      ],
+      "typical_ticket_min_usd": 10000000,
+      "typical_ticket_max_usd": 400000000,
+      "target_sectors": [
+        "Industrial Decarbonization",
+        "Electrification & Grid",
+        "Renewable Energy",
+        "Nature-Based Solutions & Forestry",
+        "Climate Adaptation & Resilience"
+      ],
+      "eligible_applicant_types": [
+        "Sovereign/Government",
+        "Large Corporate",
+        "Project SPV",
+        "Financial Intermediary",
+        "Municipality"
+      ],
+      "application_portal_url": "https://www.iadb.org/en/who-we-are/topics/climate-change",
+      "form_template_type": "MDB_CONCEPT_NOTE",
+      "mandatory_form_requirements": [
+        "LAC borrowing member country jurisdiction",
+        "IDB Environmental and Social Policy Framework (ESPF) & Paris Alignment",
+        "Development effectiveness & additionality scoring (DELTA)",
+        "Audited financials & procurement transparency"
+      ],
+      "exclusion_rules": [
+        "Thermal coal",
+        "Non-LAC project jurisdictions"
+      ],
+      "recommended_ai_model_type": "HYBRID_KAG_RAG",
+      "ai_model_rationale": "KAG checks LAC regional eligibility and ESPF rules while RAG grounds DELTA development impact and decarbonization narratives.",
+      "verification_source_url": "https://carbon-pulse.com/571307/",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_invest_tr",
+      "name": "Investment and Finance Office of the Presidency of Türkiye (Invest in Türkiye)",
+      "short_name": "Invest in Türkiye",
+      "category": "Climate Finance Network / Public Facilitator",
+      "ecosystem_branch": "Climate Finance Networks",
+      "relationship_status": "Potential Strategic Partner",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "Very High",
+      "greenhope_fit_notes": "Very High strategic leverage: public investment facilitation hub at COP31 Antalya connecting GreenHope directly to sovereign funds, MDBs, Turkish ministries & municipal pilots.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Türkiye",
+      "geographic_focus": [
+        "Türkiye",
+        "Global"
+      ],
+      "cop31_antalya_role": "Official COP31 Antalya host investment agency & Business Forum Climate Finance WG co-convener",
+      "cop31_verified_2026_commitment": "Facilitating FDI, green industrial zones, clean-tech incentives & MDB/private investor matchmaking across Türkiye's 2053 Net Zero agenda",
+      "financing_instruments": [
+        "Investment Matchmaking",
+        "Government Incentive Facilitation",
+        "Public-Private Pilot Introduction"
+      ],
+      "typical_ticket_min_usd": 0,
+      "typical_ticket_max_usd": 500000000,
+      "target_sectors": [
+        "Climate-Tech Innovation",
+        "Industrial Decarbonization",
+        "Renewable Energy",
+        "Resilient Cities & Infrastructure",
+        "Zero Waste & Circular Economy"
+      ],
+      "eligible_applicant_types": [
+        "Climate-Tech Startup",
+        "Large Corporate",
+        "Project SPV",
+        "Municipality",
+        "Fund Manager"
+      ],
+      "application_portal_url": "https://www.invest.gov.tr/en/pages/home-page.aspx",
+      "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+      "mandatory_form_requirements": [
+        "Clear investment & job-creation roadmap in Türkiye",
+        "Alignment with Türkiye Green Deal Action Plan & 2053 Net Zero",
+        "Verified technology readiness & municipal/corporate pilot scope"
+      ],
+      "exclusion_rules": [
+        "Non-compliant speculative schemes"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG structures strategic executive briefs for Turkish investment facilitation & incentive desk introductions.",
+      "verification_source_url": "https://www.dailysabah.com/business/energy/climate-finance-investment-talks-to-feature-high-on-cop31-agenda/amp",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_isdb",
+      "name": "Islamic Development Bank (IsDB)",
+      "short_name": "IsDB",
+      "category": "Multilateral Development Bank (MDB)",
+      "ecosystem_branch": "Development Banks",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "Shariah-compliant climate resilience & TIDIP partner; viable for OIC member-country urban adaptation and circular-waste pilots.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Saudi Arabia (Multilateral)",
+      "geographic_focus": [
+        "OIC Member Countries",
+        "Türkiye",
+        "MENA",
+        "Africa",
+        "Asia",
+        "Central Asia",
+        "Emerging Markets"
+      ],
+      "cop31_antalya_role": "Joined Türkiye Industrial Decarbonization Investment Platform (TIDIP) Nov 12 at COP31; signatory to Türkiye $5.1B MDB deals",
+      "cop31_verified_2026_commitment": "Strategic partner to $6B TIDIP industrial decarbonization coalition + part of Türkiye's $5.1B COP31 MDB financing package",
+      "financing_instruments": [
+        "Shariah-Compliant Istisna'a",
+        "Murabaha",
+        "Ijarah Leasing",
+        "Green Sukuk",
+        "Concessional Loan",
+        "Technical Assistance"
+      ],
+      "typical_ticket_min_usd": 10000000,
+      "typical_ticket_max_usd": 300000000,
+      "target_sectors": [
+        "Industrial Decarbonization",
+        "Renewable Energy",
+        "Climate Adaptation & Resilience",
+        "Sustainable Agriculture & Water",
+        "Resilient Infrastructure"
+      ],
+      "eligible_applicant_types": [
+        "Sovereign/Government",
+        "Large Corporate",
+        "Financial Intermediary",
+        "Project SPV"
+      ],
+      "application_portal_url": "https://www.isdb.org/what-we-do/climate-change",
+      "form_template_type": "MDB_CONCEPT_NOTE",
+      "mandatory_form_requirements": [
+        "Shariah-compliant financing structure (no riba/interest; Istisna'a, Murabaha, Ijarah, or Sukuk)",
+        "OIC member country eligibility",
+        "Joint MDB Paris Alignment & Environmental/Social Safeguards",
+        "Climate resilience & green industrial transition alignment"
+      ],
+      "exclusion_rules": [
+        "Interest-bearing non-Shariah structures",
+        "Thermal coal",
+        "Non-Shariah prohibited industries"
+      ],
+      "recommended_ai_model_type": "KAG",
+      "ai_model_rationale": "Hard Shariah-compliance structuring constraints + OIC country membership rules make KAG graph validation indispensable to prevent non-compliant drafts.",
+      "verification_source_url": "https://www.isdb.org/news/at-cop31-in-antalya-islamic-development-bank-joins-turkiye-industrial-decarbonization-investment-platform-tidip",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_ilbank",
+      "name": "İLBANK (İller Bankası — Türkiye Municipal Development Bank)",
+      "short_name": "İLBANK",
+      "category": "National Development Bank",
+      "ecosystem_branch": "Development Banks",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "Development bank channel (İLBANK); match via project preparation, municipal/sovereign pilots, or DFI blended co-financing.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Türkiye",
+      "geographic_focus": [
+        "Türkiye"
+      ],
+      "cop31_antalya_role": "Signed municipal climate finance advisory agreement with EIB & City Climate Finance Gap Fund on Nov 13 at COP31",
+      "cop31_verified_2026_commitment": "EIB & City Climate Finance Gap Fund advisory partnership for low-carbon, climate-resilient municipal urban infrastructure across Türkiye",
+      "financing_instruments": [
+        "Municipal Infrastructure Loan",
+        "MDB On-Lending Credit",
+        "Technical Assistance (Gap Fund)",
+        "Resilient Urban Grant Co-Financing"
+      ],
+      "typical_ticket_min_usd": 1000000,
+      "typical_ticket_max_usd": 150000000,
+      "target_sectors": [
+        "Resilient Cities & Infrastructure",
+        "Water & Wastewater Management",
+        "Urban Mobility & Transport",
+        "Renewable Energy",
+        "Zero Waste & Circular Economy"
+      ],
+      "eligible_applicant_types": [
+        "Municipality",
+        "Sovereign/Government",
+        "Municipal Utility"
+      ],
+      "application_portal_url": "https://www.ilbank.gov.tr/",
+      "form_template_type": "DFI_PROJECT_INTAKE",
+      "mandatory_form_requirements": [
+        "Turkish municipality or municipal utility applicant status",
+        "Municipal council borrowing resolution & Treasury debt limit compliance",
+        "EIB / City Climate Finance Gap Fund climate resilience appraisal",
+        "Environmental Impact Assessment (ÇED) & feasibility study"
+      ],
+      "exclusion_rules": [
+        "Private non-municipal commercial projects",
+        "Fossil-fuel infrastructure"
+      ],
+      "recommended_ai_model_type": "HYBRID_KAG_RAG",
+      "ai_model_rationale": "KAG strictly validates municipal legal eligibility & Treasury borrowing rules while RAG drafts EIB Gap Fund climate-resilience narratives.",
+      "verification_source_url": "https://news.europawire.eu/eib-and-ilbank-launch-advisory-partnership-to-advance-climate-resilient-urban-investment-in-turkiye/eu-press-release/2026/11/13/17/05/05/187788/",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_jpmorgan_chase",
+      "name": "JPMorgan Chase (Green Economy & Sustainable Finance)",
+      "short_name": "JPMorgan Chase",
+      "category": "Global Commercial Bank",
+      "ecosystem_branch": "Commercial Banks",
+      "relationship_status": "Finance Participant",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "Medium-High",
+      "greenhope_fit_notes": "COP31 banking participant (JPMorgan Chase); verify active green transition or SME credit desk fit for GreenHope pilot scaling.",
+      "knowledge_pack_slug": null,
+      "hq_country": "United States",
+      "geographic_focus": [
+        "Global",
+        "North America",
+        "Europe",
+        "EMEA",
+        "Asia-Pacific",
+        "Latin America"
+      ],
+      "cop31_antalya_role": "Major global bank with accredited delegation at COP31 Antalya participating in global finance & carbon/transition markets",
+      "cop31_verified_2026_commitment": "Green Economy Banking, sustainable development finance ($2.5T 2021-2030 target incl. $1T green initiatives), green bonds & clean tech advisory",
+      "financing_instruments": [
+        "Green Bond Underwriting",
+        "Corporate Transition Loan",
+        "Project Finance",
+        "Climate-Tech Commercial Banking",
+        "Tax Equity / Blended Finance"
+      ],
+      "typical_ticket_min_usd": 15000000,
+      "typical_ticket_max_usd": 500000000,
+      "target_sectors": [
+        "Renewable Energy",
+        "Electrification & Grid",
+        "Climate-Tech Innovation",
+        "Industrial Decarbonization",
+        "Carbon Markets & Article 6"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "Project SPV",
+        "Climate-Tech Startup",
+        "Financial Intermediary"
+      ],
+      "application_portal_url": "https://www.jpmorgan.com/solutions/banking/green-economy-banking",
+      "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+      "mandatory_form_requirements": [
+        "ICMA GBP / LMA GLP sustainable finance use-of-proceeds documentation",
+        "Audited financial statements & corporate credit rating/underwriting",
+        "GHG emissions baseline & decarbonization KPIs",
+        "Environmental & social risk assessment"
+      ],
+      "exclusion_rules": [
+        "Mountaintop coal removal",
+        "Unpermitted environmental violations"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG matches corporate/clean-tech borrowers to JPMorgan's Green Economy Banking and sustainable capital-markets guidelines.",
+      "verification_source_url": "https://www.theguardian.com/environment/2026/nov/13/cop31-companies-and-groups-linked-to-fossil-fuels-delegations",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_just_climate",
+      "name": "Just Climate (Generation Investment Management)",
+      "short_name": "Just Climate",
+      "category": "Institutional / Catalytic / Climate PE",
+      "ecosystem_branch": "Infrastructure / Impact Investors",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "Catalytic/institutional climate investor (Just Climate); target for GreenHope pilot de-risking or growth equity.",
+      "knowledge_pack_slug": null,
+      "hq_country": "United Kingdom",
+      "geographic_focus": [
+        "Global",
+        "Europe",
+        "Latin America",
+        "Brazil",
+        "Emerging Markets",
+        "North America"
+      ],
+      "cop31_antalya_role": "Backed by R$870M BNDES anchor allocation announced at COP31 for Just Climate Brasil (targeting R$3.8B) + global industrial climate equity",
+      "cop31_verified_2026_commitment": "Just Climate Brasil targeting R$3.8B (~$670M) backed by R$870M BNDES COP31 allocation + Industrial & Natural Climate Solutions equity strategies",
+      "financing_instruments": [
+        "Growth Private Equity",
+        "Climate Infrastructure Equity",
+        "Natural Climate Solutions Equity"
+      ],
+      "typical_ticket_min_usd": 15000000,
+      "typical_ticket_max_usd": 150000000,
+      "target_sectors": [
+        "Industrial Decarbonization",
+        "Nature-Based Solutions & Forestry",
+        "Sustainable Agriculture & Water",
+        "Energy Storage",
+        "Clean Transport",
+        "Climate-Tech Innovation"
+      ],
+      "eligible_applicant_types": [
+        "Climate-Tech Startup",
+        "Growth-Stage Private Enterprise",
+        "Project SPV",
+        "Large Corporate"
+      ],
+      "application_portal_url": "https://www.justclimate.com/",
+      "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+      "mandatory_form_requirements": [
+        "Climate-led investing thesis targeting highest-emitting hard-to-abate or nature sectors",
+        "Quantified GHG abatement potential per dollar invested (tCO2e/$)",
+        "Commercial scale-up traction & risk-adjusted equity return profile",
+        "Strong governance & impact verification methodology"
+      ],
+      "exclusion_rules": [
+        "Unabated fossil fuels",
+        "Deforestation-linked supply chains"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG tailors investment memos to Just Climate's climate-led abatement-per-dollar and hard-to-abate industrial/nature theses.",
+      "verification_source_url": "https://carbon-pulse.com/571307/",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_kfw",
+      "name": "KfW Development Bank (Germany)",
+      "short_name": "KfW",
+      "category": "Bilateral DFI",
+      "ecosystem_branch": "Development Banks",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "Development bank channel (KfW); match via project preparation, municipal/sovereign pilots, or DFI blended co-financing.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Germany",
+      "geographic_focus": [
+        "Global",
+        "Germany",
+        "Europe",
+        "Türkiye",
+        "Emerging Markets",
+        "Developing Countries",
+        "Africa",
+        "Asia"
+      ],
+      "cop31_antalya_role": "Executive Board delegation at COP31; signed €250M green transition loan with Turk Eximbank; climate mobility & energy panels",
+      "cop31_verified_2026_commitment": "€250M COP31 loan with Turk Eximbank + €415B cumulative climate & environmental commitments since 2017",
+      "financing_instruments": [
+        "Promotional Loan",
+        "Concessional Development Loan",
+        "Grant (IKI / BMZ)",
+        "Green Credit Line",
+        "Climate Venture Capital"
+      ],
+      "typical_ticket_min_usd": 5000000,
+      "typical_ticket_max_usd": 350000000,
+      "target_sectors": [
+        "Renewable Energy",
+        "Urban Mobility & Transport",
+        "Energy Efficiency & Green Buildings",
+        "Biodiversity & Nature",
+        "Industrial Decarbonization",
+        "Climate Adaptation & Resilience"
+      ],
+      "eligible_applicant_types": [
+        "Sovereign/Government",
+        "Financial Intermediary",
+        "Municipality",
+        "Large Corporate",
+        "Project SPV"
+      ],
+      "application_portal_url": "https://www.kfw-entwicklungsbank.de/",
+      "form_template_type": "DFI_PROJECT_INTAKE",
+      "mandatory_form_requirements": [
+        "KfW Sustainability Guideline & Environmental/Social Impact Assessment",
+        "Paris Agreement compatibility & GHG accounting",
+        "Partner-country government or bank intermediary mandate",
+        "IFC Performance Standards / EU environmental benchmark"
+      ],
+      "exclusion_rules": [
+        "Coal power/mining",
+        "Unabated fossil fuel expansion"
+      ],
+      "recommended_ai_model_type": "HYBRID_KAG_RAG",
+      "ai_model_rationale": "KAG verifies KfW/BMZ mandate & exclusion criteria while RAG draws from KfW's 4-sector climate protection framework (transport, energy, buildings, industry).",
+      "verification_source_url": "https://www.kfw.de/About-KfW/Newsroom/Latest-News/S12-Themenseite-3.html",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_mufg",
+      "name": "Mitsubishi UFJ Financial Group (MUFG)",
+      "short_name": "MUFG",
+      "category": "Global Commercial Bank",
+      "ecosystem_branch": "Commercial Banks",
+      "relationship_status": "Finance Participant",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "Medium-High",
+      "greenhope_fit_notes": "COP31 banking participant (MUFG); verify active green transition or SME credit desk fit for GreenHope pilot scaling.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Japan",
+      "geographic_focus": [
+        "Global",
+        "Asia-Pacific",
+        "EMEA",
+        "Türkiye",
+        "Americas",
+        "Europe"
+      ],
+      "cop31_antalya_role": "Major Japanese megabank delegation at COP31 Antalya active in global renewable project finance & industrial transition",
+      "cop31_verified_2026_commitment": "¥100 trillion (~$650B+) cumulative sustainable finance target (FY2019–FY2030) spanning renewable project finance, hydrogen/ammonia & transition loans",
+      "financing_instruments": [
+        "Renewable Project Finance Debt",
+        "Transition Loan",
+        "Green Bond Underwriting",
+        "Export Credit Agency (ECA)-Backed Green Loan"
+      ],
+      "typical_ticket_min_usd": 20000000,
+      "typical_ticket_max_usd": 500000000,
+      "target_sectors": [
+        "Renewable Energy",
+        "Industrial Decarbonization",
+        "Hydrogen & Sustainable Fuels",
+        "Electrification & Grid",
+        "Energy Storage"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "Project SPV",
+        "Financial Intermediary"
+      ],
+      "application_portal_url": "https://www.mufg.jp/english/csr/sustainable_finance/index.html",
+      "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+      "mandatory_form_requirements": [
+        "MUFG Environmental and Social Policy Framework & Equator Principles",
+        "Transition Finance eligibility (METI / ICMA Climate Transition Finance Handbook)",
+        "Long-term PPA / EPC bankability & DSCR profile",
+        "External SPO or transition verification"
+      ],
+      "exclusion_rules": [
+        "New unabated coal-fired power plants"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG aligns renewable and hydrogen/transition project-finance filings with MUFG's Climate Transition Finance Handbook criteria.",
+      "verification_source_url": "https://countercurrents.org/2026/11/climate-summit-to-save-the-planet-yet-polluters-crowd-the-halls-103-polluting-entities-at-cop31-2-2-trillion-in-fossil-fuel-financing/",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_norfund",
+      "name": "Norfund (Norwegian Investment Fund / Climate Investment Fund)",
+      "short_name": "Norfund",
+      "category": "Bilateral DFI",
+      "ecosystem_branch": "Development Banks",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "Development bank channel (Norfund); match via project preparation, municipal/sovereign pilots, or DFI blended co-financing.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Norway",
+      "geographic_focus": [
+        "Africa",
+        "South Africa",
+        "Egypt",
+        "Morocco",
+        "Tunisia",
+        "Asia",
+        "Latin America"
+      ],
+      "cop31_antalya_role": "Co-launched '10by30' ($10B emerging market climate finance alliance) at COP31 on Nov 13 via Norwegian Climate Investment Fund",
+      "cop31_verified_2026_commitment": "Co-anchoring $10B '10by30' by 2030 (63% Africa portfolio; priority markets South Africa, Egypt, Tunisia, Morocco, India, SE Asia)",
+      "financing_instruments": [
+        "Equity",
+        "Mezzanine",
+        "Long-Term Debt",
+        "Co-Investment (10by30)",
+        "Blended Finance"
+      ],
+      "typical_ticket_min_usd": 10000000,
+      "typical_ticket_max_usd": 100000000,
+      "target_sectors": [
+        "Renewable Energy",
+        "Energy Storage",
+        "Electrification & Grid",
+        "Industrial Decarbonization",
+        "Sustainable Fuels"
+      ],
+      "eligible_applicant_types": [
+        "Project SPV",
+        "Large Corporate",
+        "Financial Intermediary",
+        "Growth-Stage Private Enterprise"
+      ],
+      "application_portal_url": "https://www.norfund.no/apply-for-funding/",
+      "form_template_type": "DFI_PROJECT_INTAKE",
+      "mandatory_form_requirements": [
+        "High avoided-emissions potential replacing fossil-fuel power",
+        "10by30 coordinated due diligence & IFC Performance Standards",
+        "Norfund priority emerging markets (high-emitting developing countries)",
+        "Clear additionality & private capital mobilization"
+      ],
+      "exclusion_rules": [
+        "Fossil-fuel power plants",
+        "Coal mining"
+      ],
+      "recommended_ai_model_type": "HYBRID_KAG_RAG",
+      "ai_model_rationale": "KAG enforces Norfund's strict priority-country and avoided-fossil-power criteria while RAG crafts 10by30 shared-pipeline teasers.",
+      "verification_source_url": "https://www.byteseu.com/2521383/",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_standard_chartered",
+      "name": "Standard Chartered Bank",
+      "short_name": "Standard Chartered",
+      "category": "Global Commercial Bank",
+      "ecosystem_branch": "Commercial Banks",
+      "relationship_status": "Finance Participant",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "Medium-High",
+      "greenhope_fit_notes": "COP31 banking participant (Standard Chartered); verify active green transition or SME credit desk fit for GreenHope pilot scaling.",
+      "knowledge_pack_slug": null,
+      "hq_country": "United Kingdom",
+      "geographic_focus": [
+        "Emerging Markets",
+        "Asia",
+        "Africa",
+        "MENA",
+        "Türkiye",
+        "Global"
+      ],
+      "cop31_antalya_role": "Senior Sustainable Finance Advisory speakers at COP31 Antalya; emerging markets blended & transition finance",
+      "cop31_verified_2026_commitment": "Emerging-market sustainable finance ($300B 2030 mobilization goal), blended adaptation finance, green trade & Article 6 carbon finance structuring",
+      "financing_instruments": [
+        "Green & Transition Loan",
+        "Blended Finance Structuring",
+        "Green Trade Finance",
+        "Carbon Market Financing",
+        "Sustainable Bond"
+      ],
+      "typical_ticket_min_usd": 10000000,
+      "typical_ticket_max_usd": 350000000,
+      "target_sectors": [
+        "Renewable Energy",
+        "Climate Adaptation & Resilience",
+        "Industrial Decarbonization",
+        "Carbon Markets & Article 6",
+        "Sustainable Trade & Supply Chains"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "Project SPV",
+        "Financial Intermediary",
+        "Sovereign/Government"
+      ],
+      "application_portal_url": "https://www.sc.com/en/sustainability/sustainable-finance/",
+      "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+      "mandatory_form_requirements": [
+        "Standard Chartered Green & Sustainable Product Framework",
+        "Transition Finance Framework & credible decarbonization pathway",
+        "Emerging market ESG & Equator Principles screening",
+        "Second-Party Opinion / external assurance for labeled instruments"
+      ],
+      "exclusion_rules": [
+        "Unabated coal expansion",
+        "Equator Principles breaches"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG captures Standard Chartered's specialized emerging-market adaptation, transition, and Article 6 carbon-finance guidelines.",
+      "verification_source_url": "https://cop.sifiratikvakfi.org/en/speakers/",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_tskb",
+      "name": "TSKB (Industrial Development Bank of Türkiye)",
+      "short_name": "TSKB",
+      "category": "National Development Bank",
+      "ecosystem_branch": "Development Banks",
+      "relationship_status": "COP31 Supporter",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "COP31 Climate Supporter & Türkiye's sole IDFC member; strong MDB on-lending & green advisory partner for scaling GreenHope corporate/industrial deployments.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Türkiye",
+      "geographic_focus": [
+        "Türkiye",
+        "EMEA"
+      ],
+      "cop31_antalya_role": "Official COP31 Climate Supporter (Green Zone Block C Climate Finance Hub); Türkiye's sole IDFC member",
+      "cop31_verified_2026_commitment": "€200M Treasury-guaranteed wind, solar & battery storage (BESS) facility + IDFC Climate Implementation Bridge & green corporate investment loans",
+      "financing_instruments": [
+        "Long-Term Investment Loan",
+        "MDB On-Lending Credit Line",
+        "Green/Sustainability Bond",
+        "Apex SME Facility",
+        "Advisory"
+      ],
+      "typical_ticket_min_usd": 2000000,
+      "typical_ticket_max_usd": 100000000,
+      "target_sectors": [
+        "Renewable Energy",
+        "Energy Storage",
+        "Industrial Decarbonization",
+        "Energy Efficiency",
+        "Circular Economy",
+        "Women Empowerment & Inclusive Green"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "Project SPV",
+        "SME",
+        "Mid-Cap Enterprise",
+        "Financial Intermediary"
+      ],
+      "application_portal_url": "https://www.tskb.com.tr/en/corporate-banking/corporate-loans",
+      "form_template_type": "DFI_PROJECT_INTAKE",
+      "mandatory_form_requirements": [
+        "TSKB ERET Environmental & Social Risk Evaluation rating",
+        "Turkish EIA (ÇED) permit & renewable license (EPDK) where applicable",
+        "Measurable energy efficiency / tCO2e abatement baseline",
+        "Audited corporate financials & debt service coverage (DSCR)"
+      ],
+      "exclusion_rules": [
+        "New coal-fired power plants",
+        "Environmental non-compliance"
+      ],
+      "recommended_ai_model_type": "HYBRID_KAG_RAG",
+      "ai_model_rationale": "KAG evaluates TSKB's MDB on-lending rules, ERET risk & Turkish licensing constraints while RAG aligns narratives with IDFC & COP31 green industry priorities.",
+      "verification_source_url": "https://www.linkedin.com/in/meralmurathan/",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_turk_eximbank",
+      "name": "Turk Eximbank",
+      "short_name": "Turk Eximbank",
+      "category": "National Development Bank",
+      "ecosystem_branch": "Development Banks",
+      "relationship_status": "Investor Confirmed",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "Development bank channel (Turk Eximbank); match via project preparation, municipal/sovereign pilots, or DFI blended co-financing.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Türkiye",
+      "geographic_focus": [
+        "Türkiye",
+        "Global Exports"
+      ],
+      "cop31_antalya_role": "Signed 4 international green financing agreements >$800M at COP31 Antalya (IBRD, KfW, AIIB)",
+      "cop31_verified_2026_commitment": ">$800M secured at COP31 (€209.2M IBRD, €250M KfW, $200M + $100M AIIB) dedicated to Turkish exporters' green transition & shock resilience",
+      "financing_instruments": [
+        "Green Export Investment Loan",
+        "Export Working Capital Credit",
+        "Export Credit Insurance",
+        "MDB/DFI On-Lending Line"
+      ],
+      "typical_ticket_min_usd": 500000,
+      "typical_ticket_max_usd": 75000000,
+      "target_sectors": [
+        "Industrial Decarbonization",
+        "Renewable Energy",
+        "Energy Efficiency",
+        "SME Green Transition",
+        "EU CBAM Export Compliance"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "SME",
+        "Mid-Cap Enterprise"
+      ],
+      "application_portal_url": "https://www.eximbank.gov.tr/en",
+      "form_template_type": "DFI_PROJECT_INTAKE",
+      "mandatory_form_requirements": [
+        "Verified Turkish exporter status & export commitment",
+        "Eligible green transition / CBAM decarbonization investment scope",
+        "IBRD / KfW / AIIB on-lending Environmental & Social screening",
+        "Bank letter of guarantee or eligible collateral"
+      ],
+      "exclusion_rules": [
+        "Non-exporting domestic entities",
+        "Coal/fossil-fuel expansion"
+      ],
+      "recommended_ai_model_type": "HYBRID_KAG_RAG",
+      "ai_model_rationale": "KAG enforces exporter/CBAM eligibility and MDB sub-loan rules while RAG tailors investment rationales to the new IBRD/KfW/AIIB COP31 lines.",
+      "verification_source_url": "https://ua.news/en/dovkolo-svitu/turk-eximbank-zaluchiv-ponad-800-mln-na-cop31-u-turechchini-anadolu-agency",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_isbank",
+      "name": "Türkiye İş Bankası (İşbank)",
+      "short_name": "İşbank",
+      "category": "Turkish Commercial Bank",
+      "ecosystem_branch": "Commercial Banks",
+      "relationship_status": "COP31 Supporter",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "High",
+      "greenhope_fit_notes": "Officially listed as COP31 Climate Supporter; verify specific green SME/blue-economy credit desk mandate before treating as direct GreenHope investor.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Türkiye",
+      "geographic_focus": [
+        "Türkiye",
+        "EMEA"
+      ],
+      "cop31_antalya_role": "Official COP31 Climate Supporter at Climate Finance Hub; showcasing energy transition, green industrialization & marine conservation models",
+      "cop31_verified_2026_commitment": "COP31 Climate Finance Hub green transformation, SME packages, energy transition, sustainable tourism & blue economy financing models",
+      "financing_instruments": [
+        "Green Investment Loan",
+        "SME Eco-Efficiency Loan",
+        "Blue Economy / Sustainable Tourism Loan",
+        "Project Finance",
+        "Green Trade Credit"
+      ],
+      "typical_ticket_min_usd": 100000,
+      "typical_ticket_max_usd": 150000000,
+      "target_sectors": [
+        "Renewable Energy",
+        "Industrial Decarbonization",
+        "Blue Economy & Marine Conservation",
+        "Sustainable Tourism",
+        "SME Green Transition",
+        "Energy Efficiency"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "SME",
+        "Mid-Cap Enterprise",
+        "Project SPV",
+        "Climate-Tech Startup"
+      ],
+      "application_portal_url": "https://www.isbank.com.tr/en/about-us/sustainability",
+      "form_template_type": "TURKISH_BANK_GREEN_LOAN",
+      "mandatory_form_requirements": [
+        "Turkish legal entity (VKN) & credit bureau clearance",
+        "Eligible green transition, renewable, or blue-economy use of proceeds",
+        "Environmental permits (ÇED/EIA) & supplier green equipment specs",
+        "Collateral / KGF guarantee verification"
+      ],
+      "exclusion_rules": [
+        "Unabated coal power",
+        "Marine ecosystem degradation"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "Diverse sector packages (energy, green industry, tourism, marine conservation) are best retrieved and tailored via RAG over İşbank's product corpus.",
+      "verification_source_url": "https://www.bolgegundemi.com/antalya/bankalar-cop31-kapsaminda-iklim-finansmani-modellerini-tanitacak-229994.html",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_vakifbank",
+      "name": "VakıfBank",
+      "short_name": "VakıfBank",
+      "category": "Turkish State Bank",
+      "ecosystem_branch": "Commercial Banks",
+      "relationship_status": "Finance Participant",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "Medium-High",
+      "greenhope_fit_notes": "COP31 banking participant (VakıfBank); verify active green transition or SME credit desk fit for GreenHope pilot scaling.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Türkiye",
+      "geographic_focus": [
+        "Türkiye"
+      ],
+      "cop31_antalya_role": "Official COP31 Main Partner; channeling $500M ADB green/inclusive SME financing agreement signed at COP31",
+      "cop31_verified_2026_commitment": "$500M ADB long-term financing facility signed at COP31 for SMEs in less-developed & earthquake-affected provinces plus women entrepreneurs",
+      "financing_instruments": [
+        "ADB-Backed Green SME Loan",
+        "Sustainable Transition Loan",
+        "Women Entrepreneur Green Facility",
+        "Green Bond Proceeds Loan"
+      ],
+      "typical_ticket_min_usd": 50000,
+      "typical_ticket_max_usd": 75000000,
+      "target_sectors": [
+        "SME Green Transition",
+        "Climate Adaptation & Resilience",
+        "Renewable Energy",
+        "Energy Efficiency",
+        "Women-Led Green Enterprise"
+      ],
+      "eligible_applicant_types": [
+        "SME",
+        "Mid-Cap Enterprise",
+        "Large Corporate",
+        "Women/Youth Entrepreneur"
+      ],
+      "application_portal_url": "https://www.vakifbank.com.tr/en/sustainability",
+      "form_template_type": "TURKISH_BANK_GREEN_LOAN",
+      "mandatory_form_requirements": [
+        "Turkish SME/corporate registration (VKN)",
+        "ADB sub-loan E&S screening & inclusive priority verification (region / women ownership)",
+        "Green investment purpose & energy/resilience benefit statement",
+        "Financial statements & collateral/KGF guarantee"
+      ],
+      "exclusion_rules": [
+        "ADB Safeguards Prohibited Investment Activities List"
+      ],
+      "recommended_ai_model_type": "HYBRID_KAG_RAG",
+      "ai_model_rationale": "KAG validates ADB sub-loan inclusive/regional priority rules while RAG populates VakıfBank's green SME credit narrative.",
+      "verification_source_url": "https://www.trtworld.com/article/08c7af154347",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_zurich_turkiye",
+      "name": "Zurich Life & Pension Türkiye (Zurich Group)",
+      "short_name": "Zurich Türkiye",
+      "category": "Institutional / Catalytic / Climate PE",
+      "ecosystem_branch": "Infrastructure / Impact Investors",
+      "relationship_status": "Finance Participant",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P2",
+      "greenhope_relevance": "Medium",
+      "greenhope_fit_notes": "COP31 Business Forum WG insurance/institutional investor in Türkiye; potential partner for climate-risk parametric insurance & resilient city pilot de-risking.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Türkiye (Switzerland Parent)",
+      "geographic_focus": [
+        "Türkiye",
+        "Europe",
+        "Global"
+      ],
+      "cop31_antalya_role": "COP31 Business Forum Climate Finance & Investments Working Group member (Insurance & Resilience Finance)",
+      "cop31_verified_2026_commitment": "Climate resilience risk-transfer, parametric insurance & ESG pension fund impact investing in Türkiye",
+      "financing_instruments": [
+        "Climate Resilience Insurance",
+        "ESG Institutional Allocation",
+        "Impact Bond Allocation"
+      ],
+      "typical_ticket_min_usd": 1000000,
+      "typical_ticket_max_usd": 50000000,
+      "target_sectors": [
+        "Climate Adaptation & Resilience",
+        "Resilient Cities & Infrastructure",
+        "Sustainable Agriculture & Water"
+      ],
+      "eligible_applicant_types": [
+        "Municipality",
+        "Large Corporate",
+        "Project SPV",
+        "Fund Manager"
+      ],
+      "application_portal_url": "https://www.zurich.com/sustainability",
+      "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+      "mandatory_form_requirements": [
+        "Quantifiable climate risk reduction or resilience impact",
+        "Institutional-grade governance & impact reporting",
+        "Alignment with Zurich Net-Zero & Climate Resilience priorities"
+      ],
+      "exclusion_rules": [
+        "Thermal coal underwriting/investment"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG maps urban/agricultural climate resilience metrics to Zurich's risk-transfer and ESG investment criteria.",
+      "verification_source_url": "https://www.copbusiness.org/papers/COP31_WG_climate-finance-investments.pdf",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_cisco",
+      "name": "Cisco",
+      "short_name": "Cisco",
+      "category": "Strategic Corporate / COP31 Supporter",
+      "ecosystem_branch": "Strategic / Corporate Capital",
+      "relationship_status": "COP31 Supporter",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P3",
+      "greenhope_relevance": "Strategic Partner",
+      "greenhope_fit_notes": "Official COP31 Climate Supporter—potential smart-city networking / Cisco Foundation climate-grant referral partner, NOT automatically a direct equity funder.",
+      "knowledge_pack_slug": null,
+      "hq_country": "United States",
+      "geographic_focus": [
+        "Global",
+        "Türkiye",
+        "Europe"
+      ],
+      "cop31_antalya_role": "Official COP31 Climate Supporter (Digital Sustainability & Connected Smart Cities)",
+      "cop31_verified_2026_commitment": "COP31 Climate Supporter; Cisco Foundation climate regeneration grants & smart-city IoT infrastructure collaboration",
+      "financing_instruments": [
+        "Strategic Tech Partnership",
+        "Cisco Foundation Climate Grant Referral",
+        "Cisco Investments CVC Referral"
+      ],
+      "typical_ticket_min_usd": 0,
+      "typical_ticket_max_usd": 10000000,
+      "target_sectors": [
+        "Resilient Cities & Infrastructure",
+        "Climate-Tech Innovation",
+        "Air Quality & IoT",
+        "Circular Economy & Zero Waste"
+      ],
+      "eligible_applicant_types": [
+        "Climate-Tech Startup",
+        "Municipality",
+        "Accredited Entity/NGO"
+      ],
+      "application_portal_url": "https://cop31.tr/partners/climate-supporters",
+      "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+      "mandatory_form_requirements": [
+        "Distinguish COP31 Climate Supporter role from separate Cisco Foundation / CVC applications",
+        "Protect Level 3/4 proprietary AI architecture before NDA"
+      ],
+      "exclusion_rules": [
+        "Assuming COP31 Supporter badge equals open investor commitment"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG drafts smart-city IoT collaboration & Cisco Foundation alignment briefs cleanly.",
+      "verification_source_url": "https://cop31.tr/partners/climate-supporters",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_ge_vernova",
+      "name": "GE Vernova",
+      "short_name": "GE Vernova",
+      "category": "Strategic Corporate / COP31 Supporter",
+      "ecosystem_branch": "Strategic / Corporate Capital",
+      "relationship_status": "COP31 Supporter",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P3",
+      "greenhope_relevance": "Strategic Partner",
+      "greenhope_fit_notes": "Official COP31 Climate Supporter—approach as electrification/grid corporate technology partner or CVC referral, NOT as a confirmed direct funder.",
+      "knowledge_pack_slug": null,
+      "hq_country": "United States",
+      "geographic_focus": [
+        "Global",
+        "Türkiye",
+        "Europe",
+        "Americas"
+      ],
+      "cop31_antalya_role": "Official COP31 Climate Supporter showcasing grid modernization, wind & electrification technologies",
+      "cop31_verified_2026_commitment": "COP31 Climate Supporter & clean-power/grid technology deployment partner",
+      "financing_instruments": [
+        "Strategic Corporate Partnership",
+        "Corporate Venture / Co-Development"
+      ],
+      "typical_ticket_min_usd": 0,
+      "typical_ticket_max_usd": 50000000,
+      "target_sectors": [
+        "Electrification & Grid",
+        "Renewable Energy",
+        "Energy Storage",
+        "Climate-Tech Innovation"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "Project SPV",
+        "Climate-Tech Startup"
+      ],
+      "application_portal_url": "https://cop31.tr/partners/climate-supporters",
+      "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+      "mandatory_form_requirements": [
+        "Treat as Strategic Corporate Partner / COP31 Supporter (not confirmed investor)",
+        "Share Level 1 PUBLIC overview only prior to mutual NDA"
+      ],
+      "exclusion_rules": [
+        "Misrepresenting COP31 Supporter status as open grant funding"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG drafts grid/electrification technical collaboration briefs while enforcing Supporter-vs-Investor governance.",
+      "verification_source_url": "https://cop31.tr/partners/climate-supporters",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_ikea",
+      "name": "IKEA (Ingka Group / Ingka Investments)",
+      "short_name": "IKEA",
+      "category": "Strategic Corporate / COP31 Supporter",
+      "ecosystem_branch": "Strategic / Corporate Capital",
+      "relationship_status": "COP31 Supporter",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P3",
+      "greenhope_relevance": "Strategic Partner",
+      "greenhope_fit_notes": "Official COP31 Climate Supporter—distinct from Ingka Investments (which separately invests in circular economy & renewables). Never conflate Supporter badge with open funding.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Netherlands / Sweden",
+      "geographic_focus": [
+        "Global",
+        "Europe",
+        "Türkiye"
+      ],
+      "cop31_antalya_role": "Official COP31 Climate Supporter promoting circular economy, zero waste & renewable energy",
+      "cop31_verified_2026_commitment": "COP31 Climate Supporter; separate Ingka Investments circular-economy & clean-energy corporate investment arm",
+      "financing_instruments": [
+        "Strategic Circular Pilot Partner",
+        "Ingka Investments Referral (Separate Mandate)"
+      ],
+      "typical_ticket_min_usd": 0,
+      "typical_ticket_max_usd": 50000000,
+      "target_sectors": [
+        "Zero Waste & Circular Economy",
+        "Renewable Energy",
+        "Sustainable Supply Chains"
+      ],
+      "eligible_applicant_types": [
+        "Climate-Tech Startup",
+        "Large Corporate",
+        "SME"
+      ],
+      "application_portal_url": "https://cop31.tr/partners/climate-supporters",
+      "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+      "mandatory_form_requirements": [
+        "Separate COP31 Supporter participation from formal Ingka Investments mandate",
+        "Demonstrate measurable circular-waste or retail decarbonization impact"
+      ],
+      "exclusion_rules": [
+        "Treating COP31 Supporter sponsorship as confirmed funding"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG frames circular-economy pilot proposals cleanly while preserving Supporter vs. Investor boundaries.",
+      "verification_source_url": "https://cop31.tr/partners/climate-supporters",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_sap",
+      "name": "SAP",
+      "short_name": "SAP",
+      "category": "Strategic Corporate / COP31 Supporter",
+      "ecosystem_branch": "Strategic / Corporate Capital",
+      "relationship_status": "Potential Strategic Partner",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P3",
+      "greenhope_relevance": "Strategic Partner",
+      "greenhope_fit_notes": "Strategic enterprise ESG/carbon-accounting software ecosystem partner (SAP Sustainability Control Tower / Green Ledger); approach for MRV integration & corporate co-sell.",
+      "knowledge_pack_slug": null,
+      "hq_country": "Germany",
+      "geographic_focus": [
+        "Global",
+        "Europe",
+        "Türkiye"
+      ],
+      "cop31_antalya_role": "Enterprise sustainability software & carbon accounting ecosystem participant",
+      "cop31_verified_2026_commitment": "Corporate carbon ledger, ESG reporting & supply-chain MRV ecosystem partnerships",
+      "financing_instruments": [
+        "Enterprise Co-Sell / Ecosystem Partnership",
+        "SAP.iO Venture Referral"
+      ],
+      "typical_ticket_min_usd": 0,
+      "typical_ticket_max_usd": 10000000,
+      "target_sectors": [
+        "Climate-Tech Innovation",
+        "Industrial Decarbonization",
+        "Circular Economy & Zero Waste",
+        "Carbon Markets & Article 6"
+      ],
+      "eligible_applicant_types": [
+        "Climate-Tech Startup",
+        "Large Corporate"
+      ],
+      "application_portal_url": "https://www.sap.com/sustainability.html",
+      "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+      "mandatory_form_requirements": [
+        "API / Green Ledger MRV interoperability value proposition",
+        "IP-safe Level 1 PUBLIC sharing only"
+      ],
+      "exclusion_rules": [
+        "Assuming direct grant funding from enterprise software partner"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG frames GreenHope MRV integration opportunities for SAP sustainability ecosystems.",
+      "verification_source_url": "https://www.sap.com/sustainability.html",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    },
+    {
+      "investor_id": "inv_siemens",
+      "name": "Siemens (Siemens Energy / Smart Infrastructure)",
+      "short_name": "Siemens",
+      "category": "Strategic Corporate / COP31 Supporter",
+      "ecosystem_branch": "Strategic / Corporate Capital",
+      "relationship_status": "COP31 Supporter",
+      "priority_tier": "Tier C — Ecosystem / Strategic",
+      "ai_rag_priority": "P3",
+      "greenhope_relevance": "Strategic Partner",
+      "greenhope_fit_notes": "IMPORTANT DISTINCTION: Official COP31 Climate Supporter—NOT a confirmed direct startup funder. Approach for smart-city IoT/grid pilot technology partnership or corporate venture referral (Next47).",
+      "knowledge_pack_slug": null,
+      "hq_country": "Germany",
+      "geographic_focus": [
+        "Global",
+        "Europe",
+        "Türkiye"
+      ],
+      "cop31_antalya_role": "Official COP31 Climate Supporter (Smart Infrastructure, Electrification & Industrial Decarbonization technology showcase)",
+      "cop31_verified_2026_commitment": "COP31 Climate Supporter status; smart-city, grid digitalization & decarbonization technology partnerships (verify funding vs. vendor role)",
+      "financing_instruments": [
+        "Strategic Technology Pilot Partnership",
+        "Corporate Venture Referral (Next47)",
+        "Equipment Vendor Finance (SFS)"
+      ],
+      "typical_ticket_min_usd": 0,
+      "typical_ticket_max_usd": 50000000,
+      "target_sectors": [
+        "Resilient Cities & Infrastructure",
+        "Electrification & Grid",
+        "Industrial Decarbonization",
+        "Climate-Tech Innovation"
+      ],
+      "eligible_applicant_types": [
+        "Large Corporate",
+        "Municipality",
+        "Climate-Tech Startup",
+        "Project SPV"
+      ],
+      "application_portal_url": "https://cop31.tr/partners/climate-supporters",
+      "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+      "mandatory_form_requirements": [
+        "Verified distinction: do NOT assume direct grant/equity funding from COP31 Supporter badge",
+        "Clear technical integration value with Siemens Smart Infrastructure / Xcelerator",
+        "Protected IP boundaries (Level 1 PUBLIC pitch only prior to NDA)"
+      ],
+      "exclusion_rules": [
+        "Unverified assumption of direct funding without formal CVC/SFS mandate"
+      ],
+      "recommended_ai_model_type": "RAG",
+      "ai_model_rationale": "RAG generates IP-safe corporate pilot partnership teasers while explicitly flagging COP31 Supporter (non-confirmed investor) status.",
+      "verification_source_url": "https://cop31.tr/partners/climate-supporters",
+      "verification_date": "2026-11-15",
+      "verification_status": "VERIFIED_COP31_ANTALYA_2026",
+      "confidentiality_tier": "RESTRICTED_INTERNAL"
+    }
+  ]
+}

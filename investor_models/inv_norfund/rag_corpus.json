@@ -1,0 +1,112 @@
+{
+  "investor_id": "inv_norfund",
+  "corpus_format": "cop31-rag-chunks-v1",
+  "chunk_count": 15,
+  "chunks": [
+    {
+      "chunk_id": "inv_norfund::mandate_cop31",
+      "investor_id": "inv_norfund",
+      "section": "COP31 Antalya 2026 Mandate",
+      "title": "Norfund (Norwegian Investment Fund / Climate Investment Fund) (Norfund) COP31 Role & Commitments",
+      "text": "Norfund (Norwegian Investment Fund / Climate Investment Fund) is a Bilateral DFI headquartered in Norway. At UNFCCC COP31 in Antalya (November 9-20, 2026), its verified role is: Co-launched '10by30' ($10B emerging market climate finance alliance) at COP31 on Nov 13 via Norwegian Climate Investment Fund. Verified COP31 2026 climate finance commitment: Co-anchoring $10B '10by30' by 2030 (63% Africa portfolio; priority markets South Africa, Egypt, Tunisia, Morocco, India, SE Asia). Source verification: https://www.byteseu.com/2521383/."
+    },
+    {
+      "chunk_id": "inv_norfund::instruments_tickets",
+      "investor_id": "inv_norfund",
+      "section": "Financial Products & Ticket Sizing",
+      "title": "Norfund Financing Instruments & Ticket Bounds",
+      "text": "Norfund (Norwegian Investment Fund / Climate Investment Fund) provides the following climate financing instruments: Equity, Mezzanine, Long-Term Debt, Co-Investment (10by30), Blended Finance. Typical transaction ticket range is USD 10,000,000 to USD 100,000,000. Eligible applicant profiles include: Project SPV, Large Corporate, Financial Intermediary, Growth-Stage Private Enterprise."
+    },
+    {
+      "chunk_id": "inv_norfund::sectors_geography",
+      "investor_id": "inv_norfund",
+      "section": "Eligible Sectors & Geographies",
+      "title": "Norfund Priority Climate Sectors & Regional Mandate",
+      "text": "Priority climate sectors funded by Norfund (Norwegian Investment Fund / Climate Investment Fund): Renewable Energy, Energy Storage, Electrification & Grid, Industrial Decarbonization, Sustainable Fuels. Target geographic focus includes: Africa, South Africa, Egypt, Morocco, Tunisia, Asia, Latin America. Projects outside primary regions or ticket bounds may require syndicated or on-lending structures."
+    },
+    {
+      "chunk_id": "inv_norfund::compliance_esg",
+      "investor_id": "inv_norfund",
+      "section": "Compliance, ESG & Exclusion Criteria",
+      "title": "Norfund Mandatory Form & Underwriting Requirements",
+      "text": "Mandatory requirements to complete Norfund's application form: High avoided-emissions potential replacing fossil-fuel power; 10by30 coordinated due diligence & IFC Performance Standards; Norfund priority emerging markets (high-emitting developing countries); Clear additionality & private capital mobilization. Explicit exclusion rules: Fossil-fuel power plants; Coal mining. Official application portal: https://www.norfund.no/apply-for-funding/."
+    },
+    {
+      "chunk_id": "inv_norfund::form_standard",
+      "investor_id": "inv_norfund",
+      "section": "Application Form Governance",
+      "title": "Norfund Form Template: Development Finance Institution (DFI) / National Dev Bank Project Intake Form",
+      "text": "Norfund (Norwegian Investment Fund / Climate Investment Fund) uses the 'Development Finance Institution (DFI) / National Dev Bank Project Intake Form' workflow governed by IFC Performance Standards / Harmonized DFI Climate Reporting (10by30 / IDFC). Typical review timeline is 4–12 weeks (Screening -> Due Diligence -> Credit Committee). Form sections required: 1. Sponsor Profile, 2. Transaction Structure, 3. Climate & Impact, 4. Financial Due Diligence, 5. Risk Assessment, 6. Executive Summary."
+    },
+    {
+      "chunk_id": "inv_norfund::field_guide_01_sponsor_and_project",
+      "investor_id": "inv_norfund",
+      "section": "Form Field Guide: 1. Sponsor Profile",
+      "title": "Norfund Guidance for 'Project Sponsor, Jurisdiction & Project Name'",
+      "text": "Field 'Project Sponsor, Jurisdiction & Project Name' (sponsor_and_project) under section '1. Sponsor Profile' on Norfund's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Sponsor organization, country of operation, and project title. Required=True. Expected evidence keywords: Verified applicant facts. Align response with Norfund's COP31 priorities (Co-launched '10by30' ($10B emerging market climate finance alliance) at COP31 on Nov 13 via Norwegian Climate Investment Fund) and instruments (Equity, Mezzanine, Long-Term Debt)."
+    },
+    {
+      "chunk_id": "inv_norfund::field_guide_02_dfi_facility_alignment",
+      "investor_id": "inv_norfund",
+      "section": "Form Field Guide: 1. Sponsor Profile",
+      "title": "Norfund Guidance for 'Target DFI Climate Facility / COP31 Program Alignment'",
+      "text": "Field 'Target DFI Climate Facility / COP31 Program Alignment' (dfi_facility_alignment) under section '1. Sponsor Profile' on Norfund's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Links project to DFI's active COP31 facility (e.g., 10by30, Proparco Sustainable Energy, KfW Climate, TSKB Green Loan, Eximbank Green Line). Required=True. Expected evidence keywords: COP31, facility, energy, transition. Align response with Norfund's COP31 priorities (Co-launched '10by30' ($10B emerging market climate finance alliance) at COP31 on Nov 13 via Norwegian Climate Investment Fund) and instruments (Equity, Mezzanine, Long-Term Debt)."
+    },
+    {
+      "chunk_id": "inv_norfund::field_guide_03_financing_request",
+      "investor_id": "inv_norfund",
+      "section": "Form Field Guide: 2. Transaction Structure",
+      "title": "Norfund Guidance for 'Requested Instrument, Ticket Size (USD) & Tenor'",
+      "text": "Field 'Requested Instrument, Ticket Size (USD) & Tenor' (financing_request) under section '2. Transaction Structure' on Norfund's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Validated against DFI ticket bounds, financing instruments, and project duration. Required=True. Expected evidence keywords: USD, tenor, Debt, Equity, Blended. Align response with Norfund's COP31 priorities (Co-launched '10by30' ($10B emerging market climate finance alliance) at COP31 on Nov 13 via Norwegian Climate Investment Fund) and instruments (Equity, Mezzanine, Long-Term Debt)."
+    },
+    {
+      "chunk_id": "inv_norfund::field_guide_04_geography_and_sector_fit",
+      "investor_id": "inv_norfund",
+      "section": "Form Field Guide: 2. Transaction Structure",
+      "title": "Norfund Guidance for 'Mandate Fit: Target Geography & Priority Climate Sector'",
+      "text": "Field 'Mandate Fit: Target Geography & Priority Climate Sector' (geography_and_sector_fit) under section '2. Transaction Structure' on Norfund's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Graph-verified check that project country and sector sit inside the DFI's official investment mandate. Required=True. Expected evidence keywords: Eligible, Mandate, Sector. Align response with Norfund's COP31 priorities (Co-launched '10by30' ($10B emerging market climate finance alliance) at COP31 on Nov 13 via Norwegian Climate Investment Fund) and instruments (Equity, Mezzanine, Long-Term Debt)."
+    },
+    {
+      "chunk_id": "inv_norfund::field_guide_05_avoided_emissions_and_dev_impact",
+      "investor_id": "inv_norfund",
+      "section": "Form Field Guide: 3. Climate & Impact",
+      "title": "Norfund Guidance for 'Avoided Emissions (tCO2e/yr) & Development Impact'",
+      "text": "Field 'Avoided Emissions (tCO2e/yr) & Development Impact' (avoided_emissions_and_dev_impact) under section '3. Climate & Impact' on Norfund's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Quantified avoided GHG emissions, energy access/jobs, and local economic co-benefits. Required=True. Expected evidence keywords: tCO2e, development, jobs, impact. Align response with Norfund's COP31 priorities (Co-launched '10by30' ($10B emerging market climate finance alliance) at COP31 on Nov 13 via Norwegian Climate Investment Fund) and instruments (Equity, Mezzanine, Long-Term Debt)."
+    },
+    {
+      "chunk_id": "inv_norfund::field_guide_06_ifc_ps_esg_compliance",
+      "investor_id": "inv_norfund",
+      "section": "Form Field Guide: 3. Climate & Impact",
+      "title": "Norfund Guidance for 'IFC Performance Standards / E&S Screening & Exclusion List Check'",
+      "text": "Field 'IFC Performance Standards / E&S Screening & Exclusion List Check' (ifc_ps_esg_compliance) under section '3. Climate & Impact' on Norfund's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Confirms zero fossil-fuel exclusion breaches and checks EIA / permitting readiness. Required=True. Expected evidence keywords: IFC, Exclusion, EIA, ESG. Align response with Norfund's COP31 priorities (Co-launched '10by30' ($10B emerging market climate finance alliance) at COP31 on Nov 13 via Norwegian Climate Investment Fund) and instruments (Equity, Mezzanine, Long-Term Debt)."
+    },
+    {
+      "chunk_id": "inv_norfund::field_guide_07_financial_profile",
+      "investor_id": "inv_norfund",
+      "section": "Form Field Guide: 4. Financial Due Diligence",
+      "title": "Norfund Guidance for 'Sponsor Financials & Project Economics (Revenue, EBITDA, Capex, IRR)'",
+      "text": "Field 'Sponsor Financials & Project Economics (Revenue, EBITDA, Capex, IRR)' (financial_profile) under section '4. Financial Due Diligence' on Norfund's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Key financial metrics required by DFI credit underwriters. Required=True. Expected evidence keywords: Verified applicant facts. Align response with Norfund's COP31 priorities (Co-launched '10by30' ($10B emerging market climate finance alliance) at COP31 on Nov 13 via Norwegian Climate Investment Fund) and instruments (Equity, Mezzanine, Long-Term Debt)."
+    },
+    {
+      "chunk_id": "inv_norfund::field_guide_08_blended_finance_and_ta",
+      "investor_id": "inv_norfund",
+      "section": "Form Field Guide: 4. Financial Due Diligence",
+      "title": "Norfund Guidance for 'Blended Finance, De-Risking Guarantees & Technical Assistance Needs'",
+      "text": "Field 'Blended Finance, De-Risking Guarantees & Technical Assistance Needs' (blended_finance_and_ta) under section '4. Financial Due Diligence' on Norfund's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Specifies co-investors, first-loss/guarantees, and advisory/TA requests. Required=True. Expected evidence keywords: blended, technical assistance, co-finance. Align response with Norfund's COP31 priorities (Co-launched '10by30' ($10B emerging market climate finance alliance) at COP31 on Nov 13 via Norwegian Climate Investment Fund) and instruments (Equity, Mezzanine, Long-Term Debt)."
+    },
+    {
+      "chunk_id": "inv_norfund::field_guide_09_risks_and_mitigants",
+      "investor_id": "inv_norfund",
+      "section": "Form Field Guide: 5. Risk Assessment",
+      "title": "Norfund Guidance for 'Principal Transaction Risks & Mitigants'",
+      "text": "Field 'Principal Transaction Risks & Mitigants' (risks_and_mitigants) under section '5. Risk Assessment' on Norfund's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Key construction, currency, regulatory, and offtake risks plus mitigation plan. Required=True. Expected evidence keywords: risk, mitigation, currency, offtake. Align response with Norfund's COP31 priorities (Co-launched '10by30' ($10B emerging market climate finance alliance) at COP31 on Nov 13 via Norwegian Climate Investment Fund) and instruments (Equity, Mezzanine, Long-Term Debt)."
+    },
+    {
+      "chunk_id": "inv_norfund::field_guide_10_executive_intake_pitch",
+      "investor_id": "inv_norfund",
+      "section": "Form Field Guide: 6. Executive Summary",
+      "title": "Norfund Guidance for 'DFI Investment Committee Intake Summary'",
+      "text": "Field 'DFI Investment Committee Intake Summary' (executive_intake_pitch) under section '6. Executive Summary' on Norfund's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Concise structured investment teaser tailored to this DFI's COP31 mandate. Required=True. Expected evidence keywords: mandate, impact, financing. Align response with Norfund's COP31 priorities (Co-launched '10by30' ($10B emerging market climate finance alliance) at COP31 on Nov 13 via Norwegian Climate Investment Fund) and instruments (Equity, Mezzanine, Long-Term Debt)."
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "investor_id": "inv_ilbank",
+  "corpus_format": "cop31-rag-chunks-v1",
+  "chunk_count": 15,
+  "chunks": [
+    {
+      "chunk_id": "inv_ilbank::mandate_cop31",
+      "investor_id": "inv_ilbank",
+      "section": "COP31 Antalya 2026 Mandate",
+      "title": "İLBANK (İller Bankası — Türkiye Municipal Development Bank) (İLBANK) COP31 Role & Commitments",
+      "text": "İLBANK (İller Bankası — Türkiye Municipal Development Bank) is a National Development Bank headquartered in Türkiye. At UNFCCC COP31 in Antalya (November 9-20, 2026), its verified role is: Signed municipal climate finance advisory agreement with EIB & City Climate Finance Gap Fund on Nov 13 at COP31. Verified COP31 2026 climate finance commitment: EIB & City Climate Finance Gap Fund advisory partnership for low-carbon, climate-resilient municipal urban infrastructure across Türkiye. Source verification: https://news.europawire.eu/eib-and-ilbank-launch-advisory-partnership-to-advance-climate-resilient-urban-investment-in-turkiye/eu-press-release/2026/11/13/17/05/05/187788/."
+    },
+    {
+      "chunk_id": "inv_ilbank::instruments_tickets",
+      "investor_id": "inv_ilbank",
+      "section": "Financial Products & Ticket Sizing",
+      "title": "İLBANK Financing Instruments & Ticket Bounds",
+      "text": "İLBANK (İller Bankası — Türkiye Municipal Development Bank) provides the following climate financing instruments: Municipal Infrastructure Loan, MDB On-Lending Credit, Technical Assistance (Gap Fund), Resilient Urban Grant Co-Financing. Typical transaction ticket range is USD 1,000,000 to USD 150,000,000. Eligible applicant profiles include: Municipality, Sovereign/Government, Municipal Utility."
+    },
+    {
+      "chunk_id": "inv_ilbank::sectors_geography",
+      "investor_id": "inv_ilbank",
+      "section": "Eligible Sectors & Geographies",
+      "title": "İLBANK Priority Climate Sectors & Regional Mandate",
+      "text": "Priority climate sectors funded by İLBANK (İller Bankası — Türkiye Municipal Development Bank): Resilient Cities & Infrastructure, Water & Wastewater Management, Urban Mobility & Transport, Renewable Energy, Zero Waste & Circular Economy. Target geographic focus includes: Türkiye. Projects outside primary regions or ticket bounds may require syndicated or on-lending structures."
+    },
+    {
+      "chunk_id": "inv_ilbank::compliance_esg",
+      "investor_id": "inv_ilbank",
+      "section": "Compliance, ESG & Exclusion Criteria",
+      "title": "İLBANK Mandatory Form & Underwriting Requirements",
+      "text": "Mandatory requirements to complete İLBANK's application form: Turkish municipality or municipal utility applicant status; Municipal council borrowing resolution & Treasury debt limit compliance; EIB / City Climate Finance Gap Fund climate resilience appraisal; Environmental Impact Assessment (ÇED) & feasibility study. Explicit exclusion rules: Private non-municipal commercial projects; Fossil-fuel infrastructure. Official application portal: https://www.ilbank.gov.tr/."
+    },
+    {
+      "chunk_id": "inv_ilbank::form_standard",
+      "investor_id": "inv_ilbank",
+      "section": "Application Form Governance",
+      "title": "İLBANK Form Template: Development Finance Institution (DFI) / National Dev Bank Project Intake Form",
+      "text": "İLBANK (İller Bankası — Türkiye Municipal Development Bank) uses the 'Development Finance Institution (DFI) / National Dev Bank Project Intake Form' workflow governed by IFC Performance Standards / Harmonized DFI Climate Reporting (10by30 / IDFC). Typical review timeline is 4–12 weeks (Screening -> Due Diligence -> Credit Committee). Form sections required: 1. Sponsor Profile, 2. Transaction Structure, 3. Climate & Impact, 4. Financial Due Diligence, 5. Risk Assessment, 6. Executive Summary."
+    },
+    {
+      "chunk_id": "inv_ilbank::field_guide_01_sponsor_and_project",
+      "investor_id": "inv_ilbank",
+      "section": "Form Field Guide: 1. Sponsor Profile",
+      "title": "İLBANK Guidance for 'Project Sponsor, Jurisdiction & Project Name'",
+      "text": "Field 'Project Sponsor, Jurisdiction & Project Name' (sponsor_and_project) under section '1. Sponsor Profile' on İLBANK's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Sponsor organization, country of operation, and project title. Required=True. Expected evidence keywords: Verified applicant facts. Align response with İLBANK's COP31 priorities (Signed municipal climate finance advisory agreement with EIB & City Climate Finance Gap Fund on Nov 13 at COP31) and instruments (Municipal Infrastructure Loan, MDB On-Lending Credit, Technical Assistance (Gap Fund))."
+    },
+    {
+      "chunk_id": "inv_ilbank::field_guide_02_dfi_facility_alignment",
+      "investor_id": "inv_ilbank",
+      "section": "Form Field Guide: 1. Sponsor Profile",
+      "title": "İLBANK Guidance for 'Target DFI Climate Facility / COP31 Program Alignment'",
+      "text": "Field 'Target DFI Climate Facility / COP31 Program Alignment' (dfi_facility_alignment) under section '1. Sponsor Profile' on İLBANK's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Links project to DFI's active COP31 facility (e.g., 10by30, Proparco Sustainable Energy, KfW Climate, TSKB Green Loan, Eximbank Green Line). Required=True. Expected evidence keywords: COP31, facility, energy, transition. Align response with İLBANK's COP31 priorities (Signed municipal climate finance advisory agreement with EIB & City Climate Finance Gap Fund on Nov 13 at COP31) and instruments (Municipal Infrastructure Loan, MDB On-Lending Credit, Technical Assistance (Gap Fund))."
+    },
+    {
+      "chunk_id": "inv_ilbank::field_guide_03_financing_request",
+      "investor_id": "inv_ilbank",
+      "section": "Form Field Guide: 2. Transaction Structure",
+      "title": "İLBANK Guidance for 'Requested Instrument, Ticket Size (USD) & Tenor'",
+      "text": "Field 'Requested Instrument, Ticket Size (USD) & Tenor' (financing_request) under section '2. Transaction Structure' on İLBANK's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Validated against DFI ticket bounds, financing instruments, and project duration. Required=True. Expected evidence keywords: USD, tenor, Debt, Equity, Blended. Align response with İLBANK's COP31 priorities (Signed municipal climate finance advisory agreement with EIB & City Climate Finance Gap Fund on Nov 13 at COP31) and instruments (Municipal Infrastructure Loan, MDB On-Lending Credit, Technical Assistance (Gap Fund))."
+    },
+    {
+      "chunk_id": "inv_ilbank::field_guide_04_geography_and_sector_fit",
+      "investor_id": "inv_ilbank",
+      "section": "Form Field Guide: 2. Transaction Structure",
+      "title": "İLBANK Guidance for 'Mandate Fit: Target Geography & Priority Climate Sector'",
+      "text": "Field 'Mandate Fit: Target Geography & Priority Climate Sector' (geography_and_sector_fit) under section '2. Transaction Structure' on İLBANK's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Graph-verified check that project country and sector sit inside the DFI's official investment mandate. Required=True. Expected evidence keywords: Eligible, Mandate, Sector. Align response with İLBANK's COP31 priorities (Signed municipal climate finance advisory agreement with EIB & City Climate Finance Gap Fund on Nov 13 at COP31) and instruments (Municipal Infrastructure Loan, MDB On-Lending Credit, Technical Assistance (Gap Fund))."
+    },
+    {
+      "chunk_id": "inv_ilbank::field_guide_05_avoided_emissions_and_dev_impact",
+      "investor_id": "inv_ilbank",
+      "section": "Form Field Guide: 3. Climate & Impact",
+      "title": "İLBANK Guidance for 'Avoided Emissions (tCO2e/yr) & Development Impact'",
+      "text": "Field 'Avoided Emissions (tCO2e/yr) & Development Impact' (avoided_emissions_and_dev_impact) under section '3. Climate & Impact' on İLBANK's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Quantified avoided GHG emissions, energy access/jobs, and local economic co-benefits. Required=True. Expected evidence keywords: tCO2e, development, jobs, impact. Align response with İLBANK's COP31 priorities (Signed municipal climate finance advisory agreement with EIB & City Climate Finance Gap Fund on Nov 13 at COP31) and instruments (Municipal Infrastructure Loan, MDB On-Lending Credit, Technical Assistance (Gap Fund))."
+    },
+    {
+      "chunk_id": "inv_ilbank::field_guide_06_ifc_ps_esg_compliance",
+      "investor_id": "inv_ilbank",
+      "section": "Form Field Guide: 3. Climate & Impact",
+      "title": "İLBANK Guidance for 'IFC Performance Standards / E&S Screening & Exclusion List Check'",
+      "text": "Field 'IFC Performance Standards / E&S Screening & Exclusion List Check' (ifc_ps_esg_compliance) under section '3. Climate & Impact' on İLBANK's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Confirms zero fossil-fuel exclusion breaches and checks EIA / permitting readiness. Required=True. Expected evidence keywords: IFC, Exclusion, EIA, ESG. Align response with İLBANK's COP31 priorities (Signed municipal climate finance advisory agreement with EIB & City Climate Finance Gap Fund on Nov 13 at COP31) and instruments (Municipal Infrastructure Loan, MDB On-Lending Credit, Technical Assistance (Gap Fund))."
+    },
+    {
+      "chunk_id": "inv_ilbank::field_guide_07_financial_profile",
+      "investor_id": "inv_ilbank",
+      "section": "Form Field Guide: 4. Financial Due Diligence",
+      "title": "İLBANK Guidance for 'Sponsor Financials & Project Economics (Revenue, EBITDA, Capex, IRR)'",
+      "text": "Field 'Sponsor Financials & Project Economics (Revenue, EBITDA, Capex, IRR)' (financial_profile) under section '4. Financial Due Diligence' on İLBANK's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Key financial metrics required by DFI credit underwriters. Required=True. Expected evidence keywords: Verified applicant facts. Align response with İLBANK's COP31 priorities (Signed municipal climate finance advisory agreement with EIB & City Climate Finance Gap Fund on Nov 13 at COP31) and instruments (Municipal Infrastructure Loan, MDB On-Lending Credit, Technical Assistance (Gap Fund))."
+    },
+    {
+      "chunk_id": "inv_ilbank::field_guide_08_blended_finance_and_ta",
+      "investor_id": "inv_ilbank",
+      "section": "Form Field Guide: 4. Financial Due Diligence",
+      "title": "İLBANK Guidance for 'Blended Finance, De-Risking Guarantees & Technical Assistance Needs'",
+      "text": "Field 'Blended Finance, De-Risking Guarantees & Technical Assistance Needs' (blended_finance_and_ta) under section '4. Financial Due Diligence' on İLBANK's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Specifies co-investors, first-loss/guarantees, and advisory/TA requests. Required=True. Expected evidence keywords: blended, technical assistance, co-finance. Align response with İLBANK's COP31 priorities (Signed municipal climate finance advisory agreement with EIB & City Climate Finance Gap Fund on Nov 13 at COP31) and instruments (Municipal Infrastructure Loan, MDB On-Lending Credit, Technical Assistance (Gap Fund))."
+    },
+    {
+      "chunk_id": "inv_ilbank::field_guide_09_risks_and_mitigants",
+      "investor_id": "inv_ilbank",
+      "section": "Form Field Guide: 5. Risk Assessment",
+      "title": "İLBANK Guidance for 'Principal Transaction Risks & Mitigants'",
+      "text": "Field 'Principal Transaction Risks & Mitigants' (risks_and_mitigants) under section '5. Risk Assessment' on İLBANK's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Key construction, currency, regulatory, and offtake risks plus mitigation plan. Required=True. Expected evidence keywords: risk, mitigation, currency, offtake. Align response with İLBANK's COP31 priorities (Signed municipal climate finance advisory agreement with EIB & City Climate Finance Gap Fund on Nov 13 at COP31) and instruments (Municipal Infrastructure Loan, MDB On-Lending Credit, Technical Assistance (Gap Fund))."
+    },
+    {
+      "chunk_id": "inv_ilbank::field_guide_10_executive_intake_pitch",
+      "investor_id": "inv_ilbank",
+      "section": "Form Field Guide: 6. Executive Summary",
+      "title": "İLBANK Guidance for 'DFI Investment Committee Intake Summary'",
+      "text": "Field 'DFI Investment Committee Intake Summary' (executive_intake_pitch) under section '6. Executive Summary' on İLBANK's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Concise structured investment teaser tailored to this DFI's COP31 mandate. Required=True. Expected evidence keywords: mandate, impact, financing. Align response with İLBANK's COP31 priorities (Signed municipal climate finance advisory agreement with EIB & City Climate Finance Gap Fund on Nov 13 at COP31) and instruments (Municipal Infrastructure Loan, MDB On-Lending Credit, Technical Assistance (Gap Fund))."
+    }
+  ]
+}

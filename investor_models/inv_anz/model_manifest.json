@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_anz",
+  "investor_name": "ANZ (Australia and New Zealand Banking Group)",
+  "short_name": "ANZ",
+  "category": "Global Commercial Bank",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "RAG retrieves ANZ's APAC transition & sustainability framework guidance for institutional loan structuring.",
+  "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+  "tenant_namespace": "tenant::inv_anz",
+  "tenant_key_fingerprint": "18fdab05d87f0ec6",
+  "created_at_utc": "2026-11-15T15:45:22.968820+00:00",
+  "source_record_sha256": "65c3f93cf4c8c01796929ded1739344478fde102fc1ffba0afc79465d3bd9026",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 13,
+  "artifact_hashes": {
+    "form_schema.json": "3442c760534cca2fe23e261c9061f9208d641de6f20a93538d649e4207854401",
+    "rag_corpus.json": "3615d12d6d878919e39d3606286e95900ecda23648d2962c53a04f2c287678ed"
+  }
+}

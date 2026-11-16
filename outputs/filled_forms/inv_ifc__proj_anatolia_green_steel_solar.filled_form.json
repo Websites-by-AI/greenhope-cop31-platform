@@ -1,0 +1,286 @@
+{
+  "submission_id": "sub_inv_ifc_proj_anatolia_green_steel_solar_a3d9b26a",
+  "generated_at_utc": "2026-11-15T15:45:23.994333+00:00",
+  "investor_id": "inv_ifc",
+  "investor_name": "International Finance Corporation (IFC)",
+  "model_architecture": "HYBRID_KAG_RAG",
+  "form_template_id": "MDB_CONCEPT_NOTE",
+  "form_title": "Multilateral Development Bank (MDB) Climate Project Concept Note",
+  "project_id": "proj_anatolia_green_steel_solar",
+  "project_title": "Anatolia Green Electric-Arc Steel & 120 MW Solar + BESS Decarbonization Project",
+  "pii_redacted_for_ai_context": true,
+  "tenant_isolation_verified": true,
+  "eligibility": {
+    "eligible": true,
+    "fit_score": 97.0,
+    "passed_checks": [
+      "Applicant type 'Large Corporate' matched via ACCEPTS_APPLICANT (Large Corporate, Project SPV, Financial Intermediary, Growth-Stage Private Enterprise).",
+      "Geography 'Türkiye (EMEA)' covered via COVERS_REGION (Global, Emerging Markets, Developing Countries, Türkiye, Africa, Asia, Latin America).",
+      "Sector alignment verified via FUNDS_SECTOR: Energy Storage, Industrial Decarbonization, Renewable Energy.",
+      "Requested ticket $45,000,000 fits within bounds ($10,000,000–$250,000,000).",
+      "Instrument match via OFFERS_INSTRUMENT: 'Senior Debt'.",
+      "Exclusion list screening passed (no prohibited coal/unabated fossil-fuel activities)."
+    ],
+    "failed_checks": [],
+    "warnings": [
+      "Missing mandatory NDA / Operational Focal Point No-Objection Letter (required before final submission)."
+    ],
+    "recommended_instrument": "Senior Debt",
+    "kag_hops_executed": 6
+  },
+  "completion_rate_percent": 100.0,
+  "average_confidence": 0.943,
+  "fields": [
+    {
+      "field_id": "project_title",
+      "label": "Project Title & Legal Sponsor",
+      "section": "1. Identification",
+      "value": "Anatolia Green Electric-Arc Steel & 120 MW Solar + BESS Decarbonization Project | Sponsor: Anatolia Clean Metallurgy A.Ş. (Large Corporate) | Jurisdiction: Türkiye (EMEA) | Primary Sector: Industrial Decarbonization",
+      "status": "FILLED",
+      "confidence": 0.98,
+      "reasoning_mode": "HYBRID_KAG_RAG (KAG-primary)",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_ifc --[USES_FORM_TEMPLATE]--> form::MDB_CONCEPT_NOTE --[HAS_FORM_FIELD]--> field::project_title",
+      "rag_citations": [
+        "inv_ifc::field_guide_01_project_title"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "sovereign_window",
+      "label": "Financing Window (Sovereign vs. Non-Sovereign / Private Sector)",
+      "section": "1. Identification",
+      "value": "Non-Sovereign Operations (NSO) / Private Sector Window (Derived from applicant_type='Large Corporate' against IFC mandate)",
+      "status": "FILLED",
+      "confidence": 0.95,
+      "reasoning_mode": "HYBRID_KAG_RAG (KAG-primary)",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_ifc --[ACCEPTS_APPLICANT]--> applicant::large_corporate => Non-Sovereign Operations (NSO) / Private Sector Window",
+      "rag_citations": [
+        "inv_ifc::field_guide_02_sovereign_window"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "cop31_platform_alignment",
+      "label": "COP31 Country Platform & Flagship Initiative Alignment",
+      "section": "2. Strategic Alignment",
+      "value": "Aligns directly with International Finance Corporation (IFC)'s COP31 Antalya role (Founding private-sector partner of Türkiye Industrial Decarbonization Investment Platform (TIDIP) targeting $6B by 2030) and 2026 commitment (Co-anchoring $6B TIDIP mobilization for steel, aluminum, cement & fertilizer decarbonization plus private-sector climate debt/equity). Anatolia Green Electric-Arc Steel & 120 MW Solar + BESS Decarbonization Project deploys Industrial Decarbonization in Türkiye, fitting priority sectors (Industrial Decarbonization, Renewable Energy, Energy Storage) via Senior Debt. Grounded in policy references [inv_ifc::field_guide_03_cop31_platform_alignment], [inv_ifc::mandate_cop31].",
+      "status": "FILLED",
+      "confidence": 0.93,
+      "reasoning_mode": "HYBRID_KAG_RAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_ifc --[ANNOUNCES_AT_COP31]--> cop31::inv_ifc + --[FUNDS_SECTOR]--> Industrial Decarbonization",
+      "rag_citations": [
+        "inv_ifc::field_guide_03_cop31_platform_alignment",
+        "inv_ifc::mandate_cop31",
+        "inv_ifc::field_guide_07_ghg_and_adaptation_impact"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "requested_instrument_and_amount",
+      "label": "Requested Financing Instrument & Amount (USD)",
+      "section": "3. Financial Structuring",
+      "value": "Instrument: Senior Debt | Requested Amount: $45,000,000 USD | Tenor/Horizon: 4 years | Investor Band: $10,000,000–$250,000,000 (WITHIN BOUNDS)",
+      "status": "FILLED",
+      "confidence": 0.94,
+      "reasoning_mode": "HYBRID_KAG_RAG (KAG-primary)",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_ifc --[OFFERS_INSTRUMENT]--> Senior Debt [bounds: $10,000,000-$250,000,000]",
+      "rag_citations": [
+        "inv_ifc::field_guide_04_requested_instrument_and_amount"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "cofinancing_structure",
+      "label": "Total Project Cost & Co-Financing Mobilization Plan",
+      "section": "3. Financial Structuring",
+      "value": "Total Cost: $95,000,000 | Requested from IFC: $45,000,000 (Senior Debt) | Committed Co-Financing: $30,000,000 (Leverage Ratio: 0.67x) | Remaining Sponsor Equity / Co-Investor Mobilization: $20,000,000. Grounded in policy references [inv_ifc::field_guide_05_cofinancing_structure], [inv_ifc::instruments_tickets].",
+      "status": "FILLED",
+      "confidence": 0.93,
+      "reasoning_mode": "HYBRID_KAG_RAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_ifc --[USES_FORM_TEMPLATE]--> form::MDB_CONCEPT_NOTE --[HAS_FORM_FIELD]--> field::cofinancing_structure",
+      "rag_citations": [
+        "inv_ifc::field_guide_05_cofinancing_structure",
+        "inv_ifc::instruments_tickets",
+        "inv_ifc::mandate_cop31"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "paris_alignment_bb1_bb2",
+      "label": "Paris Agreement Alignment Assessment (BB1 Mitigation & BB2 Physical Risk)",
+      "section": "4. Climate & Technical Rationale",
+      "value": "ALIGNED (BB1 Mitigation & BB2 Adaptation Verified): Formal Paris Alignment screening completed for Industrial Decarbonization; zero unabated fossil-fuel lock-in; aligned with Türkiye NDC targets.",
+      "status": "FILLED",
+      "confidence": 0.94,
+      "reasoning_mode": "HYBRID_KAG_RAG (KAG-primary)",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_ifc --[REQUIRES_COMPLIANCE]--> Paris_Alignment_BB1_BB2 --[VALIDATES_FIELD]--> field::paris_alignment_bb1_bb2",
+      "rag_citations": [
+        "inv_ifc::field_guide_06_paris_alignment_bb1_bb2"
+      ],
+      "compliance_notes": [
+        "KG Validated Rules: Paris Alignment & GHG emissions accounting"
+      ]
+    },
+    {
+      "field_id": "ghg_and_adaptation_impact",
+      "label": "Quantified Climate Impact (tCO2e/year Avoided &/or Adaptation Beneficiaries)",
+      "section": "4. Climate & Technical Rationale",
+      "value": "Quantified Climate Impact: 185,000 tCO2e/year avoided; 1,200 direct adaptation beneficiaries. Cuts steelmaking Scope 1 and Scope 2 carbon intensity by 62% (185,000 tCO2e/year avoided), directly supporting Türkiye's 2035 NDC and TIDIP industrial decarbonization targets. Directly mitigates EU CBAM carbon border liability for Turkish/regional exports. Projected commercial IRR: 15.8%. Grounded in policy references [inv_ifc::field_guide_07_ghg_and_adaptation_impact], [inv_ifc::compliance_esg].",
+      "status": "FILLED",
+      "confidence": 0.93,
+      "reasoning_mode": "HYBRID_KAG_RAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_ifc --[USES_FORM_TEMPLATE]--> form::MDB_CONCEPT_NOTE --[HAS_FORM_FIELD]--> field::ghg_and_adaptation_impact",
+      "rag_citations": [
+        "inv_ifc::field_guide_07_ghg_and_adaptation_impact",
+        "inv_ifc::compliance_esg",
+        "inv_ifc::field_guide_03_cop31_platform_alignment"
+      ],
+      "compliance_notes": [
+        "KG Validated Rules: Paris Alignment & GHG emissions accounting"
+      ]
+    },
+    {
+      "field_id": "es_safeguards_category",
+      "label": "Environmental & Social (E&S) Safeguards & EIA Status",
+      "section": "5. Safeguards & Governance",
+      "value": "Exclusion Screening: PASS (Zero prohibited fossil-fuel exposure) | E&S / Permits: EIA / ÇED permits obtained | Social/ESG Impact: Creates 320 green engineering jobs, zero coal usage, closed-loop 85% process water recycling, and formal workforce reskilling aligned with Just Transition principles.",
+      "status": "FILLED",
+      "confidence": 0.93,
+      "reasoning_mode": "HYBRID_KAG_RAG (KAG-primary)",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_ifc --[EXCLUDES + REQUIRES_COMPLIANCE]--> field::es_safeguards_category",
+      "rag_citations": [
+        "inv_ifc::field_guide_08_es_safeguards_category"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "financial_viability_metrics",
+      "label": "Financial Viability & Bankability Indicators (Revenue, EBITDA, IRR)",
+      "section": "5. Safeguards & Governance",
+      "value": "Total Project Capex: $95,000,000 | Annual Revenue: $240,000,000 | EBITDA: $42,000,000 | Projected IRR: 15.8%",
+      "status": "FILLED",
+      "confidence": 0.94,
+      "reasoning_mode": "HYBRID_KAG_RAG (KAG-primary)",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_ifc --[USES_FORM_TEMPLATE]--> form::MDB_CONCEPT_NOTE --[HAS_FORM_FIELD]--> field::financial_viability_metrics",
+      "rag_citations": [
+        "inv_ifc::field_guide_09_financial_viability_metrics"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "implementation_timeline",
+      "label": "Project Readiness Stage & Implementation Schedule",
+      "section": "6. Execution & Risks",
+      "value": "Current Maturity: Ready-to-Build | Expected Implementation Horizon: 4 years",
+      "status": "FILLED",
+      "confidence": 0.96,
+      "reasoning_mode": "HYBRID_KAG_RAG (KAG-primary)",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_ifc --[USES_FORM_TEMPLATE]--> form::MDB_CONCEPT_NOTE --[HAS_FORM_FIELD]--> field::implementation_timeline",
+      "rag_citations": [
+        "inv_ifc::field_guide_10_implementation_timeline"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "key_risks_and_mitigants",
+      "label": "Key Technical, Market & Climate Risks with Mitigants",
+      "section": "6. Execution & Risks",
+      "value": "Anatolia Green Electric-Arc Steel & 120 MW Solar + BESS Decarbonization Project (Anatolia Clean Metallurgy A.Ş., Türkiye) seeks $45,000,000 under International Finance Corporation (IFC)'s Senior Debt. Retrofitting a major Turkish steel rolling facility to 100% renewable-powered electric-arc furnace operation paired with 120 MW captive solar PV and 60 MWh lithium-iron-phosphate battery storage to achieve EU CBAM compliance. Contact [REDACTED_EMAIL_1] for technical annex. Expected impact: 185,000 tCO2e/year. [inv_ifc::field_guide_11_key_risks_and_mitigants] [inv_ifc::instruments_tickets]",
+      "status": "FILLED",
+      "confidence": 0.95,
+      "reasoning_mode": "HYBRID_KAG_RAG (RAG-primary)",
+      "evidence_sources": [
+        "RAG_VECTOR_CORPUS",
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_ifc --[USES_FORM_TEMPLATE]--> form::MDB_CONCEPT_NOTE --[HAS_FORM_FIELD]--> field::key_risks_and_mitigants",
+      "rag_citations": [
+        "inv_ifc::field_guide_11_key_risks_and_mitigants",
+        "inv_ifc::instruments_tickets",
+        "inv_ifc::form_standard"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "executive_concept_summary",
+      "label": "Executive Concept Note Abstract",
+      "section": "7. Executive Summary",
+      "value": "Anatolia Green Electric-Arc Steel & 120 MW Solar + BESS Decarbonization Project (Anatolia Clean Metallurgy A.Ş., Türkiye) requests $45,000,000 via IFC's Senior Debt. Retrofitting a major Turkish steel rolling facility to 100% renewable-powered electric-arc furnace operation paired with 120 MW captive solar PV and 60 MWh lithium-iron-phosphate battery storage to achieve EU CBAM compliance. Contact [REDACTED_EMAIL_1] for technical annex. Climate Impact: 185,000 tCO2e/year avoided; 1,200 direct adaptation beneficiaries. Aligned with COP31 Antalya commitment (Co-anchoring $6B TIDIP mobilization for steel, aluminum, cement & fertilizer decarbonization plus private-sector climate debt/equity). Grounded in policy references [inv_ifc::field_guide_12_executive_concept_summary], [inv_ifc::form_standard].",
+      "status": "FILLED",
+      "confidence": 0.93,
+      "reasoning_mode": "HYBRID_KAG_RAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_ifc --[USES_FORM_TEMPLATE]--> form::MDB_CONCEPT_NOTE --[HAS_FORM_FIELD]--> field::executive_concept_summary",
+      "rag_citations": [
+        "inv_ifc::field_guide_12_executive_concept_summary",
+        "inv_ifc::form_standard",
+        "inv_ifc::field_guide_07_ghg_and_adaptation_impact"
+      ],
+      "compliance_notes": []
+    }
+  ],
+  "pre_submission_checklist": [
+    "[Mandatory Requirement] IFC Performance Standards (PS 1-8) compliance",
+    "[Mandatory Requirement] Paris Alignment & GHG emissions accounting",
+    "[Mandatory Requirement] Commercial bankability & audited financials",
+    "[Mandatory Requirement] Private-sector ownership (>50% private or commercially managed)",
+    "[Screening Warning] Missing mandatory NDA / Operational Focal Point No-Objection Letter (required before final submission).",
+    "[Portal Submission] Upload finalized packet via official portal: https://www.ifc.org/en/what-we-do/sector-expertise/climate-business"
+  ],
+  "llm_backend_used": "deterministic-grounded-synthesizer-v1"
+}

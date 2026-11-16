@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_world_bank_ibrd",
+  "knowledge_pack_slug": "world_bank",
+  "claims": [
+    {
+      "claim": "World Bank Group announced three COP31 Türkiye financing agreements worth $1.5 billion supporting cities, agriculture, and industry.",
+      "source": "TRT World / Türkiye Today",
+      "url": "https://www.trtworld.com/article/08c7af154347",
+      "date_verified": "2026-11-15",
+      "confidence": 0.99,
+      "status": "verified"
+    },
+    {
+      "claim": "World Bank Group's COP31 program centers on financing, knowledge, guarantees, and private-capital mobilization alongside EBRD, BBVA, and GFANZ.",
+      "source": "World Bank Group COP31 Campaign",
+      "url": "https://www.worldbank.org/en/who-we-are/news/campaigns/2026/the-world-bank-group-at-cop31",
+      "date_verified": "2026-11-15",
+      "confidence": 0.98,
+      "status": "verified"
+    }
+  ]
+}

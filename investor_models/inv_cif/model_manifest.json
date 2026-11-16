@@ -1,0 +1,23 @@
+{
+  "investor_id": "inv_cif",
+  "investor_name": "Climate Investment Funds (CIF / Clean Technology Fund)",
+  "short_name": "CIF / CTF",
+  "category": "Multilateral Climate Fund",
+  "model_architecture": "HYBRID_KAG_RAG",
+  "ai_model_rationale": "KAG validates implementing-MDB & Country Investment Plan pathways while RAG crafts catalytic leverage and AMPLIFi/TIDIP transformation narratives.",
+  "form_template_type": "CLIMATE_FUND_PROPOSAL",
+  "tenant_namespace": "tenant::inv_cif",
+  "tenant_key_fingerprint": "bcf46357419657cf",
+  "created_at_utc": "2026-11-15T15:45:23.087751+00:00",
+  "source_record_sha256": "cc395333fe6131faaed6ff87c5df69d074346ec3f7c90cba1ab656f36336d6cb",
+  "has_kag_graph": true,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 40,
+  "kag_edges_count": 40,
+  "rag_chunks_count": 16,
+  "artifact_hashes": {
+    "form_schema.json": "df04721d1537453294a6ad30eef675916f5ad7c985d5a5909a83d139d8a05f67",
+    "knowledge_graph.json": "cf893df7d733e12a6b20e86f1aaec8e9a828981da0f2dbf36e35e3be2e34162a",
+    "rag_corpus.json": "074e9c95fc4c37315e3e85aac33911fe9a117c50f09d16ea33ea536fad3db0bd"
+  }
+}

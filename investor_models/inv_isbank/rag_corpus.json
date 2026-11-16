@@ -1,0 +1,119 @@
+{
+  "investor_id": "inv_isbank",
+  "corpus_format": "cop31-rag-chunks-v1",
+  "chunk_count": 16,
+  "chunks": [
+    {
+      "chunk_id": "inv_isbank::mandate_cop31",
+      "investor_id": "inv_isbank",
+      "section": "COP31 Antalya 2026 Mandate",
+      "title": "Türkiye İş Bankası (İşbank) (İşbank) COP31 Role & Commitments",
+      "text": "Türkiye İş Bankası (İşbank) is a Turkish Commercial Bank headquartered in Türkiye. At UNFCCC COP31 in Antalya (November 9-20, 2026), its verified role is: Official COP31 Climate Supporter at Climate Finance Hub; showcasing energy transition, green industrialization & marine conservation models. Verified COP31 2026 climate finance commitment: COP31 Climate Finance Hub green transformation, SME packages, energy transition, sustainable tourism & blue economy financing models. Source verification: https://www.bolgegundemi.com/antalya/bankalar-cop31-kapsaminda-iklim-finansmani-modellerini-tanitacak-229994.html."
+    },
+    {
+      "chunk_id": "inv_isbank::instruments_tickets",
+      "investor_id": "inv_isbank",
+      "section": "Financial Products & Ticket Sizing",
+      "title": "İşbank Financing Instruments & Ticket Bounds",
+      "text": "Türkiye İş Bankası (İşbank) provides the following climate financing instruments: Green Investment Loan, SME Eco-Efficiency Loan, Blue Economy / Sustainable Tourism Loan, Project Finance, Green Trade Credit. Typical transaction ticket range is USD 100,000 to USD 150,000,000. Eligible applicant profiles include: Large Corporate, SME, Mid-Cap Enterprise, Project SPV, Climate-Tech Startup."
+    },
+    {
+      "chunk_id": "inv_isbank::sectors_geography",
+      "investor_id": "inv_isbank",
+      "section": "Eligible Sectors & Geographies",
+      "title": "İşbank Priority Climate Sectors & Regional Mandate",
+      "text": "Priority climate sectors funded by Türkiye İş Bankası (İşbank): Renewable Energy, Industrial Decarbonization, Blue Economy & Marine Conservation, Sustainable Tourism, SME Green Transition, Energy Efficiency. Target geographic focus includes: Türkiye, EMEA. Projects outside primary regions or ticket bounds may require syndicated or on-lending structures."
+    },
+    {
+      "chunk_id": "inv_isbank::compliance_esg",
+      "investor_id": "inv_isbank",
+      "section": "Compliance, ESG & Exclusion Criteria",
+      "title": "İşbank Mandatory Form & Underwriting Requirements",
+      "text": "Mandatory requirements to complete İşbank's application form: Turkish legal entity (VKN) & credit bureau clearance; Eligible green transition, renewable, or blue-economy use of proceeds; Environmental permits (ÇED/EIA) & supplier green equipment specs; Collateral / KGF guarantee verification. Explicit exclusion rules: Unabated coal power; Marine ecosystem degradation. Official application portal: https://www.isbank.com.tr/en/about-us/sustainability."
+    },
+    {
+      "chunk_id": "inv_isbank::form_standard",
+      "investor_id": "inv_isbank",
+      "section": "Application Form Governance",
+      "title": "İşbank Form Template: Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application",
+      "text": "Türkiye İş Bankası (İşbank) uses the 'Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application' workflow governed by BRSA (BDDK) Sustainable Banking Guidelines, Turkish Green Taxonomy & EU CBAM Readiness. Typical review timeline is 1–4 weeks (Branch/Corporate RM Intake -> Green Eligibility Check -> Credit Approval). Form sections required: 1. Applicant Identification, 2. Product Selection, 3. Green Technical Criteria, 4. Credit & Collateral, 5. Compliance, 6. Summary."
+    },
+    {
+      "chunk_id": "inv_isbank::field_guide_01_company_identity_masked",
+      "investor_id": "inv_isbank",
+      "section": "Form Field Guide: 1. Applicant Identification",
+      "title": "İşbank Guidance for 'Company Legal Name & Masked Tax ID (VKN)'",
+      "text": "Field 'Company Legal Name & Masked Tax ID (VKN)' (company_identity_masked) under section '1. Applicant Identification' on İşbank's Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application: Legal company name with PII-safe masked tax ID (full VKN injected only at final bank portal export). Required=True. Expected evidence keywords: Verified applicant facts. Align response with İşbank's COP31 priorities (Official COP31 Climate Supporter at Climate Finance Hub; showcasing energy transition, green industrialization & marine conservation models) and instruments (Green Investment Loan, SME Eco-Efficiency Loan, Blue Economy / Sustainable Tourism Loan)."
+    },
+    {
+      "chunk_id": "inv_isbank::field_guide_02_enterprise_segment",
+      "investor_id": "inv_isbank",
+      "section": "Form Field Guide: 1. Applicant Identification",
+      "title": "İşbank Guidance for 'Enterprise Segment (SME / Mid-Cap / Corporate / Exporter)'",
+      "text": "Field 'Enterprise Segment (SME / Mid-Cap / Corporate / Exporter)' (enterprise_segment) under section '1. Applicant Identification' on İşbank's Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application: Determines credit desk routing (KOBİ / Ticari / Kurumsal). Required=True. Expected evidence keywords: SME, Corporate, Exporter. Align response with İşbank's COP31 priorities (Official COP31 Climate Supporter at Climate Finance Hub; showcasing energy transition, green industrialization & marine conservation models) and instruments (Green Investment Loan, SME Eco-Efficiency Loan, Blue Economy / Sustainable Tourism Loan)."
+    },
+    {
+      "chunk_id": "inv_isbank::field_guide_03_bank_green_program",
+      "investor_id": "inv_isbank",
+      "section": "Form Field Guide: 2. Product Selection",
+      "title": "İşbank Guidance for 'Selected COP31 Green Financing Package / Credit Line'",
+      "text": "Field 'Selected COP31 Green Financing Package / Credit Line' (bank_green_program) under section '2. Product Selection' on İşbank's Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application: Matches applicant to the bank's exact COP31 product (e.g., GEFF Türkiye, Halkbank 100B Package, Ziraat CBAM / Green Export Loan, Yapı Kredi Dönüşüme Tam Destek, Garanti BBVA Sustainable Loan, Akbank 2.5T Program, VakıfBank ADB SME Line, QNB Proparco Green Leasing). Required=True. Expected evidence keywords: COP31, green, package, SME, sustainable. Align response with İşbank's COP31 priorities (Official COP31 Climate Supporter at Climate Finance Hub; showcasing energy transition, green industrialization & marine conservation models) and instruments (Green Investment Loan, SME Eco-Efficiency Loan, Blue Economy / Sustainable Tourism Loan)."
+    },
+    {
+      "chunk_id": "inv_isbank::field_guide_04_loan_amount_and_maturity",
+      "investor_id": "inv_isbank",
+      "section": "Form Field Guide: 2. Product Selection",
+      "title": "İşbank Guidance for 'Requested Financing Amount (USD eq.) & Tenor'",
+      "text": "Field 'Requested Financing Amount (USD eq.) & Tenor' (loan_amount_and_maturity) under section '2. Product Selection' on İşbank's Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application: Requested loan/leasing ticket checked against the bank's green program limits. Required=True. Expected evidence keywords: USD, years, Loan, Leasing. Align response with İşbank's COP31 priorities (Official COP31 Climate Supporter at Climate Finance Hub; showcasing energy transition, green industrialization & marine conservation models) and instruments (Green Investment Loan, SME Eco-Efficiency Loan, Blue Economy / Sustainable Tourism Loan)."
+    },
+    {
+      "chunk_id": "inv_isbank::field_guide_05_eligible_green_use_of_proceeds",
+      "investor_id": "inv_isbank",
+      "section": "Form Field Guide: 3. Green Technical Criteria",
+      "title": "İşbank Guidance for 'Eligible Green Use of Proceeds & Technology Description'",
+      "text": "Field 'Eligible Green Use of Proceeds & Technology Description' (eligible_green_use_of_proceeds) under section '3. Green Technical Criteria' on İşbank's Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application: Details renewable energy (GES/RES), energy efficiency, circular economy, EV/e-mobility, or water-saving investment scope. Required=True. Expected evidence keywords: renewable, efficiency, solar, water, circular. Align response with İşbank's COP31 priorities (Official COP31 Climate Supporter at Climate Finance Hub; showcasing energy transition, green industrialization & marine conservation models) and instruments (Green Investment Loan, SME Eco-Efficiency Loan, Blue Economy / Sustainable Tourism Loan)."
+    },
+    {
+      "chunk_id": "inv_isbank::field_guide_06_carbon_and_cbam_impact",
+      "investor_id": "inv_isbank",
+      "section": "Form Field Guide: 3. Green Technical Criteria",
+      "title": "İşbank Guidance for 'Carbon Footprint Reduction (tCO2e/yr) & EU CBAM Export Impact'",
+      "text": "Field 'Carbon Footprint Reduction (tCO2e/yr) & EU CBAM Export Impact' (carbon_and_cbam_impact) under section '3. Green Technical Criteria' on İşbank's Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application: Quantifies annual emissions reduction and EU Carbon Border Adjustment Mechanism (CBAM) compliance benefits. Required=True. Expected evidence keywords: tCO2e, CBAM, export, carbon. Align response with İşbank's COP31 priorities (Official COP31 Climate Supporter at Climate Finance Hub; showcasing energy transition, green industrialization & marine conservation models) and instruments (Green Investment Loan, SME Eco-Efficiency Loan, Blue Economy / Sustainable Tourism Loan)."
+    },
+    {
+      "chunk_id": "inv_isbank::field_guide_07_collateral_and_kgf_status",
+      "investor_id": "inv_isbank",
+      "section": "Form Field Guide: 4. Credit & Collateral",
+      "title": "İşbank Guidance for 'Collateral / Kredi Garanti Fonu (KGF) Guarantee Eligibility'",
+      "text": "Field 'Collateral / Kredi Garanti Fonu (KGF) Guarantee Eligibility' (collateral_and_kgf_status) under section '4. Credit & Collateral' on İşbank's Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application: Checks collateral backing or KGF treasury-backed guarantee readiness. Required=True. Expected evidence keywords: KGF, Collateral, Guarantee. Align response with İşbank's COP31 priorities (Official COP31 Climate Supporter at Climate Finance Hub; showcasing energy transition, green industrialization & marine conservation models) and instruments (Green Investment Loan, SME Eco-Efficiency Loan, Blue Economy / Sustainable Tourism Loan)."
+    },
+    {
+      "chunk_id": "inv_isbank::field_guide_08_inclusive_priority_flags",
+      "investor_id": "inv_isbank",
+      "section": "Form Field Guide: 4. Credit & Collateral",
+      "title": "İşbank Guidance for 'Inclusive Finance Eligibility (Women/Youth Entrepreneur / Regional Priority)'",
+      "text": "Field 'Inclusive Finance Eligibility (Women/Youth Entrepreneur / Regional Priority)' (inclusive_priority_flags) under section '4. Credit & Collateral' on İşbank's Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application: Flags preferential terms available for women-led SMEs, young entrepreneurs, or earthquake-affected/priority provinces. Required=True. Expected evidence keywords: Women, Youth, Inclusive, Standard. Align response with İşbank's COP31 priorities (Official COP31 Climate Supporter at Climate Finance Hub; showcasing energy transition, green industrialization & marine conservation models) and instruments (Green Investment Loan, SME Eco-Efficiency Loan, Blue Economy / Sustainable Tourism Loan)."
+    },
+    {
+      "chunk_id": "inv_isbank::field_guide_09_financial_snapshot",
+      "investor_id": "inv_isbank",
+      "section": "Form Field Guide: 4. Credit & Collateral",
+      "title": "İşbank Guidance for 'Financial Performance Snapshot (Annual Revenue, EBITDA, Project Capex)'",
+      "text": "Field 'Financial Performance Snapshot (Annual Revenue, EBITDA, Project Capex)' (financial_snapshot) under section '4. Credit & Collateral' on İşbank's Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application: Core corporate financial capacity indicators. Required=True. Expected evidence keywords: Verified applicant facts. Align response with İşbank's COP31 priorities (Official COP31 Climate Supporter at Climate Finance Hub; showcasing energy transition, green industrialization & marine conservation models) and instruments (Green Investment Loan, SME Eco-Efficiency Loan, Blue Economy / Sustainable Tourism Loan)."
+    },
+    {
+      "chunk_id": "inv_isbank::field_guide_10_environmental_permits_status",
+      "investor_id": "inv_isbank",
+      "section": "Form Field Guide: 5. Compliance",
+      "title": "İşbank Guidance for 'Environmental Permits (ÇED / EIA) & Vendor Green Certification'",
+      "text": "Field 'Environmental Permits (ÇED / EIA) & Vendor Green Certification' (environmental_permits_status) under section '5. Compliance' on İşbank's Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application: Confirms Turkish environmental permit status and green equipment verification. Required=True. Expected evidence keywords: EIA, Permit, Certification. Align response with İşbank's COP31 priorities (Official COP31 Climate Supporter at Climate Finance Hub; showcasing energy transition, green industrialization & marine conservation models) and instruments (Green Investment Loan, SME Eco-Efficiency Loan, Blue Economy / Sustainable Tourism Loan)."
+    },
+    {
+      "chunk_id": "inv_isbank::field_guide_11_application_executive_note",
+      "investor_id": "inv_isbank",
+      "section": "Form Field Guide: 6. Summary",
+      "title": "İşbank Guidance for 'Relationship Manager Executive Credit & Sustainability Note'",
+      "text": "Field 'Relationship Manager Executive Credit & Sustainability Note' (application_executive_note) under section '6. Summary' on İşbank's Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application: Ready-to-submit green credit narrative tailored to this Turkish bank's COP31 mandate. Required=True. Expected evidence keywords: sustainable, COP31, credit. Align response with İşbank's COP31 priorities (Official COP31 Climate Supporter at Climate Finance Hub; showcasing energy transition, green industrialization & marine conservation models) and instruments (Green Investment Loan, SME Eco-Efficiency Loan, Blue Economy / Sustainable Tourism Loan)."
+    }
+  ]
+}

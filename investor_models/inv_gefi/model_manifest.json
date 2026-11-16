@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_gefi",
+  "investor_name": "Global Ethical Finance Initiative (GEFI)",
+  "short_name": "GEFI",
+  "category": "Climate Finance Network / Public Facilitator",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "RAG tailors ethical & SDG-aligned dealroom pitches for GEFI's COP31 investor coalition.",
+  "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+  "tenant_namespace": "tenant::inv_gefi",
+  "tenant_key_fingerprint": "e27f1eb503b64962",
+  "created_at_utc": "2026-11-15T15:45:23.133759+00:00",
+  "source_record_sha256": "2763a96e7315e0176972449371c8f07bce9cb6a26c31b22a4cbb456e73689fac",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 14,
+  "artifact_hashes": {
+    "form_schema.json": "2f76f7300f208156901d86191a5e1a31040ecb86814da8d11eff5d23b29bb611",
+    "rag_corpus.json": "061e2b7a8efd80f6dc03e85daeb243de31e52e35550b70f0144048a3ea148ad4"
+  }
+}

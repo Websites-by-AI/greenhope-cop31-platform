@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_garanti_bbva",
+  "knowledge_pack_slug": "garanti_bbva",
+  "claims": [
+    {
+      "claim": "Garanti BBVA serves alongside BBVA Group as Official Global Banking Partner of COP31 in Antalya.",
+      "source": "Garanti BBVA Official COP31 Page",
+      "url": "https://www.garantibbva.com.tr/en/corporate-communications/cop31-climate-change-summit",
+      "date_verified": "2026-11-15",
+      "confidence": 0.99,
+      "status": "verified"
+    },
+    {
+      "claim": "Garanti BBVA raised its sustainable finance target to TRY 3.5 trillion for 2018–2029, surpassing TRY 1 trillion by January 2026.",
+      "source": "Garanti BBVA Official COP31 Page",
+      "url": "https://www.garantibbva.com.tr/en/corporate-communications/cop31-climate-change-summit",
+      "date_verified": "2026-11-15",
+      "confidence": 0.98,
+      "status": "verified"
+    }
+  ]
+}

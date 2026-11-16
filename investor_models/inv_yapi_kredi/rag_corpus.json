@@ -1,0 +1,119 @@
+{
+  "investor_id": "inv_yapi_kredi",
+  "corpus_format": "cop31-rag-chunks-v1",
+  "chunk_count": 16,
+  "chunks": [
+    {
+      "chunk_id": "inv_yapi_kredi::mandate_cop31",
+      "investor_id": "inv_yapi_kredi",
+      "section": "COP31 Antalya 2026 Mandate",
+      "title": "Yapı Kredi (Yapı Kredi) COP31 Role & Commitments",
+      "text": "Yapı Kredi is a Turkish Commercial Bank headquartered in Türkiye. At UNFCCC COP31 in Antalya (November 9-20, 2026), its verified role is: Launched 'Yapı Kredi Dönüşüme Tam Destek Programı' (6-category green & digital SME transformation program) at COP31. Verified COP31 2026 climate finance commitment: COP31 'Dönüşüme Tam Destek' 6-category green/digital SME loan program + 20% Eco Foreign Trade discount + free carbon footprint & water efficiency platforms. Source verification: https://www.fintechdunyasi.com/cop31de-bankalardan-iklim-finansmani-hamlesi-yeni-finansman-anlasmalari-kobi-programlari-ve-surdurulebilirlik-mesajlari/28721/."
+    },
+    {
+      "chunk_id": "inv_yapi_kredi::instruments_tickets",
+      "investor_id": "inv_yapi_kredi",
+      "section": "Financial Products & Ticket Sizing",
+      "title": "Yapı Kredi Financing Instruments & Ticket Bounds",
+      "text": "Yapı Kredi provides the following climate financing instruments: Dönüşüme Tam Destek Green Loan, Eco Foreign Trade Finance Package, Solar/Energy Efficiency Loan, Green Digital Transformation Credit. Typical transaction ticket range is USD 50,000 to USD 100,000,000. Eligible applicant profiles include: SME, Mid-Cap Enterprise, Large Corporate."
+    },
+    {
+      "chunk_id": "inv_yapi_kredi::sectors_geography",
+      "investor_id": "inv_yapi_kredi",
+      "section": "Eligible Sectors & Geographies",
+      "title": "Yapı Kredi Priority Climate Sectors & Regional Mandate",
+      "text": "Priority climate sectors funded by Yapı Kredi: SME Green Transition, Renewable Energy, Water Management & Efficiency, Industrial Decarbonization, Digital & Green Twin Transition. Target geographic focus includes: Türkiye. Projects outside primary regions or ticket bounds may require syndicated or on-lending structures."
+    },
+    {
+      "chunk_id": "inv_yapi_kredi::compliance_esg",
+      "investor_id": "inv_yapi_kredi",
+      "section": "Compliance, ESG & Exclusion Criteria",
+      "title": "Yapı Kredi Mandatory Form & Underwriting Requirements",
+      "text": "Mandatory requirements to complete Yapı Kredi's application form: Turkish company registration (VKN) & credit history; Alignment with 1 of 6 Dönüşüme Tam Destek green/digital categories; Baseline carbon footprint or water-efficiency calculation; Collateral / credit line limit approval. Explicit exclusion rules: Coal expansion; Unpermitted hazardous waste operations. Official application portal: https://www.yapikredi.com.tr/en/sustainability."
+    },
+    {
+      "chunk_id": "inv_yapi_kredi::form_standard",
+      "investor_id": "inv_yapi_kredi",
+      "section": "Application Form Governance",
+      "title": "Yapı Kredi Form Template: Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application",
+      "text": "Yapı Kredi uses the 'Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application' workflow governed by BRSA (BDDK) Sustainable Banking Guidelines, Turkish Green Taxonomy & EU CBAM Readiness. Typical review timeline is 1–4 weeks (Branch/Corporate RM Intake -> Green Eligibility Check -> Credit Approval). Form sections required: 1. Applicant Identification, 2. Product Selection, 3. Green Technical Criteria, 4. Credit & Collateral, 5. Compliance, 6. Summary."
+    },
+    {
+      "chunk_id": "inv_yapi_kredi::field_guide_01_company_identity_masked",
+      "investor_id": "inv_yapi_kredi",
+      "section": "Form Field Guide: 1. Applicant Identification",
+      "title": "Yapı Kredi Guidance for 'Company Legal Name & Masked Tax ID (VKN)'",
+      "text": "Field 'Company Legal Name & Masked Tax ID (VKN)' (company_identity_masked) under section '1. Applicant Identification' on Yapı Kredi's Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application: Legal company name with PII-safe masked tax ID (full VKN injected only at final bank portal export). Required=True. Expected evidence keywords: Verified applicant facts. Align response with Yapı Kredi's COP31 priorities (Launched 'Yapı Kredi Dönüşüme Tam Destek Programı' (6-category green & digital SME transformation program) at COP31) and instruments (Dönüşüme Tam Destek Green Loan, Eco Foreign Trade Finance Package, Solar/Energy Efficiency Loan)."
+    },
+    {
+      "chunk_id": "inv_yapi_kredi::field_guide_02_enterprise_segment",
+      "investor_id": "inv_yapi_kredi",
+      "section": "Form Field Guide: 1. Applicant Identification",
+      "title": "Yapı Kredi Guidance for 'Enterprise Segment (SME / Mid-Cap / Corporate / Exporter)'",
+      "text": "Field 'Enterprise Segment (SME / Mid-Cap / Corporate / Exporter)' (enterprise_segment) under section '1. Applicant Identification' on Yapı Kredi's Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application: Determines credit desk routing (KOBİ / Ticari / Kurumsal). Required=True. Expected evidence keywords: SME, Corporate, Exporter. Align response with Yapı Kredi's COP31 priorities (Launched 'Yapı Kredi Dönüşüme Tam Destek Programı' (6-category green & digital SME transformation program) at COP31) and instruments (Dönüşüme Tam Destek Green Loan, Eco Foreign Trade Finance Package, Solar/Energy Efficiency Loan)."
+    },
+    {
+      "chunk_id": "inv_yapi_kredi::field_guide_03_bank_green_program",
+      "investor_id": "inv_yapi_kredi",
+      "section": "Form Field Guide: 2. Product Selection",
+      "title": "Yapı Kredi Guidance for 'Selected COP31 Green Financing Package / Credit Line'",
+      "text": "Field 'Selected COP31 Green Financing Package / Credit Line' (bank_green_program) under section '2. Product Selection' on Yapı Kredi's Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application: Matches applicant to the bank's exact COP31 product (e.g., GEFF Türkiye, Halkbank 100B Package, Ziraat CBAM / Green Export Loan, Yapı Kredi Dönüşüme Tam Destek, Garanti BBVA Sustainable Loan, Akbank 2.5T Program, VakıfBank ADB SME Line, QNB Proparco Green Leasing). Required=True. Expected evidence keywords: COP31, green, package, SME, sustainable. Align response with Yapı Kredi's COP31 priorities (Launched 'Yapı Kredi Dönüşüme Tam Destek Programı' (6-category green & digital SME transformation program) at COP31) and instruments (Dönüşüme Tam Destek Green Loan, Eco Foreign Trade Finance Package, Solar/Energy Efficiency Loan)."
+    },
+    {
+      "chunk_id": "inv_yapi_kredi::field_guide_04_loan_amount_and_maturity",
+      "investor_id": "inv_yapi_kredi",
+      "section": "Form Field Guide: 2. Product Selection",
+      "title": "Yapı Kredi Guidance for 'Requested Financing Amount (USD eq.) & Tenor'",
+      "text": "Field 'Requested Financing Amount (USD eq.) & Tenor' (loan_amount_and_maturity) under section '2. Product Selection' on Yapı Kredi's Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application: Requested loan/leasing ticket checked against the bank's green program limits. Required=True. Expected evidence keywords: USD, years, Loan, Leasing. Align response with Yapı Kredi's COP31 priorities (Launched 'Yapı Kredi Dönüşüme Tam Destek Programı' (6-category green & digital SME transformation program) at COP31) and instruments (Dönüşüme Tam Destek Green Loan, Eco Foreign Trade Finance Package, Solar/Energy Efficiency Loan)."
+    },
+    {
+      "chunk_id": "inv_yapi_kredi::field_guide_05_eligible_green_use_of_proceeds",
+      "investor_id": "inv_yapi_kredi",
+      "section": "Form Field Guide: 3. Green Technical Criteria",
+      "title": "Yapı Kredi Guidance for 'Eligible Green Use of Proceeds & Technology Description'",
+      "text": "Field 'Eligible Green Use of Proceeds & Technology Description' (eligible_green_use_of_proceeds) under section '3. Green Technical Criteria' on Yapı Kredi's Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application: Details renewable energy (GES/RES), energy efficiency, circular economy, EV/e-mobility, or water-saving investment scope. Required=True. Expected evidence keywords: renewable, efficiency, solar, water, circular. Align response with Yapı Kredi's COP31 priorities (Launched 'Yapı Kredi Dönüşüme Tam Destek Programı' (6-category green & digital SME transformation program) at COP31) and instruments (Dönüşüme Tam Destek Green Loan, Eco Foreign Trade Finance Package, Solar/Energy Efficiency Loan)."
+    },
+    {
+      "chunk_id": "inv_yapi_kredi::field_guide_06_carbon_and_cbam_impact",
+      "investor_id": "inv_yapi_kredi",
+      "section": "Form Field Guide: 3. Green Technical Criteria",
+      "title": "Yapı Kredi Guidance for 'Carbon Footprint Reduction (tCO2e/yr) & EU CBAM Export Impact'",
+      "text": "Field 'Carbon Footprint Reduction (tCO2e/yr) & EU CBAM Export Impact' (carbon_and_cbam_impact) under section '3. Green Technical Criteria' on Yapı Kredi's Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application: Quantifies annual emissions reduction and EU Carbon Border Adjustment Mechanism (CBAM) compliance benefits. Required=True. Expected evidence keywords: tCO2e, CBAM, export, carbon. Align response with Yapı Kredi's COP31 priorities (Launched 'Yapı Kredi Dönüşüme Tam Destek Programı' (6-category green & digital SME transformation program) at COP31) and instruments (Dönüşüme Tam Destek Green Loan, Eco Foreign Trade Finance Package, Solar/Energy Efficiency Loan)."
+    },
+    {
+      "chunk_id": "inv_yapi_kredi::field_guide_07_collateral_and_kgf_status",
+      "investor_id": "inv_yapi_kredi",
+      "section": "Form Field Guide: 4. Credit & Collateral",
+      "title": "Yapı Kredi Guidance for 'Collateral / Kredi Garanti Fonu (KGF) Guarantee Eligibility'",
+      "text": "Field 'Collateral / Kredi Garanti Fonu (KGF) Guarantee Eligibility' (collateral_and_kgf_status) under section '4. Credit & Collateral' on Yapı Kredi's Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application: Checks collateral backing or KGF treasury-backed guarantee readiness. Required=True. Expected evidence keywords: KGF, Collateral, Guarantee. Align response with Yapı Kredi's COP31 priorities (Launched 'Yapı Kredi Dönüşüme Tam Destek Programı' (6-category green & digital SME transformation program) at COP31) and instruments (Dönüşüme Tam Destek Green Loan, Eco Foreign Trade Finance Package, Solar/Energy Efficiency Loan)."
+    },
+    {
+      "chunk_id": "inv_yapi_kredi::field_guide_08_inclusive_priority_flags",
+      "investor_id": "inv_yapi_kredi",
+      "section": "Form Field Guide: 4. Credit & Collateral",
+      "title": "Yapı Kredi Guidance for 'Inclusive Finance Eligibility (Women/Youth Entrepreneur / Regional Priority)'",
+      "text": "Field 'Inclusive Finance Eligibility (Women/Youth Entrepreneur / Regional Priority)' (inclusive_priority_flags) under section '4. Credit & Collateral' on Yapı Kredi's Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application: Flags preferential terms available for women-led SMEs, young entrepreneurs, or earthquake-affected/priority provinces. Required=True. Expected evidence keywords: Women, Youth, Inclusive, Standard. Align response with Yapı Kredi's COP31 priorities (Launched 'Yapı Kredi Dönüşüme Tam Destek Programı' (6-category green & digital SME transformation program) at COP31) and instruments (Dönüşüme Tam Destek Green Loan, Eco Foreign Trade Finance Package, Solar/Energy Efficiency Loan)."
+    },
+    {
+      "chunk_id": "inv_yapi_kredi::field_guide_09_financial_snapshot",
+      "investor_id": "inv_yapi_kredi",
+      "section": "Form Field Guide: 4. Credit & Collateral",
+      "title": "Yapı Kredi Guidance for 'Financial Performance Snapshot (Annual Revenue, EBITDA, Project Capex)'",
+      "text": "Field 'Financial Performance Snapshot (Annual Revenue, EBITDA, Project Capex)' (financial_snapshot) under section '4. Credit & Collateral' on Yapı Kredi's Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application: Core corporate financial capacity indicators. Required=True. Expected evidence keywords: Verified applicant facts. Align response with Yapı Kredi's COP31 priorities (Launched 'Yapı Kredi Dönüşüme Tam Destek Programı' (6-category green & digital SME transformation program) at COP31) and instruments (Dönüşüme Tam Destek Green Loan, Eco Foreign Trade Finance Package, Solar/Energy Efficiency Loan)."
+    },
+    {
+      "chunk_id": "inv_yapi_kredi::field_guide_10_environmental_permits_status",
+      "investor_id": "inv_yapi_kredi",
+      "section": "Form Field Guide: 5. Compliance",
+      "title": "Yapı Kredi Guidance for 'Environmental Permits (ÇED / EIA) & Vendor Green Certification'",
+      "text": "Field 'Environmental Permits (ÇED / EIA) & Vendor Green Certification' (environmental_permits_status) under section '5. Compliance' on Yapı Kredi's Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application: Confirms Turkish environmental permit status and green equipment verification. Required=True. Expected evidence keywords: EIA, Permit, Certification. Align response with Yapı Kredi's COP31 priorities (Launched 'Yapı Kredi Dönüşüme Tam Destek Programı' (6-category green & digital SME transformation program) at COP31) and instruments (Dönüşüme Tam Destek Green Loan, Eco Foreign Trade Finance Package, Solar/Energy Efficiency Loan)."
+    },
+    {
+      "chunk_id": "inv_yapi_kredi::field_guide_11_application_executive_note",
+      "investor_id": "inv_yapi_kredi",
+      "section": "Form Field Guide: 6. Summary",
+      "title": "Yapı Kredi Guidance for 'Relationship Manager Executive Credit & Sustainability Note'",
+      "text": "Field 'Relationship Manager Executive Credit & Sustainability Note' (application_executive_note) under section '6. Summary' on Yapı Kredi's Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application: Ready-to-submit green credit narrative tailored to this Turkish bank's COP31 mandate. Required=True. Expected evidence keywords: sustainable, COP31, credit. Align response with Yapı Kredi's COP31 priorities (Launched 'Yapı Kredi Dönüşüme Tam Destek Programı' (6-category green & digital SME transformation program) at COP31) and instruments (Dönüşüme Tam Destek Green Loan, Eco Foreign Trade Finance Package, Solar/Energy Efficiency Loan)."
+    }
+  ]
+}

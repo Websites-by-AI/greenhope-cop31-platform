@@ -1,0 +1,430 @@
+{
+  "investor_id": "inv_gfif",
+  "graph_format": "networkx-node-link-v1",
+  "node_count": 34,
+  "edge_count": 33,
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "node_type": "Investor",
+        "investor_id": "inv_gfif",
+        "name": "GFIF (Global Finance & Investment Forum at COP31)",
+        "short_name": "GFIF Dealroom",
+        "category": "Climate Finance Network / Public Facilitator",
+        "hq_country": "Global (COP31 Antalya Dealroom)",
+        "ticket_min_usd": 1000000,
+        "ticket_max_usd": 200000000,
+        "portal_url": "https://www.gfif.fund/cop31",
+        "id": "inv_gfif"
+      },
+      {
+        "node_type": "COP31_Commitment",
+        "investor_id": "inv_gfif",
+        "role": "Convening lenders, guarantors, DFIs & capital providers in a dedicated COP31 Capital-Provider Dealroom",
+        "commitment": "Structured climate dealroom connecting project developers, guarantors & DFIs to close bankability gaps at COP31 Antalya",
+        "verification_source": "https://www.gfif.fund/cop31",
+        "verification_date": "2026-11-15",
+        "id": "cop31::inv_gfif"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_gfif",
+        "label": "Capital-Provider Dealroom",
+        "id": "instrument::capital_provider_dealroom"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_gfif",
+        "label": "Guarantee & Blended Structuring",
+        "id": "instrument::guarantee___blended_structuring"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_gfif",
+        "label": "Co-Investment Syndication",
+        "id": "instrument::co_investment_syndication"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_gfif",
+        "label": "Climate Adaptation & Resilience",
+        "id": "sector::climate_adaptation___resilience"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_gfif",
+        "label": "Renewable Energy",
+        "id": "sector::renewable_energy"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_gfif",
+        "label": "Resilient Cities & Infrastructure",
+        "id": "sector::resilient_cities___infrastructure"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_gfif",
+        "label": "Industrial Decarbonization",
+        "id": "sector::industrial_decarbonization"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_gfif",
+        "label": "Climate-Tech Innovation",
+        "id": "sector::climate_tech_innovation"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_gfif",
+        "label": "Global",
+        "id": "region::global"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_gfif",
+        "label": "Emerging Markets",
+        "id": "region::emerging_markets"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_gfif",
+        "label": "Türkiye",
+        "id": "region::türkiye"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_gfif",
+        "label": "Africa",
+        "id": "region::africa"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_gfif",
+        "label": "Asia",
+        "id": "region::asia"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_gfif",
+        "label": "Project SPV",
+        "id": "applicant::project_spv"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_gfif",
+        "label": "Climate-Tech Startup",
+        "id": "applicant::climate_tech_startup"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_gfif",
+        "label": "Large Corporate",
+        "id": "applicant::large_corporate"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_gfif",
+        "label": "Municipality",
+        "id": "applicant::municipality"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_gfif",
+        "label": "Fund Manager",
+        "id": "applicant::fund_manager"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_gfif",
+        "label": "Bankable dealroom teaser with clear capital stack & guarantee needs",
+        "id": "rule::bankable_dealroom_teaser_with_clear_capital_stac"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_gfif",
+        "label": "Verified climate impact & MRV methodology",
+        "id": "rule::verified_climate_impact___mrv_methodology"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_gfif",
+        "label": "Defined pilot or commercial deployment site",
+        "id": "rule::defined_pilot_or_commercial_deployment_site"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_gfif",
+        "label": "Unstructured concept ideas lacking financial model",
+        "id": "exclusion::unstructured_concept_ideas_lacking_financial_mod"
+      },
+      {
+        "node_type": "FormTemplate",
+        "investor_id": "inv_gfif",
+        "title": "Climate Private Equity / Catalytic Capital / Venture Investment Intake Form",
+        "governing_standard": "GFANZ Catalytic Capital Repository / Impact Management Project (IMP) / IRIS+ Climate Metrics",
+        "id": "form::CATALYTIC_PE_VC_INTAKE"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_gfif",
+        "field_id": "company_and_project",
+        "label": "Company / SPV Name, Sector & Geography",
+        "section": "1. Venture / Asset Overview",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::company_and_project"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_gfif",
+        "field_id": "round_and_instrument",
+        "label": "Target Capital Raise, Ticket Size & Preferred Capital Layer",
+        "section": "1. Venture / Asset Overview",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::round_and_instrument"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_gfif",
+        "field_id": "climate_thesis_fit",
+        "label": "Alignment with Investor Climate Thesis & COP31 Platform",
+        "section": "2. Investment Thesis",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::climate_thesis_fit"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_gfif",
+        "field_id": "decarbonization_unit_economics",
+        "label": "Avoided Emissions Potential (tCO2e/yr) & Commercial Unit Economics",
+        "section": "2. Investment Thesis",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::decarbonization_unit_economics"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_gfif",
+        "field_id": "technology_and_moat",
+        "label": "Technology Differentiation, Innovation & Market Readiness",
+        "section": "3. Product & Execution",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::technology_and_moat"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_gfif",
+        "field_id": "capital_stack_and_cofinanciers",
+        "label": "Blended Capital Stack & Co-Investor Mobilization",
+        "section": "3. Product & Execution",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::capital_stack_and_cofinanciers"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_gfif",
+        "field_id": "esg_impact_governance",
+        "label": "ESG Governance, Social Co-Benefits & Exclusion Compliance",
+        "section": "4. Impact & Risk",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::esg_impact_governance"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_gfif",
+        "field_id": "risks_and_mitigants",
+        "label": "Key Scale-Up Risks & Mitigation Strategy",
+        "section": "4. Impact & Risk",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::risks_and_mitigants"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_gfif",
+        "field_id": "ic_teaser_summary",
+        "label": "Investment Committee 1-Paragraph Executive Pitch",
+        "section": "5. Executive Pitch",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::ic_teaser_summary"
+      }
+    ],
+    "links": [
+      {
+        "relation": "ANNOUNCES_AT_COP31",
+        "source": "inv_gfif",
+        "target": "cop31::inv_gfif"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_gfif",
+        "target": "instrument::capital_provider_dealroom"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_gfif",
+        "target": "instrument::guarantee___blended_structuring"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_gfif",
+        "target": "instrument::co_investment_syndication"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_gfif",
+        "target": "sector::climate_adaptation___resilience"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_gfif",
+        "target": "sector::renewable_energy"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_gfif",
+        "target": "sector::resilient_cities___infrastructure"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_gfif",
+        "target": "sector::industrial_decarbonization"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_gfif",
+        "target": "sector::climate_tech_innovation"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_gfif",
+        "target": "region::global"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_gfif",
+        "target": "region::emerging_markets"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_gfif",
+        "target": "region::türkiye"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_gfif",
+        "target": "region::africa"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_gfif",
+        "target": "region::asia"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_gfif",
+        "target": "applicant::project_spv"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_gfif",
+        "target": "applicant::climate_tech_startup"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_gfif",
+        "target": "applicant::large_corporate"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_gfif",
+        "target": "applicant::municipality"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_gfif",
+        "target": "applicant::fund_manager"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_gfif",
+        "target": "rule::bankable_dealroom_teaser_with_clear_capital_stac"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_gfif",
+        "target": "rule::verified_climate_impact___mrv_methodology"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_gfif",
+        "target": "rule::defined_pilot_or_commercial_deployment_site"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_gfif",
+        "target": "exclusion::unstructured_concept_ideas_lacking_financial_mod"
+      },
+      {
+        "relation": "USES_FORM_TEMPLATE",
+        "source": "inv_gfif",
+        "target": "form::CATALYTIC_PE_VC_INTAKE"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::company_and_project"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::round_and_instrument"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::climate_thesis_fit"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::decarbonization_unit_economics"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::technology_and_moat"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::capital_stack_and_cofinanciers"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::esg_impact_governance"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::risks_and_mitigants"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::CATALYTIC_PE_VC_INTAKE",
+        "target": "field::ic_teaser_summary"
+      }
+    ]
+  }
+}

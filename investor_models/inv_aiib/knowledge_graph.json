@@ -1,0 +1,540 @@
+{
+  "investor_id": "inv_aiib",
+  "graph_format": "networkx-node-link-v1",
+  "node_count": 42,
+  "edge_count": 43,
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "node_type": "Investor",
+        "investor_id": "inv_aiib",
+        "name": "Asian Infrastructure Investment Bank (AIIB)",
+        "short_name": "AIIB",
+        "category": "Multilateral Development Bank (MDB)",
+        "hq_country": "China (Multilateral)",
+        "ticket_min_usd": 20000000,
+        "ticket_max_usd": 600000000,
+        "portal_url": "https://www.aiib.org/en/projects/propose/index.html",
+        "id": "inv_aiib"
+      },
+      {
+        "node_type": "COP31_Commitment",
+        "investor_id": "inv_aiib",
+        "role": "Signed record $1.9B COP31 Türkiye climate package (its largest climate policy-based financing to date)",
+        "commitment": "$1.6B Türkiye Climate Action Program (1,800 MW wind/solar, 225,000 farmers, 50,000 ha carbon sinks) + $300M via Turk Eximbank ($7.47B climate finance in 2025)",
+        "verification_source": "https://theopenpress.in/article/aiib-turkiye-record-1-6-billion-climate-deal-cop31-antalya",
+        "verification_date": "2026-11-15",
+        "id": "cop31::inv_aiib"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_aiib",
+        "label": "Sovereign Loan",
+        "id": "instrument::sovereign_loan"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_aiib",
+        "label": "Climate Policy-Based Financing",
+        "id": "instrument::climate_policy_based_financing"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_aiib",
+        "label": "Non-Sovereign Infrastructure Debt",
+        "id": "instrument::non_sovereign_infrastructure_debt"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_aiib",
+        "label": "Equity",
+        "id": "instrument::equity"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_aiib",
+        "label": "Guarantee",
+        "id": "instrument::guarantee"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_aiib",
+        "label": "Renewable Energy",
+        "id": "sector::renewable_energy"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_aiib",
+        "label": "Electrification & Grid",
+        "id": "sector::electrification___grid"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_aiib",
+        "label": "Industrial Decarbonization",
+        "id": "sector::industrial_decarbonization"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_aiib",
+        "label": "Sustainable Agriculture & Water",
+        "id": "sector::sustainable_agriculture___water"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_aiib",
+        "label": "Climate Adaptation & Resilience",
+        "id": "sector::climate_adaptation___resilience"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_aiib",
+        "label": "Carbon Sinks & Nature",
+        "id": "sector::carbon_sinks___nature"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_aiib",
+        "label": "Asia",
+        "id": "region::asia"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_aiib",
+        "label": "Türkiye",
+        "id": "region::türkiye"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_aiib",
+        "label": "EMEA",
+        "id": "region::emea"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_aiib",
+        "label": "Global",
+        "id": "region::global"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_aiib",
+        "label": "Emerging Markets",
+        "id": "region::emerging_markets"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_aiib",
+        "label": "Central Asia",
+        "id": "region::central_asia"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_aiib",
+        "label": "Sovereign/Government",
+        "id": "applicant::sovereign_government"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_aiib",
+        "label": "Large Corporate",
+        "id": "applicant::large_corporate"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_aiib",
+        "label": "Project SPV",
+        "id": "applicant::project_spv"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_aiib",
+        "label": "Financial Intermediary",
+        "id": "applicant::financial_intermediary"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_aiib",
+        "label": "Municipality",
+        "id": "applicant::municipality"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_aiib",
+        "label": "AIIB Paris Alignment & Climate Finance Classification",
+        "id": "rule::aiib_paris_alignment___climate_finance_classific"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_aiib",
+        "label": "Environmental and Social Framework (ESF) & EIA permits",
+        "id": "rule::environmental_and_social_framework__esf____eia_p"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_aiib",
+        "label": "Infrastructure connectivity & green transition mandate fit",
+        "id": "rule::infrastructure_connectivity___green_transition_m"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_aiib",
+        "label": "Procurement & financial sustainability assessment",
+        "id": "rule::procurement___financial_sustainability_assessmen"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_aiib",
+        "label": "Coal-fired power plants and coal mining infrastructure",
+        "id": "exclusion::coal_fired_power_plants_and_coal_mining_infrastr"
+      },
+      {
+        "node_type": "FormTemplate",
+        "investor_id": "inv_aiib",
+        "title": "Multilateral Development Bank (MDB) Climate Project Concept Note",
+        "governing_standard": "Joint MDB Paris Alignment Methodology (BB1 Mitigation / BB2 Adaptation) & Environmental/Social Framework",
+        "id": "form::MDB_CONCEPT_NOTE"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_aiib",
+        "field_id": "project_title",
+        "label": "Project Title & Legal Sponsor",
+        "section": "1. Identification",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::project_title"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_aiib",
+        "field_id": "sovereign_window",
+        "label": "Financing Window (Sovereign vs. Non-Sovereign / Private Sector)",
+        "section": "1. Identification",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::sovereign_window"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_aiib",
+        "field_id": "cop31_platform_alignment",
+        "label": "COP31 Country Platform & Flagship Initiative Alignment",
+        "section": "2. Strategic Alignment",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::cop31_platform_alignment"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_aiib",
+        "field_id": "requested_instrument_and_amount",
+        "label": "Requested Financing Instrument & Amount (USD)",
+        "section": "3. Financial Structuring",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::requested_instrument_and_amount"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_aiib",
+        "field_id": "cofinancing_structure",
+        "label": "Total Project Cost & Co-Financing Mobilization Plan",
+        "section": "3. Financial Structuring",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::cofinancing_structure"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_aiib",
+        "field_id": "paris_alignment_bb1_bb2",
+        "label": "Paris Agreement Alignment Assessment (BB1 Mitigation & BB2 Physical Risk)",
+        "section": "4. Climate & Technical Rationale",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::paris_alignment_bb1_bb2"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_aiib",
+        "field_id": "ghg_and_adaptation_impact",
+        "label": "Quantified Climate Impact (tCO2e/year Avoided &/or Adaptation Beneficiaries)",
+        "section": "4. Climate & Technical Rationale",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::ghg_and_adaptation_impact"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_aiib",
+        "field_id": "es_safeguards_category",
+        "label": "Environmental & Social (E&S) Safeguards & EIA Status",
+        "section": "5. Safeguards & Governance",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::es_safeguards_category"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_aiib",
+        "field_id": "financial_viability_metrics",
+        "label": "Financial Viability & Bankability Indicators (Revenue, EBITDA, IRR)",
+        "section": "5. Safeguards & Governance",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::financial_viability_metrics"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_aiib",
+        "field_id": "implementation_timeline",
+        "label": "Project Readiness Stage & Implementation Schedule",
+        "section": "6. Execution & Risks",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::implementation_timeline"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_aiib",
+        "field_id": "key_risks_and_mitigants",
+        "label": "Key Technical, Market & Climate Risks with Mitigants",
+        "section": "6. Execution & Risks",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::key_risks_and_mitigants"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_aiib",
+        "field_id": "executive_concept_summary",
+        "label": "Executive Concept Note Abstract",
+        "section": "7. Executive Summary",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::executive_concept_summary"
+      }
+    ],
+    "links": [
+      {
+        "relation": "ANNOUNCES_AT_COP31",
+        "source": "inv_aiib",
+        "target": "cop31::inv_aiib"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_aiib",
+        "target": "instrument::sovereign_loan"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_aiib",
+        "target": "instrument::climate_policy_based_financing"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_aiib",
+        "target": "instrument::non_sovereign_infrastructure_debt"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_aiib",
+        "target": "instrument::equity"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_aiib",
+        "target": "instrument::guarantee"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_aiib",
+        "target": "sector::renewable_energy"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_aiib",
+        "target": "sector::electrification___grid"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_aiib",
+        "target": "sector::industrial_decarbonization"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_aiib",
+        "target": "sector::sustainable_agriculture___water"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_aiib",
+        "target": "sector::climate_adaptation___resilience"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_aiib",
+        "target": "sector::carbon_sinks___nature"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_aiib",
+        "target": "region::asia"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_aiib",
+        "target": "region::türkiye"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_aiib",
+        "target": "region::emea"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_aiib",
+        "target": "region::global"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_aiib",
+        "target": "region::emerging_markets"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_aiib",
+        "target": "region::central_asia"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_aiib",
+        "target": "applicant::sovereign_government"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_aiib",
+        "target": "applicant::large_corporate"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_aiib",
+        "target": "applicant::project_spv"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_aiib",
+        "target": "applicant::financial_intermediary"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_aiib",
+        "target": "applicant::municipality"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_aiib",
+        "target": "rule::aiib_paris_alignment___climate_finance_classific"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_aiib",
+        "target": "rule::environmental_and_social_framework__esf____eia_p"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_aiib",
+        "target": "rule::infrastructure_connectivity___green_transition_m"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_aiib",
+        "target": "rule::procurement___financial_sustainability_assessmen"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_aiib",
+        "target": "exclusion::coal_fired_power_plants_and_coal_mining_infrastr"
+      },
+      {
+        "relation": "USES_FORM_TEMPLATE",
+        "source": "inv_aiib",
+        "target": "form::MDB_CONCEPT_NOTE"
+      },
+      {
+        "relation": "VALIDATES_FIELD",
+        "source": "rule::aiib_paris_alignment___climate_finance_classific",
+        "target": "field::paris_alignment_bb1_bb2"
+      },
+      {
+        "relation": "VALIDATES_FIELD",
+        "source": "rule::environmental_and_social_framework__esf____eia_p",
+        "target": "field::es_safeguards_category"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::project_title"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::sovereign_window"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::cop31_platform_alignment"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::requested_instrument_and_amount"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::cofinancing_structure"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::paris_alignment_bb1_bb2"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::ghg_and_adaptation_impact"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::es_safeguards_category"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::financial_viability_metrics"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::implementation_timeline"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::key_risks_and_mitigants"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::executive_concept_summary"
+      }
+    ]
+  }
+}

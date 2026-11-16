@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_garanti_bbva",
+  "investor_name": "Garanti BBVA",
+  "short_name": "Garanti BBVA",
+  "category": "Turkish Commercial Bank",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "Rich catalog of Turkish corporate/SME green products, EV mobility packages, and sustainability framework docs fit RAG retrieval directly.",
+  "form_template_type": "TURKISH_BANK_GREEN_LOAN",
+  "tenant_namespace": "tenant::inv_garanti_bbva",
+  "tenant_key_fingerprint": "a464aa4d5a6983ff",
+  "created_at_utc": "2026-11-15T15:45:22.903488+00:00",
+  "source_record_sha256": "d537e4a011df512affebf4446d8904d07b60e3887303d2dfded5f87b9aaa653d",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 16,
+  "artifact_hashes": {
+    "form_schema.json": "fe80ec0badc0982be37b2c9a4b4b73f24d2ab7b8dc1a5241cc25a64aade77b16",
+    "rag_corpus.json": "73c015c5c2bcddd34d7b2534189d9db1e88eb9fcaf7a487fe4ab2033b1729a5a"
+  }
+}

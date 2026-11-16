@@ -1,0 +1,119 @@
+{
+  "investor_id": "inv_cif",
+  "corpus_format": "cop31-rag-chunks-v1",
+  "chunk_count": 16,
+  "chunks": [
+    {
+      "chunk_id": "inv_cif::mandate_cop31",
+      "investor_id": "inv_cif",
+      "section": "COP31 Antalya 2026 Mandate",
+      "title": "Climate Investment Funds (CIF / Clean Technology Fund) (CIF / CTF) COP31 Role & Commitments",
+      "text": "Climate Investment Funds (CIF / Clean Technology Fund) is a Multilateral Climate Fund headquartered in United States (Multilateral). At UNFCCC COP31 in Antalya (November 9-20, 2026), its verified role is: Co-host of Climate Funds Pavilion; launched $94M AMPLIFi clean electrification finance; seeded $250M CTF into Türkiye TIDIP. Verified COP31 2026 climate finance commitment: $94M AMPLIFi catalytic finance (mobilizing $1.2B+) + $250M CTF seed for Türkiye $6B TIDIP + $47M Brazil forest restoration. Source verification: https://www.downtoearth.org.in/climate-change/cop31-starts-a-new-era-of-electrification."
+    },
+    {
+      "chunk_id": "inv_cif::instruments_tickets",
+      "investor_id": "inv_cif",
+      "section": "Financial Products & Ticket Sizing",
+      "title": "CIF / CTF Financing Instruments & Ticket Bounds",
+      "text": "Climate Investment Funds (CIF / Clean Technology Fund) provides the following climate financing instruments: Catalytic Concessional Loan, First-Loss Guarantee, Grant, Blended Finance (via MDBs). Typical transaction ticket range is USD 10,000,000 to USD 250,000,000. Eligible applicant profiles include: Sovereign/Government, Large Corporate, Project SPV, Financial Intermediary."
+    },
+    {
+      "chunk_id": "inv_cif::sectors_geography",
+      "investor_id": "inv_cif",
+      "section": "Eligible Sectors & Geographies",
+      "title": "CIF / CTF Priority Climate Sectors & Regional Mandate",
+      "text": "Priority climate sectors funded by Climate Investment Funds (CIF / Clean Technology Fund): Electrification & Grid, Industrial Decarbonization, Renewable Energy, Energy Storage, Nature-Based Solutions & Forestry, Coal Transition. Target geographic focus includes: Developing Countries, Emerging Markets, Türkiye, Africa, Asia, Latin America. Projects outside primary regions or ticket bounds may require syndicated or on-lending structures."
+    },
+    {
+      "chunk_id": "inv_cif::compliance_esg",
+      "investor_id": "inv_cif",
+      "section": "Compliance, ESG & Exclusion Criteria",
+      "title": "CIF / CTF Mandatory Form & Underwriting Requirements",
+      "text": "Mandatory requirements to complete CIF / CTF's application form: Channeling through an implementing MDB (World Bank, IFC, EBRD, ADB, AfDB, IDB); Country Investment Plan endorsement (e.g., TIDIP / AMPLIFi / ACT); High private-sector capital mobilization ratio (typically >5x); Verified GHG abatement & transformational impact metrics. Explicit exclusion rules: Direct non-MDB applications; Coal expansion. Official application portal: https://www.cif.org/."
+    },
+    {
+      "chunk_id": "inv_cif::form_standard",
+      "investor_id": "inv_cif",
+      "section": "Application Form Governance",
+      "title": "CIF / CTF Form Template: UNFCCC / Multilateral Climate Fund Concept Note & Funding Proposal",
+      "text": "Climate Investment Funds (CIF / Clean Technology Fund) uses the 'UNFCCC / Multilateral Climate Fund Concept Note & Funding Proposal' workflow governed by GCF Investment Framework / GEF-9 / CIF AMPLIFi / Adaptation Fund Direct Access Standards. Typical review timeline is 3–9 months (Concept Note -> Accredited Entity Review -> Board Decision). Form sections required: 1. Proposal Overview, 2. Country Ownership, 3. Financial Structuring, 4. Investment Criteria, 5. Safeguards & Inclusion, 6. Governance & Sustainability, 7. Executive Summary."
+    },
+    {
+      "chunk_id": "inv_cif::field_guide_01_project_title",
+      "investor_id": "inv_cif",
+      "section": "Form Field Guide: 1. Proposal Overview",
+      "title": "CIF / CTF Guidance for 'Proposal Title & Implementing Organization'",
+      "text": "Field 'Proposal Title & Implementing Organization' (project_title) under section '1. Proposal Overview' on CIF / CTF's UNFCCC / Multilateral Climate Fund Concept Note & Funding Proposal: Full proposal title, executing entity, and host country. Required=True. Expected evidence keywords: Verified applicant facts. Align response with CIF / CTF's COP31 priorities (Co-host of Climate Funds Pavilion; launched $94M AMPLIFi clean electrification finance; seeded $250M CTF into Türkiye TIDIP) and instruments (Catalytic Concessional Loan, First-Loss Guarantee, Grant)."
+    },
+    {
+      "chunk_id": "inv_cif::field_guide_02_accredited_entity_pathway",
+      "investor_id": "inv_cif",
+      "section": "Form Field Guide: 1. Proposal Overview",
+      "title": "CIF / CTF Guidance for 'Accredited Entity (AE) / Direct Access Entity (DAE) Channel'",
+      "text": "Field 'Accredited Entity (AE) / Direct Access Entity (DAE) Channel' (accredited_entity_pathway) under section '1. Proposal Overview' on CIF / CTF's UNFCCC / Multilateral Climate Fund Concept Note & Funding Proposal: Identifies whether applicant can submit directly or must channel through an Accredited Entity (e.g., EBRD, World Bank, TSKB, BNDES). Required=True. Expected evidence keywords: Accredited Entity, Direct Access, Intermediary. Align response with CIF / CTF's COP31 priorities (Co-host of Climate Funds Pavilion; launched $94M AMPLIFi clean electrification finance; seeded $250M CTF into Türkiye TIDIP) and instruments (Catalytic Concessional Loan, First-Loss Guarantee, Grant)."
+    },
+    {
+      "chunk_id": "inv_cif::field_guide_03_nda_no_objection_status",
+      "investor_id": "inv_cif",
+      "section": "Form Field Guide: 2. Country Ownership",
+      "title": "CIF / CTF Guidance for 'National Designated Authority (NDA) / Operational Focal Point No-Objection'",
+      "text": "Field 'National Designated Authority (NDA) / Operational Focal Point No-Objection' (nda_no_objection_status) under section '2. Country Ownership' on CIF / CTF's UNFCCC / Multilateral Climate Fund Concept Note & Funding Proposal: Mandatory host-country NDA or Focal Point endorsement verification. Required=True. Expected evidence keywords: NDA, No-Objection, Focal Point, NDC. Align response with CIF / CTF's COP31 priorities (Co-host of Climate Funds Pavilion; launched $94M AMPLIFi clean electrification finance; seeded $250M CTF into Türkiye TIDIP) and instruments (Catalytic Concessional Loan, First-Loss Guarantee, Grant)."
+    },
+    {
+      "chunk_id": "inv_cif::field_guide_04_funding_window_and_instrument",
+      "investor_id": "inv_cif",
+      "section": "Form Field Guide: 3. Financial Structuring",
+      "title": "CIF / CTF Guidance for 'Target Climate Fund Window & Concessional Instrument'",
+      "text": "Field 'Target Climate Fund Window & Concessional Instrument' (funding_window_and_instrument) under section '3. Financial Structuring' on CIF / CTF's UNFCCC / Multilateral Climate Fund Concept Note & Funding Proposal: Selects grant, concessional loan, catalytic first-loss, or guarantee window aligned with fund mandate. Required=True. Expected evidence keywords: Grant, Concessional, Catalytic, USD. Align response with CIF / CTF's COP31 priorities (Co-host of Climate Funds Pavilion; launched $94M AMPLIFi clean electrification finance; seeded $250M CTF into Türkiye TIDIP) and instruments (Catalytic Concessional Loan, First-Loss Guarantee, Grant)."
+    },
+    {
+      "chunk_id": "inv_cif::field_guide_05_cofinancing_leverage",
+      "investor_id": "inv_cif",
+      "section": "Form Field Guide: 3. Financial Structuring",
+      "title": "CIF / CTF Guidance for 'Co-Financing Ratio & Catalytic Mobilization Plan'",
+      "text": "Field 'Co-Financing Ratio & Catalytic Mobilization Plan' (cofinancing_leverage) under section '3. Financial Structuring' on CIF / CTF's UNFCCC / Multilateral Climate Fund Concept Note & Funding Proposal: Shows how concessional climate fund capital crowds in public/private co-financing. Required=True. Expected evidence keywords: co-financing, leverage, private. Align response with CIF / CTF's COP31 priorities (Co-host of Climate Funds Pavilion; launched $94M AMPLIFi clean electrification finance; seeded $250M CTF into Türkiye TIDIP) and instruments (Catalytic Concessional Loan, First-Loss Guarantee, Grant)."
+    },
+    {
+      "chunk_id": "inv_cif::field_guide_06_paradigm_shift_potential",
+      "investor_id": "inv_cif",
+      "section": "Form Field Guide: 4. Investment Criteria",
+      "title": "CIF / CTF Guidance for 'Paradigm Shift & Systemic Scalability Potential'",
+      "text": "Field 'Paradigm Shift & Systemic Scalability Potential' (paradigm_shift_potential) under section '4. Investment Criteria' on CIF / CTF's UNFCCC / Multilateral Climate Fund Concept Note & Funding Proposal: Explains replicability, market transformation, and COP31 scaling-up pathway. Required=True. Expected evidence keywords: paradigm shift, scale, replication. Align response with CIF / CTF's COP31 priorities (Co-host of Climate Funds Pavilion; launched $94M AMPLIFi clean electrification finance; seeded $250M CTF into Türkiye TIDIP) and instruments (Catalytic Concessional Loan, First-Loss Guarantee, Grant)."
+    },
+    {
+      "chunk_id": "inv_cif::field_guide_07_climate_rationale_additionality",
+      "investor_id": "inv_cif",
+      "section": "Form Field Guide: 4. Investment Criteria",
+      "title": "CIF / CTF Guidance for 'Climate Rationale & Financial Additionality'",
+      "text": "Field 'Climate Rationale & Financial Additionality' (climate_rationale_additionality) under section '4. Investment Criteria' on CIF / CTF's UNFCCC / Multilateral Climate Fund Concept Note & Funding Proposal: Demonstrates why concessional climate finance is strictly necessary and cannot be fully met by commercial markets. Required=True. Expected evidence keywords: additionality, climate rationale, barrier. Align response with CIF / CTF's COP31 priorities (Co-host of Climate Funds Pavilion; launched $94M AMPLIFi clean electrification finance; seeded $250M CTF into Türkiye TIDIP) and instruments (Catalytic Concessional Loan, First-Loss Guarantee, Grant)."
+    },
+    {
+      "chunk_id": "inv_cif::field_guide_08_mitigation_adaptation_metrics",
+      "investor_id": "inv_cif",
+      "section": "Form Field Guide: 4. Investment Criteria",
+      "title": "CIF / CTF Guidance for 'Expected Mitigation (tCO2e) &/or Adaptation Beneficiaries'",
+      "text": "Field 'Expected Mitigation (tCO2e) &/or Adaptation Beneficiaries' (mitigation_adaptation_metrics) under section '4. Investment Criteria' on CIF / CTF's UNFCCC / Multilateral Climate Fund Concept Note & Funding Proposal: Quantified lifetime GHG savings and direct/indirect resilience beneficiaries. Required=True. Expected evidence keywords: tCO2e, beneficiaries, lifetime. Align response with CIF / CTF's COP31 priorities (Co-host of Climate Funds Pavilion; launched $94M AMPLIFi clean electrification finance; seeded $250M CTF into Türkiye TIDIP) and instruments (Catalytic Concessional Loan, First-Loss Guarantee, Grant)."
+    },
+    {
+      "chunk_id": "inv_cif::field_guide_09_gender_and_social_inclusion",
+      "investor_id": "inv_cif",
+      "section": "Form Field Guide: 5. Safeguards & Inclusion",
+      "title": "CIF / CTF Guidance for 'Gender Action Plan & Environmental/Social Safeguards'",
+      "text": "Field 'Gender Action Plan & Environmental/Social Safeguards' (gender_and_social_inclusion) under section '5. Safeguards & Inclusion' on CIF / CTF's UNFCCC / Multilateral Climate Fund Concept Note & Funding Proposal: Documents gender responsiveness, inclusive benefits, and E&S compliance. Required=True. Expected evidence keywords: gender, social, inclusive, safeguards. Align response with CIF / CTF's COP31 priorities (Co-host of Climate Funds Pavilion; launched $94M AMPLIFi clean electrification finance; seeded $250M CTF into Türkiye TIDIP) and instruments (Catalytic Concessional Loan, First-Loss Guarantee, Grant)."
+    },
+    {
+      "chunk_id": "inv_cif::field_guide_10_monitoring_and_exit_strategy",
+      "investor_id": "inv_cif",
+      "section": "Form Field Guide: 6. Governance & Sustainability",
+      "title": "CIF / CTF Guidance for 'MRV Monitoring Framework & Post-Funding Sustainability'",
+      "text": "Field 'MRV Monitoring Framework & Post-Funding Sustainability' (monitoring_and_exit_strategy) under section '6. Governance & Sustainability' on CIF / CTF's UNFCCC / Multilateral Climate Fund Concept Note & Funding Proposal: Measurement, Reporting & Verification (MRV) plan and long-term commercial/institutional exit strategy. Required=True. Expected evidence keywords: MRV, monitoring, sustainability, exit. Align response with CIF / CTF's COP31 priorities (Co-host of Climate Funds Pavilion; launched $94M AMPLIFi clean electrification finance; seeded $250M CTF into Türkiye TIDIP) and instruments (Catalytic Concessional Loan, First-Loss Guarantee, Grant)."
+    },
+    {
+      "chunk_id": "inv_cif::field_guide_11_executive_proposal_abstract",
+      "investor_id": "inv_cif",
+      "section": "Form Field Guide: 7. Executive Summary",
+      "title": "CIF / CTF Guidance for 'Funding Proposal Executive Summary'",
+      "text": "Field 'Funding Proposal Executive Summary' (executive_proposal_abstract) under section '7. Executive Summary' on CIF / CTF's UNFCCC / Multilateral Climate Fund Concept Note & Funding Proposal: Decision-ready summary mapped to the climate fund's COP31 priorities. Required=True. Expected evidence keywords: COP31, climate, impact. Align response with CIF / CTF's COP31 priorities (Co-host of Climate Funds Pavilion; launched $94M AMPLIFi clean electrification finance; seeded $250M CTF into Türkiye TIDIP) and instruments (Catalytic Concessional Loan, First-Loss Guarantee, Grant)."
+    }
+  ]
+}

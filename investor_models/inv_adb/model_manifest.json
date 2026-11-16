@@ -1,0 +1,23 @@
+{
+  "investor_id": "inv_adb",
+  "investor_name": "Asian Development Bank (ADB)",
+  "short_name": "ADB",
+  "category": "Multilateral Development Bank (MDB)",
+  "model_architecture": "HYBRID_KAG_RAG",
+  "ai_model_rationale": "Uses KAG for ADB member-country & safeguard rules and RAG for sector-specific resilience, gender inclusion, and coal-transition narratives.",
+  "form_template_type": "MDB_CONCEPT_NOTE",
+  "tenant_namespace": "tenant::inv_adb",
+  "tenant_key_fingerprint": "6b2fa0ff675545bf",
+  "created_at_utc": "2026-11-15T15:45:23.046855+00:00",
+  "source_record_sha256": "738fc29e134e61f49bcaaa9fd942deef06f54afd09e2b57bb14dbe4459998a4d",
+  "has_kag_graph": true,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 42,
+  "kag_edges_count": 42,
+  "rag_chunks_count": 17,
+  "artifact_hashes": {
+    "form_schema.json": "d03c5fc607b89dde02b8359f324d1e86678641e84cda08e96fe7aad8f0a1ca7f",
+    "knowledge_graph.json": "72d29ed46e78f9c2bb8a20543de210e3d13e3c7946fa0dcff0e8b68997c13569",
+    "rag_corpus.json": "8a4bd31ac9d06ea34a191e3705f09304e89db3791d6b6b344d1d83b311363c82"
+  }
+}

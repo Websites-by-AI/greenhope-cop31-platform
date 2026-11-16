@@ -1,0 +1,98 @@
+{
+  "investor_id": "inv_mufg",
+  "corpus_format": "cop31-rag-chunks-v1",
+  "chunk_count": 13,
+  "chunks": [
+    {
+      "chunk_id": "inv_mufg::mandate_cop31",
+      "investor_id": "inv_mufg",
+      "section": "COP31 Antalya 2026 Mandate",
+      "title": "Mitsubishi UFJ Financial Group (MUFG) (MUFG) COP31 Role & Commitments",
+      "text": "Mitsubishi UFJ Financial Group (MUFG) is a Global Commercial Bank headquartered in Japan. At UNFCCC COP31 in Antalya (November 9-20, 2026), its verified role is: Major Japanese megabank delegation at COP31 Antalya active in global renewable project finance & industrial transition. Verified COP31 2026 climate finance commitment: ¥100 trillion (~$650B+) cumulative sustainable finance target (FY2019–FY2030) spanning renewable project finance, hydrogen/ammonia & transition loans. Source verification: https://countercurrents.org/2026/11/climate-summit-to-save-the-planet-yet-polluters-crowd-the-halls-103-polluting-entities-at-cop31-2-2-trillion-in-fossil-fuel-financing/."
+    },
+    {
+      "chunk_id": "inv_mufg::instruments_tickets",
+      "investor_id": "inv_mufg",
+      "section": "Financial Products & Ticket Sizing",
+      "title": "MUFG Financing Instruments & Ticket Bounds",
+      "text": "Mitsubishi UFJ Financial Group (MUFG) provides the following climate financing instruments: Renewable Project Finance Debt, Transition Loan, Green Bond Underwriting, Export Credit Agency (ECA)-Backed Green Loan. Typical transaction ticket range is USD 20,000,000 to USD 500,000,000. Eligible applicant profiles include: Large Corporate, Project SPV, Financial Intermediary."
+    },
+    {
+      "chunk_id": "inv_mufg::sectors_geography",
+      "investor_id": "inv_mufg",
+      "section": "Eligible Sectors & Geographies",
+      "title": "MUFG Priority Climate Sectors & Regional Mandate",
+      "text": "Priority climate sectors funded by Mitsubishi UFJ Financial Group (MUFG): Renewable Energy, Industrial Decarbonization, Hydrogen & Sustainable Fuels, Electrification & Grid, Energy Storage. Target geographic focus includes: Global, Asia-Pacific, EMEA, Türkiye, Americas, Europe. Projects outside primary regions or ticket bounds may require syndicated or on-lending structures."
+    },
+    {
+      "chunk_id": "inv_mufg::compliance_esg",
+      "investor_id": "inv_mufg",
+      "section": "Compliance, ESG & Exclusion Criteria",
+      "title": "MUFG Mandatory Form & Underwriting Requirements",
+      "text": "Mandatory requirements to complete MUFG's application form: MUFG Environmental and Social Policy Framework & Equator Principles; Transition Finance eligibility (METI / ICMA Climate Transition Finance Handbook); Long-term PPA / EPC bankability & DSCR profile; External SPO or transition verification. Explicit exclusion rules: New unabated coal-fired power plants. Official application portal: https://www.mufg.jp/english/csr/sustainable_finance/index.html."
+    },
+    {
+      "chunk_id": "inv_mufg::form_standard",
+      "investor_id": "inv_mufg",
+      "section": "Application Form Governance",
+      "title": "MUFG Form Template: Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake",
+      "text": "Mitsubishi UFJ Financial Group (MUFG) uses the 'Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake' workflow governed by LMA/APLMA Green Loan Principles (GLP), Sustainability-Linked Loan Principles (SLLP) & ICMA GBP. Typical review timeline is 3–8 weeks (Sustainable Finance Structuring -> Credit Committee -> Syndication/Close). Form sections required: 1. Borrower Overview, 2. Structuring, 3. Transition Credibility, 4. Risk & Underwriting, 5. Mandate Pitch."
+    },
+    {
+      "chunk_id": "inv_mufg::field_guide_01_borrower_profile",
+      "investor_id": "inv_mufg",
+      "section": "Form Field Guide: 1. Borrower Overview",
+      "title": "MUFG Guidance for 'Corporate Borrower & Operating Jurisdiction'",
+      "text": "Field 'Corporate Borrower & Operating Jurisdiction' (borrower_profile) under section '1. Borrower Overview' on MUFG's Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake: Borrower entity, sector, and primary market. Required=True. Expected evidence keywords: Verified applicant facts. Align response with MUFG's COP31 priorities (Major Japanese megabank delegation at COP31 Antalya active in global renewable project finance & industrial transition) and instruments (Renewable Project Finance Debt, Transition Loan, Green Bond Underwriting)."
+    },
+    {
+      "chunk_id": "inv_mufg::field_guide_02_facility_structure",
+      "investor_id": "inv_mufg",
+      "section": "Form Field Guide: 2. Structuring",
+      "title": "MUFG Guidance for 'Recommended Sustainable Finance Structure (Green Loan / SLL / Green Bond / Trade Finance)'",
+      "text": "Field 'Recommended Sustainable Finance Structure (Green Loan / SLL / Green Bond / Trade Finance)' (facility_structure) under section '2. Structuring' on MUFG's Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake: Matches requested financing size and type to the bank's sustainable finance product suite. Required=True. Expected evidence keywords: Green Loan, Sustainability-Linked, Green Bond, Trade Finance. Align response with MUFG's COP31 priorities (Major Japanese megabank delegation at COP31 Antalya active in global renewable project finance & industrial transition) and instruments (Renewable Project Finance Debt, Transition Loan, Green Bond Underwriting)."
+    },
+    {
+      "chunk_id": "inv_mufg::field_guide_03_taxonomy_alignment",
+      "investor_id": "inv_mufg",
+      "section": "Form Field Guide: 2. Structuring",
+      "title": "MUFG Guidance for 'Taxonomy & Market Standards Alignment (EU Taxonomy / ICMA GBP / LMA GLP)'",
+      "text": "Field 'Taxonomy & Market Standards Alignment (EU Taxonomy / ICMA GBP / LMA GLP)' (taxonomy_alignment) under section '2. Structuring' on MUFG's Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake: Maps project use-of-proceeds to eligible green taxonomy categories. Required=True. Expected evidence keywords: Taxonomy, ICMA, LMA, Use of Proceeds. Align response with MUFG's COP31 priorities (Major Japanese megabank delegation at COP31 Antalya active in global renewable project finance & industrial transition) and instruments (Renewable Project Finance Debt, Transition Loan, Green Bond Underwriting)."
+    },
+    {
+      "chunk_id": "inv_mufg::field_guide_04_spts_and_kpis",
+      "investor_id": "inv_mufg",
+      "section": "Form Field Guide: 3. Transition Credibility",
+      "title": "MUFG Guidance for 'Proposed Sustainability Performance Targets (SPTs) & Decarbonization KPIs'",
+      "text": "Field 'Proposed Sustainability Performance Targets (SPTs) & Decarbonization KPIs' (spts_and_kpis) under section '3. Transition Credibility' on MUFG's Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake: Measurable GHG intensity or absolute tCO2e reduction KPIs tied to margin ratchet or green reporting. Required=True. Expected evidence keywords: KPI, tCO2e, SPT, decarbonization. Align response with MUFG's COP31 priorities (Major Japanese megabank delegation at COP31 Antalya active in global renewable project finance & industrial transition) and instruments (Renewable Project Finance Debt, Transition Loan, Green Bond Underwriting)."
+    },
+    {
+      "chunk_id": "inv_mufg::field_guide_05_spo_and_verification",
+      "investor_id": "inv_mufg",
+      "section": "Form Field Guide: 3. Transition Credibility",
+      "title": "MUFG Guidance for 'Second-Party Opinion (SPO) & Independent Assurance Readiness'",
+      "text": "Field 'Second-Party Opinion (SPO) & Independent Assurance Readiness' (spo_and_verification) under section '3. Transition Credibility' on MUFG's Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake: Verifies whether an external SPO (e.g., Sustainalytics, ISS, S&P Shades of Green) is already obtained or required. Required=True. Expected evidence keywords: SPO, Verification, Assurance. Align response with MUFG's COP31 priorities (Major Japanese megabank delegation at COP31 Antalya active in global renewable project finance & industrial transition) and instruments (Renewable Project Finance Debt, Transition Loan, Green Bond Underwriting)."
+    },
+    {
+      "chunk_id": "inv_mufg::field_guide_06_esg_controversy_screen",
+      "investor_id": "inv_mufg",
+      "section": "Form Field Guide: 4. Risk & Underwriting",
+      "title": "MUFG Guidance for 'Sector Exclusion & ESG Risk Screening'",
+      "text": "Field 'Sector Exclusion & ESG Risk Screening' (esg_controversy_screen) under section '4. Risk & Underwriting' on MUFG's Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake: Checks fossil fuel expansion exclusions and environmental permitting. Required=True. Expected evidence keywords: Exclusion, ESG, EIA. Align response with MUFG's COP31 priorities (Major Japanese megabank delegation at COP31 Antalya active in global renewable project finance & industrial transition) and instruments (Renewable Project Finance Debt, Transition Loan, Green Bond Underwriting)."
+    },
+    {
+      "chunk_id": "inv_mufg::field_guide_07_credit_financials",
+      "investor_id": "inv_mufg",
+      "section": "Form Field Guide: 4. Risk & Underwriting",
+      "title": "MUFG Guidance for 'Credit Profile (Revenue, EBITDA, Capex, Expected IRR)'",
+      "text": "Field 'Credit Profile (Revenue, EBITDA, Capex, Expected IRR)' (credit_financials) under section '4. Risk & Underwriting' on MUFG's Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake: Borrower financial capacity for corporate or project finance underwriting. Required=True. Expected evidence keywords: Verified applicant facts. Align response with MUFG's COP31 priorities (Major Japanese megabank delegation at COP31 Antalya active in global renewable project finance & industrial transition) and instruments (Renewable Project Finance Debt, Transition Loan, Green Bond Underwriting)."
+    },
+    {
+      "chunk_id": "inv_mufg::field_guide_08_use_of_proceeds_narrative",
+      "investor_id": "inv_mufg",
+      "section": "Form Field Guide: 5. Mandate Pitch",
+      "title": "MUFG Guidance for 'Detailed Use of Proceeds & Transition Plan Summary'",
+      "text": "Field 'Detailed Use of Proceeds & Transition Plan Summary' (use_of_proceeds_narrative) under section '5. Mandate Pitch' on MUFG's Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake: Comprehensive transition finance rationale grounded in the bank's COP31 sustainable finance strategy. Required=True. Expected evidence keywords: transition, proceeds, COP31, net zero. Align response with MUFG's COP31 priorities (Major Japanese megabank delegation at COP31 Antalya active in global renewable project finance & industrial transition) and instruments (Renewable Project Finance Debt, Transition Loan, Green Bond Underwriting)."
+    }
+  ]
+}

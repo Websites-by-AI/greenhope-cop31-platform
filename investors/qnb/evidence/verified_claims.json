@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_qnb_turkiye",
+  "knowledge_pack_slug": "qnb",
+  "claims": [
+    {
+      "claim": "QNB Türkiye secured up to $500M in sustainable financing arrangements at COP31, including a €75M Proparco solar & wind leasing agreement.",
+      "source": "Anadolu Agency / UA.NEWS / Asi Gazetesi",
+      "url": "https://www.asigazetesi.com/iklim-zirvesi-cop31-antalya-qnb-leasing-ile-proparcodan-75-milyon-avroluk-surdurulebilir-enerji-anlasmasi",
+      "date_verified": "2026-11-15",
+      "confidence": 0.98,
+      "status": "verified"
+    },
+    {
+      "claim": "QNB Bank is listed in the COP31 Business Forum Climate Finance & Investments Working Group.",
+      "source": "COP31 Business Forum Working Group Paper",
+      "url": "https://www.copbusiness.org/papers/COP31_WG_climate-finance-investments.pdf",
+      "date_verified": "2026-11-15",
+      "confidence": 0.98,
+      "status": "verified"
+    }
+  ]
+}

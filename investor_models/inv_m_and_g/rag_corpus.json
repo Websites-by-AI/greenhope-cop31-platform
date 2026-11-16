@@ -1,0 +1,105 @@
+{
+  "investor_id": "inv_m_and_g",
+  "corpus_format": "cop31-rag-chunks-v1",
+  "chunk_count": 14,
+  "chunks": [
+    {
+      "chunk_id": "inv_m_and_g::mandate_cop31",
+      "investor_id": "inv_m_and_g",
+      "section": "COP31 Antalya 2026 Mandate",
+      "title": "M&G (M&G Investments / Catalyst) (M&G) COP31 Role & Commitments",
+      "text": "M&G (M&G Investments / Catalyst) is a Institutional / Catalytic / Climate PE headquartered in United Kingdom. At UNFCCC COP31 in Antalya (November 9-20, 2026), its verified role is: COP31 Business Forum Climate Finance & Investments Working Group member mobilizing institutional & private impact capital. Verified COP31 2026 climate finance commitment: Institutional climate transition & M&G Catalyst (£5B purpose-led private capital mandate) investing in scalable climate innovation & resilience. Source verification: https://www.copbusiness.org/papers/COP31_WG_climate-finance-investments.pdf."
+    },
+    {
+      "chunk_id": "inv_m_and_g::instruments_tickets",
+      "investor_id": "inv_m_and_g",
+      "section": "Financial Products & Ticket Sizing",
+      "title": "M&G Financing Instruments & Ticket Bounds",
+      "text": "M&G (M&G Investments / Catalyst) provides the following climate financing instruments: Private Growth Equity, Impact Debt, Catalyst Climate Innovation Capital, Institutional Co-Investment. Typical transaction ticket range is USD 3,000,000 to USD 150,000,000. Eligible applicant profiles include: Climate-Tech Startup, Growth-Stage Private Enterprise, Project SPV, Fund Manager."
+    },
+    {
+      "chunk_id": "inv_m_and_g::sectors_geography",
+      "investor_id": "inv_m_and_g",
+      "section": "Eligible Sectors & Geographies",
+      "title": "M&G Priority Climate Sectors & Regional Mandate",
+      "text": "Priority climate sectors funded by M&G (M&G Investments / Catalyst): Climate-Tech Innovation, Climate Adaptation & Resilience, Circular Economy & Zero Waste, Renewable Energy, Resilient Cities & Infrastructure. Target geographic focus includes: Global, Europe, United Kingdom, Emerging Markets, Türkiye. Projects outside primary regions or ticket bounds may require syndicated or on-lending structures."
+    },
+    {
+      "chunk_id": "inv_m_and_g::compliance_esg",
+      "investor_id": "inv_m_and_g",
+      "section": "Compliance, ESG & Exclusion Criteria",
+      "title": "M&G Mandatory Form & Underwriting Requirements",
+      "text": "Mandatory requirements to complete M&G's application form: Clear commercial scalability & repeatable revenue model; Verified measurable environmental/climate impact KPIs (IMP / IRIS+); Defensible technology or data moat (e.g., AI + MRV); Strong governance & institutional reporting readiness. Explicit exclusion rules: Thermal coal; Unverified greenwashing claims. Official application portal: https://www.mandg.com/investments/institutional/en-gb/solutions/catalyst."
+    },
+    {
+      "chunk_id": "inv_m_and_g::form_standard",
+      "investor_id": "inv_m_and_g",
+      "section": "Application Form Governance",
+      "title": "M&G Form Template: Climate Private Equity / Catalytic Capital / Venture Investment Intake Form",
+      "text": "M&G (M&G Investments / Catalyst) uses the 'Climate Private Equity / Catalytic Capital / Venture Investment Intake Form' workflow governed by GFANZ Catalytic Capital Repository / Impact Management Project (IMP) / IRIS+ Climate Metrics. Typical review timeline is 4–10 weeks (Pitch Screening -> Commercial & Climate DD -> IC Approval). Form sections required: 1. Venture / Asset Overview, 2. Investment Thesis, 3. Product & Execution, 4. Impact & Risk, 5. Executive Pitch."
+    },
+    {
+      "chunk_id": "inv_m_and_g::field_guide_01_company_and_project",
+      "investor_id": "inv_m_and_g",
+      "section": "Form Field Guide: 1. Venture / Asset Overview",
+      "title": "M&G Guidance for 'Company / SPV Name, Sector & Geography'",
+      "text": "Field 'Company / SPV Name, Sector & Geography' (company_and_project) under section '1. Venture / Asset Overview' on M&G's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Applicant entity name, climate vertical, and operating market. Required=True. Expected evidence keywords: Verified applicant facts. Align response with M&G's COP31 priorities (COP31 Business Forum Climate Finance & Investments Working Group member mobilizing institutional & private impact capital) and instruments (Private Growth Equity, Impact Debt, Catalyst Climate Innovation Capital)."
+    },
+    {
+      "chunk_id": "inv_m_and_g::field_guide_02_round_and_instrument",
+      "investor_id": "inv_m_and_g",
+      "section": "Form Field Guide: 1. Venture / Asset Overview",
+      "title": "M&G Guidance for 'Target Capital Raise, Ticket Size & Preferred Capital Layer'",
+      "text": "Field 'Target Capital Raise, Ticket Size & Preferred Capital Layer' (round_and_instrument) under section '1. Venture / Asset Overview' on M&G's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Maps stage and requested amount to equity, catalytic first-loss, project-prep, or infrastructure equity. Required=True. Expected evidence keywords: Equity, Catalytic, USD, Stage. Align response with M&G's COP31 priorities (COP31 Business Forum Climate Finance & Investments Working Group member mobilizing institutional & private impact capital) and instruments (Private Growth Equity, Impact Debt, Catalyst Climate Innovation Capital)."
+    },
+    {
+      "chunk_id": "inv_m_and_g::field_guide_03_climate_thesis_fit",
+      "investor_id": "inv_m_and_g",
+      "section": "Form Field Guide: 2. Investment Thesis",
+      "title": "M&G Guidance for 'Alignment with Investor Climate Thesis & COP31 Platform'",
+      "text": "Field 'Alignment with Investor Climate Thesis & COP31 Platform' (climate_thesis_fit) under section '2. Investment Thesis' on M&G's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Aligns venture/project with investor's COP31 mandate (e.g., GFANZ Catalytic Capital, Allied Climate Partners early dev, Just Climate industrial/nature, BlackRock Transition Infra). Required=True. Expected evidence keywords: COP31, catalytic, transition, thesis. Align response with M&G's COP31 priorities (COP31 Business Forum Climate Finance & Investments Working Group member mobilizing institutional & private impact capital) and instruments (Private Growth Equity, Impact Debt, Catalyst Climate Innovation Capital)."
+    },
+    {
+      "chunk_id": "inv_m_and_g::field_guide_04_decarbonization_unit_economics",
+      "investor_id": "inv_m_and_g",
+      "section": "Form Field Guide: 2. Investment Thesis",
+      "title": "M&G Guidance for 'Avoided Emissions Potential (tCO2e/yr) & Commercial Unit Economics'",
+      "text": "Field 'Avoided Emissions Potential (tCO2e/yr) & Commercial Unit Economics' (decarbonization_unit_economics) under section '2. Investment Thesis' on M&G's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Links climate impact (tCO2e per dollar deployed) with expected IRR and revenue scalability. Required=True. Expected evidence keywords: tCO2e, IRR, scalability. Align response with M&G's COP31 priorities (COP31 Business Forum Climate Finance & Investments Working Group member mobilizing institutional & private impact capital) and instruments (Private Growth Equity, Impact Debt, Catalyst Climate Innovation Capital)."
+    },
+    {
+      "chunk_id": "inv_m_and_g::field_guide_05_technology_and_moat",
+      "investor_id": "inv_m_and_g",
+      "section": "Form Field Guide: 3. Product & Execution",
+      "title": "M&G Guidance for 'Technology Differentiation, Innovation & Market Readiness'",
+      "text": "Field 'Technology Differentiation, Innovation & Market Readiness' (technology_and_moat) under section '3. Product & Execution' on M&G's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Highlights proprietary technology, TRL maturity, and competitive advantage. Required=True. Expected evidence keywords: technology, innovation, deployment. Align response with M&G's COP31 priorities (COP31 Business Forum Climate Finance & Investments Working Group member mobilizing institutional & private impact capital) and instruments (Private Growth Equity, Impact Debt, Catalyst Climate Innovation Capital)."
+    },
+    {
+      "chunk_id": "inv_m_and_g::field_guide_06_capital_stack_and_cofinanciers",
+      "investor_id": "inv_m_and_g",
+      "section": "Form Field Guide: 3. Product & Execution",
+      "title": "M&G Guidance for 'Blended Capital Stack & Co-Investor Mobilization'",
+      "text": "Field 'Blended Capital Stack & Co-Investor Mobilization' (capital_stack_and_cofinanciers) under section '3. Product & Execution' on M&G's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Shows existing equity/co-financing commitments and how catalytic capital unlocks scale. Required=True. Expected evidence keywords: co-financing, capital stack, mobilize. Align response with M&G's COP31 priorities (COP31 Business Forum Climate Finance & Investments Working Group member mobilizing institutional & private impact capital) and instruments (Private Growth Equity, Impact Debt, Catalyst Climate Innovation Capital)."
+    },
+    {
+      "chunk_id": "inv_m_and_g::field_guide_07_esg_impact_governance",
+      "investor_id": "inv_m_and_g",
+      "section": "Form Field Guide: 4. Impact & Risk",
+      "title": "M&G Guidance for 'ESG Governance, Social Co-Benefits & Exclusion Compliance'",
+      "text": "Field 'ESG Governance, Social Co-Benefits & Exclusion Compliance' (esg_impact_governance) under section '4. Impact & Risk' on M&G's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Screens fossil-fuel exclusions, permitting status, and social/gender co-benefits. Required=True. Expected evidence keywords: ESG, Exclusion, Impact. Align response with M&G's COP31 priorities (COP31 Business Forum Climate Finance & Investments Working Group member mobilizing institutional & private impact capital) and instruments (Private Growth Equity, Impact Debt, Catalyst Climate Innovation Capital)."
+    },
+    {
+      "chunk_id": "inv_m_and_g::field_guide_08_risks_and_mitigants",
+      "investor_id": "inv_m_and_g",
+      "section": "Form Field Guide: 4. Impact & Risk",
+      "title": "M&G Guidance for 'Key Scale-Up Risks & Mitigation Strategy'",
+      "text": "Field 'Key Scale-Up Risks & Mitigation Strategy' (risks_and_mitigants) under section '4. Impact & Risk' on M&G's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Commercial, technology, and emerging-market execution risks with mitigants. Required=True. Expected evidence keywords: risk, mitigant, execution. Align response with M&G's COP31 priorities (COP31 Business Forum Climate Finance & Investments Working Group member mobilizing institutional & private impact capital) and instruments (Private Growth Equity, Impact Debt, Catalyst Climate Innovation Capital)."
+    },
+    {
+      "chunk_id": "inv_m_and_g::field_guide_09_ic_teaser_summary",
+      "investor_id": "inv_m_and_g",
+      "section": "Form Field Guide: 5. Executive Pitch",
+      "title": "M&G Guidance for 'Investment Committee 1-Paragraph Executive Pitch'",
+      "text": "Field 'Investment Committee 1-Paragraph Executive Pitch' (ic_teaser_summary) under section '5. Executive Pitch' on M&G's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Investor-ready pitch paragraph synthesizing commercial upside and climate impact. Required=True. Expected evidence keywords: investment, climate, impact. Align response with M&G's COP31 priorities (COP31 Business Forum Climate Finance & Investments Working Group member mobilizing institutional & private impact capital) and instruments (Private Growth Equity, Impact Debt, Catalyst Climate Innovation Capital)."
+    }
+  ]
+}

@@ -1,0 +1,543 @@
+{
+  "investor_id": "inv_kfw",
+  "graph_format": "networkx-node-link-v1",
+  "node_count": 43,
+  "edge_count": 44,
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "node_type": "Investor",
+        "investor_id": "inv_kfw",
+        "name": "KfW Development Bank (Germany)",
+        "short_name": "KfW",
+        "category": "Bilateral DFI",
+        "hq_country": "Germany",
+        "ticket_min_usd": 5000000,
+        "ticket_max_usd": 350000000,
+        "portal_url": "https://www.kfw-entwicklungsbank.de/",
+        "id": "inv_kfw"
+      },
+      {
+        "node_type": "COP31_Commitment",
+        "investor_id": "inv_kfw",
+        "role": "Executive Board delegation at COP31; signed €250M green transition loan with Turk Eximbank; climate mobility & energy panels",
+        "commitment": "€250M COP31 loan with Turk Eximbank + €415B cumulative climate & environmental commitments since 2017",
+        "verification_source": "https://www.kfw.de/About-KfW/Newsroom/Latest-News/S12-Themenseite-3.html",
+        "verification_date": "2026-11-15",
+        "id": "cop31::inv_kfw"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_kfw",
+        "label": "Promotional Loan",
+        "id": "instrument::promotional_loan"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_kfw",
+        "label": "Concessional Development Loan",
+        "id": "instrument::concessional_development_loan"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_kfw",
+        "label": "Grant (IKI / BMZ)",
+        "id": "instrument::grant__iki___bmz"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_kfw",
+        "label": "Green Credit Line",
+        "id": "instrument::green_credit_line"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_kfw",
+        "label": "Climate Venture Capital",
+        "id": "instrument::climate_venture_capital"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_kfw",
+        "label": "Renewable Energy",
+        "id": "sector::renewable_energy"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_kfw",
+        "label": "Urban Mobility & Transport",
+        "id": "sector::urban_mobility___transport"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_kfw",
+        "label": "Energy Efficiency & Green Buildings",
+        "id": "sector::energy_efficiency___green_buildings"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_kfw",
+        "label": "Biodiversity & Nature",
+        "id": "sector::biodiversity___nature"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_kfw",
+        "label": "Industrial Decarbonization",
+        "id": "sector::industrial_decarbonization"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_kfw",
+        "label": "Climate Adaptation & Resilience",
+        "id": "sector::climate_adaptation___resilience"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_kfw",
+        "label": "Global",
+        "id": "region::global"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_kfw",
+        "label": "Germany",
+        "id": "region::germany"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_kfw",
+        "label": "Europe",
+        "id": "region::europe"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_kfw",
+        "label": "Türkiye",
+        "id": "region::türkiye"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_kfw",
+        "label": "Emerging Markets",
+        "id": "region::emerging_markets"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_kfw",
+        "label": "Developing Countries",
+        "id": "region::developing_countries"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_kfw",
+        "label": "Africa",
+        "id": "region::africa"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_kfw",
+        "label": "Asia",
+        "id": "region::asia"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_kfw",
+        "label": "Sovereign/Government",
+        "id": "applicant::sovereign_government"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_kfw",
+        "label": "Financial Intermediary",
+        "id": "applicant::financial_intermediary"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_kfw",
+        "label": "Municipality",
+        "id": "applicant::municipality"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_kfw",
+        "label": "Large Corporate",
+        "id": "applicant::large_corporate"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_kfw",
+        "label": "Project SPV",
+        "id": "applicant::project_spv"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_kfw",
+        "label": "KfW Sustainability Guideline & Environmental/Social Impact Assessment",
+        "id": "rule::kfw_sustainability_guideline___environmental_soc"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_kfw",
+        "label": "Paris Agreement compatibility & GHG accounting",
+        "id": "rule::paris_agreement_compatibility___ghg_accounting"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_kfw",
+        "label": "Partner-country government or bank intermediary mandate",
+        "id": "rule::partner_country_government_or_bank_intermediary_"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_kfw",
+        "label": "IFC Performance Standards / EU environmental benchmark",
+        "id": "rule::ifc_performance_standards___eu_environmental_ben"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_kfw",
+        "label": "Coal power/mining",
+        "id": "exclusion::coal_power_mining"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_kfw",
+        "label": "Unabated fossil fuel expansion",
+        "id": "exclusion::unabated_fossil_fuel_expansion"
+      },
+      {
+        "node_type": "FormTemplate",
+        "investor_id": "inv_kfw",
+        "title": "Development Finance Institution (DFI) / National Dev Bank Project Intake Form",
+        "governing_standard": "IFC Performance Standards / Harmonized DFI Climate Reporting (10by30 / IDFC)",
+        "id": "form::DFI_PROJECT_INTAKE"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_kfw",
+        "field_id": "sponsor_and_project",
+        "label": "Project Sponsor, Jurisdiction & Project Name",
+        "section": "1. Sponsor Profile",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::sponsor_and_project"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_kfw",
+        "field_id": "dfi_facility_alignment",
+        "label": "Target DFI Climate Facility / COP31 Program Alignment",
+        "section": "1. Sponsor Profile",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::dfi_facility_alignment"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_kfw",
+        "field_id": "financing_request",
+        "label": "Requested Instrument, Ticket Size (USD) & Tenor",
+        "section": "2. Transaction Structure",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::financing_request"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_kfw",
+        "field_id": "geography_and_sector_fit",
+        "label": "Mandate Fit: Target Geography & Priority Climate Sector",
+        "section": "2. Transaction Structure",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::geography_and_sector_fit"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_kfw",
+        "field_id": "avoided_emissions_and_dev_impact",
+        "label": "Avoided Emissions (tCO2e/yr) & Development Impact",
+        "section": "3. Climate & Impact",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::avoided_emissions_and_dev_impact"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_kfw",
+        "field_id": "ifc_ps_esg_compliance",
+        "label": "IFC Performance Standards / E&S Screening & Exclusion List Check",
+        "section": "3. Climate & Impact",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_kfw",
+        "field_id": "financial_profile",
+        "label": "Sponsor Financials & Project Economics (Revenue, EBITDA, Capex, IRR)",
+        "section": "4. Financial Due Diligence",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::financial_profile"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_kfw",
+        "field_id": "blended_finance_and_ta",
+        "label": "Blended Finance, De-Risking Guarantees & Technical Assistance Needs",
+        "section": "4. Financial Due Diligence",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::blended_finance_and_ta"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_kfw",
+        "field_id": "risks_and_mitigants",
+        "label": "Principal Transaction Risks & Mitigants",
+        "section": "5. Risk Assessment",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::risks_and_mitigants"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_kfw",
+        "field_id": "executive_intake_pitch",
+        "label": "DFI Investment Committee Intake Summary",
+        "section": "6. Executive Summary",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::executive_intake_pitch"
+      }
+    ],
+    "links": [
+      {
+        "relation": "ANNOUNCES_AT_COP31",
+        "source": "inv_kfw",
+        "target": "cop31::inv_kfw"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_kfw",
+        "target": "instrument::promotional_loan"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_kfw",
+        "target": "instrument::concessional_development_loan"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_kfw",
+        "target": "instrument::grant__iki___bmz"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_kfw",
+        "target": "instrument::green_credit_line"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_kfw",
+        "target": "instrument::climate_venture_capital"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_kfw",
+        "target": "sector::renewable_energy"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_kfw",
+        "target": "sector::urban_mobility___transport"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_kfw",
+        "target": "sector::energy_efficiency___green_buildings"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_kfw",
+        "target": "sector::biodiversity___nature"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_kfw",
+        "target": "sector::industrial_decarbonization"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_kfw",
+        "target": "sector::climate_adaptation___resilience"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_kfw",
+        "target": "region::global"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_kfw",
+        "target": "region::germany"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_kfw",
+        "target": "region::europe"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_kfw",
+        "target": "region::türkiye"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_kfw",
+        "target": "region::emerging_markets"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_kfw",
+        "target": "region::developing_countries"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_kfw",
+        "target": "region::africa"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_kfw",
+        "target": "region::asia"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_kfw",
+        "target": "applicant::sovereign_government"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_kfw",
+        "target": "applicant::financial_intermediary"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_kfw",
+        "target": "applicant::municipality"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_kfw",
+        "target": "applicant::large_corporate"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_kfw",
+        "target": "applicant::project_spv"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_kfw",
+        "target": "rule::kfw_sustainability_guideline___environmental_soc"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_kfw",
+        "target": "rule::paris_agreement_compatibility___ghg_accounting"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_kfw",
+        "target": "rule::partner_country_government_or_bank_intermediary_"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_kfw",
+        "target": "rule::ifc_performance_standards___eu_environmental_ben"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_kfw",
+        "target": "exclusion::coal_power_mining"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_kfw",
+        "target": "exclusion::unabated_fossil_fuel_expansion"
+      },
+      {
+        "relation": "USES_FORM_TEMPLATE",
+        "source": "inv_kfw",
+        "target": "form::DFI_PROJECT_INTAKE"
+      },
+      {
+        "relation": "VALIDATES_FIELD",
+        "source": "rule::paris_agreement_compatibility___ghg_accounting",
+        "target": "field::avoided_emissions_and_dev_impact"
+      },
+      {
+        "relation": "VALIDATES_FIELD",
+        "source": "rule::ifc_performance_standards___eu_environmental_ben",
+        "target": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::sponsor_and_project"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::dfi_facility_alignment"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::financing_request"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::geography_and_sector_fit"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::avoided_emissions_and_dev_impact"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::financial_profile"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::blended_finance_and_ta"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::risks_and_mitigants"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::executive_intake_pitch"
+      }
+    ]
+  }
+}

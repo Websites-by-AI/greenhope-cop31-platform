@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_denizbank",
+  "investor_name": "DenizBank",
+  "short_name": "DenizBank",
+  "category": "Turkish Commercial Bank",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "RAG retrieves DenizBank's green SME, agri-tech, municipal, and Deniz Ventures climate-tech pathways for tailored Turkish applications.",
+  "form_template_type": "TURKISH_BANK_GREEN_LOAN",
+  "tenant_namespace": "tenant::inv_denizbank",
+  "tenant_key_fingerprint": "23c5a60446315242",
+  "created_at_utc": "2026-11-15T15:45:22.950554+00:00",
+  "source_record_sha256": "8a2821c7eda09519cb17c40f6a31c3a7c88fecd350b983da87b604148aee2d09",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 16,
+  "artifact_hashes": {
+    "form_schema.json": "1a5513b168e65ca69c58084c19adaee146cbc47728f171058b4ece965ad3403c",
+    "rag_corpus.json": "6373db5bbc7e8e50a9113d0367dc1418779bd60f1fcabb6f3f9c6a0ce10cc927"
+  }
+}

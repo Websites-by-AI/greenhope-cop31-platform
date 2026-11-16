@@ -1,0 +1,23 @@
+{
+  "investor_id": "inv_ifc",
+  "investor_name": "International Finance Corporation (IFC)",
+  "short_name": "IFC",
+  "category": "Multilateral Development Bank (MDB)",
+  "model_architecture": "HYBRID_KAG_RAG",
+  "ai_model_rationale": "Combines KAG for strict IFC Performance Standards, ownership & exclusion checks with RAG for commercial additionality and TIDIP sector narratives.",
+  "form_template_type": "MDB_CONCEPT_NOTE",
+  "tenant_namespace": "tenant::inv_ifc",
+  "tenant_key_fingerprint": "daed83602ea7b426",
+  "created_at_utc": "2026-11-15T15:45:22.918333+00:00",
+  "source_record_sha256": "2e2f17dccd370990e583fc7bfca7cbdc07ed72857c85c03a9f3e27a034f9dcfc",
+  "has_kag_graph": true,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 45,
+  "kag_edges_count": 46,
+  "rag_chunks_count": 17,
+  "artifact_hashes": {
+    "form_schema.json": "00972ad6cf18429dfb8461bf3da8e768d4adb92f04fe9420241ec19f932a31b2",
+    "knowledge_graph.json": "ec6db81776b332ca3355b0ed1f31d3c583a6e5d2460a05cb6097b69885ed9a49",
+    "rag_corpus.json": "9f43716ac8ed623ffad4c39ae24d6982a2c4897e401a970a7dd76f87a8bf1433"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "investor_id": "inv_proparco_afd",
+  "investor_name": "AFD Group / Proparco (France)",
+  "short_name": "Proparco / AFD",
+  "category": "Bilateral DFI",
+  "model_architecture": "HYBRID_KAG_RAG",
+  "ai_model_rationale": "KAG checks Proparco ticket bounds, Paris alignment & IFC PS rules while RAG drafts development-impact and technical assistance sections.",
+  "form_template_type": "DFI_PROJECT_INTAKE",
+  "tenant_namespace": "tenant::inv_proparco_afd",
+  "tenant_key_fingerprint": "c15a5dba8df7e830",
+  "created_at_utc": "2026-11-15T15:45:23.022063+00:00",
+  "source_record_sha256": "0f7de241de85dbce3a63fa944480cac27dffce49c58300e0cf20424457355e40",
+  "has_kag_graph": true,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 42,
+  "kag_edges_count": 42,
+  "rag_chunks_count": 15,
+  "artifact_hashes": {
+    "form_schema.json": "6b37d18c5d77e73fddfcbe9ee7b47709792aaf80866fcef42f7a9437d361b249",
+    "knowledge_graph.json": "d4b6d1073e45ed4770462d0c654257a43d742728f185e553f366ea66e8427a6c",
+    "rag_corpus.json": "ee324d16f097fa26dd52f7ac58028dd47c3cd610c10f8fa41aa63fecd65ded6c"
+  }
+}

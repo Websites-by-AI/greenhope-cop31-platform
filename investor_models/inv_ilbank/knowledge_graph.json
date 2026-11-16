@@ -1,0 +1,412 @@
+{
+  "investor_id": "inv_ilbank",
+  "graph_format": "networkx-node-link-v1",
+  "node_count": 32,
+  "edge_count": 31,
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "node_type": "Investor",
+        "investor_id": "inv_ilbank",
+        "name": "İLBANK (İller Bankası — Türkiye Municipal Development Bank)",
+        "short_name": "İLBANK",
+        "category": "National Development Bank",
+        "hq_country": "Türkiye",
+        "ticket_min_usd": 1000000,
+        "ticket_max_usd": 150000000,
+        "portal_url": "https://www.ilbank.gov.tr/",
+        "id": "inv_ilbank"
+      },
+      {
+        "node_type": "COP31_Commitment",
+        "investor_id": "inv_ilbank",
+        "role": "Signed municipal climate finance advisory agreement with EIB & City Climate Finance Gap Fund on Nov 13 at COP31",
+        "commitment": "EIB & City Climate Finance Gap Fund advisory partnership for low-carbon, climate-resilient municipal urban infrastructure across Türkiye",
+        "verification_source": "https://news.europawire.eu/eib-and-ilbank-launch-advisory-partnership-to-advance-climate-resilient-urban-investment-in-turkiye/eu-press-release/2026/11/13/17/05/05/187788/",
+        "verification_date": "2026-11-15",
+        "id": "cop31::inv_ilbank"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_ilbank",
+        "label": "Municipal Infrastructure Loan",
+        "id": "instrument::municipal_infrastructure_loan"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_ilbank",
+        "label": "MDB On-Lending Credit",
+        "id": "instrument::mdb_on_lending_credit"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_ilbank",
+        "label": "Technical Assistance (Gap Fund)",
+        "id": "instrument::technical_assistance__gap_fund"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_ilbank",
+        "label": "Resilient Urban Grant Co-Financing",
+        "id": "instrument::resilient_urban_grant_co_financing"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_ilbank",
+        "label": "Resilient Cities & Infrastructure",
+        "id": "sector::resilient_cities___infrastructure"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_ilbank",
+        "label": "Water & Wastewater Management",
+        "id": "sector::water___wastewater_management"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_ilbank",
+        "label": "Urban Mobility & Transport",
+        "id": "sector::urban_mobility___transport"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_ilbank",
+        "label": "Renewable Energy",
+        "id": "sector::renewable_energy"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_ilbank",
+        "label": "Zero Waste & Circular Economy",
+        "id": "sector::zero_waste___circular_economy"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_ilbank",
+        "label": "Türkiye",
+        "id": "region::türkiye"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_ilbank",
+        "label": "Municipality",
+        "id": "applicant::municipality"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_ilbank",
+        "label": "Sovereign/Government",
+        "id": "applicant::sovereign_government"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_ilbank",
+        "label": "Municipal Utility",
+        "id": "applicant::municipal_utility"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_ilbank",
+        "label": "Turkish municipality or municipal utility applicant status",
+        "id": "rule::turkish_municipality_or_municipal_utility_applic"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_ilbank",
+        "label": "Municipal council borrowing resolution & Treasury debt limit compliance",
+        "id": "rule::municipal_council_borrowing_resolution___treasur"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_ilbank",
+        "label": "EIB / City Climate Finance Gap Fund climate resilience appraisal",
+        "id": "rule::eib___city_climate_finance_gap_fund_climate_resi"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_ilbank",
+        "label": "Environmental Impact Assessment (ÇED) & feasibility study",
+        "id": "rule::environmental_impact_assessment__çed____feasibil"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_ilbank",
+        "label": "Private non-municipal commercial projects",
+        "id": "exclusion::private_non_municipal_commercial_projects"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_ilbank",
+        "label": "Fossil-fuel infrastructure",
+        "id": "exclusion::fossil_fuel_infrastructure"
+      },
+      {
+        "node_type": "FormTemplate",
+        "investor_id": "inv_ilbank",
+        "title": "Development Finance Institution (DFI) / National Dev Bank Project Intake Form",
+        "governing_standard": "IFC Performance Standards / Harmonized DFI Climate Reporting (10by30 / IDFC)",
+        "id": "form::DFI_PROJECT_INTAKE"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_ilbank",
+        "field_id": "sponsor_and_project",
+        "label": "Project Sponsor, Jurisdiction & Project Name",
+        "section": "1. Sponsor Profile",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::sponsor_and_project"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_ilbank",
+        "field_id": "dfi_facility_alignment",
+        "label": "Target DFI Climate Facility / COP31 Program Alignment",
+        "section": "1. Sponsor Profile",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::dfi_facility_alignment"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_ilbank",
+        "field_id": "financing_request",
+        "label": "Requested Instrument, Ticket Size (USD) & Tenor",
+        "section": "2. Transaction Structure",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::financing_request"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_ilbank",
+        "field_id": "geography_and_sector_fit",
+        "label": "Mandate Fit: Target Geography & Priority Climate Sector",
+        "section": "2. Transaction Structure",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::geography_and_sector_fit"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_ilbank",
+        "field_id": "avoided_emissions_and_dev_impact",
+        "label": "Avoided Emissions (tCO2e/yr) & Development Impact",
+        "section": "3. Climate & Impact",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::avoided_emissions_and_dev_impact"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_ilbank",
+        "field_id": "ifc_ps_esg_compliance",
+        "label": "IFC Performance Standards / E&S Screening & Exclusion List Check",
+        "section": "3. Climate & Impact",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_ilbank",
+        "field_id": "financial_profile",
+        "label": "Sponsor Financials & Project Economics (Revenue, EBITDA, Capex, IRR)",
+        "section": "4. Financial Due Diligence",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::financial_profile"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_ilbank",
+        "field_id": "blended_finance_and_ta",
+        "label": "Blended Finance, De-Risking Guarantees & Technical Assistance Needs",
+        "section": "4. Financial Due Diligence",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::blended_finance_and_ta"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_ilbank",
+        "field_id": "risks_and_mitigants",
+        "label": "Principal Transaction Risks & Mitigants",
+        "section": "5. Risk Assessment",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::risks_and_mitigants"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_ilbank",
+        "field_id": "executive_intake_pitch",
+        "label": "DFI Investment Committee Intake Summary",
+        "section": "6. Executive Summary",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::executive_intake_pitch"
+      }
+    ],
+    "links": [
+      {
+        "relation": "ANNOUNCES_AT_COP31",
+        "source": "inv_ilbank",
+        "target": "cop31::inv_ilbank"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_ilbank",
+        "target": "instrument::municipal_infrastructure_loan"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_ilbank",
+        "target": "instrument::mdb_on_lending_credit"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_ilbank",
+        "target": "instrument::technical_assistance__gap_fund"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_ilbank",
+        "target": "instrument::resilient_urban_grant_co_financing"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_ilbank",
+        "target": "sector::resilient_cities___infrastructure"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_ilbank",
+        "target": "sector::water___wastewater_management"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_ilbank",
+        "target": "sector::urban_mobility___transport"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_ilbank",
+        "target": "sector::renewable_energy"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_ilbank",
+        "target": "sector::zero_waste___circular_economy"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_ilbank",
+        "target": "region::türkiye"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_ilbank",
+        "target": "applicant::municipality"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_ilbank",
+        "target": "applicant::sovereign_government"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_ilbank",
+        "target": "applicant::municipal_utility"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_ilbank",
+        "target": "rule::turkish_municipality_or_municipal_utility_applic"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_ilbank",
+        "target": "rule::municipal_council_borrowing_resolution___treasur"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_ilbank",
+        "target": "rule::eib___city_climate_finance_gap_fund_climate_resi"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_ilbank",
+        "target": "rule::environmental_impact_assessment__çed____feasibil"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_ilbank",
+        "target": "exclusion::private_non_municipal_commercial_projects"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_ilbank",
+        "target": "exclusion::fossil_fuel_infrastructure"
+      },
+      {
+        "relation": "USES_FORM_TEMPLATE",
+        "source": "inv_ilbank",
+        "target": "form::DFI_PROJECT_INTAKE"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::sponsor_and_project"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::dfi_facility_alignment"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::financing_request"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::geography_and_sector_fit"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::avoided_emissions_and_dev_impact"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::financial_profile"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::blended_finance_and_ta"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::risks_and_mitigants"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::executive_intake_pitch"
+      }
+    ]
+  }
+}

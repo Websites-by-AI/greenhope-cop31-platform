@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_ge_vernova",
+  "investor_name": "GE Vernova",
+  "short_name": "GE Vernova",
+  "category": "Strategic Corporate / COP31 Supporter",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "RAG drafts grid/electrification technical collaboration briefs while enforcing Supporter-vs-Investor governance.",
+  "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+  "tenant_namespace": "tenant::inv_ge_vernova",
+  "tenant_key_fingerprint": "0c0f9a7295d27a14",
+  "created_at_utc": "2026-11-15T15:45:23.243768+00:00",
+  "source_record_sha256": "dfd0eec45193f15102a6495ab621e59768054959dd6bb4f415846ffad69892a2",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 14,
+  "artifact_hashes": {
+    "form_schema.json": "243350e1edb900af52500b30e87193359c4b9afb244fc22d5004bd54868710f1",
+    "rag_corpus.json": "c4717e5c44427a261a047f1e62fc85c74bac96d65a27c3ff69428a08791ba41e"
+  }
+}

@@ -1,0 +1,483 @@
+{
+  "investor_id": "inv_bii_uk",
+  "graph_format": "networkx-node-link-v1",
+  "node_count": 38,
+  "edge_count": 38,
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "node_type": "Investor",
+        "investor_id": "inv_bii_uk",
+        "name": "British International Investment (BII — UK)",
+        "short_name": "BII",
+        "category": "Bilateral DFI",
+        "hq_country": "United Kingdom",
+        "ticket_min_usd": 10000000,
+        "ticket_max_usd": 250000000,
+        "portal_url": "https://www.bii.co.uk/en/work-with-us/",
+        "id": "inv_bii_uk"
+      },
+      {
+        "node_type": "COP31_Commitment",
+        "investor_id": "inv_bii_uk",
+        "role": "Co-launched '10by30' ($10B emerging markets climate finance coalition) at COP31 on Nov 13 with Norfund & FinDev Canada",
+        "commitment": "Co-delivering $10B (€10B) '10by30' emerging markets climate finance by 2030 via British Climate Partners (shared pipeline & DD)",
+        "verification_source": "https://hapakenya.com/2026/11/13/uk-norway-canada-launch-10b-climate-finance-partnership-at-cop31/",
+        "verification_date": "2026-11-15",
+        "id": "cop31::inv_bii_uk"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_bii_uk",
+        "label": "Direct Equity",
+        "id": "instrument::direct_equity"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_bii_uk",
+        "label": "Senior/Mezzanine Debt",
+        "id": "instrument::senior_mezzanine_debt"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_bii_uk",
+        "label": "Intermediated Fund Investment",
+        "id": "instrument::intermediated_fund_investment"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_bii_uk",
+        "label": "Blended Concessional Finance",
+        "id": "instrument::blended_concessional_finance"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_bii_uk",
+        "label": "Technical Assistance",
+        "id": "instrument::technical_assistance"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_bii_uk",
+        "label": "Renewable Energy",
+        "id": "sector::renewable_energy"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_bii_uk",
+        "label": "Electrification & Grid",
+        "id": "sector::electrification___grid"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_bii_uk",
+        "label": "Energy Storage",
+        "id": "sector::energy_storage"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_bii_uk",
+        "label": "Sustainable Fuels",
+        "id": "sector::sustainable_fuels"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_bii_uk",
+        "label": "Industrial Decarbonization",
+        "id": "sector::industrial_decarbonization"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_bii_uk",
+        "label": "Climate Adaptation & Resilience",
+        "id": "sector::climate_adaptation___resilience"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_bii_uk",
+        "label": "Africa",
+        "id": "region::africa"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_bii_uk",
+        "label": "South Asia",
+        "id": "region::south_asia"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_bii_uk",
+        "label": "Asia-Pacific",
+        "id": "region::asia_pacific"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_bii_uk",
+        "label": "Caribbean",
+        "id": "region::caribbean"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_bii_uk",
+        "label": "Project SPV",
+        "id": "applicant::project_spv"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_bii_uk",
+        "label": "Large Corporate",
+        "id": "applicant::large_corporate"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_bii_uk",
+        "label": "Financial Intermediary",
+        "id": "applicant::financial_intermediary"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_bii_uk",
+        "label": "Growth-Stage Private Enterprise",
+        "id": "applicant::growth_stage_private_enterprise"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_bii_uk",
+        "label": "Climate-Tech Startup",
+        "id": "applicant::climate_tech_startup"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_bii_uk",
+        "label": "10by30 harmonized DFI climate reporting & avoided emissions methodology",
+        "id": "rule::10by30_harmonized_dfi_climate_reporting___avoide"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_bii_uk",
+        "label": "BII Policy on Responsible Investing (IFC Performance Standards)",
+        "id": "rule::bii_policy_on_responsible_investing__ifc_perform"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_bii_uk",
+        "label": "UK FCDO priority emerging market eligibility (Africa, Asia, Caribbean)",
+        "id": "rule::uk_fcdo_priority_emerging_market_eligibility__af"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_bii_uk",
+        "label": "Private capital mobilization & commercial viability",
+        "id": "rule::private_capital_mobilization___commercial_viabil"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_bii_uk",
+        "label": "Coal, oil, unabated fossil-fuel generation",
+        "id": "exclusion::coal__oil__unabated_fossil_fuel_generation"
+      },
+      {
+        "node_type": "FormTemplate",
+        "investor_id": "inv_bii_uk",
+        "title": "Development Finance Institution (DFI) / National Dev Bank Project Intake Form",
+        "governing_standard": "IFC Performance Standards / Harmonized DFI Climate Reporting (10by30 / IDFC)",
+        "id": "form::DFI_PROJECT_INTAKE"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_bii_uk",
+        "field_id": "sponsor_and_project",
+        "label": "Project Sponsor, Jurisdiction & Project Name",
+        "section": "1. Sponsor Profile",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::sponsor_and_project"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_bii_uk",
+        "field_id": "dfi_facility_alignment",
+        "label": "Target DFI Climate Facility / COP31 Program Alignment",
+        "section": "1. Sponsor Profile",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::dfi_facility_alignment"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_bii_uk",
+        "field_id": "financing_request",
+        "label": "Requested Instrument, Ticket Size (USD) & Tenor",
+        "section": "2. Transaction Structure",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::financing_request"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_bii_uk",
+        "field_id": "geography_and_sector_fit",
+        "label": "Mandate Fit: Target Geography & Priority Climate Sector",
+        "section": "2. Transaction Structure",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::geography_and_sector_fit"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_bii_uk",
+        "field_id": "avoided_emissions_and_dev_impact",
+        "label": "Avoided Emissions (tCO2e/yr) & Development Impact",
+        "section": "3. Climate & Impact",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::avoided_emissions_and_dev_impact"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_bii_uk",
+        "field_id": "ifc_ps_esg_compliance",
+        "label": "IFC Performance Standards / E&S Screening & Exclusion List Check",
+        "section": "3. Climate & Impact",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_bii_uk",
+        "field_id": "financial_profile",
+        "label": "Sponsor Financials & Project Economics (Revenue, EBITDA, Capex, IRR)",
+        "section": "4. Financial Due Diligence",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::financial_profile"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_bii_uk",
+        "field_id": "blended_finance_and_ta",
+        "label": "Blended Finance, De-Risking Guarantees & Technical Assistance Needs",
+        "section": "4. Financial Due Diligence",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::blended_finance_and_ta"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_bii_uk",
+        "field_id": "risks_and_mitigants",
+        "label": "Principal Transaction Risks & Mitigants",
+        "section": "5. Risk Assessment",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::risks_and_mitigants"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_bii_uk",
+        "field_id": "executive_intake_pitch",
+        "label": "DFI Investment Committee Intake Summary",
+        "section": "6. Executive Summary",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::executive_intake_pitch"
+      }
+    ],
+    "links": [
+      {
+        "relation": "ANNOUNCES_AT_COP31",
+        "source": "inv_bii_uk",
+        "target": "cop31::inv_bii_uk"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_bii_uk",
+        "target": "instrument::direct_equity"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_bii_uk",
+        "target": "instrument::senior_mezzanine_debt"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_bii_uk",
+        "target": "instrument::intermediated_fund_investment"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_bii_uk",
+        "target": "instrument::blended_concessional_finance"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_bii_uk",
+        "target": "instrument::technical_assistance"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_bii_uk",
+        "target": "sector::renewable_energy"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_bii_uk",
+        "target": "sector::electrification___grid"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_bii_uk",
+        "target": "sector::energy_storage"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_bii_uk",
+        "target": "sector::sustainable_fuels"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_bii_uk",
+        "target": "sector::industrial_decarbonization"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_bii_uk",
+        "target": "sector::climate_adaptation___resilience"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_bii_uk",
+        "target": "region::africa"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_bii_uk",
+        "target": "region::south_asia"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_bii_uk",
+        "target": "region::asia_pacific"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_bii_uk",
+        "target": "region::caribbean"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_bii_uk",
+        "target": "applicant::project_spv"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_bii_uk",
+        "target": "applicant::large_corporate"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_bii_uk",
+        "target": "applicant::financial_intermediary"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_bii_uk",
+        "target": "applicant::growth_stage_private_enterprise"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_bii_uk",
+        "target": "applicant::climate_tech_startup"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_bii_uk",
+        "target": "rule::10by30_harmonized_dfi_climate_reporting___avoide"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_bii_uk",
+        "target": "rule::bii_policy_on_responsible_investing__ifc_perform"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_bii_uk",
+        "target": "rule::uk_fcdo_priority_emerging_market_eligibility__af"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_bii_uk",
+        "target": "rule::private_capital_mobilization___commercial_viabil"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_bii_uk",
+        "target": "exclusion::coal__oil__unabated_fossil_fuel_generation"
+      },
+      {
+        "relation": "USES_FORM_TEMPLATE",
+        "source": "inv_bii_uk",
+        "target": "form::DFI_PROJECT_INTAKE"
+      },
+      {
+        "relation": "VALIDATES_FIELD",
+        "source": "rule::bii_policy_on_responsible_investing__ifc_perform",
+        "target": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::sponsor_and_project"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::dfi_facility_alignment"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::financing_request"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::geography_and_sector_fit"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::avoided_emissions_and_dev_impact"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::financial_profile"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::blended_finance_and_ta"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::risks_and_mitigants"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::executive_intake_pitch"
+      }
+    ]
+  }
+}

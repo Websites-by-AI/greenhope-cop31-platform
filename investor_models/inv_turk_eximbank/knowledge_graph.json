@@ -1,0 +1,423 @@
+{
+  "investor_id": "inv_turk_eximbank",
+  "graph_format": "networkx-node-link-v1",
+  "node_count": 33,
+  "edge_count": 32,
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "node_type": "Investor",
+        "investor_id": "inv_turk_eximbank",
+        "name": "Turk Eximbank",
+        "short_name": "Turk Eximbank",
+        "category": "National Development Bank",
+        "hq_country": "Türkiye",
+        "ticket_min_usd": 500000,
+        "ticket_max_usd": 75000000,
+        "portal_url": "https://www.eximbank.gov.tr/en",
+        "id": "inv_turk_eximbank"
+      },
+      {
+        "node_type": "COP31_Commitment",
+        "investor_id": "inv_turk_eximbank",
+        "role": "Signed 4 international green financing agreements >$800M at COP31 Antalya (IBRD, KfW, AIIB)",
+        "commitment": ">$800M secured at COP31 (€209.2M IBRD, €250M KfW, $200M + $100M AIIB) dedicated to Turkish exporters' green transition & shock resilience",
+        "verification_source": "https://ua.news/en/dovkolo-svitu/turk-eximbank-zaluchiv-ponad-800-mln-na-cop31-u-turechchini-anadolu-agency",
+        "verification_date": "2026-11-15",
+        "id": "cop31::inv_turk_eximbank"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_turk_eximbank",
+        "label": "Green Export Investment Loan",
+        "id": "instrument::green_export_investment_loan"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_turk_eximbank",
+        "label": "Export Working Capital Credit",
+        "id": "instrument::export_working_capital_credit"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_turk_eximbank",
+        "label": "Export Credit Insurance",
+        "id": "instrument::export_credit_insurance"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_turk_eximbank",
+        "label": "MDB/DFI On-Lending Line",
+        "id": "instrument::mdb_dfi_on_lending_line"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_turk_eximbank",
+        "label": "Industrial Decarbonization",
+        "id": "sector::industrial_decarbonization"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_turk_eximbank",
+        "label": "Renewable Energy",
+        "id": "sector::renewable_energy"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_turk_eximbank",
+        "label": "Energy Efficiency",
+        "id": "sector::energy_efficiency"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_turk_eximbank",
+        "label": "SME Green Transition",
+        "id": "sector::sme_green_transition"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_turk_eximbank",
+        "label": "EU CBAM Export Compliance",
+        "id": "sector::eu_cbam_export_compliance"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_turk_eximbank",
+        "label": "Türkiye",
+        "id": "region::türkiye"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_turk_eximbank",
+        "label": "Global Exports",
+        "id": "region::global_exports"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_turk_eximbank",
+        "label": "Large Corporate",
+        "id": "applicant::large_corporate"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_turk_eximbank",
+        "label": "SME",
+        "id": "applicant::sme"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_turk_eximbank",
+        "label": "Mid-Cap Enterprise",
+        "id": "applicant::mid_cap_enterprise"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_turk_eximbank",
+        "label": "Verified Turkish exporter status & export commitment",
+        "id": "rule::verified_turkish_exporter_status___export_commit"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_turk_eximbank",
+        "label": "Eligible green transition / CBAM decarbonization investment scope",
+        "id": "rule::eligible_green_transition___cbam_decarbonization"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_turk_eximbank",
+        "label": "IBRD / KfW / AIIB on-lending Environmental & Social screening",
+        "id": "rule::ibrd___kfw___aiib_on_lending_environmental___soc"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_turk_eximbank",
+        "label": "Bank letter of guarantee or eligible collateral",
+        "id": "rule::bank_letter_of_guarantee_or_eligible_collateral"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_turk_eximbank",
+        "label": "Non-exporting domestic entities",
+        "id": "exclusion::non_exporting_domestic_entities"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_turk_eximbank",
+        "label": "Coal/fossil-fuel expansion",
+        "id": "exclusion::coal_fossil_fuel_expansion"
+      },
+      {
+        "node_type": "FormTemplate",
+        "investor_id": "inv_turk_eximbank",
+        "title": "Development Finance Institution (DFI) / National Dev Bank Project Intake Form",
+        "governing_standard": "IFC Performance Standards / Harmonized DFI Climate Reporting (10by30 / IDFC)",
+        "id": "form::DFI_PROJECT_INTAKE"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_turk_eximbank",
+        "field_id": "sponsor_and_project",
+        "label": "Project Sponsor, Jurisdiction & Project Name",
+        "section": "1. Sponsor Profile",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::sponsor_and_project"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_turk_eximbank",
+        "field_id": "dfi_facility_alignment",
+        "label": "Target DFI Climate Facility / COP31 Program Alignment",
+        "section": "1. Sponsor Profile",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::dfi_facility_alignment"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_turk_eximbank",
+        "field_id": "financing_request",
+        "label": "Requested Instrument, Ticket Size (USD) & Tenor",
+        "section": "2. Transaction Structure",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::financing_request"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_turk_eximbank",
+        "field_id": "geography_and_sector_fit",
+        "label": "Mandate Fit: Target Geography & Priority Climate Sector",
+        "section": "2. Transaction Structure",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::geography_and_sector_fit"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_turk_eximbank",
+        "field_id": "avoided_emissions_and_dev_impact",
+        "label": "Avoided Emissions (tCO2e/yr) & Development Impact",
+        "section": "3. Climate & Impact",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::avoided_emissions_and_dev_impact"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_turk_eximbank",
+        "field_id": "ifc_ps_esg_compliance",
+        "label": "IFC Performance Standards / E&S Screening & Exclusion List Check",
+        "section": "3. Climate & Impact",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_turk_eximbank",
+        "field_id": "financial_profile",
+        "label": "Sponsor Financials & Project Economics (Revenue, EBITDA, Capex, IRR)",
+        "section": "4. Financial Due Diligence",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::financial_profile"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_turk_eximbank",
+        "field_id": "blended_finance_and_ta",
+        "label": "Blended Finance, De-Risking Guarantees & Technical Assistance Needs",
+        "section": "4. Financial Due Diligence",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::blended_finance_and_ta"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_turk_eximbank",
+        "field_id": "risks_and_mitigants",
+        "label": "Principal Transaction Risks & Mitigants",
+        "section": "5. Risk Assessment",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::risks_and_mitigants"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_turk_eximbank",
+        "field_id": "executive_intake_pitch",
+        "label": "DFI Investment Committee Intake Summary",
+        "section": "6. Executive Summary",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::executive_intake_pitch"
+      }
+    ],
+    "links": [
+      {
+        "relation": "ANNOUNCES_AT_COP31",
+        "source": "inv_turk_eximbank",
+        "target": "cop31::inv_turk_eximbank"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_turk_eximbank",
+        "target": "instrument::green_export_investment_loan"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_turk_eximbank",
+        "target": "instrument::export_working_capital_credit"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_turk_eximbank",
+        "target": "instrument::export_credit_insurance"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_turk_eximbank",
+        "target": "instrument::mdb_dfi_on_lending_line"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_turk_eximbank",
+        "target": "sector::industrial_decarbonization"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_turk_eximbank",
+        "target": "sector::renewable_energy"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_turk_eximbank",
+        "target": "sector::energy_efficiency"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_turk_eximbank",
+        "target": "sector::sme_green_transition"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_turk_eximbank",
+        "target": "sector::eu_cbam_export_compliance"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_turk_eximbank",
+        "target": "region::türkiye"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_turk_eximbank",
+        "target": "region::global_exports"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_turk_eximbank",
+        "target": "applicant::large_corporate"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_turk_eximbank",
+        "target": "applicant::sme"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_turk_eximbank",
+        "target": "applicant::mid_cap_enterprise"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_turk_eximbank",
+        "target": "rule::verified_turkish_exporter_status___export_commit"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_turk_eximbank",
+        "target": "rule::eligible_green_transition___cbam_decarbonization"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_turk_eximbank",
+        "target": "rule::ibrd___kfw___aiib_on_lending_environmental___soc"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_turk_eximbank",
+        "target": "rule::bank_letter_of_guarantee_or_eligible_collateral"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_turk_eximbank",
+        "target": "exclusion::non_exporting_domestic_entities"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_turk_eximbank",
+        "target": "exclusion::coal_fossil_fuel_expansion"
+      },
+      {
+        "relation": "USES_FORM_TEMPLATE",
+        "source": "inv_turk_eximbank",
+        "target": "form::DFI_PROJECT_INTAKE"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::sponsor_and_project"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::dfi_facility_alignment"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::financing_request"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::geography_and_sector_fit"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::avoided_emissions_and_dev_impact"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::ifc_ps_esg_compliance"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::financial_profile"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::blended_finance_and_ta"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::risks_and_mitigants"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::DFI_PROJECT_INTAKE",
+        "target": "field::executive_intake_pitch"
+      }
+    ]
+  }
+}

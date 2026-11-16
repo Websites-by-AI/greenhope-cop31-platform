@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_ziraat_bankasi",
+  "investor_name": "Ziraat Bankası",
+  "short_name": "Ziraat Bankası",
+  "category": "Turkish State Bank",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "RAG maps diverse Turkish exporter, OIZ, and agricultural SME profiles to Ziraat's specific CBAM, Green Export, and organic farming credit packages.",
+  "form_template_type": "TURKISH_BANK_GREEN_LOAN",
+  "tenant_namespace": "tenant::inv_ziraat_bankasi",
+  "tenant_key_fingerprint": "53b4cd49fde05db5",
+  "created_at_utc": "2026-11-15T15:45:22.999990+00:00",
+  "source_record_sha256": "74845fa7deec3194bd8d457582eb8045f14ab3fe9d528464763b962f620671ce",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 16,
+  "artifact_hashes": {
+    "form_schema.json": "f08ab5be74c7b9c5114861dc6558f8fe464200441f8d1d4dade9a4b34e5926a0",
+    "rag_corpus.json": "299da224703761ebb72328bf0389212bb63e76d279ddb6547d412bc288f272b7"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "investor_id": "inv_aiib",
+  "investor_name": "Asian Infrastructure Investment Bank (AIIB)",
+  "knowledge_pack_slug": "aiib",
+  "form_template_type": "MDB_CONCEPT_NOTE",
+  "questions": [
+    {
+      "field_id": "organization_name",
+      "label": "Organization name",
+      "master_key": "organization",
+      "required": true
+    },
+    {
+      "field_id": "project_description",
+      "label": "Project description",
+      "master_key": "solution",
+      "required": true
+    },
+    {
+      "field_id": "technology",
+      "label": "Technology",
+      "master_key": "technology",
+      "required": true
+    },
+    {
+      "field_id": "climate_impact",
+      "label": "Climate impact",
+      "master_key": "climate_impact",
+      "required": true
+    },
+    {
+      "field_id": "target_market",
+      "label": "Target market",
+      "master_key": "target_users",
+      "required": true
+    },
+    {
+      "field_id": "funding_required",
+      "label": "Funding required",
+      "master_key": "funding_requirement",
+      "required": true
+    },
+    {
+      "field_id": "current_stage",
+      "label": "Current stage",
+      "master_key": "current_stage",
+      "required": true
+    },
+    {
+      "field_id": "annual_revenue",
+      "label": "Annual revenue",
+      "master_key": "annual_revenue",
+      "required": true
+    },
+    {
+      "field_id": "team",
+      "label": "Team",
+      "master_key": "founder_team",
+      "required": true
+    },
+    {
+      "field_id": "implementation_location",
+      "label": "Implementation location",
+      "master_key": "geography",
+      "required": true
+    },
+    {
+      "field_id": "expected_impact",
+      "label": "Expected impact",
+      "master_key": "metrics",
+      "required": true
+    },
+    {
+      "field_id": "ip_and_proprietary_algorithms",
+      "label": "Proprietary algorithms / unpublished IP details",
+      "master_key": "ip_status",
+      "required": false
+    }
+  ]
+}

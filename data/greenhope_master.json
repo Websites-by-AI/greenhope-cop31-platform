@@ -1,0 +1,227 @@
+{
+  "schema_version": "1.0.0",
+  "project_code": "GREENHOPE_MASTER",
+  "last_updated_utc": "2026-11-15T12:00:00Z",
+  "security_policy": {
+    "LEVEL_1_PUBLIC": {
+      "label": "Level 1 — PUBLIC",
+      "auto_submit_allowed": true,
+      "ai_matching_allowed": true,
+      "description": "Safe for investor application forms: mission, public demo, high-level architecture, public environmental problem, public team."
+    },
+    "LEVEL_2_INTERNAL": {
+      "label": "Level 2 — INTERNAL",
+      "auto_submit_allowed": false,
+      "requires_human_approval": true,
+      "ai_matching_allowed": true,
+      "description": "Used for investor matching & draft proposals; requires explicit human confirmation before submission (financing scenarios, pilot budget, business model)."
+    },
+    "LEVEL_3_CONFIDENTIAL": {
+      "label": "Level 3 — CONFIDENTIAL",
+      "auto_submit_allowed": false,
+      "requires_human_approval": true,
+      "ai_matching_allowed": false,
+      "description": "Blocked from automatic form filling: unpublished technical architecture, proprietary algorithms, detailed data pipeline, unpublished research."
+    },
+    "LEVEL_4_RESTRICTED": {
+      "label": "Level 4 — RESTRICTED",
+      "auto_submit_allowed": false,
+      "requires_human_approval": false,
+      "ai_matching_allowed": false,
+      "description": "Strictly blocked from AI exposure and external forms: patentable inventions, API keys/credentials, private investor comms, personal PII, confidential contracts."
+    }
+  },
+  "canonical_fields": {
+    "organization": {
+      "section": "Organization",
+      "classification": "LEVEL_1_PUBLIC",
+      "value": "GreenHope Climate Intelligence Initiative",
+      "source": "GreenHope Canonical Profile v1",
+      "confidence": 0.99
+    },
+    "founder_team": {
+      "section": "Founder / Team",
+      "classification": "LEVEL_1_PUBLIC",
+      "value": "GreenHope Founding Team — Climate AI, Urban Environmental Analytics & Climate Finance Architecture (Antalya / Türkiye)",
+      "source": "GreenHope Public Team Bio",
+      "confidence": 0.96
+    },
+    "problem": {
+      "section": "Problem",
+      "classification": "LEVEL_1_PUBLIC",
+      "value": "Cities in Türkiye and emerging markets face compounding urban air-quality degradation, municipal waste inefficiencies, and climate shocks, yet struggle to convert environmental data into bankable, MRV-verified climate projects eligible for MDB and bank financing.",
+      "source": "GreenHope Mission Statement",
+      "confidence": 0.98
+    },
+    "solution": {
+      "section": "Solution",
+      "classification": "LEVEL_1_PUBLIC",
+      "value": "GreenHope is an AI-enabled urban climate resilience and environmental intelligence platform linking city pilots (air quality, waste optimization, urban resilience) directly to verified MRV metrics and climate finance mobilization (GreenHope -> city pilot -> measurable climate impact -> financing -> scale).",
+      "source": "GreenHope Public Architecture Summary",
+      "confidence": 0.98
+    },
+    "technology": {
+      "section": "Technology",
+      "classification": "LEVEL_1_PUBLIC",
+      "value": "Modular cloud + IoT environmental telemetry integration, geospatial urban analytics, automated MRV reporting dashboards, and KAG+RAG climate finance matching.",
+      "source": "GreenHope Public Technical Overview",
+      "confidence": 0.95
+    },
+    "ai": {
+      "section": "AI",
+      "classification": "LEVEL_1_PUBLIC",
+      "value": "Applied AI combining environmental forecasting, anomaly detection for urban air/waste systems, and Knowledge-Augmented Generation (KAG) + RAG for transparent MRV and climate finance readiness.",
+      "source": "GreenHope AI Overview (Public)",
+      "confidence": 0.95
+    },
+    "environmental_impact": {
+      "section": "Environmental impact",
+      "classification": "LEVEL_1_PUBLIC",
+      "value": "Measurable reductions in urban air-pollution exposure, landfill methane/waste leakage, and municipal energy waste via real-time operational intervention.",
+      "source": "GreenHope Impact Framework",
+      "confidence": 0.94
+    },
+    "climate_impact": {
+      "section": "Climate impact",
+      "classification": "LEVEL_1_PUBLIC",
+      "value": "Dual mitigation & adaptation impact: quantified tCO2e reductions (waste circularity & urban efficiency) alongside real-time urban heat/air-quality resilience for municipal populations.",
+      "source": "GreenHope Climate Rationale",
+      "confidence": 0.95
+    },
+    "air_quality": {
+      "section": "Air quality",
+      "classification": "LEVEL_1_PUBLIC",
+      "value": "Hyper-local urban air-quality monitoring, PM2.5/NOx hotspot detection, and predictive mitigation guidance for cities and industrial zones.",
+      "source": "GreenHope Air Quality Module",
+      "confidence": 0.96
+    },
+    "waste": {
+      "section": "Waste",
+      "classification": "LEVEL_1_PUBLIC",
+      "value": "Smart municipal waste analytics supporting COP31 Türkiye Zero Waste priorities: diversion tracking, methane reduction, and circular recovery verification.",
+      "source": "GreenHope Zero Waste Module",
+      "confidence": 0.96
+    },
+    "cities": {
+      "section": "Cities",
+      "classification": "LEVEL_1_PUBLIC",
+      "value": "Designed for rapid deployment in Mediterranean and emerging-market municipalities (initial flagship pilot focus: Antalya & Turkish metropolitan cities, scalable across EMEA/Asia/Africa).",
+      "source": "GreenHope City Pilot Strategy",
+      "confidence": 0.96
+    },
+    "target_users": {
+      "section": "Target users",
+      "classification": "LEVEL_1_PUBLIC",
+      "value": "Municipalities, metropolitan climate departments, organized industrial zones (OIZs), development banks/commercial lenders requiring verified MRV, and urban sustainability operators.",
+      "source": "GreenHope Market Profile",
+      "confidence": 0.95
+    },
+    "pilot": {
+      "section": "Pilot",
+      "classification": "LEVEL_2_INTERNAL",
+      "value": "12-month Flagship Municipal City Pilot (Antalya / Türkiye) demonstrating real-time air quality + waste MRV dashboards and generating investment-grade impact metrics for follow-on bank/MDB scale-up.",
+      "source": "GreenHope Pilot Roadmap (Internal)",
+      "confidence": 0.94
+    },
+    "geography": {
+      "section": "Geography",
+      "classification": "LEVEL_1_PUBLIC",
+      "value": "Initial pilot: Antalya, Türkiye (COP31 host city); regional expansion across Türkiye, Europe/EMEA, and emerging markets.",
+      "source": "GreenHope Geographic Scope",
+      "confidence": 0.99
+    },
+    "funding_requirement": {
+      "section": "Funding requirement",
+      "classification": "LEVEL_2_INTERNAL",
+      "value": "USD 50,000 – USD 250,000 initial city pilot & technical preparation funding (scaling to USD 1M–5M blended/project finance alongside MDB/bank municipal partners)",
+      "source": "GreenHope Financial Model (Pilot Tranche)",
+      "confidence": 0.94
+    },
+    "current_stage": {
+      "section": "Current stage",
+      "classification": "LEVEL_1_PUBLIC",
+      "value": "Pilot-Ready Prototype & COP31 Antalya Active Engagement (Startup Zone / Climate Finance Hub)",
+      "source": "GreenHope Status Log",
+      "confidence": 0.96
+    },
+    "business_model": {
+      "section": "Business model",
+      "classification": "LEVEL_2_INTERNAL",
+      "value": "B2G / B2B SaaS + MRV analytics licensing for municipalities and green-finance institutions, plus project-preparation & impact-verification fee layer for blended climate finance pipelines.",
+      "source": "GreenHope Business Model Canvas (Internal)",
+      "confidence": 0.9
+    },
+    "revenue_model": {
+      "section": "Revenue model",
+      "classification": "LEVEL_2_INTERNAL",
+      "value": "Recurring annual municipal/enterprise platform subscriptions + verified MRV reporting modules tied to green loans/bonds.",
+      "source": "GreenHope Commercial Plan (Internal)",
+      "confidence": 0.88
+    },
+    "annual_revenue": {
+      "section": "Annual revenue",
+      "classification": "LEVEL_2_INTERNAL",
+      "value": null,
+      "source": "NOT YET PROVIDED — Founder must confirm audited/current revenue",
+      "confidence": 0.0
+    },
+    "ip_status": {
+      "section": "IP status",
+      "classification": "LEVEL_3_CONFIDENTIAL",
+      "value": "[CONFIDENTIAL — BLOCKED FROM AUTO-SUBMIT] Proprietary KAG+MRV sensor-fusion algorithms, urban emissions scoring weights, and patent-pending pipeline architecture.",
+      "source": "GreenHope IP Register (Level 3)",
+      "confidence": 0.95
+    },
+    "open_source_policy": {
+      "section": "Open-source policy",
+      "classification": "LEVEL_1_PUBLIC",
+      "value": "Selective open standards for public climate transparency & MRV schemas; core predictive AI models and proprietary algorithms remain closed/protected IP.",
+      "source": "GreenHope Governance Policy",
+      "confidence": 0.94
+    },
+    "partners": {
+      "section": "Partners",
+      "classification": "LEVEL_2_INTERNAL",
+      "value": "Active COP31 Antalya engagement across Startup Zone, Climate Finance Hub, Turkish municipal sustainability stakeholders, and climate finance working groups.",
+      "source": "GreenHope COP31 Partnership Tracker",
+      "confidence": 0.91
+    },
+    "evidence": {
+      "section": "Evidence",
+      "classification": "LEVEL_1_PUBLIC",
+      "value": "Working GreenHope live prototype, verified COP31 investor intelligence database, structured MRV impact methodology, and documented Antalya urban pilot design.",
+      "source": "GreenHope Evidence Pack",
+      "confidence": 0.93
+    },
+    "metrics": {
+      "section": "Metrics",
+      "classification": "LEVEL_2_INTERNAL",
+      "value": "Target pilot KPIs: 15–25% urban waste sorting/diversion uplift, real-time air-quality coverage across pilot districts, ISO/MRV-ready quarterly tCO2e & resilience reporting.",
+      "source": "GreenHope Pilot KPI Targets",
+      "confidence": 0.89
+    },
+    "financial_model": {
+      "section": "Financial model",
+      "classification": "LEVEL_2_INTERNAL",
+      "value": "Phased capital plan: Phase 1 Pilot ($50K–$250K catalytic grant/pilot finance) -> Phase 2 Multi-City Türkiye Rollout ($1M–$3M blended DFI/bank finance) -> Phase 3 Regional Scaling.",
+      "source": "GreenHope Financial Model v1",
+      "confidence": 0.92
+    },
+    "restricted_secrets": {
+      "section": "Credentials / Patents / Private Comms",
+      "classification": "LEVEL_4_RESTRICTED",
+      "value": "[RESTRICTED — NEVER EXPOSED TO AI OR EXTERNAL FORMS] Vault master keys, API tokens, unfiled patent disclosures, personal founder IDs, private investor emails.",
+      "source": "Security Officer Vault Policy",
+      "confidence": 1.0
+    }
+  },
+  "kag_domains": [
+    "climate resilience",
+    "air quality",
+    "waste",
+    "AI",
+    "cities",
+    "climate finance",
+    "MRV"
+  ]
+}

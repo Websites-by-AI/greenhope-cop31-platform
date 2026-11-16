@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_deutsche_bank",
+  "investor_name": "Deutsche Bank",
+  "short_name": "Deutsche Bank",
+  "category": "Global Commercial Bank",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "RAG aligns EU Taxonomy, green bond, and transition structuring narratives with Deutsche Bank's Sustainable Finance Framework.",
+  "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+  "tenant_namespace": "tenant::inv_deutsche_bank",
+  "tenant_key_fingerprint": "eabac3e331f5b91d",
+  "created_at_utc": "2026-11-15T15:45:22.956788+00:00",
+  "source_record_sha256": "d0d291d4f5eb3d78f9de39309082dbe428887ff1f73f530c4c35ea2e7ed84be0",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 13,
+  "artifact_hashes": {
+    "form_schema.json": "c95b2b12dfb135ae4a99574866ab406d9094982c5e7a8b7b9c596fd81915cebf",
+    "rag_corpus.json": "a868a986e10c825e4a7ee0ed98fdb7b4cdb82feeacae16a7338214bb7fa5d3b8"
+  }
+}

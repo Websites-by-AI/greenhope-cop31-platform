@@ -1,0 +1,98 @@
+{
+  "investor_id": "inv_barclays",
+  "corpus_format": "cop31-rag-chunks-v1",
+  "chunk_count": 13,
+  "chunks": [
+    {
+      "chunk_id": "inv_barclays::mandate_cop31",
+      "investor_id": "inv_barclays",
+      "section": "COP31 Antalya 2026 Mandate",
+      "title": "Barclays (Sustainable & Transition Finance) (Barclays) COP31 Role & Commitments",
+      "text": "Barclays (Sustainable & Transition Finance) is a Global Commercial Bank headquartered in United Kingdom. At UNFCCC COP31 in Antalya (November 9-20, 2026), its verified role is: Major international bank delegation at COP31 Antalya focused on transition finance & climate-tech venture capital. Verified COP31 2026 climate finance commitment: $1T Sustainable and Transition Finance target by 2030 + £500M Sustainable Impact Capital mandate for climate-tech startups. Source verification: https://www.theguardian.com/environment/2026/nov/13/cop31-companies-and-groups-linked-to-fossil-fuels-delegations."
+    },
+    {
+      "chunk_id": "inv_barclays::instruments_tickets",
+      "investor_id": "inv_barclays",
+      "section": "Financial Products & Ticket Sizing",
+      "title": "Barclays Financing Instruments & Ticket Bounds",
+      "text": "Barclays (Sustainable & Transition Finance) provides the following climate financing instruments: Transition Finance Loan, Green Bond Underwriting, Climate-Tech Venture Equity, Sustainability-Linked Loan. Typical transaction ticket range is USD 5,000,000 to USD 400,000,000. Eligible applicant profiles include: Large Corporate, Climate-Tech Startup, Project SPV, Mid-Cap Enterprise."
+    },
+    {
+      "chunk_id": "inv_barclays::sectors_geography",
+      "investor_id": "inv_barclays",
+      "section": "Eligible Sectors & Geographies",
+      "title": "Barclays Priority Climate Sectors & Regional Mandate",
+      "text": "Priority climate sectors funded by Barclays (Sustainable & Transition Finance): Industrial Decarbonization, Climate-Tech Innovation, Renewable Energy, Energy Storage, Clean Transport. Target geographic focus includes: Global, United Kingdom, Europe, North America, EMEA, Asia-Pacific. Projects outside primary regions or ticket bounds may require syndicated or on-lending structures."
+    },
+    {
+      "chunk_id": "inv_barclays::compliance_esg",
+      "investor_id": "inv_barclays",
+      "section": "Compliance, ESG & Exclusion Criteria",
+      "title": "Barclays Mandatory Form & Underwriting Requirements",
+      "text": "Mandatory requirements to complete Barclays's application form: Barclays Transition Finance Framework (TFF) eligibility; Verified corporate decarbonization plan & KPIs; Commercial creditworthiness or Series A-C venture traction; External assurance / SPO for labeled facilities. Explicit exclusion rules: New upstream oil & gas projects; Thermal coal expansion. Official application portal: https://www.ib.barclays/our-insights/sustainable-finance.html."
+    },
+    {
+      "chunk_id": "inv_barclays::form_standard",
+      "investor_id": "inv_barclays",
+      "section": "Application Form Governance",
+      "title": "Barclays Form Template: Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake",
+      "text": "Barclays (Sustainable & Transition Finance) uses the 'Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake' workflow governed by LMA/APLMA Green Loan Principles (GLP), Sustainability-Linked Loan Principles (SLLP) & ICMA GBP. Typical review timeline is 3–8 weeks (Sustainable Finance Structuring -> Credit Committee -> Syndication/Close). Form sections required: 1. Borrower Overview, 2. Structuring, 3. Transition Credibility, 4. Risk & Underwriting, 5. Mandate Pitch."
+    },
+    {
+      "chunk_id": "inv_barclays::field_guide_01_borrower_profile",
+      "investor_id": "inv_barclays",
+      "section": "Form Field Guide: 1. Borrower Overview",
+      "title": "Barclays Guidance for 'Corporate Borrower & Operating Jurisdiction'",
+      "text": "Field 'Corporate Borrower & Operating Jurisdiction' (borrower_profile) under section '1. Borrower Overview' on Barclays's Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake: Borrower entity, sector, and primary market. Required=True. Expected evidence keywords: Verified applicant facts. Align response with Barclays's COP31 priorities (Major international bank delegation at COP31 Antalya focused on transition finance & climate-tech venture capital) and instruments (Transition Finance Loan, Green Bond Underwriting, Climate-Tech Venture Equity)."
+    },
+    {
+      "chunk_id": "inv_barclays::field_guide_02_facility_structure",
+      "investor_id": "inv_barclays",
+      "section": "Form Field Guide: 2. Structuring",
+      "title": "Barclays Guidance for 'Recommended Sustainable Finance Structure (Green Loan / SLL / Green Bond / Trade Finance)'",
+      "text": "Field 'Recommended Sustainable Finance Structure (Green Loan / SLL / Green Bond / Trade Finance)' (facility_structure) under section '2. Structuring' on Barclays's Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake: Matches requested financing size and type to the bank's sustainable finance product suite. Required=True. Expected evidence keywords: Green Loan, Sustainability-Linked, Green Bond, Trade Finance. Align response with Barclays's COP31 priorities (Major international bank delegation at COP31 Antalya focused on transition finance & climate-tech venture capital) and instruments (Transition Finance Loan, Green Bond Underwriting, Climate-Tech Venture Equity)."
+    },
+    {
+      "chunk_id": "inv_barclays::field_guide_03_taxonomy_alignment",
+      "investor_id": "inv_barclays",
+      "section": "Form Field Guide: 2. Structuring",
+      "title": "Barclays Guidance for 'Taxonomy & Market Standards Alignment (EU Taxonomy / ICMA GBP / LMA GLP)'",
+      "text": "Field 'Taxonomy & Market Standards Alignment (EU Taxonomy / ICMA GBP / LMA GLP)' (taxonomy_alignment) under section '2. Structuring' on Barclays's Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake: Maps project use-of-proceeds to eligible green taxonomy categories. Required=True. Expected evidence keywords: Taxonomy, ICMA, LMA, Use of Proceeds. Align response with Barclays's COP31 priorities (Major international bank delegation at COP31 Antalya focused on transition finance & climate-tech venture capital) and instruments (Transition Finance Loan, Green Bond Underwriting, Climate-Tech Venture Equity)."
+    },
+    {
+      "chunk_id": "inv_barclays::field_guide_04_spts_and_kpis",
+      "investor_id": "inv_barclays",
+      "section": "Form Field Guide: 3. Transition Credibility",
+      "title": "Barclays Guidance for 'Proposed Sustainability Performance Targets (SPTs) & Decarbonization KPIs'",
+      "text": "Field 'Proposed Sustainability Performance Targets (SPTs) & Decarbonization KPIs' (spts_and_kpis) under section '3. Transition Credibility' on Barclays's Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake: Measurable GHG intensity or absolute tCO2e reduction KPIs tied to margin ratchet or green reporting. Required=True. Expected evidence keywords: KPI, tCO2e, SPT, decarbonization. Align response with Barclays's COP31 priorities (Major international bank delegation at COP31 Antalya focused on transition finance & climate-tech venture capital) and instruments (Transition Finance Loan, Green Bond Underwriting, Climate-Tech Venture Equity)."
+    },
+    {
+      "chunk_id": "inv_barclays::field_guide_05_spo_and_verification",
+      "investor_id": "inv_barclays",
+      "section": "Form Field Guide: 3. Transition Credibility",
+      "title": "Barclays Guidance for 'Second-Party Opinion (SPO) & Independent Assurance Readiness'",
+      "text": "Field 'Second-Party Opinion (SPO) & Independent Assurance Readiness' (spo_and_verification) under section '3. Transition Credibility' on Barclays's Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake: Verifies whether an external SPO (e.g., Sustainalytics, ISS, S&P Shades of Green) is already obtained or required. Required=True. Expected evidence keywords: SPO, Verification, Assurance. Align response with Barclays's COP31 priorities (Major international bank delegation at COP31 Antalya focused on transition finance & climate-tech venture capital) and instruments (Transition Finance Loan, Green Bond Underwriting, Climate-Tech Venture Equity)."
+    },
+    {
+      "chunk_id": "inv_barclays::field_guide_06_esg_controversy_screen",
+      "investor_id": "inv_barclays",
+      "section": "Form Field Guide: 4. Risk & Underwriting",
+      "title": "Barclays Guidance for 'Sector Exclusion & ESG Risk Screening'",
+      "text": "Field 'Sector Exclusion & ESG Risk Screening' (esg_controversy_screen) under section '4. Risk & Underwriting' on Barclays's Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake: Checks fossil fuel expansion exclusions and environmental permitting. Required=True. Expected evidence keywords: Exclusion, ESG, EIA. Align response with Barclays's COP31 priorities (Major international bank delegation at COP31 Antalya focused on transition finance & climate-tech venture capital) and instruments (Transition Finance Loan, Green Bond Underwriting, Climate-Tech Venture Equity)."
+    },
+    {
+      "chunk_id": "inv_barclays::field_guide_07_credit_financials",
+      "investor_id": "inv_barclays",
+      "section": "Form Field Guide: 4. Risk & Underwriting",
+      "title": "Barclays Guidance for 'Credit Profile (Revenue, EBITDA, Capex, Expected IRR)'",
+      "text": "Field 'Credit Profile (Revenue, EBITDA, Capex, Expected IRR)' (credit_financials) under section '4. Risk & Underwriting' on Barclays's Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake: Borrower financial capacity for corporate or project finance underwriting. Required=True. Expected evidence keywords: Verified applicant facts. Align response with Barclays's COP31 priorities (Major international bank delegation at COP31 Antalya focused on transition finance & climate-tech venture capital) and instruments (Transition Finance Loan, Green Bond Underwriting, Climate-Tech Venture Equity)."
+    },
+    {
+      "chunk_id": "inv_barclays::field_guide_08_use_of_proceeds_narrative",
+      "investor_id": "inv_barclays",
+      "section": "Form Field Guide: 5. Mandate Pitch",
+      "title": "Barclays Guidance for 'Detailed Use of Proceeds & Transition Plan Summary'",
+      "text": "Field 'Detailed Use of Proceeds & Transition Plan Summary' (use_of_proceeds_narrative) under section '5. Mandate Pitch' on Barclays's Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake: Comprehensive transition finance rationale grounded in the bank's COP31 sustainable finance strategy. Required=True. Expected evidence keywords: transition, proceeds, COP31, net zero. Align response with Barclays's COP31 priorities (Major international bank delegation at COP31 Antalya focused on transition finance & climate-tech venture capital) and instruments (Transition Finance Loan, Green Bond Underwriting, Climate-Tech Venture Equity)."
+    }
+  ]
+}

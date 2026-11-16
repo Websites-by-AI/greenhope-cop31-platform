@@ -1,0 +1,562 @@
+{
+  "investor_id": "inv_isdb",
+  "graph_format": "networkx-node-link-v1",
+  "node_count": 44,
+  "edge_count": 45,
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "node_type": "Investor",
+        "investor_id": "inv_isdb",
+        "name": "Islamic Development Bank (IsDB)",
+        "short_name": "IsDB",
+        "category": "Multilateral Development Bank (MDB)",
+        "hq_country": "Saudi Arabia (Multilateral)",
+        "ticket_min_usd": 10000000,
+        "ticket_max_usd": 300000000,
+        "portal_url": "https://www.isdb.org/what-we-do/climate-change",
+        "id": "inv_isdb"
+      },
+      {
+        "node_type": "COP31_Commitment",
+        "investor_id": "inv_isdb",
+        "role": "Joined Türkiye Industrial Decarbonization Investment Platform (TIDIP) Nov 12 at COP31; signatory to Türkiye $5.1B MDB deals",
+        "commitment": "Strategic partner to $6B TIDIP industrial decarbonization coalition + part of Türkiye's $5.1B COP31 MDB financing package",
+        "verification_source": "https://www.isdb.org/news/at-cop31-in-antalya-islamic-development-bank-joins-turkiye-industrial-decarbonization-investment-platform-tidip",
+        "verification_date": "2026-11-15",
+        "id": "cop31::inv_isdb"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_isdb",
+        "label": "Shariah-Compliant Istisna'a",
+        "id": "instrument::shariah_compliant_istisna_a"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_isdb",
+        "label": "Murabaha",
+        "id": "instrument::murabaha"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_isdb",
+        "label": "Ijarah Leasing",
+        "id": "instrument::ijarah_leasing"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_isdb",
+        "label": "Green Sukuk",
+        "id": "instrument::green_sukuk"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_isdb",
+        "label": "Concessional Loan",
+        "id": "instrument::concessional_loan"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_isdb",
+        "label": "Technical Assistance",
+        "id": "instrument::technical_assistance"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_isdb",
+        "label": "Industrial Decarbonization",
+        "id": "sector::industrial_decarbonization"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_isdb",
+        "label": "Renewable Energy",
+        "id": "sector::renewable_energy"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_isdb",
+        "label": "Climate Adaptation & Resilience",
+        "id": "sector::climate_adaptation___resilience"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_isdb",
+        "label": "Sustainable Agriculture & Water",
+        "id": "sector::sustainable_agriculture___water"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_isdb",
+        "label": "Resilient Infrastructure",
+        "id": "sector::resilient_infrastructure"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_isdb",
+        "label": "OIC Member Countries",
+        "id": "region::oic_member_countries"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_isdb",
+        "label": "Türkiye",
+        "id": "region::türkiye"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_isdb",
+        "label": "MENA",
+        "id": "region::mena"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_isdb",
+        "label": "Africa",
+        "id": "region::africa"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_isdb",
+        "label": "Asia",
+        "id": "region::asia"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_isdb",
+        "label": "Central Asia",
+        "id": "region::central_asia"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_isdb",
+        "label": "Emerging Markets",
+        "id": "region::emerging_markets"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_isdb",
+        "label": "Sovereign/Government",
+        "id": "applicant::sovereign_government"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_isdb",
+        "label": "Large Corporate",
+        "id": "applicant::large_corporate"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_isdb",
+        "label": "Financial Intermediary",
+        "id": "applicant::financial_intermediary"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_isdb",
+        "label": "Project SPV",
+        "id": "applicant::project_spv"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_isdb",
+        "label": "Shariah-compliant financing structure (no riba/interest; Istisna'a, Murabaha, Ijarah, or Sukuk)",
+        "id": "rule::shariah_compliant_financing_structure__no_riba_i"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_isdb",
+        "label": "OIC member country eligibility",
+        "id": "rule::oic_member_country_eligibility"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_isdb",
+        "label": "Joint MDB Paris Alignment & Environmental/Social Safeguards",
+        "id": "rule::joint_mdb_paris_alignment___environmental_social"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_isdb",
+        "label": "Climate resilience & green industrial transition alignment",
+        "id": "rule::climate_resilience___green_industrial_transition"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_isdb",
+        "label": "Interest-bearing non-Shariah structures",
+        "id": "exclusion::interest_bearing_non_shariah_structures"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_isdb",
+        "label": "Thermal coal",
+        "id": "exclusion::thermal_coal"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_isdb",
+        "label": "Non-Shariah prohibited industries",
+        "id": "exclusion::non_shariah_prohibited_industries"
+      },
+      {
+        "node_type": "FormTemplate",
+        "investor_id": "inv_isdb",
+        "title": "Multilateral Development Bank (MDB) Climate Project Concept Note",
+        "governing_standard": "Joint MDB Paris Alignment Methodology (BB1 Mitigation / BB2 Adaptation) & Environmental/Social Framework",
+        "id": "form::MDB_CONCEPT_NOTE"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_isdb",
+        "field_id": "project_title",
+        "label": "Project Title & Legal Sponsor",
+        "section": "1. Identification",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::project_title"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_isdb",
+        "field_id": "sovereign_window",
+        "label": "Financing Window (Sovereign vs. Non-Sovereign / Private Sector)",
+        "section": "1. Identification",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::sovereign_window"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_isdb",
+        "field_id": "cop31_platform_alignment",
+        "label": "COP31 Country Platform & Flagship Initiative Alignment",
+        "section": "2. Strategic Alignment",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::cop31_platform_alignment"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_isdb",
+        "field_id": "requested_instrument_and_amount",
+        "label": "Requested Financing Instrument & Amount (USD)",
+        "section": "3. Financial Structuring",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::requested_instrument_and_amount"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_isdb",
+        "field_id": "cofinancing_structure",
+        "label": "Total Project Cost & Co-Financing Mobilization Plan",
+        "section": "3. Financial Structuring",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::cofinancing_structure"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_isdb",
+        "field_id": "paris_alignment_bb1_bb2",
+        "label": "Paris Agreement Alignment Assessment (BB1 Mitigation & BB2 Physical Risk)",
+        "section": "4. Climate & Technical Rationale",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::paris_alignment_bb1_bb2"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_isdb",
+        "field_id": "ghg_and_adaptation_impact",
+        "label": "Quantified Climate Impact (tCO2e/year Avoided &/or Adaptation Beneficiaries)",
+        "section": "4. Climate & Technical Rationale",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::ghg_and_adaptation_impact"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_isdb",
+        "field_id": "es_safeguards_category",
+        "label": "Environmental & Social (E&S) Safeguards & EIA Status",
+        "section": "5. Safeguards & Governance",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::es_safeguards_category"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_isdb",
+        "field_id": "financial_viability_metrics",
+        "label": "Financial Viability & Bankability Indicators (Revenue, EBITDA, IRR)",
+        "section": "5. Safeguards & Governance",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::financial_viability_metrics"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_isdb",
+        "field_id": "implementation_timeline",
+        "label": "Project Readiness Stage & Implementation Schedule",
+        "section": "6. Execution & Risks",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::implementation_timeline"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_isdb",
+        "field_id": "key_risks_and_mitigants",
+        "label": "Key Technical, Market & Climate Risks with Mitigants",
+        "section": "6. Execution & Risks",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::key_risks_and_mitigants"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_isdb",
+        "field_id": "executive_concept_summary",
+        "label": "Executive Concept Note Abstract",
+        "section": "7. Executive Summary",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::executive_concept_summary"
+      }
+    ],
+    "links": [
+      {
+        "relation": "ANNOUNCES_AT_COP31",
+        "source": "inv_isdb",
+        "target": "cop31::inv_isdb"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_isdb",
+        "target": "instrument::shariah_compliant_istisna_a"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_isdb",
+        "target": "instrument::murabaha"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_isdb",
+        "target": "instrument::ijarah_leasing"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_isdb",
+        "target": "instrument::green_sukuk"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_isdb",
+        "target": "instrument::concessional_loan"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_isdb",
+        "target": "instrument::technical_assistance"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_isdb",
+        "target": "sector::industrial_decarbonization"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_isdb",
+        "target": "sector::renewable_energy"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_isdb",
+        "target": "sector::climate_adaptation___resilience"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_isdb",
+        "target": "sector::sustainable_agriculture___water"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_isdb",
+        "target": "sector::resilient_infrastructure"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_isdb",
+        "target": "region::oic_member_countries"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_isdb",
+        "target": "region::türkiye"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_isdb",
+        "target": "region::mena"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_isdb",
+        "target": "region::africa"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_isdb",
+        "target": "region::asia"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_isdb",
+        "target": "region::central_asia"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_isdb",
+        "target": "region::emerging_markets"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_isdb",
+        "target": "applicant::sovereign_government"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_isdb",
+        "target": "applicant::large_corporate"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_isdb",
+        "target": "applicant::financial_intermediary"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_isdb",
+        "target": "applicant::project_spv"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_isdb",
+        "target": "rule::shariah_compliant_financing_structure__no_riba_i"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_isdb",
+        "target": "rule::oic_member_country_eligibility"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_isdb",
+        "target": "rule::joint_mdb_paris_alignment___environmental_social"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_isdb",
+        "target": "rule::climate_resilience___green_industrial_transition"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_isdb",
+        "target": "exclusion::interest_bearing_non_shariah_structures"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_isdb",
+        "target": "exclusion::thermal_coal"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_isdb",
+        "target": "exclusion::non_shariah_prohibited_industries"
+      },
+      {
+        "relation": "USES_FORM_TEMPLATE",
+        "source": "inv_isdb",
+        "target": "form::MDB_CONCEPT_NOTE"
+      },
+      {
+        "relation": "VALIDATES_FIELD",
+        "source": "rule::joint_mdb_paris_alignment___environmental_social",
+        "target": "field::paris_alignment_bb1_bb2"
+      },
+      {
+        "relation": "VALIDATES_FIELD",
+        "source": "rule::joint_mdb_paris_alignment___environmental_social",
+        "target": "field::es_safeguards_category"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::project_title"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::sovereign_window"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::cop31_platform_alignment"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::requested_instrument_and_amount"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::cofinancing_structure"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::paris_alignment_bb1_bb2"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::ghg_and_adaptation_impact"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::es_safeguards_category"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::financial_viability_metrics"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::implementation_timeline"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::key_risks_and_mitigants"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::MDB_CONCEPT_NOTE",
+        "target": "field::executive_concept_summary"
+      }
+    ]
+  }
+}

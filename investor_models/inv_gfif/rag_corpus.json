@@ -1,0 +1,105 @@
+{
+  "investor_id": "inv_gfif",
+  "corpus_format": "cop31-rag-chunks-v1",
+  "chunk_count": 14,
+  "chunks": [
+    {
+      "chunk_id": "inv_gfif::mandate_cop31",
+      "investor_id": "inv_gfif",
+      "section": "COP31 Antalya 2026 Mandate",
+      "title": "GFIF (Global Finance & Investment Forum at COP31) (GFIF Dealroom) COP31 Role & Commitments",
+      "text": "GFIF (Global Finance & Investment Forum at COP31) is a Climate Finance Network / Public Facilitator headquartered in Global (COP31 Antalya Dealroom). At UNFCCC COP31 in Antalya (November 9-20, 2026), its verified role is: Convening lenders, guarantors, DFIs & capital providers in a dedicated COP31 Capital-Provider Dealroom. Verified COP31 2026 climate finance commitment: Structured climate dealroom connecting project developers, guarantors & DFIs to close bankability gaps at COP31 Antalya. Source verification: https://www.gfif.fund/cop31."
+    },
+    {
+      "chunk_id": "inv_gfif::instruments_tickets",
+      "investor_id": "inv_gfif",
+      "section": "Financial Products & Ticket Sizing",
+      "title": "GFIF Dealroom Financing Instruments & Ticket Bounds",
+      "text": "GFIF (Global Finance & Investment Forum at COP31) provides the following climate financing instruments: Capital-Provider Dealroom, Guarantee & Blended Structuring, Co-Investment Syndication. Typical transaction ticket range is USD 1,000,000 to USD 200,000,000. Eligible applicant profiles include: Project SPV, Climate-Tech Startup, Large Corporate, Municipality, Fund Manager."
+    },
+    {
+      "chunk_id": "inv_gfif::sectors_geography",
+      "investor_id": "inv_gfif",
+      "section": "Eligible Sectors & Geographies",
+      "title": "GFIF Dealroom Priority Climate Sectors & Regional Mandate",
+      "text": "Priority climate sectors funded by GFIF (Global Finance & Investment Forum at COP31): Climate Adaptation & Resilience, Renewable Energy, Resilient Cities & Infrastructure, Industrial Decarbonization, Climate-Tech Innovation. Target geographic focus includes: Global, Emerging Markets, Türkiye, Africa, Asia. Projects outside primary regions or ticket bounds may require syndicated or on-lending structures."
+    },
+    {
+      "chunk_id": "inv_gfif::compliance_esg",
+      "investor_id": "inv_gfif",
+      "section": "Compliance, ESG & Exclusion Criteria",
+      "title": "GFIF Dealroom Mandatory Form & Underwriting Requirements",
+      "text": "Mandatory requirements to complete GFIF Dealroom's application form: Bankable dealroom teaser with clear capital stack & guarantee needs; Verified climate impact & MRV methodology; Defined pilot or commercial deployment site. Explicit exclusion rules: Unstructured concept ideas lacking financial model. Official application portal: https://www.gfif.fund/cop31."
+    },
+    {
+      "chunk_id": "inv_gfif::form_standard",
+      "investor_id": "inv_gfif",
+      "section": "Application Form Governance",
+      "title": "GFIF Dealroom Form Template: Climate Private Equity / Catalytic Capital / Venture Investment Intake Form",
+      "text": "GFIF (Global Finance & Investment Forum at COP31) uses the 'Climate Private Equity / Catalytic Capital / Venture Investment Intake Form' workflow governed by GFANZ Catalytic Capital Repository / Impact Management Project (IMP) / IRIS+ Climate Metrics. Typical review timeline is 4–10 weeks (Pitch Screening -> Commercial & Climate DD -> IC Approval). Form sections required: 1. Venture / Asset Overview, 2. Investment Thesis, 3. Product & Execution, 4. Impact & Risk, 5. Executive Pitch."
+    },
+    {
+      "chunk_id": "inv_gfif::field_guide_01_company_and_project",
+      "investor_id": "inv_gfif",
+      "section": "Form Field Guide: 1. Venture / Asset Overview",
+      "title": "GFIF Dealroom Guidance for 'Company / SPV Name, Sector & Geography'",
+      "text": "Field 'Company / SPV Name, Sector & Geography' (company_and_project) under section '1. Venture / Asset Overview' on GFIF Dealroom's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Applicant entity name, climate vertical, and operating market. Required=True. Expected evidence keywords: Verified applicant facts. Align response with GFIF Dealroom's COP31 priorities (Convening lenders, guarantors, DFIs & capital providers in a dedicated COP31 Capital-Provider Dealroom) and instruments (Capital-Provider Dealroom, Guarantee & Blended Structuring, Co-Investment Syndication)."
+    },
+    {
+      "chunk_id": "inv_gfif::field_guide_02_round_and_instrument",
+      "investor_id": "inv_gfif",
+      "section": "Form Field Guide: 1. Venture / Asset Overview",
+      "title": "GFIF Dealroom Guidance for 'Target Capital Raise, Ticket Size & Preferred Capital Layer'",
+      "text": "Field 'Target Capital Raise, Ticket Size & Preferred Capital Layer' (round_and_instrument) under section '1. Venture / Asset Overview' on GFIF Dealroom's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Maps stage and requested amount to equity, catalytic first-loss, project-prep, or infrastructure equity. Required=True. Expected evidence keywords: Equity, Catalytic, USD, Stage. Align response with GFIF Dealroom's COP31 priorities (Convening lenders, guarantors, DFIs & capital providers in a dedicated COP31 Capital-Provider Dealroom) and instruments (Capital-Provider Dealroom, Guarantee & Blended Structuring, Co-Investment Syndication)."
+    },
+    {
+      "chunk_id": "inv_gfif::field_guide_03_climate_thesis_fit",
+      "investor_id": "inv_gfif",
+      "section": "Form Field Guide: 2. Investment Thesis",
+      "title": "GFIF Dealroom Guidance for 'Alignment with Investor Climate Thesis & COP31 Platform'",
+      "text": "Field 'Alignment with Investor Climate Thesis & COP31 Platform' (climate_thesis_fit) under section '2. Investment Thesis' on GFIF Dealroom's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Aligns venture/project with investor's COP31 mandate (e.g., GFANZ Catalytic Capital, Allied Climate Partners early dev, Just Climate industrial/nature, BlackRock Transition Infra). Required=True. Expected evidence keywords: COP31, catalytic, transition, thesis. Align response with GFIF Dealroom's COP31 priorities (Convening lenders, guarantors, DFIs & capital providers in a dedicated COP31 Capital-Provider Dealroom) and instruments (Capital-Provider Dealroom, Guarantee & Blended Structuring, Co-Investment Syndication)."
+    },
+    {
+      "chunk_id": "inv_gfif::field_guide_04_decarbonization_unit_economics",
+      "investor_id": "inv_gfif",
+      "section": "Form Field Guide: 2. Investment Thesis",
+      "title": "GFIF Dealroom Guidance for 'Avoided Emissions Potential (tCO2e/yr) & Commercial Unit Economics'",
+      "text": "Field 'Avoided Emissions Potential (tCO2e/yr) & Commercial Unit Economics' (decarbonization_unit_economics) under section '2. Investment Thesis' on GFIF Dealroom's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Links climate impact (tCO2e per dollar deployed) with expected IRR and revenue scalability. Required=True. Expected evidence keywords: tCO2e, IRR, scalability. Align response with GFIF Dealroom's COP31 priorities (Convening lenders, guarantors, DFIs & capital providers in a dedicated COP31 Capital-Provider Dealroom) and instruments (Capital-Provider Dealroom, Guarantee & Blended Structuring, Co-Investment Syndication)."
+    },
+    {
+      "chunk_id": "inv_gfif::field_guide_05_technology_and_moat",
+      "investor_id": "inv_gfif",
+      "section": "Form Field Guide: 3. Product & Execution",
+      "title": "GFIF Dealroom Guidance for 'Technology Differentiation, Innovation & Market Readiness'",
+      "text": "Field 'Technology Differentiation, Innovation & Market Readiness' (technology_and_moat) under section '3. Product & Execution' on GFIF Dealroom's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Highlights proprietary technology, TRL maturity, and competitive advantage. Required=True. Expected evidence keywords: technology, innovation, deployment. Align response with GFIF Dealroom's COP31 priorities (Convening lenders, guarantors, DFIs & capital providers in a dedicated COP31 Capital-Provider Dealroom) and instruments (Capital-Provider Dealroom, Guarantee & Blended Structuring, Co-Investment Syndication)."
+    },
+    {
+      "chunk_id": "inv_gfif::field_guide_06_capital_stack_and_cofinanciers",
+      "investor_id": "inv_gfif",
+      "section": "Form Field Guide: 3. Product & Execution",
+      "title": "GFIF Dealroom Guidance for 'Blended Capital Stack & Co-Investor Mobilization'",
+      "text": "Field 'Blended Capital Stack & Co-Investor Mobilization' (capital_stack_and_cofinanciers) under section '3. Product & Execution' on GFIF Dealroom's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Shows existing equity/co-financing commitments and how catalytic capital unlocks scale. Required=True. Expected evidence keywords: co-financing, capital stack, mobilize. Align response with GFIF Dealroom's COP31 priorities (Convening lenders, guarantors, DFIs & capital providers in a dedicated COP31 Capital-Provider Dealroom) and instruments (Capital-Provider Dealroom, Guarantee & Blended Structuring, Co-Investment Syndication)."
+    },
+    {
+      "chunk_id": "inv_gfif::field_guide_07_esg_impact_governance",
+      "investor_id": "inv_gfif",
+      "section": "Form Field Guide: 4. Impact & Risk",
+      "title": "GFIF Dealroom Guidance for 'ESG Governance, Social Co-Benefits & Exclusion Compliance'",
+      "text": "Field 'ESG Governance, Social Co-Benefits & Exclusion Compliance' (esg_impact_governance) under section '4. Impact & Risk' on GFIF Dealroom's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Screens fossil-fuel exclusions, permitting status, and social/gender co-benefits. Required=True. Expected evidence keywords: ESG, Exclusion, Impact. Align response with GFIF Dealroom's COP31 priorities (Convening lenders, guarantors, DFIs & capital providers in a dedicated COP31 Capital-Provider Dealroom) and instruments (Capital-Provider Dealroom, Guarantee & Blended Structuring, Co-Investment Syndication)."
+    },
+    {
+      "chunk_id": "inv_gfif::field_guide_08_risks_and_mitigants",
+      "investor_id": "inv_gfif",
+      "section": "Form Field Guide: 4. Impact & Risk",
+      "title": "GFIF Dealroom Guidance for 'Key Scale-Up Risks & Mitigation Strategy'",
+      "text": "Field 'Key Scale-Up Risks & Mitigation Strategy' (risks_and_mitigants) under section '4. Impact & Risk' on GFIF Dealroom's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Commercial, technology, and emerging-market execution risks with mitigants. Required=True. Expected evidence keywords: risk, mitigant, execution. Align response with GFIF Dealroom's COP31 priorities (Convening lenders, guarantors, DFIs & capital providers in a dedicated COP31 Capital-Provider Dealroom) and instruments (Capital-Provider Dealroom, Guarantee & Blended Structuring, Co-Investment Syndication)."
+    },
+    {
+      "chunk_id": "inv_gfif::field_guide_09_ic_teaser_summary",
+      "investor_id": "inv_gfif",
+      "section": "Form Field Guide: 5. Executive Pitch",
+      "title": "GFIF Dealroom Guidance for 'Investment Committee 1-Paragraph Executive Pitch'",
+      "text": "Field 'Investment Committee 1-Paragraph Executive Pitch' (ic_teaser_summary) under section '5. Executive Pitch' on GFIF Dealroom's Climate Private Equity / Catalytic Capital / Venture Investment Intake Form: Investor-ready pitch paragraph synthesizing commercial upside and climate impact. Required=True. Expected evidence keywords: investment, climate, impact. Align response with GFIF Dealroom's COP31 priorities (Convening lenders, guarantors, DFIs & capital providers in a dedicated COP31 Capital-Provider Dealroom) and instruments (Capital-Provider Dealroom, Guarantee & Blended Structuring, Co-Investment Syndication)."
+    }
+  ]
+}

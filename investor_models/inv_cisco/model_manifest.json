@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_cisco",
+  "investor_name": "Cisco",
+  "short_name": "Cisco",
+  "category": "Strategic Corporate / COP31 Supporter",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "RAG drafts smart-city IoT collaboration & Cisco Foundation alignment briefs cleanly.",
+  "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+  "tenant_namespace": "tenant::inv_cisco",
+  "tenant_key_fingerprint": "3b72a340d548ba93",
+  "created_at_utc": "2026-11-15T15:45:23.239492+00:00",
+  "source_record_sha256": "e02329b865efb6b8069736b2820948705768d08a8d63112465d5c930644732b1",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 14,
+  "artifact_hashes": {
+    "form_schema.json": "198407e7421ff813a75be6c9fda2bdd3e59b4466fadefcf4be376dac2f6e7b49",
+    "rag_corpus.json": "b81d26bd7db79be1f2251c698607180470422ce4232a7adf5ef5af06049cc949"
+  }
+}

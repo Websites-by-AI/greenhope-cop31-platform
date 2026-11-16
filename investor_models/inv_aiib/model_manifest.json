@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_aiib",
+  "investor_name": "Asian Infrastructure Investment Bank (AIIB)",
+  "short_name": "AIIB",
+  "category": "Multilateral Development Bank (MDB)",
+  "model_architecture": "KAG",
+  "ai_model_rationale": "Policy milestones, sovereign vs. non-sovereign infrastructure rules, and ESF screening rely on structured KAG constraint verification.",
+  "form_template_type": "MDB_CONCEPT_NOTE",
+  "tenant_namespace": "tenant::inv_aiib",
+  "tenant_key_fingerprint": "56f120009820160d",
+  "created_at_utc": "2026-11-15T15:45:22.880280+00:00",
+  "source_record_sha256": "dcbff82b06bdabe7bb1cf8edcbaeba8fd45e48af5dc29ffc6b7676a671810e27",
+  "has_kag_graph": true,
+  "has_rag_corpus": false,
+  "kag_nodes_count": 42,
+  "kag_edges_count": 43,
+  "rag_chunks_count": 0,
+  "artifact_hashes": {
+    "form_schema.json": "9985eee437c0ef6e3c9df273093d1d402076ba0ae6fa53cea78b8f245a72ecf6",
+    "knowledge_graph.json": "91cdd7dc53c9119d30feb517dca072c5c90064a81b4130e44a0e5e3085362f19"
+  }
+}

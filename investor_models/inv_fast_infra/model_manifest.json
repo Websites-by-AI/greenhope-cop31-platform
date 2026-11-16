@@ -1,0 +1,23 @@
+{
+  "investor_id": "inv_fast_infra",
+  "investor_name": "FAST-Infra Group",
+  "short_name": "FAST-Infra",
+  "category": "Climate Finance Network / Public Facilitator",
+  "model_architecture": "HYBRID_KAG_RAG",
+  "ai_model_rationale": "KAG maps FAST-Infra's 14 label criteria while RAG shows how GreenHope's MRV engine enables infrastructure bankability.",
+  "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+  "tenant_namespace": "tenant::inv_fast_infra",
+  "tenant_key_fingerprint": "c99c27aedb9c6199",
+  "created_at_utc": "2026-11-15T15:45:23.098855+00:00",
+  "source_record_sha256": "f02e7c66be944f6cf27f54313f60265d9ac3854817d9d3652748566113101fff",
+  "has_kag_graph": true,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 35,
+  "kag_edges_count": 34,
+  "rag_chunks_count": 14,
+  "artifact_hashes": {
+    "form_schema.json": "d5ea64fa896158fdfb00c986c62f5dbd25375feb16af2fe64f29e0bb49e64282",
+    "knowledge_graph.json": "97963c841fb7db054ebdde4acc7f278cc40521a9a81f621ee13b0b7f2a22f72a",
+    "rag_corpus.json": "1225b3089db53c782d7312ef976007b8fd5627c89ccfb6d4c3a11c5588765525"
+  }
+}

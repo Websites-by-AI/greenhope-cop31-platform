@@ -1,0 +1,170 @@
+{
+  "investor_id": "inv_bndes",
+  "investor_name": "BNDES (Brazilian Development Bank)",
+  "portal_url": "https://www.bndes.gov.br/",
+  "template": {
+    "template_id": "DFI_PROJECT_INTAKE",
+    "title": "Development Finance Institution (DFI) / National Dev Bank Project Intake Form",
+    "governing_standard": "IFC Performance Standards / Harmonized DFI Climate Reporting (10by30 / IDFC)",
+    "typical_review_timeline": "4–12 weeks (Screening -> Due Diligence -> Credit Committee)",
+    "fields": [
+      {
+        "field_id": "sponsor_and_project",
+        "label": "Project Sponsor, Jurisdiction & Project Name",
+        "section": "1. Sponsor Profile",
+        "field_type": "text",
+        "required": true,
+        "description": "Sponsor organization, country of operation, and project title.",
+        "generation_strategy": "APPLICANT_DIRECT",
+        "expected_keywords": [],
+        "applicant_source_keys": [
+          "organization_name",
+          "country",
+          "project_title"
+        ]
+      },
+      {
+        "field_id": "dfi_facility_alignment",
+        "label": "Target DFI Climate Facility / COP31 Program Alignment",
+        "section": "1. Sponsor Profile",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Links project to DFI's active COP31 facility (e.g., 10by30, Proparco Sustainable Energy, KfW Climate, TSKB Green Loan, Eximbank Green Line).",
+        "generation_strategy": "HYBRID",
+        "expected_keywords": [
+          "COP31",
+          "facility",
+          "energy",
+          "transition"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "financing_request",
+        "label": "Requested Instrument, Ticket Size (USD) & Tenor",
+        "section": "2. Transaction Structure",
+        "field_type": "currency_usd",
+        "required": true,
+        "description": "Validated against DFI ticket bounds, financing instruments, and project duration.",
+        "generation_strategy": "KAG_RULE",
+        "expected_keywords": [
+          "USD",
+          "tenor",
+          "Debt",
+          "Equity",
+          "Blended"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "geography_and_sector_fit",
+        "label": "Mandate Fit: Target Geography & Priority Climate Sector",
+        "section": "2. Transaction Structure",
+        "field_type": "compliance_check",
+        "required": true,
+        "description": "Graph-verified check that project country and sector sit inside the DFI's official investment mandate.",
+        "generation_strategy": "KAG_RULE",
+        "expected_keywords": [
+          "Eligible",
+          "Mandate",
+          "Sector"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "avoided_emissions_and_dev_impact",
+        "label": "Avoided Emissions (tCO2e/yr) & Development Impact",
+        "section": "3. Climate & Impact",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Quantified avoided GHG emissions, energy access/jobs, and local economic co-benefits.",
+        "generation_strategy": "HYBRID",
+        "expected_keywords": [
+          "tCO2e",
+          "development",
+          "jobs",
+          "impact"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "ifc_ps_esg_compliance",
+        "label": "IFC Performance Standards / E&S Screening & Exclusion List Check",
+        "section": "3. Climate & Impact",
+        "field_type": "compliance_check",
+        "required": true,
+        "description": "Confirms zero fossil-fuel exclusion breaches and checks EIA / permitting readiness.",
+        "generation_strategy": "KAG_RULE",
+        "expected_keywords": [
+          "IFC",
+          "Exclusion",
+          "EIA",
+          "ESG"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "financial_profile",
+        "label": "Sponsor Financials & Project Economics (Revenue, EBITDA, Capex, IRR)",
+        "section": "4. Financial Due Diligence",
+        "field_type": "text",
+        "required": true,
+        "description": "Key financial metrics required by DFI credit underwriters.",
+        "generation_strategy": "APPLICANT_DIRECT",
+        "expected_keywords": [],
+        "applicant_source_keys": [
+          "annual_revenue_usd",
+          "ebitda_usd",
+          "total_project_cost_usd",
+          "expected_irr_percent"
+        ]
+      },
+      {
+        "field_id": "blended_finance_and_ta",
+        "label": "Blended Finance, De-Risking Guarantees & Technical Assistance Needs",
+        "section": "4. Financial Due Diligence",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Specifies co-investors, first-loss/guarantees, and advisory/TA requests.",
+        "generation_strategy": "RAG_NARRATIVE",
+        "expected_keywords": [
+          "blended",
+          "technical assistance",
+          "co-finance"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "risks_and_mitigants",
+        "label": "Principal Transaction Risks & Mitigants",
+        "section": "5. Risk Assessment",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Key construction, currency, regulatory, and offtake risks plus mitigation plan.",
+        "generation_strategy": "RAG_NARRATIVE",
+        "expected_keywords": [
+          "risk",
+          "mitigation",
+          "currency",
+          "offtake"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "executive_intake_pitch",
+        "label": "DFI Investment Committee Intake Summary",
+        "section": "6. Executive Summary",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Concise structured investment teaser tailored to this DFI's COP31 mandate.",
+        "generation_strategy": "HYBRID",
+        "expected_keywords": [
+          "mandate",
+          "impact",
+          "financing"
+        ],
+        "applicant_source_keys": []
+      }
+    ]
+  }
+}

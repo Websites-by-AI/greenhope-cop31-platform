@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_barclays",
+  "investor_name": "Barclays (Sustainable & Transition Finance)",
+  "short_name": "Barclays",
+  "category": "Global Commercial Bank",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "RAG draws on Barclays' Transition Finance Framework and Sustainable Impact Capital mandate to tailor corporate and startup applications.",
+  "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+  "tenant_namespace": "tenant::inv_barclays",
+  "tenant_key_fingerprint": "e6f44fcb90d95a26",
+  "created_at_utc": "2026-11-15T15:45:23.051357+00:00",
+  "source_record_sha256": "45deb177ac4f6fc1a6181e7db13ed9caad0891e0184aa5e79e00a724a522b6bc",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 13,
+  "artifact_hashes": {
+    "form_schema.json": "62535081cd79724056e949285a54f9d057b6f6956003bc2f7d76a29dc6de623b",
+    "rag_corpus.json": "4f6a55e95a0e5b8a40f1155a39558de544fc117538ee0a82a227bc2a7a30c578"
+  }
+}

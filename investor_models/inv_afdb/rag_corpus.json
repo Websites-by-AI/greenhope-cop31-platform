@@ -1,0 +1,126 @@
+{
+  "investor_id": "inv_afdb",
+  "corpus_format": "cop31-rag-chunks-v1",
+  "chunk_count": 17,
+  "chunks": [
+    {
+      "chunk_id": "inv_afdb::mandate_cop31",
+      "investor_id": "inv_afdb",
+      "section": "COP31 Antalya 2026 Mandate",
+      "title": "African Development Bank Group (AfDB) (AfDB) COP31 Role & Commitments",
+      "text": "African Development Bank Group (AfDB) is a Multilateral Development Bank (MDB) headquartered in Côte d'Ivoire (Multilateral). At UNFCCC COP31 in Antalya (November 9-20, 2026), its verified role is: Co-Chair of Electrify Now Finance Coalition (35-by-35 Pledge); Africa Pavilion (A240); launched RESILAFRICA food systems flagship. Verified COP31 2026 climate finance commitment: Co-leading global Electrify Now Finance Coalition with World Bank + RESILAFRICA food systems resilience & African climate finance mobilization. Source verification: https://www.ipsnews.net/2026/11/cop31-african-development-bank-to-co-lead-global-electrification-finance-initiative/."
+    },
+    {
+      "chunk_id": "inv_afdb::instruments_tickets",
+      "investor_id": "inv_afdb",
+      "section": "Financial Products & Ticket Sizing",
+      "title": "AfDB Financing Instruments & Ticket Bounds",
+      "text": "African Development Bank Group (AfDB) provides the following climate financing instruments: Sovereign Loan, Non-Sovereign Debt, Equity, Partial Risk Guarantee, Concessional Finance (ADF), Climate Adaptation Grant. Typical transaction ticket range is USD 10,000,000 to USD 300,000,000. Eligible applicant profiles include: Sovereign/Government, Large Corporate, Project SPV, Financial Intermediary, Municipality."
+    },
+    {
+      "chunk_id": "inv_afdb::sectors_geography",
+      "investor_id": "inv_afdb",
+      "section": "Eligible Sectors & Geographies",
+      "title": "AfDB Priority Climate Sectors & Regional Mandate",
+      "text": "Priority climate sectors funded by African Development Bank Group (AfDB): Electrification & Grid, Renewable Energy, Sustainable Agriculture & Water, Climate Adaptation & Resilience, Nature-Based Solutions. Target geographic focus includes: Africa, Sub-Saharan Africa, North Africa. Projects outside primary regions or ticket bounds may require syndicated or on-lending structures."
+    },
+    {
+      "chunk_id": "inv_afdb::compliance_esg",
+      "investor_id": "inv_afdb",
+      "section": "Compliance, ESG & Exclusion Criteria",
+      "title": "AfDB Mandatory Form & Underwriting Requirements",
+      "text": "Mandatory requirements to complete AfDB's application form: African Regional Member Country host jurisdiction; AfDB Integrated Safeguards System (ISS) & EIA; Climate Safeguards System (CSS) & Paris Alignment; Alignment with Electrify Now / RESILAFRICA / African NDCs. Explicit exclusion rules: Coal-fired power generation; Non-African host projects. Official application portal: https://www.afdb.org/en/topics-and-sectors/initiatives-partnerships/climate-change."
+    },
+    {
+      "chunk_id": "inv_afdb::form_standard",
+      "investor_id": "inv_afdb",
+      "section": "Application Form Governance",
+      "title": "AfDB Form Template: Multilateral Development Bank (MDB) Climate Project Concept Note",
+      "text": "African Development Bank Group (AfDB) uses the 'Multilateral Development Bank (MDB) Climate Project Concept Note' workflow governed by Joint MDB Paris Alignment Methodology (BB1 Mitigation / BB2 Adaptation) & Environmental/Social Framework. Typical review timeline is 6–16 weeks (Concept Clearance -> Appraisal -> Board Approval). Form sections required: 1. Identification, 2. Strategic Alignment, 3. Financial Structuring, 4. Climate & Technical Rationale, 5. Safeguards & Governance, 6. Execution & Risks, 7. Executive Summary."
+    },
+    {
+      "chunk_id": "inv_afdb::field_guide_01_project_title",
+      "investor_id": "inv_afdb",
+      "section": "Form Field Guide: 1. Identification",
+      "title": "AfDB Guidance for 'Project Title & Legal Sponsor'",
+      "text": "Field 'Project Title & Legal Sponsor' (project_title) under section '1. Identification' on AfDB's Multilateral Development Bank (MDB) Climate Project Concept Note: Official project name, sponsor legal entity, and host jurisdiction. Required=True. Expected evidence keywords: Verified applicant facts. Align response with AfDB's COP31 priorities (Co-Chair of Electrify Now Finance Coalition (35-by-35 Pledge); Africa Pavilion (A240); launched RESILAFRICA food systems flagship) and instruments (Sovereign Loan, Non-Sovereign Debt, Equity)."
+    },
+    {
+      "chunk_id": "inv_afdb::field_guide_02_sovereign_window",
+      "investor_id": "inv_afdb",
+      "section": "Form Field Guide: 1. Identification",
+      "title": "AfDB Guidance for 'Financing Window (Sovereign vs. Non-Sovereign / Private Sector)'",
+      "text": "Field 'Financing Window (Sovereign vs. Non-Sovereign / Private Sector)' (sovereign_window) under section '1. Identification' on AfDB's Multilateral Development Bank (MDB) Climate Project Concept Note: Maps applicant legal type to the MDB's Sovereign, Sub-Sovereign, or Non-Sovereign Operations (NSO) window. Required=True. Expected evidence keywords: Sovereign, Non-Sovereign, Private Sector, Public. Align response with AfDB's COP31 priorities (Co-Chair of Electrify Now Finance Coalition (35-by-35 Pledge); Africa Pavilion (A240); launched RESILAFRICA food systems flagship) and instruments (Sovereign Loan, Non-Sovereign Debt, Equity)."
+    },
+    {
+      "chunk_id": "inv_afdb::field_guide_03_cop31_platform_alignment",
+      "investor_id": "inv_afdb",
+      "section": "Form Field Guide: 2. Strategic Alignment",
+      "title": "AfDB Guidance for 'COP31 Country Platform & Flagship Initiative Alignment'",
+      "text": "Field 'COP31 Country Platform & Flagship Initiative Alignment' (cop31_platform_alignment) under section '2. Strategic Alignment' on AfDB's Multilateral Development Bank (MDB) Climate Project Concept Note: Alignment with the MDB's COP31 Antalya 2026 initiatives (e.g., TIDIP, Electrify Now, Climate Adaptation Plan Phase 2, GET 2026-30). Required=True. Expected evidence keywords: COP31, Antalya, TIDIP, Electrify Now, Adaptation. Align response with AfDB's COP31 priorities (Co-Chair of Electrify Now Finance Coalition (35-by-35 Pledge); Africa Pavilion (A240); launched RESILAFRICA food systems flagship) and instruments (Sovereign Loan, Non-Sovereign Debt, Equity)."
+    },
+    {
+      "chunk_id": "inv_afdb::field_guide_04_requested_instrument_and_amount",
+      "investor_id": "inv_afdb",
+      "section": "Form Field Guide: 3. Financial Structuring",
+      "title": "AfDB Guidance for 'Requested Financing Instrument & Amount (USD)'",
+      "text": "Field 'Requested Financing Instrument & Amount (USD)' (requested_instrument_and_amount) under section '3. Financial Structuring' on AfDB's Multilateral Development Bank (MDB) Climate Project Concept Note: Recommended MDB financial instrument matched against ticket size limits and applicant preferences. Required=True. Expected evidence keywords: USD, Loan, Guarantee, Blended, Equity. Align response with AfDB's COP31 priorities (Co-Chair of Electrify Now Finance Coalition (35-by-35 Pledge); Africa Pavilion (A240); launched RESILAFRICA food systems flagship) and instruments (Sovereign Loan, Non-Sovereign Debt, Equity)."
+    },
+    {
+      "chunk_id": "inv_afdb::field_guide_05_cofinancing_structure",
+      "investor_id": "inv_afdb",
+      "section": "Form Field Guide: 3. Financial Structuring",
+      "title": "AfDB Guidance for 'Total Project Cost & Co-Financing Mobilization Plan'",
+      "text": "Field 'Total Project Cost & Co-Financing Mobilization Plan' (cofinancing_structure) under section '3. Financial Structuring' on AfDB's Multilateral Development Bank (MDB) Climate Project Concept Note: Breakdown of total project capex, sponsor equity, committed co-financing, and private capital mobilization ratio. Required=True. Expected evidence keywords: Total Cost, Co-financing, Mobilization. Align response with AfDB's COP31 priorities (Co-Chair of Electrify Now Finance Coalition (35-by-35 Pledge); Africa Pavilion (A240); launched RESILAFRICA food systems flagship) and instruments (Sovereign Loan, Non-Sovereign Debt, Equity)."
+    },
+    {
+      "chunk_id": "inv_afdb::field_guide_06_paris_alignment_bb1_bb2",
+      "investor_id": "inv_afdb",
+      "section": "Form Field Guide: 4. Climate & Technical Rationale",
+      "title": "AfDB Guidance for 'Paris Agreement Alignment Assessment (BB1 Mitigation & BB2 Physical Risk)'",
+      "text": "Field 'Paris Agreement Alignment Assessment (BB1 Mitigation & BB2 Physical Risk)' (paris_alignment_bb1_bb2) under section '4. Climate & Technical Rationale' on AfDB's Multilateral Development Bank (MDB) Climate Project Concept Note: Verifies alignment with host-country NDC, low-carbon transition pathways (BB1), and climate resilience (BB2). Required=True. Expected evidence keywords: Paris Alignment, NDC, BB1, BB2. Align response with AfDB's COP31 priorities (Co-Chair of Electrify Now Finance Coalition (35-by-35 Pledge); Africa Pavilion (A240); launched RESILAFRICA food systems flagship) and instruments (Sovereign Loan, Non-Sovereign Debt, Equity)."
+    },
+    {
+      "chunk_id": "inv_afdb::field_guide_07_ghg_and_adaptation_impact",
+      "investor_id": "inv_afdb",
+      "section": "Form Field Guide: 4. Climate & Technical Rationale",
+      "title": "AfDB Guidance for 'Quantified Climate Impact (tCO2e/year Avoided &/or Adaptation Beneficiaries)'",
+      "text": "Field 'Quantified Climate Impact (tCO2e/year Avoided &/or Adaptation Beneficiaries)' (ghg_and_adaptation_impact) under section '4. Climate & Technical Rationale' on AfDB's Multilateral Development Bank (MDB) Climate Project Concept Note: Expected annual GHG reductions and/or direct climate adaptation beneficiaries. Required=True. Expected evidence keywords: tCO2e, emissions, beneficiaries, resilience. Align response with AfDB's COP31 priorities (Co-Chair of Electrify Now Finance Coalition (35-by-35 Pledge); Africa Pavilion (A240); launched RESILAFRICA food systems flagship) and instruments (Sovereign Loan, Non-Sovereign Debt, Equity)."
+    },
+    {
+      "chunk_id": "inv_afdb::field_guide_08_es_safeguards_category",
+      "investor_id": "inv_afdb",
+      "section": "Form Field Guide: 5. Safeguards & Governance",
+      "title": "AfDB Guidance for 'Environmental & Social (E&S) Safeguards & EIA Status'",
+      "text": "Field 'Environmental & Social (E&S) Safeguards & EIA Status' (es_safeguards_category) under section '5. Safeguards & Governance' on AfDB's Multilateral Development Bank (MDB) Climate Project Concept Note: E&S risk screening, EIA permit status, and compliance with MDB Environmental & Social Standards. Required=True. Expected evidence keywords: EIA, Environmental, Social, Safeguards. Align response with AfDB's COP31 priorities (Co-Chair of Electrify Now Finance Coalition (35-by-35 Pledge); Africa Pavilion (A240); launched RESILAFRICA food systems flagship) and instruments (Sovereign Loan, Non-Sovereign Debt, Equity)."
+    },
+    {
+      "chunk_id": "inv_afdb::field_guide_09_financial_viability_metrics",
+      "investor_id": "inv_afdb",
+      "section": "Form Field Guide: 5. Safeguards & Governance",
+      "title": "AfDB Guidance for 'Financial Viability & Bankability Indicators (Revenue, EBITDA, IRR)'",
+      "text": "Field 'Financial Viability & Bankability Indicators (Revenue, EBITDA, IRR)' (financial_viability_metrics) under section '5. Safeguards & Governance' on AfDB's Multilateral Development Bank (MDB) Climate Project Concept Note: Key financial metrics demonstrating project creditworthiness and debt-service capacity. Required=True. Expected evidence keywords: Verified applicant facts. Align response with AfDB's COP31 priorities (Co-Chair of Electrify Now Finance Coalition (35-by-35 Pledge); Africa Pavilion (A240); launched RESILAFRICA food systems flagship) and instruments (Sovereign Loan, Non-Sovereign Debt, Equity)."
+    },
+    {
+      "chunk_id": "inv_afdb::field_guide_10_implementation_timeline",
+      "investor_id": "inv_afdb",
+      "section": "Form Field Guide: 6. Execution & Risks",
+      "title": "AfDB Guidance for 'Project Readiness Stage & Implementation Schedule'",
+      "text": "Field 'Project Readiness Stage & Implementation Schedule' (implementation_timeline) under section '6. Execution & Risks' on AfDB's Multilateral Development Bank (MDB) Climate Project Concept Note: Current project development maturity and expected construction/deployment duration. Required=True. Expected evidence keywords: Verified applicant facts. Align response with AfDB's COP31 priorities (Co-Chair of Electrify Now Finance Coalition (35-by-35 Pledge); Africa Pavilion (A240); launched RESILAFRICA food systems flagship) and instruments (Sovereign Loan, Non-Sovereign Debt, Equity)."
+    },
+    {
+      "chunk_id": "inv_afdb::field_guide_11_key_risks_and_mitigants",
+      "investor_id": "inv_afdb",
+      "section": "Form Field Guide: 6. Execution & Risks",
+      "title": "AfDB Guidance for 'Key Technical, Market & Climate Risks with Mitigants'",
+      "text": "Field 'Key Technical, Market & Climate Risks with Mitigants' (key_risks_and_mitigants) under section '6. Execution & Risks' on AfDB's Multilateral Development Bank (MDB) Climate Project Concept Note: Primary execution risks and risk-sharing / credit enhancement mitigants. Required=True. Expected evidence keywords: risk, mitigant, guarantee, offtake. Align response with AfDB's COP31 priorities (Co-Chair of Electrify Now Finance Coalition (35-by-35 Pledge); Africa Pavilion (A240); launched RESILAFRICA food systems flagship) and instruments (Sovereign Loan, Non-Sovereign Debt, Equity)."
+    },
+    {
+      "chunk_id": "inv_afdb::field_guide_12_executive_concept_summary",
+      "investor_id": "inv_afdb",
+      "section": "Form Field Guide: 7. Executive Summary",
+      "title": "AfDB Guidance for 'Executive Concept Note Abstract'",
+      "text": "Field 'Executive Concept Note Abstract' (executive_concept_summary) under section '7. Executive Summary' on AfDB's Multilateral Development Bank (MDB) Climate Project Concept Note: Concise decision-ready summary tailored to the MDB investment committee. Required=True. Expected evidence keywords: impact, alignment, financing. Align response with AfDB's COP31 priorities (Co-Chair of Electrify Now Finance Coalition (35-by-35 Pledge); Africa Pavilion (A240); launched RESILAFRICA food systems flagship) and instruments (Sovereign Loan, Non-Sovereign Debt, Equity)."
+    }
+  ]
+}

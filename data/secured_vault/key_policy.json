@@ -1,0 +1,39 @@
+{
+  "policy_version": "1.0.0",
+  "encryption_at_rest": "AES-256-GCM (NIST SP 800-38D)",
+  "key_derivation": "PBKDF2-HMAC-SHA256 (600,000 iterations)",
+  "per_investor_isolation": "HKDF-SHA256 unique 256-bit tenant subkey + strict directory namespace guard",
+  "integrity_protection": "Per-record SHA-256 + Merkle Root + HMAC-SHA256 signed manifest",
+  "audit_logging": "Append-only SHA-256 hash-chained JSONL ledger",
+  "pii_protection": "Automatic regex redaction of emails, IBANs, tax IDs (VKN/TCKN), and phone numbers before AI processing",
+  "rbac_matrix": {
+    "ADMIN": [
+      "audit:read",
+      "form:fill",
+      "model:build",
+      "vault:read",
+      "vault:seal",
+      "vault:verify"
+    ],
+    "SECURITY_OFFICER": [
+      "audit:read",
+      "vault:seal",
+      "vault:verify"
+    ],
+    "MODEL_ENGINEER": [
+      "model:build",
+      "vault:read",
+      "vault:verify"
+    ],
+    "FORM_OPERATOR": [
+      "form:fill",
+      "vault:read",
+      "vault:verify"
+    ],
+    "AUDITOR": [
+      "audit:read",
+      "vault:verify"
+    ]
+  },
+  "key_storage_rule": "Passphrase/master key MUST be injected via environment variable COP31_VAULT_PASSPHRASE or KMS; never committed to disk."
+}

@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_ebrd",
+  "investor_name": "European Bank for Reconstruction and Development (EBRD)",
+  "short_name": "EBRD",
+  "category": "Multilateral Development Bank (MDB)",
+  "model_architecture": "KAG",
+  "ai_model_rationale": "GET 2026-30 taxonomy rules, country-of-operation constraints, and 10 Performance Requirements map directly to deterministic multi-hop KAG reasoning.",
+  "form_template_type": "MDB_CONCEPT_NOTE",
+  "tenant_namespace": "tenant::inv_ebrd",
+  "tenant_key_fingerprint": "62be52185c95daef",
+  "created_at_utc": "2026-11-15T15:45:23.004131+00:00",
+  "source_record_sha256": "2ce48ffa4f3ed199c2e78a3c6a13fbff08e4b0f7ede373136f6b891499b52f3d",
+  "has_kag_graph": true,
+  "has_rag_corpus": false,
+  "kag_nodes_count": 44,
+  "kag_edges_count": 45,
+  "rag_chunks_count": 0,
+  "artifact_hashes": {
+    "form_schema.json": "d4f182df88d11e51e69749d73fafcfcc129a439eecaef62b319f667554113d37",
+    "knowledge_graph.json": "e186a21cd2fce7343bcc6b821691250a862c1cc905568a61fe2f87fa562afc49"
+  }
+}

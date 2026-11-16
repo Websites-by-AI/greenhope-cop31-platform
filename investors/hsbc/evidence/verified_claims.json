@@ -1,0 +1,14 @@
+{
+  "investor_id": "inv_hsbc",
+  "knowledge_pack_slug": "hsbc",
+  "claims": [
+    {
+      "claim": "HSBC / HSBC Türkiye participates in the COP31 Business Forum Climate Finance & Investments Working Group and maintains a 19-member COP31 Antalya delegation.",
+      "source": "COP31 Business Forum WG & COP31 Delegation Report",
+      "url": "https://www.copbusiness.org/papers/COP31_WG_climate-finance-investments.pdf",
+      "date_verified": "2026-11-15",
+      "confidence": 0.98,
+      "status": "verified"
+    }
+  ]
+}

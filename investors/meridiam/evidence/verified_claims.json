@@ -1,0 +1,14 @@
+{
+  "investor_id": "inv_meridiam",
+  "knowledge_pack_slug": "meridiam",
+  "claims": [
+    {
+      "claim": "Meridiam is a confirmed institutional infrastructure investor listed in the COP31 Business Forum Climate Finance & Investments Working Group.",
+      "source": "COP31 Business Forum Working Group Paper",
+      "url": "https://www.copbusiness.org/papers/COP31_WG_climate-finance-investments.pdf",
+      "date_verified": "2026-11-15",
+      "confidence": 0.98,
+      "status": "verified"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_citigroup",
+  "investor_name": "Citigroup (Citi Sustainable Finance & Transition)",
+  "short_name": "Citigroup",
+  "category": "Global Commercial Bank",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "RAG retrieves Citi's ESRM, blended debt, and green-bond criteria to populate transition and use-of-proceeds sections.",
+  "form_template_type": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+  "tenant_namespace": "tenant::inv_citigroup",
+  "tenant_key_fingerprint": "c4bd0e0be03b741e",
+  "created_at_utc": "2026-11-15T15:45:23.079645+00:00",
+  "source_record_sha256": "8d96679c1a22505fe920f2e6e1a9ed6208ed4a083856d11a1b5d3970891dccd9",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 13,
+  "artifact_hashes": {
+    "form_schema.json": "5e199d92e073b2a9afc77fdcc673c7d653507721d190caac0f9e54ca38bd84e0",
+    "rag_corpus.json": "a2b207276c3c900db05f7eafe8ece07fccdd392079cbf3a8015cd384242f455c"
+  }
+}

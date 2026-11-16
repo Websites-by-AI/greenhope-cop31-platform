@@ -1,0 +1,112 @@
+{
+  "investor_id": "inv_gggi",
+  "corpus_format": "cop31-rag-chunks-v1",
+  "chunk_count": 15,
+  "chunks": [
+    {
+      "chunk_id": "inv_gggi::mandate_cop31",
+      "investor_id": "inv_gggi",
+      "section": "COP31 Antalya 2026 Mandate",
+      "title": "Global Green Growth Institute (GGGI) (GGGI) COP31 Role & Commitments",
+      "text": "Global Green Growth Institute (GGGI) is a Climate Finance Network / Public Facilitator headquartered in South Korea (Intergovernmental). At UNFCCC COP31 in Antalya (November 9-20, 2026), its verified role is: Signed Nov 14, 2026 COP31 Antalya cooperation agreement with AIIB on climate-resilient infrastructure project preparation & green pipelines. Verified COP31 2026 climate finance commitment: Joint AIIB–GGGI project preparation, technical assistance & investment-ready climate-resilient infrastructure pipeline mobilization. Source verification: https://www.aiib.org/en/news-events/news/2026/aiib-and-gggi-deepen-cooperation-climate-resilient-infrastructure-green-development.html."
+    },
+    {
+      "chunk_id": "inv_gggi::instruments_tickets",
+      "investor_id": "inv_gggi",
+      "section": "Financial Products & Ticket Sizing",
+      "title": "GGGI Financing Instruments & Ticket Bounds",
+      "text": "Global Green Growth Institute (GGGI) provides the following climate financing instruments: Project Preparation Technical Assistance, Green City Advisory, MDB Pipeline Origination (AIIB/GCF). Typical transaction ticket range is USD 250,000 to USD 50,000,000. Eligible applicant profiles include: Sovereign/Government, Municipality, Climate-Tech Startup, Project SPV."
+    },
+    {
+      "chunk_id": "inv_gggi::sectors_geography",
+      "investor_id": "inv_gggi",
+      "section": "Eligible Sectors & Geographies",
+      "title": "GGGI Priority Climate Sectors & Regional Mandate",
+      "text": "Priority climate sectors funded by Global Green Growth Institute (GGGI): Resilient Cities & Infrastructure, Climate Adaptation & Resilience, Zero Waste & Circular Economy, Air Quality & Green Growth, Renewable Energy. Target geographic focus includes: Global, Emerging Markets, Developing Countries, Türkiye, Asia, Africa, Latin America. Projects outside primary regions or ticket bounds may require syndicated or on-lending structures."
+    },
+    {
+      "chunk_id": "inv_gggi::compliance_esg",
+      "investor_id": "inv_gggi",
+      "section": "Compliance, ESG & Exclusion Criteria",
+      "title": "GGGI Mandatory Form & Underwriting Requirements",
+      "text": "Mandatory requirements to complete GGGI's application form: Host-country / municipal green-growth policy alignment; Clear path from technical assistance/pilot to AIIB or GCF bankable scale; Measurable GHG, air quality, waste, or resilience KPIs. Explicit exclusion rules: Fossil-fuel expansion. Official application portal: https://gggi.org/."
+    },
+    {
+      "chunk_id": "inv_gggi::form_standard",
+      "investor_id": "inv_gggi",
+      "section": "Application Form Governance",
+      "title": "GGGI Form Template: Development Finance Institution (DFI) / National Dev Bank Project Intake Form",
+      "text": "Global Green Growth Institute (GGGI) uses the 'Development Finance Institution (DFI) / National Dev Bank Project Intake Form' workflow governed by IFC Performance Standards / Harmonized DFI Climate Reporting (10by30 / IDFC). Typical review timeline is 4–12 weeks (Screening -> Due Diligence -> Credit Committee). Form sections required: 1. Sponsor Profile, 2. Transaction Structure, 3. Climate & Impact, 4. Financial Due Diligence, 5. Risk Assessment, 6. Executive Summary."
+    },
+    {
+      "chunk_id": "inv_gggi::field_guide_01_sponsor_and_project",
+      "investor_id": "inv_gggi",
+      "section": "Form Field Guide: 1. Sponsor Profile",
+      "title": "GGGI Guidance for 'Project Sponsor, Jurisdiction & Project Name'",
+      "text": "Field 'Project Sponsor, Jurisdiction & Project Name' (sponsor_and_project) under section '1. Sponsor Profile' on GGGI's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Sponsor organization, country of operation, and project title. Required=True. Expected evidence keywords: Verified applicant facts. Align response with GGGI's COP31 priorities (Signed Nov 14, 2026 COP31 Antalya cooperation agreement with AIIB on climate-resilient infrastructure project preparation & green pipelines) and instruments (Project Preparation Technical Assistance, Green City Advisory, MDB Pipeline Origination (AIIB/GCF))."
+    },
+    {
+      "chunk_id": "inv_gggi::field_guide_02_dfi_facility_alignment",
+      "investor_id": "inv_gggi",
+      "section": "Form Field Guide: 1. Sponsor Profile",
+      "title": "GGGI Guidance for 'Target DFI Climate Facility / COP31 Program Alignment'",
+      "text": "Field 'Target DFI Climate Facility / COP31 Program Alignment' (dfi_facility_alignment) under section '1. Sponsor Profile' on GGGI's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Links project to DFI's active COP31 facility (e.g., 10by30, Proparco Sustainable Energy, KfW Climate, TSKB Green Loan, Eximbank Green Line). Required=True. Expected evidence keywords: COP31, facility, energy, transition. Align response with GGGI's COP31 priorities (Signed Nov 14, 2026 COP31 Antalya cooperation agreement with AIIB on climate-resilient infrastructure project preparation & green pipelines) and instruments (Project Preparation Technical Assistance, Green City Advisory, MDB Pipeline Origination (AIIB/GCF))."
+    },
+    {
+      "chunk_id": "inv_gggi::field_guide_03_financing_request",
+      "investor_id": "inv_gggi",
+      "section": "Form Field Guide: 2. Transaction Structure",
+      "title": "GGGI Guidance for 'Requested Instrument, Ticket Size (USD) & Tenor'",
+      "text": "Field 'Requested Instrument, Ticket Size (USD) & Tenor' (financing_request) under section '2. Transaction Structure' on GGGI's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Validated against DFI ticket bounds, financing instruments, and project duration. Required=True. Expected evidence keywords: USD, tenor, Debt, Equity, Blended. Align response with GGGI's COP31 priorities (Signed Nov 14, 2026 COP31 Antalya cooperation agreement with AIIB on climate-resilient infrastructure project preparation & green pipelines) and instruments (Project Preparation Technical Assistance, Green City Advisory, MDB Pipeline Origination (AIIB/GCF))."
+    },
+    {
+      "chunk_id": "inv_gggi::field_guide_04_geography_and_sector_fit",
+      "investor_id": "inv_gggi",
+      "section": "Form Field Guide: 2. Transaction Structure",
+      "title": "GGGI Guidance for 'Mandate Fit: Target Geography & Priority Climate Sector'",
+      "text": "Field 'Mandate Fit: Target Geography & Priority Climate Sector' (geography_and_sector_fit) under section '2. Transaction Structure' on GGGI's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Graph-verified check that project country and sector sit inside the DFI's official investment mandate. Required=True. Expected evidence keywords: Eligible, Mandate, Sector. Align response with GGGI's COP31 priorities (Signed Nov 14, 2026 COP31 Antalya cooperation agreement with AIIB on climate-resilient infrastructure project preparation & green pipelines) and instruments (Project Preparation Technical Assistance, Green City Advisory, MDB Pipeline Origination (AIIB/GCF))."
+    },
+    {
+      "chunk_id": "inv_gggi::field_guide_05_avoided_emissions_and_dev_impact",
+      "investor_id": "inv_gggi",
+      "section": "Form Field Guide: 3. Climate & Impact",
+      "title": "GGGI Guidance for 'Avoided Emissions (tCO2e/yr) & Development Impact'",
+      "text": "Field 'Avoided Emissions (tCO2e/yr) & Development Impact' (avoided_emissions_and_dev_impact) under section '3. Climate & Impact' on GGGI's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Quantified avoided GHG emissions, energy access/jobs, and local economic co-benefits. Required=True. Expected evidence keywords: tCO2e, development, jobs, impact. Align response with GGGI's COP31 priorities (Signed Nov 14, 2026 COP31 Antalya cooperation agreement with AIIB on climate-resilient infrastructure project preparation & green pipelines) and instruments (Project Preparation Technical Assistance, Green City Advisory, MDB Pipeline Origination (AIIB/GCF))."
+    },
+    {
+      "chunk_id": "inv_gggi::field_guide_06_ifc_ps_esg_compliance",
+      "investor_id": "inv_gggi",
+      "section": "Form Field Guide: 3. Climate & Impact",
+      "title": "GGGI Guidance for 'IFC Performance Standards / E&S Screening & Exclusion List Check'",
+      "text": "Field 'IFC Performance Standards / E&S Screening & Exclusion List Check' (ifc_ps_esg_compliance) under section '3. Climate & Impact' on GGGI's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Confirms zero fossil-fuel exclusion breaches and checks EIA / permitting readiness. Required=True. Expected evidence keywords: IFC, Exclusion, EIA, ESG. Align response with GGGI's COP31 priorities (Signed Nov 14, 2026 COP31 Antalya cooperation agreement with AIIB on climate-resilient infrastructure project preparation & green pipelines) and instruments (Project Preparation Technical Assistance, Green City Advisory, MDB Pipeline Origination (AIIB/GCF))."
+    },
+    {
+      "chunk_id": "inv_gggi::field_guide_07_financial_profile",
+      "investor_id": "inv_gggi",
+      "section": "Form Field Guide: 4. Financial Due Diligence",
+      "title": "GGGI Guidance for 'Sponsor Financials & Project Economics (Revenue, EBITDA, Capex, IRR)'",
+      "text": "Field 'Sponsor Financials & Project Economics (Revenue, EBITDA, Capex, IRR)' (financial_profile) under section '4. Financial Due Diligence' on GGGI's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Key financial metrics required by DFI credit underwriters. Required=True. Expected evidence keywords: Verified applicant facts. Align response with GGGI's COP31 priorities (Signed Nov 14, 2026 COP31 Antalya cooperation agreement with AIIB on climate-resilient infrastructure project preparation & green pipelines) and instruments (Project Preparation Technical Assistance, Green City Advisory, MDB Pipeline Origination (AIIB/GCF))."
+    },
+    {
+      "chunk_id": "inv_gggi::field_guide_08_blended_finance_and_ta",
+      "investor_id": "inv_gggi",
+      "section": "Form Field Guide: 4. Financial Due Diligence",
+      "title": "GGGI Guidance for 'Blended Finance, De-Risking Guarantees & Technical Assistance Needs'",
+      "text": "Field 'Blended Finance, De-Risking Guarantees & Technical Assistance Needs' (blended_finance_and_ta) under section '4. Financial Due Diligence' on GGGI's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Specifies co-investors, first-loss/guarantees, and advisory/TA requests. Required=True. Expected evidence keywords: blended, technical assistance, co-finance. Align response with GGGI's COP31 priorities (Signed Nov 14, 2026 COP31 Antalya cooperation agreement with AIIB on climate-resilient infrastructure project preparation & green pipelines) and instruments (Project Preparation Technical Assistance, Green City Advisory, MDB Pipeline Origination (AIIB/GCF))."
+    },
+    {
+      "chunk_id": "inv_gggi::field_guide_09_risks_and_mitigants",
+      "investor_id": "inv_gggi",
+      "section": "Form Field Guide: 5. Risk Assessment",
+      "title": "GGGI Guidance for 'Principal Transaction Risks & Mitigants'",
+      "text": "Field 'Principal Transaction Risks & Mitigants' (risks_and_mitigants) under section '5. Risk Assessment' on GGGI's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Key construction, currency, regulatory, and offtake risks plus mitigation plan. Required=True. Expected evidence keywords: risk, mitigation, currency, offtake. Align response with GGGI's COP31 priorities (Signed Nov 14, 2026 COP31 Antalya cooperation agreement with AIIB on climate-resilient infrastructure project preparation & green pipelines) and instruments (Project Preparation Technical Assistance, Green City Advisory, MDB Pipeline Origination (AIIB/GCF))."
+    },
+    {
+      "chunk_id": "inv_gggi::field_guide_10_executive_intake_pitch",
+      "investor_id": "inv_gggi",
+      "section": "Form Field Guide: 6. Executive Summary",
+      "title": "GGGI Guidance for 'DFI Investment Committee Intake Summary'",
+      "text": "Field 'DFI Investment Committee Intake Summary' (executive_intake_pitch) under section '6. Executive Summary' on GGGI's Development Finance Institution (DFI) / National Dev Bank Project Intake Form: Concise structured investment teaser tailored to this DFI's COP31 mandate. Required=True. Expected evidence keywords: mandate, impact, financing. Align response with GGGI's COP31 priorities (Signed Nov 14, 2026 COP31 Antalya cooperation agreement with AIIB on climate-resilient infrastructure project preparation & green pipelines) and instruments (Project Preparation Technical Assistance, Green City Advisory, MDB Pipeline Origination (AIIB/GCF))."
+    }
+  ]
+}

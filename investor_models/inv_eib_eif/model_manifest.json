@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_eib_eif",
+  "investor_name": "European Investment Bank (EIB) & European Investment Fund (EIF)",
+  "short_name": "EIB Group",
+  "category": "Multilateral Development Bank (MDB)",
+  "model_architecture": "KAG",
+  "ai_model_rationale": "Strict 50% co-financing cap, EU Taxonomy alignment rules, and EIB vs. EIF subsidiary routing are best enforced via structured KAG logic.",
+  "form_template_type": "MDB_CONCEPT_NOTE",
+  "tenant_namespace": "tenant::inv_eib_eif",
+  "tenant_key_fingerprint": "e198f71e258fc875",
+  "created_at_utc": "2026-11-15T15:45:23.092067+00:00",
+  "source_record_sha256": "6bbb286ab180b646364ceaa51ce4ab69f8c2030c66fcdba946a6451eb662342e",
+  "has_kag_graph": true,
+  "has_rag_corpus": false,
+  "kag_nodes_count": 44,
+  "kag_edges_count": 45,
+  "rag_chunks_count": 0,
+  "artifact_hashes": {
+    "form_schema.json": "f63d96fcd68355a7c0d4d89a2e7e0172117f8fe8447a6b270196b01c6663db10",
+    "knowledge_graph.json": "a784543bee0f583d33cf5184f6208f45f25fb557b715d2d524cc578db4aa23af"
+  }
+}

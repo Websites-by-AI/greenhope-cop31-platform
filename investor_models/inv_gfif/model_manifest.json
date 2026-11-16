@@ -1,0 +1,23 @@
+{
+  "investor_id": "inv_gfif",
+  "investor_name": "GFIF (Global Finance & Investment Forum at COP31)",
+  "short_name": "GFIF Dealroom",
+  "category": "Climate Finance Network / Public Facilitator",
+  "model_architecture": "HYBRID_KAG_RAG",
+  "ai_model_rationale": "KAG validates blended-finance capital stack & guarantor fit while RAG prepares crisp dealroom pitch sheets.",
+  "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+  "tenant_namespace": "tenant::inv_gfif",
+  "tenant_key_fingerprint": "4f2e15318e8941fe",
+  "created_at_utc": "2026-11-15T15:45:23.125317+00:00",
+  "source_record_sha256": "78dbb739df4ee1fa217b6527843b11301fa0586d6ff7689fbfa06ce7e672d6c9",
+  "has_kag_graph": true,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 34,
+  "kag_edges_count": 33,
+  "rag_chunks_count": 14,
+  "artifact_hashes": {
+    "form_schema.json": "7de0e660e52f0b19305803dfe7af964ebcbd929b34196206d00cea201c218ea7",
+    "knowledge_graph.json": "7c338a15985c0129620ef581c75b5d033d3d42f91321e4a54884b80ba8452b5c",
+    "rag_corpus.json": "62bec8e784a09e3bcc321e13011f4ed08b68d13535cfb3cab2fd0e757d2627a6"
+  }
+}

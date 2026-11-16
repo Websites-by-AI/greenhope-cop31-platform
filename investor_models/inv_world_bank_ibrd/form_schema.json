@@ -1,0 +1,201 @@
+{
+  "investor_id": "inv_world_bank_ibrd",
+  "investor_name": "World Bank Group (IBRD / IDA)",
+  "portal_url": "https://www.worldbank.org/en/topic/climatechange",
+  "template": {
+    "template_id": "MDB_CONCEPT_NOTE",
+    "title": "Multilateral Development Bank (MDB) Climate Project Concept Note",
+    "governing_standard": "Joint MDB Paris Alignment Methodology (BB1 Mitigation / BB2 Adaptation) & Environmental/Social Framework",
+    "typical_review_timeline": "6–16 weeks (Concept Clearance -> Appraisal -> Board Approval)",
+    "fields": [
+      {
+        "field_id": "project_title",
+        "label": "Project Title & Legal Sponsor",
+        "section": "1. Identification",
+        "field_type": "text",
+        "required": true,
+        "description": "Official project name, sponsor legal entity, and host jurisdiction.",
+        "generation_strategy": "APPLICANT_DIRECT",
+        "expected_keywords": [],
+        "applicant_source_keys": [
+          "project_title",
+          "organization_name",
+          "country"
+        ]
+      },
+      {
+        "field_id": "sovereign_window",
+        "label": "Financing Window (Sovereign vs. Non-Sovereign / Private Sector)",
+        "section": "1. Identification",
+        "field_type": "enum",
+        "required": true,
+        "description": "Maps applicant legal type to the MDB's Sovereign, Sub-Sovereign, or Non-Sovereign Operations (NSO) window.",
+        "generation_strategy": "KAG_RULE",
+        "expected_keywords": [
+          "Sovereign",
+          "Non-Sovereign",
+          "Private Sector",
+          "Public"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "cop31_platform_alignment",
+        "label": "COP31 Country Platform & Flagship Initiative Alignment",
+        "section": "2. Strategic Alignment",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Alignment with the MDB's COP31 Antalya 2026 initiatives (e.g., TIDIP, Electrify Now, Climate Adaptation Plan Phase 2, GET 2026-30).",
+        "generation_strategy": "HYBRID",
+        "expected_keywords": [
+          "COP31",
+          "Antalya",
+          "TIDIP",
+          "Electrify Now",
+          "Adaptation"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "requested_instrument_and_amount",
+        "label": "Requested Financing Instrument & Amount (USD)",
+        "section": "3. Financial Structuring",
+        "field_type": "currency_usd",
+        "required": true,
+        "description": "Recommended MDB financial instrument matched against ticket size limits and applicant preferences.",
+        "generation_strategy": "KAG_RULE",
+        "expected_keywords": [
+          "USD",
+          "Loan",
+          "Guarantee",
+          "Blended",
+          "Equity"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "cofinancing_structure",
+        "label": "Total Project Cost & Co-Financing Mobilization Plan",
+        "section": "3. Financial Structuring",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Breakdown of total project capex, sponsor equity, committed co-financing, and private capital mobilization ratio.",
+        "generation_strategy": "HYBRID",
+        "expected_keywords": [
+          "Total Cost",
+          "Co-financing",
+          "Mobilization"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "paris_alignment_bb1_bb2",
+        "label": "Paris Agreement Alignment Assessment (BB1 Mitigation & BB2 Physical Risk)",
+        "section": "4. Climate & Technical Rationale",
+        "field_type": "compliance_check",
+        "required": true,
+        "description": "Verifies alignment with host-country NDC, low-carbon transition pathways (BB1), and climate resilience (BB2).",
+        "generation_strategy": "KAG_RULE",
+        "expected_keywords": [
+          "Paris Alignment",
+          "NDC",
+          "BB1",
+          "BB2"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "ghg_and_adaptation_impact",
+        "label": "Quantified Climate Impact (tCO2e/year Avoided &/or Adaptation Beneficiaries)",
+        "section": "4. Climate & Technical Rationale",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Expected annual GHG reductions and/or direct climate adaptation beneficiaries.",
+        "generation_strategy": "HYBRID",
+        "expected_keywords": [
+          "tCO2e",
+          "emissions",
+          "beneficiaries",
+          "resilience"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "es_safeguards_category",
+        "label": "Environmental & Social (E&S) Safeguards & EIA Status",
+        "section": "5. Safeguards & Governance",
+        "field_type": "compliance_check",
+        "required": true,
+        "description": "E&S risk screening, EIA permit status, and compliance with MDB Environmental & Social Standards.",
+        "generation_strategy": "KAG_RULE",
+        "expected_keywords": [
+          "EIA",
+          "Environmental",
+          "Social",
+          "Safeguards"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "financial_viability_metrics",
+        "label": "Financial Viability & Bankability Indicators (Revenue, EBITDA, IRR)",
+        "section": "5. Safeguards & Governance",
+        "field_type": "text",
+        "required": true,
+        "description": "Key financial metrics demonstrating project creditworthiness and debt-service capacity.",
+        "generation_strategy": "APPLICANT_DIRECT",
+        "expected_keywords": [],
+        "applicant_source_keys": [
+          "annual_revenue_usd",
+          "ebitda_usd",
+          "expected_irr_percent"
+        ]
+      },
+      {
+        "field_id": "implementation_timeline",
+        "label": "Project Readiness Stage & Implementation Schedule",
+        "section": "6. Execution & Risks",
+        "field_type": "text",
+        "required": true,
+        "description": "Current project development maturity and expected construction/deployment duration.",
+        "generation_strategy": "APPLICANT_DIRECT",
+        "expected_keywords": [],
+        "applicant_source_keys": [
+          "project_stage",
+          "implementation_years"
+        ]
+      },
+      {
+        "field_id": "key_risks_and_mitigants",
+        "label": "Key Technical, Market & Climate Risks with Mitigants",
+        "section": "6. Execution & Risks",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Primary execution risks and risk-sharing / credit enhancement mitigants.",
+        "generation_strategy": "RAG_NARRATIVE",
+        "expected_keywords": [
+          "risk",
+          "mitigant",
+          "guarantee",
+          "offtake"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "executive_concept_summary",
+        "label": "Executive Concept Note Abstract",
+        "section": "7. Executive Summary",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Concise decision-ready summary tailored to the MDB investment committee.",
+        "generation_strategy": "HYBRID",
+        "expected_keywords": [
+          "impact",
+          "alignment",
+          "financing"
+        ],
+        "applicant_source_keys": []
+      }
+    ]
+  }
+}

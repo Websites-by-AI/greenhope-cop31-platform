@@ -1,0 +1,98 @@
+{
+  "investor_id": "inv_bbva_group",
+  "corpus_format": "cop31-rag-chunks-v1",
+  "chunk_count": 13,
+  "chunks": [
+    {
+      "chunk_id": "inv_bbva_group::mandate_cop31",
+      "investor_id": "inv_bbva_group",
+      "section": "COP31 Antalya 2026 Mandate",
+      "title": "BBVA Group (BBVA) COP31 Role & Commitments",
+      "text": "BBVA Group is a Global Commercial Bank headquartered in Spain. At UNFCCC COP31 in Antalya (November 9-20, 2026), its verified role is: Official Global Banking Partner of COP31 Antalya; 400m² Green Zone Pavilion with 60+ climate finance sessions. Verified COP31 2026 climate finance commitment: €700B sustainable business goal (2025–2029; €170B mobilized by Q1 2026; €36B in Q1 2026 alone) across electrification, cleantech & transition. Source verification: https://www.bbva.com/en/sustainability/bbva-to-be-the-global-banking-partner-of-the-united-nations-climate-summit-cop31-in-turkiye/."
+    },
+    {
+      "chunk_id": "inv_bbva_group::instruments_tickets",
+      "investor_id": "inv_bbva_group",
+      "section": "Financial Products & Ticket Sizing",
+      "title": "BBVA Financing Instruments & Ticket Bounds",
+      "text": "BBVA Group provides the following climate financing instruments: Green Loan, Sustainability-Linked Loan (SLL), Green Bond Underwriting, Project Finance, Cleantech Venture Debt. Typical transaction ticket range is USD 5,000,000 to USD 500,000,000. Eligible applicant profiles include: Large Corporate, Project SPV, Climate-Tech Startup, Mid-Cap Enterprise, Financial Intermediary."
+    },
+    {
+      "chunk_id": "inv_bbva_group::sectors_geography",
+      "investor_id": "inv_bbva_group",
+      "section": "Eligible Sectors & Geographies",
+      "title": "BBVA Priority Climate Sectors & Regional Mandate",
+      "text": "Priority climate sectors funded by BBVA Group: Electrification & Grid, Renewable Energy, Climate-Tech Innovation, Industrial Decarbonization, Climate Adaptation & Resilience, Nature & Water. Target geographic focus includes: Global, Europe, Türkiye, Latin America, North America, Emerging Markets. Projects outside primary regions or ticket bounds may require syndicated or on-lending structures."
+    },
+    {
+      "chunk_id": "inv_bbva_group::compliance_esg",
+      "investor_id": "inv_bbva_group",
+      "section": "Compliance, ESG & Exclusion Criteria",
+      "title": "BBVA Mandatory Form & Underwriting Requirements",
+      "text": "Mandatory requirements to complete BBVA's application form: LMA Green Loan Principles / Sustainability-Linked Loan Principles / ICMA GBP alignment; EU Taxonomy or BBVA Sustainable Finance Framework eligibility; Scope 1/2/3 decarbonization KPIs & transition plan; Credit underwriting & Second-Party Opinion (for labeled bonds/SLLs). Explicit exclusion rules: Thermal coal expansion; Unaligned high-controversy projects. Official application portal: https://www.bbva.com/en/sustainability/."
+    },
+    {
+      "chunk_id": "inv_bbva_group::form_standard",
+      "investor_id": "inv_bbva_group",
+      "section": "Application Form Governance",
+      "title": "BBVA Form Template: Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake",
+      "text": "BBVA Group uses the 'Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake' workflow governed by LMA/APLMA Green Loan Principles (GLP), Sustainability-Linked Loan Principles (SLLP) & ICMA GBP. Typical review timeline is 3–8 weeks (Sustainable Finance Structuring -> Credit Committee -> Syndication/Close). Form sections required: 1. Borrower Overview, 2. Structuring, 3. Transition Credibility, 4. Risk & Underwriting, 5. Mandate Pitch."
+    },
+    {
+      "chunk_id": "inv_bbva_group::field_guide_01_borrower_profile",
+      "investor_id": "inv_bbva_group",
+      "section": "Form Field Guide: 1. Borrower Overview",
+      "title": "BBVA Guidance for 'Corporate Borrower & Operating Jurisdiction'",
+      "text": "Field 'Corporate Borrower & Operating Jurisdiction' (borrower_profile) under section '1. Borrower Overview' on BBVA's Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake: Borrower entity, sector, and primary market. Required=True. Expected evidence keywords: Verified applicant facts. Align response with BBVA's COP31 priorities (Official Global Banking Partner of COP31 Antalya; 400m² Green Zone Pavilion with 60+ climate finance sessions) and instruments (Green Loan, Sustainability-Linked Loan (SLL), Green Bond Underwriting)."
+    },
+    {
+      "chunk_id": "inv_bbva_group::field_guide_02_facility_structure",
+      "investor_id": "inv_bbva_group",
+      "section": "Form Field Guide: 2. Structuring",
+      "title": "BBVA Guidance for 'Recommended Sustainable Finance Structure (Green Loan / SLL / Green Bond / Trade Finance)'",
+      "text": "Field 'Recommended Sustainable Finance Structure (Green Loan / SLL / Green Bond / Trade Finance)' (facility_structure) under section '2. Structuring' on BBVA's Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake: Matches requested financing size and type to the bank's sustainable finance product suite. Required=True. Expected evidence keywords: Green Loan, Sustainability-Linked, Green Bond, Trade Finance. Align response with BBVA's COP31 priorities (Official Global Banking Partner of COP31 Antalya; 400m² Green Zone Pavilion with 60+ climate finance sessions) and instruments (Green Loan, Sustainability-Linked Loan (SLL), Green Bond Underwriting)."
+    },
+    {
+      "chunk_id": "inv_bbva_group::field_guide_03_taxonomy_alignment",
+      "investor_id": "inv_bbva_group",
+      "section": "Form Field Guide: 2. Structuring",
+      "title": "BBVA Guidance for 'Taxonomy & Market Standards Alignment (EU Taxonomy / ICMA GBP / LMA GLP)'",
+      "text": "Field 'Taxonomy & Market Standards Alignment (EU Taxonomy / ICMA GBP / LMA GLP)' (taxonomy_alignment) under section '2. Structuring' on BBVA's Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake: Maps project use-of-proceeds to eligible green taxonomy categories. Required=True. Expected evidence keywords: Taxonomy, ICMA, LMA, Use of Proceeds. Align response with BBVA's COP31 priorities (Official Global Banking Partner of COP31 Antalya; 400m² Green Zone Pavilion with 60+ climate finance sessions) and instruments (Green Loan, Sustainability-Linked Loan (SLL), Green Bond Underwriting)."
+    },
+    {
+      "chunk_id": "inv_bbva_group::field_guide_04_spts_and_kpis",
+      "investor_id": "inv_bbva_group",
+      "section": "Form Field Guide: 3. Transition Credibility",
+      "title": "BBVA Guidance for 'Proposed Sustainability Performance Targets (SPTs) & Decarbonization KPIs'",
+      "text": "Field 'Proposed Sustainability Performance Targets (SPTs) & Decarbonization KPIs' (spts_and_kpis) under section '3. Transition Credibility' on BBVA's Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake: Measurable GHG intensity or absolute tCO2e reduction KPIs tied to margin ratchet or green reporting. Required=True. Expected evidence keywords: KPI, tCO2e, SPT, decarbonization. Align response with BBVA's COP31 priorities (Official Global Banking Partner of COP31 Antalya; 400m² Green Zone Pavilion with 60+ climate finance sessions) and instruments (Green Loan, Sustainability-Linked Loan (SLL), Green Bond Underwriting)."
+    },
+    {
+      "chunk_id": "inv_bbva_group::field_guide_05_spo_and_verification",
+      "investor_id": "inv_bbva_group",
+      "section": "Form Field Guide: 3. Transition Credibility",
+      "title": "BBVA Guidance for 'Second-Party Opinion (SPO) & Independent Assurance Readiness'",
+      "text": "Field 'Second-Party Opinion (SPO) & Independent Assurance Readiness' (spo_and_verification) under section '3. Transition Credibility' on BBVA's Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake: Verifies whether an external SPO (e.g., Sustainalytics, ISS, S&P Shades of Green) is already obtained or required. Required=True. Expected evidence keywords: SPO, Verification, Assurance. Align response with BBVA's COP31 priorities (Official Global Banking Partner of COP31 Antalya; 400m² Green Zone Pavilion with 60+ climate finance sessions) and instruments (Green Loan, Sustainability-Linked Loan (SLL), Green Bond Underwriting)."
+    },
+    {
+      "chunk_id": "inv_bbva_group::field_guide_06_esg_controversy_screen",
+      "investor_id": "inv_bbva_group",
+      "section": "Form Field Guide: 4. Risk & Underwriting",
+      "title": "BBVA Guidance for 'Sector Exclusion & ESG Risk Screening'",
+      "text": "Field 'Sector Exclusion & ESG Risk Screening' (esg_controversy_screen) under section '4. Risk & Underwriting' on BBVA's Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake: Checks fossil fuel expansion exclusions and environmental permitting. Required=True. Expected evidence keywords: Exclusion, ESG, EIA. Align response with BBVA's COP31 priorities (Official Global Banking Partner of COP31 Antalya; 400m² Green Zone Pavilion with 60+ climate finance sessions) and instruments (Green Loan, Sustainability-Linked Loan (SLL), Green Bond Underwriting)."
+    },
+    {
+      "chunk_id": "inv_bbva_group::field_guide_07_credit_financials",
+      "investor_id": "inv_bbva_group",
+      "section": "Form Field Guide: 4. Risk & Underwriting",
+      "title": "BBVA Guidance for 'Credit Profile (Revenue, EBITDA, Capex, Expected IRR)'",
+      "text": "Field 'Credit Profile (Revenue, EBITDA, Capex, Expected IRR)' (credit_financials) under section '4. Risk & Underwriting' on BBVA's Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake: Borrower financial capacity for corporate or project finance underwriting. Required=True. Expected evidence keywords: Verified applicant facts. Align response with BBVA's COP31 priorities (Official Global Banking Partner of COP31 Antalya; 400m² Green Zone Pavilion with 60+ climate finance sessions) and instruments (Green Loan, Sustainability-Linked Loan (SLL), Green Bond Underwriting)."
+    },
+    {
+      "chunk_id": "inv_bbva_group::field_guide_08_use_of_proceeds_narrative",
+      "investor_id": "inv_bbva_group",
+      "section": "Form Field Guide: 5. Mandate Pitch",
+      "title": "BBVA Guidance for 'Detailed Use of Proceeds & Transition Plan Summary'",
+      "text": "Field 'Detailed Use of Proceeds & Transition Plan Summary' (use_of_proceeds_narrative) under section '5. Mandate Pitch' on BBVA's Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake: Comprehensive transition finance rationale grounded in the bank's COP31 sustainable finance strategy. Required=True. Expected evidence keywords: transition, proceeds, COP31, net zero. Align response with BBVA's COP31 priorities (Official Global Banking Partner of COP31 Antalya; 400m² Green Zone Pavilion with 60+ climate finance sessions) and instruments (Green Loan, Sustainability-Linked Loan (SLL), Green Bond Underwriting)."
+    }
+  ]
+}

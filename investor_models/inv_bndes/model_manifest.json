@@ -1,0 +1,23 @@
+{
+  "investor_id": "inv_bndes",
+  "investor_name": "BNDES (Brazilian Development Bank)",
+  "short_name": "BNDES",
+  "category": "National Development Bank",
+  "model_architecture": "HYBRID_KAG_RAG",
+  "ai_model_rationale": "KAG enforces Brazilian jurisdiction & co-financier safeguards while RAG synthesizes Climate Call & nature-based fund theses.",
+  "form_template_type": "DFI_PROJECT_INTAKE",
+  "tenant_namespace": "tenant::inv_bndes",
+  "tenant_key_fingerprint": "01612da08e5e53ba",
+  "created_at_utc": "2026-11-15T15:45:23.063290+00:00",
+  "source_record_sha256": "585ddc43f6576272f8b9427be327c725479b454b075f5b22d786d5dc4548ed1d",
+  "has_kag_graph": true,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 35,
+  "kag_edges_count": 34,
+  "rag_chunks_count": 15,
+  "artifact_hashes": {
+    "form_schema.json": "e589d8e351f6c46bb07958c1af686beff0c932302796854cbb2e30551cffe00d",
+    "knowledge_graph.json": "a99f5d5eec45c764afa669a93256b3a7a7d707617d79f0009b7cc0a748bc338d",
+    "rag_corpus.json": "3d05251ca5ed1f48ac32a3330234e4e74ade9e5a8bcde0ad164959e0b651084a"
+  }
+}

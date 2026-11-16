@@ -1,0 +1,23 @@
+{
+  "investor_id": "inv_vakifbank",
+  "investor_name": "VakıfBank",
+  "short_name": "VakıfBank",
+  "category": "Turkish State Bank",
+  "model_architecture": "HYBRID_KAG_RAG",
+  "ai_model_rationale": "KAG validates ADB sub-loan inclusive/regional priority rules while RAG populates VakıfBank's green SME credit narrative.",
+  "form_template_type": "TURKISH_BANK_GREEN_LOAN",
+  "tenant_namespace": "tenant::inv_vakifbank",
+  "tenant_key_fingerprint": "f25bd7fc7c046ffe",
+  "created_at_utc": "2026-11-15T15:45:23.230205+00:00",
+  "source_record_sha256": "ebafe6f733b781e03428ba57715248663deca5bf02b70345be9eb2175443885e",
+  "has_kag_graph": true,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 33,
+  "kag_edges_count": 33,
+  "rag_chunks_count": 16,
+  "artifact_hashes": {
+    "form_schema.json": "7b8cbad5e47d8f7dcd4c69754780abdf962fa71b556afde4bae3669b17a49098",
+    "knowledge_graph.json": "ed8a4e4e0d352f91f15e30f0f1f90ea8399daa380017bafc7b0f03901a2d215d",
+    "rag_corpus.json": "fe4f2bf04803d3d64385e6cc75a96964ab43b372b62821aff6ede4380a9dd9a8"
+  }
+}

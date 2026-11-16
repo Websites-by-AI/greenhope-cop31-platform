@@ -1,0 +1,432 @@
+{
+  "investor_id": "inv_vakifbank",
+  "graph_format": "networkx-node-link-v1",
+  "node_count": 33,
+  "edge_count": 33,
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "node_type": "Investor",
+        "investor_id": "inv_vakifbank",
+        "name": "VakıfBank",
+        "short_name": "VakıfBank",
+        "category": "Turkish State Bank",
+        "hq_country": "Türkiye",
+        "ticket_min_usd": 50000,
+        "ticket_max_usd": 75000000,
+        "portal_url": "https://www.vakifbank.com.tr/en/sustainability",
+        "id": "inv_vakifbank"
+      },
+      {
+        "node_type": "COP31_Commitment",
+        "investor_id": "inv_vakifbank",
+        "role": "Official COP31 Main Partner; channeling $500M ADB green/inclusive SME financing agreement signed at COP31",
+        "commitment": "$500M ADB long-term financing facility signed at COP31 for SMEs in less-developed & earthquake-affected provinces plus women entrepreneurs",
+        "verification_source": "https://www.trtworld.com/article/08c7af154347",
+        "verification_date": "2026-11-15",
+        "id": "cop31::inv_vakifbank"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_vakifbank",
+        "label": "ADB-Backed Green SME Loan",
+        "id": "instrument::adb_backed_green_sme_loan"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_vakifbank",
+        "label": "Sustainable Transition Loan",
+        "id": "instrument::sustainable_transition_loan"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_vakifbank",
+        "label": "Women Entrepreneur Green Facility",
+        "id": "instrument::women_entrepreneur_green_facility"
+      },
+      {
+        "node_type": "Instrument",
+        "investor_id": "inv_vakifbank",
+        "label": "Green Bond Proceeds Loan",
+        "id": "instrument::green_bond_proceeds_loan"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_vakifbank",
+        "label": "SME Green Transition",
+        "id": "sector::sme_green_transition"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_vakifbank",
+        "label": "Climate Adaptation & Resilience",
+        "id": "sector::climate_adaptation___resilience"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_vakifbank",
+        "label": "Renewable Energy",
+        "id": "sector::renewable_energy"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_vakifbank",
+        "label": "Energy Efficiency",
+        "id": "sector::energy_efficiency"
+      },
+      {
+        "node_type": "TargetSector",
+        "investor_id": "inv_vakifbank",
+        "label": "Women-Led Green Enterprise",
+        "id": "sector::women_led_green_enterprise"
+      },
+      {
+        "node_type": "Geography",
+        "investor_id": "inv_vakifbank",
+        "label": "Türkiye",
+        "id": "region::türkiye"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_vakifbank",
+        "label": "SME",
+        "id": "applicant::sme"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_vakifbank",
+        "label": "Mid-Cap Enterprise",
+        "id": "applicant::mid_cap_enterprise"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_vakifbank",
+        "label": "Large Corporate",
+        "id": "applicant::large_corporate"
+      },
+      {
+        "node_type": "EligibleApplicant",
+        "investor_id": "inv_vakifbank",
+        "label": "Women/Youth Entrepreneur",
+        "id": "applicant::women_youth_entrepreneur"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_vakifbank",
+        "label": "Turkish SME/corporate registration (VKN)",
+        "id": "rule::turkish_sme_corporate_registration__vkn"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_vakifbank",
+        "label": "ADB sub-loan E&S screening & inclusive priority verification (region / women ownership)",
+        "id": "rule::adb_sub_loan_e_s_screening___inclusive_priority_"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_vakifbank",
+        "label": "Green investment purpose & energy/resilience benefit statement",
+        "id": "rule::green_investment_purpose___energy_resilience_ben"
+      },
+      {
+        "node_type": "MandatoryRequirement",
+        "investor_id": "inv_vakifbank",
+        "label": "Financial statements & collateral/KGF guarantee",
+        "id": "rule::financial_statements___collateral_kgf_guarantee"
+      },
+      {
+        "node_type": "ExclusionRule",
+        "investor_id": "inv_vakifbank",
+        "label": "ADB Safeguards Prohibited Investment Activities List",
+        "id": "exclusion::adb_safeguards_prohibited_investment_activities_"
+      },
+      {
+        "node_type": "FormTemplate",
+        "investor_id": "inv_vakifbank",
+        "title": "Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application",
+        "governing_standard": "BRSA (BDDK) Sustainable Banking Guidelines, Turkish Green Taxonomy & EU CBAM Readiness",
+        "id": "form::TURKISH_BANK_GREEN_LOAN"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_vakifbank",
+        "field_id": "company_identity_masked",
+        "label": "Company Legal Name & Masked Tax ID (VKN)",
+        "section": "1. Applicant Identification",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::company_identity_masked"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_vakifbank",
+        "field_id": "enterprise_segment",
+        "label": "Enterprise Segment (SME / Mid-Cap / Corporate / Exporter)",
+        "section": "1. Applicant Identification",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::enterprise_segment"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_vakifbank",
+        "field_id": "bank_green_program",
+        "label": "Selected COP31 Green Financing Package / Credit Line",
+        "section": "2. Product Selection",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::bank_green_program"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_vakifbank",
+        "field_id": "loan_amount_and_maturity",
+        "label": "Requested Financing Amount (USD eq.) & Tenor",
+        "section": "2. Product Selection",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::loan_amount_and_maturity"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_vakifbank",
+        "field_id": "eligible_green_use_of_proceeds",
+        "label": "Eligible Green Use of Proceeds & Technology Description",
+        "section": "3. Green Technical Criteria",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::eligible_green_use_of_proceeds"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_vakifbank",
+        "field_id": "carbon_and_cbam_impact",
+        "label": "Carbon Footprint Reduction (tCO2e/yr) & EU CBAM Export Impact",
+        "section": "3. Green Technical Criteria",
+        "strategy": "HYBRID",
+        "required": true,
+        "id": "field::carbon_and_cbam_impact"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_vakifbank",
+        "field_id": "collateral_and_kgf_status",
+        "label": "Collateral / Kredi Garanti Fonu (KGF) Guarantee Eligibility",
+        "section": "4. Credit & Collateral",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::collateral_and_kgf_status"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_vakifbank",
+        "field_id": "inclusive_priority_flags",
+        "label": "Inclusive Finance Eligibility (Women/Youth Entrepreneur / Regional Priority)",
+        "section": "4. Credit & Collateral",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::inclusive_priority_flags"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_vakifbank",
+        "field_id": "financial_snapshot",
+        "label": "Financial Performance Snapshot (Annual Revenue, EBITDA, Project Capex)",
+        "section": "4. Credit & Collateral",
+        "strategy": "APPLICANT_DIRECT",
+        "required": true,
+        "id": "field::financial_snapshot"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_vakifbank",
+        "field_id": "environmental_permits_status",
+        "label": "Environmental Permits (ÇED / EIA) & Vendor Green Certification",
+        "section": "5. Compliance",
+        "strategy": "KAG_RULE",
+        "required": true,
+        "id": "field::environmental_permits_status"
+      },
+      {
+        "node_type": "FormField",
+        "investor_id": "inv_vakifbank",
+        "field_id": "application_executive_note",
+        "label": "Relationship Manager Executive Credit & Sustainability Note",
+        "section": "6. Summary",
+        "strategy": "RAG_NARRATIVE",
+        "required": true,
+        "id": "field::application_executive_note"
+      }
+    ],
+    "links": [
+      {
+        "relation": "ANNOUNCES_AT_COP31",
+        "source": "inv_vakifbank",
+        "target": "cop31::inv_vakifbank"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_vakifbank",
+        "target": "instrument::adb_backed_green_sme_loan"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_vakifbank",
+        "target": "instrument::sustainable_transition_loan"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_vakifbank",
+        "target": "instrument::women_entrepreneur_green_facility"
+      },
+      {
+        "relation": "OFFERS_INSTRUMENT",
+        "source": "inv_vakifbank",
+        "target": "instrument::green_bond_proceeds_loan"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_vakifbank",
+        "target": "sector::sme_green_transition"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_vakifbank",
+        "target": "sector::climate_adaptation___resilience"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_vakifbank",
+        "target": "sector::renewable_energy"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_vakifbank",
+        "target": "sector::energy_efficiency"
+      },
+      {
+        "relation": "FUNDS_SECTOR",
+        "source": "inv_vakifbank",
+        "target": "sector::women_led_green_enterprise"
+      },
+      {
+        "relation": "COVERS_REGION",
+        "source": "inv_vakifbank",
+        "target": "region::türkiye"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_vakifbank",
+        "target": "applicant::sme"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_vakifbank",
+        "target": "applicant::mid_cap_enterprise"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_vakifbank",
+        "target": "applicant::large_corporate"
+      },
+      {
+        "relation": "ACCEPTS_APPLICANT",
+        "source": "inv_vakifbank",
+        "target": "applicant::women_youth_entrepreneur"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_vakifbank",
+        "target": "rule::turkish_sme_corporate_registration__vkn"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_vakifbank",
+        "target": "rule::adb_sub_loan_e_s_screening___inclusive_priority_"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_vakifbank",
+        "target": "rule::green_investment_purpose___energy_resilience_ben"
+      },
+      {
+        "relation": "REQUIRES_COMPLIANCE",
+        "source": "inv_vakifbank",
+        "target": "rule::financial_statements___collateral_kgf_guarantee"
+      },
+      {
+        "relation": "EXCLUDES",
+        "source": "inv_vakifbank",
+        "target": "exclusion::adb_safeguards_prohibited_investment_activities_"
+      },
+      {
+        "relation": "USES_FORM_TEMPLATE",
+        "source": "inv_vakifbank",
+        "target": "form::TURKISH_BANK_GREEN_LOAN"
+      },
+      {
+        "relation": "VALIDATES_FIELD",
+        "source": "rule::financial_statements___collateral_kgf_guarantee",
+        "target": "field::collateral_and_kgf_status"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::TURKISH_BANK_GREEN_LOAN",
+        "target": "field::company_identity_masked"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::TURKISH_BANK_GREEN_LOAN",
+        "target": "field::enterprise_segment"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::TURKISH_BANK_GREEN_LOAN",
+        "target": "field::bank_green_program"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::TURKISH_BANK_GREEN_LOAN",
+        "target": "field::loan_amount_and_maturity"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::TURKISH_BANK_GREEN_LOAN",
+        "target": "field::eligible_green_use_of_proceeds"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::TURKISH_BANK_GREEN_LOAN",
+        "target": "field::carbon_and_cbam_impact"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::TURKISH_BANK_GREEN_LOAN",
+        "target": "field::collateral_and_kgf_status"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::TURKISH_BANK_GREEN_LOAN",
+        "target": "field::inclusive_priority_flags"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::TURKISH_BANK_GREEN_LOAN",
+        "target": "field::financial_snapshot"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::TURKISH_BANK_GREEN_LOAN",
+        "target": "field::environmental_permits_status"
+      },
+      {
+        "relation": "HAS_FORM_FIELD",
+        "source": "form::TURKISH_BANK_GREEN_LOAN",
+        "target": "field::application_executive_note"
+      }
+    ]
+  }
+}

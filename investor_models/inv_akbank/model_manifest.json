@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_akbank",
+  "investor_name": "Akbank",
+  "short_name": "Akbank",
+  "category": "Turkish Commercial Bank",
+  "model_architecture": "RAG",
+  "ai_model_rationale": "RAG accurately matches applicants across Akbank's GEFF Türkiye, KGF agri, circular economy, and women-led green transition product guidelines.",
+  "form_template_type": "TURKISH_BANK_GREEN_LOAN",
+  "tenant_namespace": "tenant::inv_akbank",
+  "tenant_key_fingerprint": "f80063e509e6c18e",
+  "created_at_utc": "2026-11-15T15:45:22.944114+00:00",
+  "source_record_sha256": "a1d5e86d99e15af30d72f483e68eb547f016a871f5d217dac5a559e9ea6e6cc7",
+  "has_kag_graph": false,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 0,
+  "kag_edges_count": 0,
+  "rag_chunks_count": 16,
+  "artifact_hashes": {
+    "form_schema.json": "783ef69fa657096c8c4d7d0ac9a2fc96dd51c0e03fb1f2fa0cba1dc5d783f7bc",
+    "rag_corpus.json": "20a395e6bca857a0983e9972bb73339f194ef9b4c24d3cec24c15fd11e5d0c75"
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "submission_id": "sub_inv_gcf_proj_antalya_agri_adaptation_sme_7fb523bc",
+  "generated_at_utc": "2026-11-15T15:45:25.535191+00:00",
+  "investor_id": "inv_gcf",
+  "investor_name": "Green Climate Fund (GCF)",
+  "model_architecture": "KAG",
+  "form_template_id": "CLIMATE_FUND_PROPOSAL",
+  "form_title": "UNFCCC / Multilateral Climate Fund Concept Note & Funding Proposal",
+  "project_id": "proj_antalya_agri_adaptation_sme",
+  "project_title": "Antalya Solar-Powered Precision Drip Irrigation & Climate-Resilient Cold Chain",
+  "pii_redacted_for_ai_context": true,
+  "tenant_isolation_verified": true,
+  "eligibility": {
+    "eligible": true,
+    "fit_score": 79.0,
+    "passed_checks": [
+      "Geography 'Türkiye (EMEA)' covered via COVERS_REGION (Developing Countries, Emerging Markets, Global, Africa, Asia, Latin America, Türkiye).",
+      "Sector alignment verified via FUNDS_SECTOR: Climate Adaptation & Resilience, Renewable Energy, Sustainable Agriculture & Water.",
+      "Instrument match via OFFERS_INSTRUMENT: 'Grant'.",
+      "Exclusion list screening passed (no prohibited coal/unabated fossil-fuel activities).",
+      "No hard pre-submission compliance blockers detected in REQUIRES_COMPLIANCE graph."
+    ],
+    "failed_checks": [],
+    "warnings": [
+      "Direct applicant 'SME' requires channeling through an Accredited Entity / Financial Intermediary.",
+      "Requested ticket $1,800,000 is below typical minimum ($5,000,000); consider aggregation or on-lending credit line."
+    ],
+    "recommended_instrument": "Grant",
+    "kag_hops_executed": 6
+  },
+  "completion_rate_percent": 90.9,
+  "average_confidence": 0.896,
+  "fields": [
+    {
+      "field_id": "project_title",
+      "label": "Proposal Title & Implementing Organization",
+      "section": "1. Proposal Overview",
+      "value": "Antalya Solar-Powered Precision Drip Irrigation & Climate-Resilient Cold Chain | Sponsor: Akdeniz Yeşil Tarım Kooperatifi Ltd. (SME) | Jurisdiction: Türkiye (EMEA) | Primary Sector: Sustainable Agriculture & Water",
+      "status": "FILLED",
+      "confidence": 0.98,
+      "reasoning_mode": "KAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_gcf --[USES_FORM_TEMPLATE]--> form::CLIMATE_FUND_PROPOSAL --[HAS_FORM_FIELD]--> field::project_title",
+      "rag_citations": [],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "accredited_entity_pathway",
+      "label": "Accredited Entity (AE) / Direct Access Entity (DAE) Channel",
+      "section": "1. Proposal Overview",
+      "value": "INTERMEDIARY CHANNEL REQUIRED: 'SME' must submit to GCF via an Accredited Entity (e.g., EBRD, World Bank, ADB, AfDB, TSKB, BNDES, or national Direct Access Entity).",
+      "status": "PARTIAL_NEEDS_REVIEW",
+      "confidence": 0.84,
+      "reasoning_mode": "KAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_gcf --[REQUIRES_COMPLIANCE]--> Accredited_Entity_Channel --[VALIDATES_FIELD]--> field::accredited_entity_pathway",
+      "rag_citations": [],
+      "compliance_notes": [
+        "Partner with a GCF/AF/GEF Accredited Entity before formal portal upload.",
+        "KG Validated Rules: Submission through a GCF Accredited Entity (AE) or Direct Access Entity (DAE)"
+      ]
+    },
+    {
+      "field_id": "nda_no_objection_status",
+      "label": "National Designated Authority (NDA) / Operational Focal Point No-Objection",
+      "section": "2. Country Ownership",
+      "value": "VERIFIED: Host-country (Türkiye) NDA / Operational Focal Point No-Objection Letter confirmed available.",
+      "status": "FILLED",
+      "confidence": 0.96,
+      "reasoning_mode": "KAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_gcf --[REQUIRES_COMPLIANCE]--> NDA_No_Objection --[VALIDATES_FIELD]--> field::nda_no_objection_status",
+      "rag_citations": [],
+      "compliance_notes": [
+        "KG Validated Rules: National Designated Authority (NDA) No-Objection Letter"
+      ]
+    },
+    {
+      "field_id": "funding_window_and_instrument",
+      "label": "Target Climate Fund Window & Concessional Instrument",
+      "section": "3. Financial Structuring",
+      "value": "Instrument: Grant | Requested Amount: $1,800,000 USD | Tenor/Horizon: 3 years | Investor Band: $5,000,000–$250,000,000 (REQUIRES CO-FINANCING/AGGREGATION)",
+      "status": "PARTIAL_NEEDS_REVIEW",
+      "confidence": 0.78,
+      "reasoning_mode": "KAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_gcf --[OFFERS_INSTRUMENT]--> Grant [bounds: $5,000,000-$250,000,000]",
+      "rag_citations": [],
+      "compliance_notes": [
+        "Requested amount falls outside typical single-ticket bounds; consider blended co-financing."
+      ]
+    },
+    {
+      "field_id": "cofinancing_leverage",
+      "label": "Co-Financing Ratio & Catalytic Mobilization Plan",
+      "section": "3. Financial Structuring",
+      "value": "Total Cost: $2,600,000 | Requested from GCF: $1,800,000 (Grant) | Committed Co-Financing: $500,000 (Leverage Ratio: 0.28x) | Remaining Sponsor Equity / Co-Investor Mobilization: $300,000.",
+      "status": "FILLED",
+      "confidence": 0.9,
+      "reasoning_mode": "KAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_gcf --[USES_FORM_TEMPLATE]--> form::CLIMATE_FUND_PROPOSAL --[HAS_FORM_FIELD]--> field::cofinancing_leverage",
+      "rag_citations": [],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "paradigm_shift_potential",
+      "label": "Paradigm Shift & Systemic Scalability Potential",
+      "section": "4. Investment Criteria",
+      "value": "Systemic Scalability & Replicability: Antalya Solar-Powered Precision Drip Irrigation & Climate-Resilient Cold Chain establishes a replicable Sustainable Agriculture & Water model across Türkiye (EMEA) leveraging LoRaWAN soil-moisture & evapotranspiration sensors automated with solar pumping and natural-refrigerant cold chain extending export shelf life by 40%. Designed for scale-up aligned with GCF's COP31 Antalya implementation pathway.",
+      "status": "FILLED",
+      "confidence": 0.9,
+      "reasoning_mode": "KAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_gcf --[USES_FORM_TEMPLATE]--> form::CLIMATE_FUND_PROPOSAL --[HAS_FORM_FIELD]--> field::paradigm_shift_potential",
+      "rag_citations": [],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "climate_rationale_additionality",
+      "label": "Climate Rationale & Financial Additionality",
+      "section": "4. Investment Criteria",
+      "value": "Climate Rationale & Financial Additionality: Addresses severe Mediterranean drought and extreme heat risks by reducing groundwater extraction by 4.1 million m3/year while replacing diesel irrigation pumps with solar PV (4,200 tCO2e/year avoided). Concessional/catalytic participation from GCF ($1,800,000) de-risks upfront capex ($2,600,000) that domestic commercial markets alone do not bridge at viable tenors (3 yrs).",
+      "status": "FILLED",
+      "confidence": 0.9,
+      "reasoning_mode": "KAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_gcf --[USES_FORM_TEMPLATE]--> form::CLIMATE_FUND_PROPOSAL --[HAS_FORM_FIELD]--> field::climate_rationale_additionality",
+      "rag_citations": [],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "mitigation_adaptation_metrics",
+      "label": "Expected Mitigation (tCO2e) &/or Adaptation Beneficiaries",
+      "section": "4. Investment Criteria",
+      "value": "Quantified Climate Impact: 4,200 tCO2e/year avoided; 14,500 direct adaptation beneficiaries. Addresses severe Mediterranean drought and extreme heat risks by reducing groundwater extraction by 4.1 million m3/year while replacing diesel irrigation pumps with solar PV (4,200 tCO2e/year avoided). Directly mitigates EU CBAM carbon border liability for Turkish/regional exports. Projected commercial IRR: 18.4%.",
+      "status": "FILLED",
+      "confidence": 0.9,
+      "reasoning_mode": "KAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_gcf --[USES_FORM_TEMPLATE]--> form::CLIMATE_FUND_PROPOSAL --[HAS_FORM_FIELD]--> field::mitigation_adaptation_metrics",
+      "rag_citations": [],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "gender_and_social_inclusion",
+      "label": "Gender Action Plan & Environmental/Social Safeguards",
+      "section": "5. Safeguards & Inclusion",
+      "value": "Women/youth leadership confirmed. Women-owned enterprise employing 68% female agricultural technicians; directly strengthens climate resilience for 14,500 rural residents and 420 smallholder farms.",
+      "status": "FILLED",
+      "confidence": 0.9,
+      "reasoning_mode": "KAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_gcf --[USES_FORM_TEMPLATE]--> form::CLIMATE_FUND_PROPOSAL --[HAS_FORM_FIELD]--> field::gender_and_social_inclusion",
+      "rag_citations": [],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "monitoring_and_exit_strategy",
+      "label": "MRV Monitoring Framework & Post-Funding Sustainability",
+      "section": "6. Governance & Sustainability",
+      "value": "MRV & Post-Funding Sustainability: Annual verified GHG tracking (4,200 tCO2e/year avoided) and beneficiary monitoring (14,500 direct adaptation beneficiaries) over the 3-year deployment horizon. Self-sustaining commercial exit backed by projected 18.4% IRR and operating cash flows.",
+      "status": "FILLED",
+      "confidence": 0.9,
+      "reasoning_mode": "KAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_gcf --[USES_FORM_TEMPLATE]--> form::CLIMATE_FUND_PROPOSAL --[HAS_FORM_FIELD]--> field::monitoring_and_exit_strategy",
+      "rag_citations": [],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "executive_proposal_abstract",
+      "label": "Funding Proposal Executive Summary",
+      "section": "7. Executive Summary",
+      "value": "Antalya Solar-Powered Precision Drip Irrigation & Climate-Resilient Cold Chain (Akdeniz Yeşil Tarım Kooperatifi Ltd., Türkiye) requests $1,800,000 via GCF's Grant. Women-led Mediterranean agricultural SME deploying IoT soil-moisture precision drip irrigation across 1,800 hectares in Antalya alongside 2.5 MW agrivoltaic rooftop solar and low-GWP cold storage to cut water consumption by 48%. Climate Impact: 4,200 tCO2e/year avoided; 14,500 direct adaptation beneficiaries. Aligned with COP31 Antalya commitment ($300M approved for Brazil climate funds at COP31 + new GCF-AF Adaptation Scaling-Up Framework + GFANZ Catalytic Capital Repository member).",
+      "status": "FILLED",
+      "confidence": 0.9,
+      "reasoning_mode": "KAG",
+      "evidence_sources": [
+        "KAG_KNOWLEDGE_GRAPH",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": "inv_gcf --[USES_FORM_TEMPLATE]--> form::CLIMATE_FUND_PROPOSAL --[HAS_FORM_FIELD]--> field::executive_proposal_abstract",
+      "rag_citations": [],
+      "compliance_notes": []
+    }
+  ],
+  "pre_submission_checklist": [
+    "[Mandatory Requirement] Submission through a GCF Accredited Entity (AE) or Direct Access Entity (DAE)",
+    "[Mandatory Requirement] National Designated Authority (NDA) No-Objection Letter",
+    "[Mandatory Requirement] GCF 6 Investment Criteria (Impact, Paradigm Shift, Sustainable Development, Needs, Country Ownership, Efficiency)",
+    "[Mandatory Requirement] Gender Action Plan & Environmental/Social Management Plan (ESMP)",
+    "[Screening Warning] Direct applicant 'SME' requires channeling through an Accredited Entity / Financial Intermediary.",
+    "[Screening Warning] Requested ticket $1,800,000 is below typical minimum ($5,000,000); consider aggregation or on-lending credit line.",
+    "[Field Review: Accredited Entity (AE) / Direct Access Entity (DAE) Channel] Status=PARTIAL_NEEDS_REVIEW — Partner with a GCF/AF/GEF Accredited Entity before formal portal upload.; KG Validated Rules: Submission through a GCF Accredited Entity (AE) or Direct Access Entity (DAE)",
+    "[Field Review: Target Climate Fund Window & Concessional Instrument] Status=PARTIAL_NEEDS_REVIEW — Requested amount falls outside typical single-ticket bounds; consider blended co-financing.",
+    "[Portal Submission] Upload finalized packet via official portal: https://www.greenclimate.fund/projects/process"
+  ],
+  "llm_backend_used": "deterministic-grounded-synthesizer-v1"
+}

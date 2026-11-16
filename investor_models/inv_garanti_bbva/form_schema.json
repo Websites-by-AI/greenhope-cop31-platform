@@ -1,0 +1,184 @@
+{
+  "investor_id": "inv_garanti_bbva",
+  "investor_name": "Garanti BBVA",
+  "portal_url": "https://www.garantibbva.com.tr/en/sustainability",
+  "template": {
+    "template_id": "TURKISH_BANK_GREEN_LOAN",
+    "title": "Turkish Commercial / State Bank Sustainable & Green Transformation Loan Application",
+    "governing_standard": "BRSA (BDDK) Sustainable Banking Guidelines, Turkish Green Taxonomy & EU CBAM Readiness",
+    "typical_review_timeline": "1–4 weeks (Branch/Corporate RM Intake -> Green Eligibility Check -> Credit Approval)",
+    "fields": [
+      {
+        "field_id": "company_identity_masked",
+        "label": "Company Legal Name & Masked Tax ID (VKN)",
+        "section": "1. Applicant Identification",
+        "field_type": "text",
+        "required": true,
+        "description": "Legal company name with PII-safe masked tax ID (full VKN injected only at final bank portal export).",
+        "generation_strategy": "APPLICANT_DIRECT",
+        "expected_keywords": [],
+        "applicant_source_keys": [
+          "organization_name",
+          "tax_or_registration_id"
+        ]
+      },
+      {
+        "field_id": "enterprise_segment",
+        "label": "Enterprise Segment (SME / Mid-Cap / Corporate / Exporter)",
+        "section": "1. Applicant Identification",
+        "field_type": "enum",
+        "required": true,
+        "description": "Determines credit desk routing (KOBİ / Ticari / Kurumsal).",
+        "generation_strategy": "KAG_RULE",
+        "expected_keywords": [
+          "SME",
+          "Corporate",
+          "Exporter"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "bank_green_program",
+        "label": "Selected COP31 Green Financing Package / Credit Line",
+        "section": "2. Product Selection",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Matches applicant to the bank's exact COP31 product (e.g., GEFF Türkiye, Halkbank 100B Package, Ziraat CBAM / Green Export Loan, Yapı Kredi Dönüşüme Tam Destek, Garanti BBVA Sustainable Loan, Akbank 2.5T Program, VakıfBank ADB SME Line, QNB Proparco Green Leasing).",
+        "generation_strategy": "RAG_NARRATIVE",
+        "expected_keywords": [
+          "COP31",
+          "green",
+          "package",
+          "SME",
+          "sustainable"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "loan_amount_and_maturity",
+        "label": "Requested Financing Amount (USD eq.) & Tenor",
+        "section": "2. Product Selection",
+        "field_type": "currency_usd",
+        "required": true,
+        "description": "Requested loan/leasing ticket checked against the bank's green program limits.",
+        "generation_strategy": "KAG_RULE",
+        "expected_keywords": [
+          "USD",
+          "years",
+          "Loan",
+          "Leasing"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "eligible_green_use_of_proceeds",
+        "label": "Eligible Green Use of Proceeds & Technology Description",
+        "section": "3. Green Technical Criteria",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Details renewable energy (GES/RES), energy efficiency, circular economy, EV/e-mobility, or water-saving investment scope.",
+        "generation_strategy": "RAG_NARRATIVE",
+        "expected_keywords": [
+          "renewable",
+          "efficiency",
+          "solar",
+          "water",
+          "circular"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "carbon_and_cbam_impact",
+        "label": "Carbon Footprint Reduction (tCO2e/yr) & EU CBAM Export Impact",
+        "section": "3. Green Technical Criteria",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Quantifies annual emissions reduction and EU Carbon Border Adjustment Mechanism (CBAM) compliance benefits.",
+        "generation_strategy": "HYBRID",
+        "expected_keywords": [
+          "tCO2e",
+          "CBAM",
+          "export",
+          "carbon"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "collateral_and_kgf_status",
+        "label": "Collateral / Kredi Garanti Fonu (KGF) Guarantee Eligibility",
+        "section": "4. Credit & Collateral",
+        "field_type": "compliance_check",
+        "required": true,
+        "description": "Checks collateral backing or KGF treasury-backed guarantee readiness.",
+        "generation_strategy": "KAG_RULE",
+        "expected_keywords": [
+          "KGF",
+          "Collateral",
+          "Guarantee"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "inclusive_priority_flags",
+        "label": "Inclusive Finance Eligibility (Women/Youth Entrepreneur / Regional Priority)",
+        "section": "4. Credit & Collateral",
+        "field_type": "compliance_check",
+        "required": true,
+        "description": "Flags preferential terms available for women-led SMEs, young entrepreneurs, or earthquake-affected/priority provinces.",
+        "generation_strategy": "KAG_RULE",
+        "expected_keywords": [
+          "Women",
+          "Youth",
+          "Inclusive",
+          "Standard"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "financial_snapshot",
+        "label": "Financial Performance Snapshot (Annual Revenue, EBITDA, Project Capex)",
+        "section": "4. Credit & Collateral",
+        "field_type": "text",
+        "required": true,
+        "description": "Core corporate financial capacity indicators.",
+        "generation_strategy": "APPLICANT_DIRECT",
+        "expected_keywords": [],
+        "applicant_source_keys": [
+          "annual_revenue_usd",
+          "ebitda_usd",
+          "total_project_cost_usd"
+        ]
+      },
+      {
+        "field_id": "environmental_permits_status",
+        "label": "Environmental Permits (ÇED / EIA) & Vendor Green Certification",
+        "section": "5. Compliance",
+        "field_type": "compliance_check",
+        "required": true,
+        "description": "Confirms Turkish environmental permit status and green equipment verification.",
+        "generation_strategy": "KAG_RULE",
+        "expected_keywords": [
+          "EIA",
+          "Permit",
+          "Certification"
+        ],
+        "applicant_source_keys": []
+      },
+      {
+        "field_id": "application_executive_note",
+        "label": "Relationship Manager Executive Credit & Sustainability Note",
+        "section": "6. Summary",
+        "field_type": "narrative",
+        "required": true,
+        "description": "Ready-to-submit green credit narrative tailored to this Turkish bank's COP31 mandate.",
+        "generation_strategy": "RAG_NARRATIVE",
+        "expected_keywords": [
+          "sustainable",
+          "COP31",
+          "credit"
+        ],
+        "applicant_source_keys": []
+      }
+    ]
+  }
+}

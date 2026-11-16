@@ -1,0 +1,23 @@
+{
+  "investor_id": "inv_idb",
+  "investor_name": "Inter-American Development Bank (IDB / IDB Invest)",
+  "short_name": "IDB Group",
+  "category": "Multilateral Development Bank (MDB)",
+  "model_architecture": "HYBRID_KAG_RAG",
+  "ai_model_rationale": "KAG checks LAC regional eligibility and ESPF rules while RAG grounds DELTA development impact and decarbonization narratives.",
+  "form_template_type": "MDB_CONCEPT_NOTE",
+  "tenant_namespace": "tenant::inv_idb",
+  "tenant_key_fingerprint": "54ce4a4b6627dbc6",
+  "created_at_utc": "2026-11-15T15:45:23.155349+00:00",
+  "source_record_sha256": "c8152795ab7bd30aae3fe7029ab312011fff1e90a2a1bfb02cc35f69a28b8f50",
+  "has_kag_graph": true,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 41,
+  "kag_edges_count": 41,
+  "rag_chunks_count": 17,
+  "artifact_hashes": {
+    "form_schema.json": "41be61513f78269f543d4e25c2d7bc8e14c3e59e827d04af96367d5747e50def",
+    "knowledge_graph.json": "20c8ca7e071214821f907fec6a6d36f3f3cf42d5edcc403aae3286a3201cccc0",
+    "rag_corpus.json": "8d12fedba46c0d31c5e4c4ccb93155a946ec982c8ba72334ef9db5b28993754f"
+  }
+}

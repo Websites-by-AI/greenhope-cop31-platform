@@ -1,0 +1,23 @@
+{
+  "investor_id": "inv_turk_eximbank",
+  "investor_name": "Turk Eximbank",
+  "short_name": "Turk Eximbank",
+  "category": "National Development Bank",
+  "model_architecture": "HYBRID_KAG_RAG",
+  "ai_model_rationale": "KAG enforces exporter/CBAM eligibility and MDB sub-loan rules while RAG tailors investment rationales to the new IBRD/KfW/AIIB COP31 lines.",
+  "form_template_type": "DFI_PROJECT_INTAKE",
+  "tenant_namespace": "tenant::inv_turk_eximbank",
+  "tenant_key_fingerprint": "46737a486bccc340",
+  "created_at_utc": "2026-11-15T15:45:23.216778+00:00",
+  "source_record_sha256": "5bb727d86234157bdd23cfa5b4da0e55fd694a8bcac787cf50df7bd1a74a8916",
+  "has_kag_graph": true,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 33,
+  "kag_edges_count": 32,
+  "rag_chunks_count": 15,
+  "artifact_hashes": {
+    "form_schema.json": "d1b75d4f40212eb8ed888a4ce88692cd9737bab3fc5571ba537d14031b7ccc1b",
+    "knowledge_graph.json": "f9b08cfb28e804c0400859e14a68a3a0bec9144f1b12bfb76b90ce1a70639cfd",
+    "rag_corpus.json": "391d5c42a1b153e9fc672dbef417299fa413fa5b317d7d2c034f6273c1537f5d"
+  }
+}

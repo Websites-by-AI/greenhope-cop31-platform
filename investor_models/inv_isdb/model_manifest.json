@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_isdb",
+  "investor_name": "Islamic Development Bank (IsDB)",
+  "short_name": "IsDB",
+  "category": "Multilateral Development Bank (MDB)",
+  "model_architecture": "KAG",
+  "ai_model_rationale": "Hard Shariah-compliance structuring constraints + OIC country membership rules make KAG graph validation indispensable to prevent non-compliant drafts.",
+  "form_template_type": "MDB_CONCEPT_NOTE",
+  "tenant_namespace": "tenant::inv_isdb",
+  "tenant_key_fingerprint": "eae7295662c637ef",
+  "created_at_utc": "2026-11-15T15:45:23.163567+00:00",
+  "source_record_sha256": "ee6adec42d72df7ee851ecef89f081599a9b366d19624d29416fabcb6b3309e0",
+  "has_kag_graph": true,
+  "has_rag_corpus": false,
+  "kag_nodes_count": 44,
+  "kag_edges_count": 45,
+  "rag_chunks_count": 0,
+  "artifact_hashes": {
+    "form_schema.json": "9452de216272dad49da96198500a9169e8c9b636d29ad2031f85958a169d1fcc",
+    "knowledge_graph.json": "ecd6441ee3cbfda40fd681cb85b0800c685d4f3ecafd84f9db6591e069268153"
+  }
+}

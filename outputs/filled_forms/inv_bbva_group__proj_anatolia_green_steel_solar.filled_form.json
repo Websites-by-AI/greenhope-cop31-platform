@@ -1,0 +1,199 @@
+{
+  "submission_id": "sub_inv_bbva_group_proj_anatolia_green_steel_solar_1a8c2012",
+  "generated_at_utc": "2026-11-15T15:45:24.788435+00:00",
+  "investor_id": "inv_bbva_group",
+  "investor_name": "BBVA Group",
+  "model_architecture": "RAG",
+  "form_template_id": "GLOBAL_COMMERCIAL_BANK_TRANSITION",
+  "form_title": "Global Corporate & Investment Bank Green / Sustainability-Linked Finance Mandate Intake",
+  "project_id": "proj_anatolia_green_steel_solar",
+  "project_title": "Anatolia Green Electric-Arc Steel & 120 MW Solar + BESS Decarbonization Project",
+  "pii_redacted_for_ai_context": true,
+  "tenant_isolation_verified": true,
+  "eligibility": {
+    "eligible": true,
+    "fit_score": 78.8,
+    "passed_checks": [
+      "Retrieved mandate confirms coverage for Türkiye (Global, Europe, Türkiye).",
+      "Applicant profile 'Large Corporate' aligns with BBVA banking segment.",
+      "Ticket $45,000,000 fits BBVA band ($5,000,000–$500,000,000).",
+      "No fossil-fuel exclusion conflicts found."
+    ],
+    "failed_checks": [],
+    "warnings": [],
+    "recommended_instrument": "Green Loan",
+    "kag_hops_executed": 0
+  },
+  "completion_rate_percent": 100.0,
+  "average_confidence": 0.952,
+  "fields": [
+    {
+      "field_id": "borrower_profile",
+      "label": "Corporate Borrower & Operating Jurisdiction",
+      "section": "1. Borrower Overview",
+      "value": "Anatolia Green Electric-Arc Steel & 120 MW Solar + BESS Decarbonization Project | Entity: Anatolia Clean Metallurgy A.Ş. (Large Corporate) | Market: Türkiye | Sector: Industrial Decarbonization",
+      "status": "FILLED",
+      "confidence": 0.97,
+      "reasoning_mode": "RAG",
+      "evidence_sources": [
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": null,
+      "rag_citations": [
+        "inv_bbva_group::field_guide_01_borrower_profile",
+        "inv_bbva_group::sectors_geography",
+        "inv_bbva_group::instruments_tickets"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "facility_structure",
+      "label": "Recommended Sustainable Finance Structure (Green Loan / SLL / Green Bond / Trade Finance)",
+      "section": "2. Structuring",
+      "value": "Green Loan | Requested: $45,000,000 USD | Maturity: 4 years | Program Range: $5,000,000–$500,000,000 (In Range). [inv_bbva_group::field_guide_02_facility_structure] [inv_bbva_group::instruments_tickets]",
+      "status": "FILLED",
+      "confidence": 0.95,
+      "reasoning_mode": "RAG",
+      "evidence_sources": [
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": null,
+      "rag_citations": [
+        "inv_bbva_group::field_guide_02_facility_structure",
+        "inv_bbva_group::instruments_tickets",
+        "inv_bbva_group::form_standard"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "taxonomy_alignment",
+      "label": "Taxonomy & Market Standards Alignment (EU Taxonomy / ICMA GBP / LMA GLP)",
+      "section": "2. Structuring",
+      "value": "Green Use of Proceeds (Industrial Decarbonization): High-efficiency scrap preheating electric-arc furnace integrated with grid-forming 60 MWh BESS, digital twin energy dispatch, and ISO 14064 real-time carbon MRV. Maps to BBVA eligible categories (Electrification & Grid, Renewable Energy, Climate-Tech Innovation) and governing requirements (LMA Green Loan Principles / Sustainability-Linked Loan Principles / ICMA GBP alignment; EU Taxonomy or BBVA Sustainable Finance Framework eligibility). [inv_bbva_group::field_guide_03_taxonomy_alignment] [inv_bbva_group::compliance_esg]",
+      "status": "FILLED",
+      "confidence": 0.95,
+      "reasoning_mode": "RAG",
+      "evidence_sources": [
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": null,
+      "rag_citations": [
+        "inv_bbva_group::field_guide_03_taxonomy_alignment",
+        "inv_bbva_group::compliance_esg",
+        "inv_bbva_group::sectors_geography"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "spts_and_kpis",
+      "label": "Proposed Sustainability Performance Targets (SPTs) & Decarbonization KPIs",
+      "section": "3. Transition Credibility",
+      "value": "Projected Emissions Reduction: 185,000 tCO2e/year. Cuts steelmaking Scope 1 and Scope 2 carbon intensity by 62% (185,000 tCO2e/year avoided), directly supporting Türkiye's 2035 NDC and TIDIP industrial decarbonization targets. Directly reduces EU CBAM carbon border exposure for export supply chains. Aligned with BBVA sustainable finance KPI reporting. [inv_bbva_group::field_guide_04_spts_and_kpis] [inv_bbva_group::sectors_geography]",
+      "status": "FILLED",
+      "confidence": 0.95,
+      "reasoning_mode": "RAG",
+      "evidence_sources": [
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": null,
+      "rag_citations": [
+        "inv_bbva_group::field_guide_04_spts_and_kpis",
+        "inv_bbva_group::sectors_geography",
+        "inv_bbva_group::compliance_esg"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "spo_and_verification",
+      "label": "Second-Party Opinion (SPO) & Independent Assurance Readiness",
+      "section": "3. Transition Credibility",
+      "value": "Second-Party Opinion (SPO) & independent GHG assurance ready for BBVA sustainable finance labeling. [inv_bbva_group::field_guide_05_spo_and_verification] [inv_bbva_group::sectors_geography]",
+      "status": "FILLED",
+      "confidence": 0.95,
+      "reasoning_mode": "RAG",
+      "evidence_sources": [
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": null,
+      "rag_citations": [
+        "inv_bbva_group::field_guide_05_spo_and_verification",
+        "inv_bbva_group::sectors_geography",
+        "inv_bbva_group::compliance_esg"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "esg_controversy_screen",
+      "label": "Sector Exclusion & ESG Risk Screening",
+      "section": "4. Risk & Underwriting",
+      "value": "Exclusion Check: PASS (zero fossil-fuel involvement) | Permits: EIA / ÇED permits confirmed | ESG Summary: Creates 320 green engineering jobs, zero coal usage, closed-loop 85% process water recycling, and formal workforce reskilling aligned with Just Transition principles. [inv_bbva_group::field_guide_06_esg_controversy_screen] [inv_bbva_group::sectors_geography]",
+      "status": "FILLED",
+      "confidence": 0.95,
+      "reasoning_mode": "RAG",
+      "evidence_sources": [
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": null,
+      "rag_citations": [
+        "inv_bbva_group::field_guide_06_esg_controversy_screen",
+        "inv_bbva_group::sectors_geography",
+        "inv_bbva_group::compliance_esg"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "credit_financials",
+      "label": "Credit Profile (Revenue, EBITDA, Capex, Expected IRR)",
+      "section": "4. Risk & Underwriting",
+      "value": "Capex: $95,000,000 | Revenue: $240,000,000 | EBITDA: $42,000,000 | Projected IRR: 15.8%",
+      "status": "FILLED",
+      "confidence": 0.95,
+      "reasoning_mode": "RAG",
+      "evidence_sources": [
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": null,
+      "rag_citations": [
+        "inv_bbva_group::field_guide_07_credit_financials",
+        "inv_bbva_group::instruments_tickets",
+        "inv_bbva_group::sectors_geography"
+      ],
+      "compliance_notes": []
+    },
+    {
+      "field_id": "use_of_proceeds_narrative",
+      "label": "Detailed Use of Proceeds & Transition Plan Summary",
+      "section": "5. Mandate Pitch",
+      "value": "Green Use of Proceeds (Industrial Decarbonization): High-efficiency scrap preheating electric-arc furnace integrated with grid-forming 60 MWh BESS, digital twin energy dispatch, and ISO 14064 real-time carbon MRV. Maps to BBVA eligible categories (Electrification & Grid, Renewable Energy, Climate-Tech Innovation) and governing requirements (LMA Green Loan Principles / Sustainability-Linked Loan Principles / ICMA GBP alignment; EU Taxonomy or BBVA Sustainable Finance Framework eligibility). [inv_bbva_group::field_guide_08_use_of_proceeds_narrative] [inv_bbva_group::sectors_geography]",
+      "status": "FILLED",
+      "confidence": 0.95,
+      "reasoning_mode": "RAG",
+      "evidence_sources": [
+        "RAG_VECTOR_CORPUS",
+        "APPLICANT_PROFILE"
+      ],
+      "kag_reasoning_path": null,
+      "rag_citations": [
+        "inv_bbva_group::field_guide_08_use_of_proceeds_narrative",
+        "inv_bbva_group::sectors_geography",
+        "inv_bbva_group::compliance_esg"
+      ],
+      "compliance_notes": []
+    }
+  ],
+  "pre_submission_checklist": [
+    "[Mandatory Requirement] LMA Green Loan Principles / Sustainability-Linked Loan Principles / ICMA GBP alignment",
+    "[Mandatory Requirement] EU Taxonomy or BBVA Sustainable Finance Framework eligibility",
+    "[Mandatory Requirement] Scope 1/2/3 decarbonization KPIs & transition plan",
+    "[Mandatory Requirement] Credit underwriting & Second-Party Opinion (for labeled bonds/SLLs)",
+    "[Portal Submission] Upload finalized packet via official portal: https://www.bbva.com/en/sustainability/"
+  ],
+  "llm_backend_used": "deterministic-grounded-synthesizer-v1"
+}

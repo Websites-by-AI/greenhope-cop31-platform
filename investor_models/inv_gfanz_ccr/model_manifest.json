@@ -1,0 +1,23 @@
+{
+  "investor_id": "inv_gfanz_ccr",
+  "investor_name": "GFANZ / Catalytic Capital Repository (GCBC)",
+  "short_name": "GFANZ Catalytic Capital",
+  "category": "Institutional / Catalytic / Climate PE",
+  "model_architecture": "HYBRID_KAG_RAG",
+  "ai_model_rationale": "KAG maps multi-institution repository eligibility & blended capital stack rules while RAG drafts catalytic additionality and mobilization theses.",
+  "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+  "tenant_namespace": "tenant::inv_gfanz_ccr",
+  "tenant_key_fingerprint": "818e58f570f3dfc9",
+  "created_at_utc": "2026-11-15T15:45:23.118359+00:00",
+  "source_record_sha256": "fa12e75f71baee7150a690ea5137b25f8c20a7b959341533f8520e1e1288aa8d",
+  "has_kag_graph": true,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 39,
+  "kag_edges_count": 38,
+  "rag_chunks_count": 14,
+  "artifact_hashes": {
+    "form_schema.json": "f01ab1765efc335471db85f25640fd430a484c6b48b6f500e2ab5d7f69a47090",
+    "knowledge_graph.json": "e360f407a4f86002f81c791c085b7183f9339e421d28a38853bb3fb97e18f03b",
+    "rag_corpus.json": "34acfb3679fff282a139ee490d086f6b0b5cbeda8de9dbda7204c9eed0b4f3e9"
+  }
+}

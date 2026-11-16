@@ -1,0 +1,30 @@
+{
+  "investor_id": "inv_aiib",
+  "knowledge_pack_slug": "aiib",
+  "claims": [
+    {
+      "claim": "AIIB signed a record $1.6 billion climate policy-based financing package with Türkiye at COP31 on Nov 12, 2026, plus $300 million via Turk Eximbank.",
+      "source": "AIIB / Türkiye Today / Open Press",
+      "url": "https://www.turkiyetoday.com/business/turkiye-clinches-51b-in-climate-financing-deals-at-cop31-3232234",
+      "date_verified": "2026-11-15",
+      "confidence": 0.99,
+      "status": "verified"
+    },
+    {
+      "claim": "AIIB and GGGI agreed on Nov 14, 2026 at COP31 in Antalya to deepen cooperation on climate-resilient infrastructure project preparation, investment-ready pipelines, and technical assistance.",
+      "source": "AIIB Official Newsroom",
+      "url": "https://www.aiib.org/en/news-events/news/2026/aiib-and-gggi-deepen-cooperation-climate-resilient-infrastructure-green-development.html",
+      "date_verified": "2026-11-15",
+      "confidence": 0.99,
+      "status": "verified"
+    },
+    {
+      "claim": "AIIB hosts dedicated COP31 Antalya programming on November 16, 2026 connecting climate finance, project preparation, and smart green resilient infrastructure.",
+      "source": "AIIB at COP31 Official Page",
+      "url": "https://www.aiib.org/en/news-events/events/2026/aiib-at-cop31.html",
+      "date_verified": "2026-11-15",
+      "confidence": 0.97,
+      "status": "verified"
+    }
+  ]
+}

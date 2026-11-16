@@ -1,0 +1,22 @@
+{
+  "investor_id": "inv_world_bank_ibrd",
+  "investor_name": "World Bank Group (IBRD / IDA)",
+  "short_name": "World Bank",
+  "category": "Multilateral Development Bank (MDB)",
+  "model_architecture": "KAG",
+  "ai_model_rationale": "Strict multi-hop sovereign eligibility, ESF risk categorization, NDC/Paris BB1-BB2 rules, and Treasury guarantee logic require deterministic Knowledge Graph reasoning.",
+  "form_template_type": "MDB_CONCEPT_NOTE",
+  "tenant_namespace": "tenant::inv_world_bank_ibrd",
+  "tenant_key_fingerprint": "1f5ebf5b066e5fdb",
+  "created_at_utc": "2026-11-15T15:45:22.938379+00:00",
+  "source_record_sha256": "e912e3de86c346b71b40eb2e1c862ac59fd7b96b31158d033271a4702c1b691b",
+  "has_kag_graph": true,
+  "has_rag_corpus": false,
+  "kag_nodes_count": 42,
+  "kag_edges_count": 43,
+  "rag_chunks_count": 0,
+  "artifact_hashes": {
+    "form_schema.json": "0bf91df75db952ccca61db9364d0f9964555e3341441a63164a75bbc9e46af30",
+    "knowledge_graph.json": "dcc74ce08b638fe67d9c04a9e3cbaa6f8c8d4868b61b8d846908d2d8459d43f7"
+  }
+}

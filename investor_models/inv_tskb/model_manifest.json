@@ -1,0 +1,23 @@
+{
+  "investor_id": "inv_tskb",
+  "investor_name": "TSKB (Industrial Development Bank of Türkiye)",
+  "short_name": "TSKB",
+  "category": "National Development Bank",
+  "model_architecture": "HYBRID_KAG_RAG",
+  "ai_model_rationale": "KAG evaluates TSKB's MDB on-lending rules, ERET risk & Turkish licensing constraints while RAG aligns narratives with IDFC & COP31 green industry priorities.",
+  "form_template_type": "DFI_PROJECT_INTAKE",
+  "tenant_namespace": "tenant::inv_tskb",
+  "tenant_key_fingerprint": "225c243508e711e4",
+  "created_at_utc": "2026-11-15T15:45:23.209538+00:00",
+  "source_record_sha256": "0f8a6aa16bd4fd843a85be9ea0351cfcdda74fdbeeabbbfdc04f959e027ef2ad",
+  "has_kag_graph": true,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 37,
+  "kag_edges_count": 37,
+  "rag_chunks_count": 15,
+  "artifact_hashes": {
+    "form_schema.json": "d45809446c14f2a6f83ad95a668766ff533e8a08438199a1710f5ae302dd749b",
+    "knowledge_graph.json": "64984c8bc05dfc836d9d23f2fedf2210f286ddbed3b1970039899e6dd80170e0",
+    "rag_corpus.json": "27eba3bc4059e106e803f17e7e2bf5058cb4a4429c3c2207fb048788f87adedc"
+  }
+}

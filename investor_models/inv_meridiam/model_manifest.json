@@ -1,0 +1,23 @@
+{
+  "investor_id": "inv_meridiam",
+  "investor_name": "Meridiam",
+  "short_name": "Meridiam",
+  "category": "Institutional / Catalytic / Climate PE",
+  "model_architecture": "HYBRID_KAG_RAG",
+  "ai_model_rationale": "KAG checks municipal PPP & resilience infrastructure criteria while RAG tailors GreenHope city-pilot impact narratives to Meridiam's SDG impact framework.",
+  "form_template_type": "CATALYTIC_PE_VC_INTAKE",
+  "tenant_namespace": "tenant::inv_meridiam",
+  "tenant_key_fingerprint": "22f26cece531e71f",
+  "created_at_utc": "2026-11-15T15:45:22.929379+00:00",
+  "source_record_sha256": "4783f42bb2a9a9ad7b1fdc4e7c0f40fab15b906244103ae252ded75b79ea422d",
+  "has_kag_graph": true,
+  "has_rag_corpus": true,
+  "kag_nodes_count": 37,
+  "kag_edges_count": 36,
+  "rag_chunks_count": 14,
+  "artifact_hashes": {
+    "form_schema.json": "6d4474b632413a3bb472ce3f4b170fc3c7358bebedb390eedc8f2f67f3d4ba76",
+    "knowledge_graph.json": "ba67072afde1513f5bef3777baf30d81d19f3e18b6824f046cc3dae40923a2b3",
+    "rag_corpus.json": "5650bf41173a50f2aff450af77a6e64dd4320106e6d16a6cce84f4197306b951"
+  }
+}
